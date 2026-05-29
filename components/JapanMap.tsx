@@ -21,8 +21,8 @@ const cities: CityInfo[] = [
     id: "sapporo",
     name: "札幌",
     count: 67,
-    left: "73%",
-    top: "17%",
+    left: "75%",
+    top: "18%",
     regionColor: "#0ea5e9",
     region: "北海道",
   },
@@ -30,7 +30,7 @@ const cities: CityInfo[] = [
     id: "yokohama",
     name: "横浜",
     count: 86,
-    left: "77.5%",
+    left: "82%",
     top: "63%",
     regionColor: "#10b981",
     region: "関東",
@@ -39,7 +39,7 @@ const cities: CityInfo[] = [
     id: "nagoya",
     name: "名古屋",
     count: 68,
-    left: "70%",
+    left: "75%",
     top: "64.5%",
     regionColor: "#f59e0b",
     region: "中部",
@@ -48,8 +48,8 @@ const cities: CityInfo[] = [
     id: "osaka",
     name: "大阪",
     count: 81,
-    left: "60%",
-    top: "67%",
+    left: "65%",
+    top: "65.5%",
     regionColor: "#ef4444",
     region: "近畿",
   },
@@ -57,7 +57,7 @@ const cities: CityInfo[] = [
     id: "fukuoka",
     name: "福岡",
     count: 60,
-    left: "32%",
+    left: "28%",
     top: "73%",
     regionColor: "#f97316",
     region: "九州",
@@ -95,27 +95,23 @@ export function JapanMap() {
           className="block h-auto w-full"
         />
 
-        {/* 5市のピン（absolute overlay） */}
+        {/* 5市のピン（absolute overlay）。dot を (left, top) % 位置の中心に置く */}
         {cities.map((c) => (
           <Link
             key={c.id}
             href={`/${c.id}`}
             aria-label={`${c.name}市の議員一覧へ（${c.count}名）`}
             className="group absolute z-10"
-            style={{
-              left: c.left,
-              top: c.top,
-              transform: "translate(-50%, -50%)",
-            }}
+            style={{ left: c.left, top: c.top }}
           >
-            {/* ピン */}
-            <div className="flex items-center gap-1.5">
+            {/* dot を中心に、バッジは右下に流す */}
+            <div className="relative">
               <span
-                className="block h-3 w-3 rounded-full border-2 border-white shadow-md transition-transform group-hover:scale-125"
+                className="block h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white shadow-md transition-transform group-hover:scale-150"
                 style={{ backgroundColor: c.regionColor }}
+                aria-hidden
               />
-              {/* バッジ */}
-              <span className="flex items-center gap-1 rounded border border-slate-200 bg-white/95 px-1.5 py-0.5 text-xs shadow-sm">
+              <span className="absolute left-2 top-1 flex items-center gap-1 whitespace-nowrap rounded border border-slate-200 bg-white/95 px-1.5 py-0.5 text-xs shadow-sm">
                 <span className="font-bold text-slate-900">{c.name}</span>
                 <span
                   className="rounded px-1 py-0.5 text-[9px] font-bold text-white"
