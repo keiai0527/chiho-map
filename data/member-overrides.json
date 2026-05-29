@@ -118,11 +118,28 @@
         "websiteUrl": "http://yamanaka-tomoko.wajcp.net/",
         "termsServed": 7,
         "committees": ["財政総務委員会", "大都市・税財政制度特別委員会"],
+        "birthDate": "1962-06",
+        "education": [
+          "同志社大学 卒業"
+        ],
+        "career": [
+          "大阪福祉事業財団 勤務（議員前職）",
+          "1999年 大阪市会議員 初当選（城東区）"
+        ],
+        "biography": "1962年6月生まれ。同志社大学卒業後、大阪福祉事業財団に勤務。1991年・1995年に大阪府議候補、1996年に参議院議員候補として出馬した後、1999年に大阪市会議員に初当選。以来7期連続当選し、日本共産党大阪市会議員団団長を務める。日本共産党中央委員、党大阪府委員。",
+        "keyPolicies": [
+          {
+            "category": "財政",
+            "title": "大都市・税財政制度の改革",
+            "description": "大都市・税財政制度特別委員会の委員として、政令指定都市にふさわしい財政制度の確立に取り組む。",
+            "sourceUrl": "https://www.jcp.or.jp/list/member/2711871"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "日本共産党中央委員会公式（jcp.or.jp）+ 本人公式サイト yamanaka-tomoko.wajcp.net 確認。7期、日本共産党大阪市会議員団長。",
+      "reason": "日本共産党中央委員会公式（jcp.or.jp）+ 本人公式サイト yamanaka-tomoko.wajcp.net 確認。1962年6月生まれ、7期、日本共産党大阪市会議員団長。元大阪福祉事業財団勤務、1999年初当選。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -644,11 +661,36 @@
         "officialProfileUrl": "https://www.jcp.or.jp/list/member/2311691",
         "websiteUrl": "https://www.n-jcp.jp/profile/taguchi",
         "twitterUrl": "https://x.com/TaguchiKazuto",
+        "termsServed": 8,
+        "committees": ["財政福祉委員会", "公社対策特別委員会副委員長"],
+        "birthDate": "1958",
+        "education": [
+          "名古屋大学 文学部 卒業"
+        ],
+        "career": [
+          "日本共産党名古屋市議団 事務局",
+          "1997年1月 名古屋市会議員 補欠選挙で初当選（天白区）"
+        ],
+        "biography": "1958年生まれ。名古屋大学文学部卒業。日本共産党名古屋市議団の事務局を経て、1997年1月の補欠選挙で初当選。現在8期目を務め、日本共産党名古屋市議団団長、党愛知県委員、党昭天緑地区委員。財政・福祉分野と都市インフラ整備の議論に注力し、近年は2026年度予算案への反対討論や、弥富相生山線の工事再開予算に関する質問などを行っている。",
+        "keyPolicies": [
+          {
+            "category": "財政",
+            "title": "市民本位の予算編成",
+            "description": "2026年度予算案には反対討論を行い、市民生活を最優先にした財政運営を求める立場。",
+            "sourceUrl": "https://www.n-jcp.jp/profile/taguchi"
+          },
+          {
+            "category": "都市インフラ",
+            "title": "弥富相生山線の工事再開問題",
+            "description": "市議会本会議で弥富相生山線の工事再開予算について継続的に質問。",
+            "sourceUrl": "https://www.n-jcp.jp/profile/taguchi"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "日本共産党中央委員会公式 + 日本共産党名古屋市会議員団公式 + 本人X @TaguchiKazuto 確認。名古屋大学文学部卒、1997年補欠選挙で初当選。日本共産党名古屋市議団団長、党愛知県委員。",
+      "reason": "日本共産党中央委員会公式 + 日本共産党名古屋市会議員団公式（n-jcp.jp/profile/taguchi）+ 本人X @TaguchiKazuto 確認。1958年生まれ、名古屋大学文学部卒、1997年補欠選挙初当選、8期、天白区選出、日本共産党名古屋市議団 団長。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -1264,13 +1306,21 @@
       "id": "fukuoka-oishi-shuji",
       "fields": {
         "officialProfileUrl": "https://www.komei.or.jp/member/detail/40134154",
-        "websiteUrl": "https://komei-fukuokacity.net/member/",
+        "websiteUrl": "https://www.komei.or.jp/km/oishi/",
         "termsServed": 8,
+        "committees": ["生活環境委員会", "少子・高齢化対策特別委員会", "大都市税財政制度確立推進協議会"],
+        "birthDate": "1960-11-22",
+        "birthPlace": "鹿児島県喜界町",
+        "education": [
+          "鹿児島経済大学 経済学部 卒業"
+        ],
+        "career": [],
+        "biography": "1960年11月22日生まれ、鹿児島県喜界町出身。鹿児島経済大学経済学部卒業。福岡市議会南区選出、8期。公明党福岡市議団団長、福岡地区水道企業団議会議員。所属委員会は生活環境委員会（環境局・道路下水道局・消防局・水道局・交通局を所管）、少子・高齢化対策特別委員会、大都市税財政制度確立推進協議会。尊敬する人物は西郷隆盛、座右の銘は「心こそ大切なれ」、趣味はスポーツと読書。",
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "公明党公式議員プロフィール + 公明党福岡市議団公式 確認。1960年11月22日生まれ、8期、南区選出。公明党福岡市議団 団長。",
+      "reason": "公明党公式議員プロフィール + 公明党福岡市議団公式（komei-fukuokacity.net/member/）確認。1960年11月22日生まれ、鹿児島県喜界町出身、鹿児島経済大学経済学部卒、8期、南区選出。公明党福岡市議団 団長、福岡地区水道企業団議会議員。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -1703,11 +1753,39 @@
         "officialProfileUrl": "https://cdp-japan.jp/member/170/%E5%A4%A7%E5%B2%A9%E7%9C%9F%E5%96%84%E5%92%8C",
         "websiteUrl": "https://www.minnano-yokohama.com/",
         "termsServed": 4,
+        "birthDate": "1970-08-03",
+        "birthPlace": "静岡県三島市",
+        "education": [
+          "1989年 静岡県立韮山高等学校 卒業",
+          "1993年 中央大学法学部政治学科 卒業",
+          "2003年 米国公認会計士（US.CPA） 取得"
+        ],
+        "career": [
+          "1993-1998年 日本リース（ファイナンス営業）",
+          "1998-2011年 三井物産・GEキャピタル等 転職（民間企業の審査・リスク管理部門、年間1,000〜2,000件の決算書分析・投資判断業務）",
+          "2010年 みんなの党 政治塾1期生 参加",
+          "2011年 横浜市会議員 初当選（旭区）"
+        ],
+        "biography": "1970年静岡県三島市生まれ。韮山高校から中央大学法学部政治学科卒業後、日本リースで5年間のファイナンス営業を経験。その後、三井物産・GEキャピタル等へ転職し、米国公認会計士（USCPA）を取得して民間企業の審査・リスク管理部門で年間1,000〜2,000件の決算書分析・投資判断業務に従事。2010年にみんなの党政治塾1期生として参加し、2011年に横浜市会議員に初当選。みんなの党→民進党→立憲民主党と所属を移し、現在4期目。立憲民主党横浜市会議員団団長。",
+        "keyPolicies": [
+          {
+            "category": "財政",
+            "title": "費用対効果検討の欠落した予算制度の改革",
+            "description": "民間企業での審査・リスク管理経験を活かし、市政の予算編成における費用対効果検討の欠落を指摘、予算制度の改革を中核ミッションに据えている。",
+            "sourceUrl": "https://www.minnano-yokohama.com/"
+          },
+          {
+            "category": "賭博・カジノ",
+            "title": "横浜カジノ誘致反対",
+            "description": "山下ふ頭への横浜カジノ（IR）誘致に対して反対運動に深く関与してきた。",
+            "sourceUrl": "https://www.minnano-yokohama.com/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "立憲民主党公式 + 本人公式サイト minnano-yokohama.com 確認。1970年8月3日生まれ、中央大学法学部政治学科卒、民間17年。4期（2011年初当選）、旭区選出。立憲民主党横浜市会議員団 団長。",
+      "reason": "立憲民主党公式 + 本人公式サイト minnano-yokohama.com（/profile）確認。1970年8月3日生まれ、静岡県三島市出身、中央大学法学部政治学科卒、米国公認会計士（USCPA）。民間企業審査・リスク管理13年（三井物産・GEキャピタル等）の経験。みんなの党政治塾1期生から立憲民主党まで所属変遷、4期（2011年初当選）、旭区選出、立憲民主党横浜市会議員団 団長。財政改革と横浜カジノ誘致反対が中核政策。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -1913,11 +1991,25 @@
         "officialProfileUrl": "https://www.komei.or.jp/member/detail/23110136",
         "websiteUrl": "https://www.komei.or.jp/km/nagoya-kinoshita-masaru/profile/",
         "termsServed": 6,
+        "birthDate": "1954-12-21",
+        "birthPlace": "鹿児島県",
+        "education": [
+          "1967年 名古屋市立千鳥小学校 卒業",
+          "1970年 名古屋市立名南中学校 卒業",
+          "1973年 名古屋商科大学附属高等学校 卒業",
+          "1981年 愛知大学法経学部法学科二部 卒業"
+        ],
+        "career": [
+          "複数の電機関連企業 勤務",
+          "1993年2月 荒木清寛参議院議員 秘書",
+          "2003年4月 名古屋市会議員 初当選（中川区）"
+        ],
+        "biography": "1954年鹿児島県生まれ、名古屋市中川区在住。愛知大学法経学部法学科二部卒業後、電機関連企業勤務を経て、1993年に荒木清寛参議院議員の秘書を務める。2003年4月に名古屋市会議員に初当選し、現在6期目。公明党名古屋市議団団長、公明党名古屋第五総支部長。県公明新聞購読推進委員長、党県遊説局長、党県団体渉外委員。座右の銘は「奉仕一筋」、信条は「正義に生きる」。趣味は音楽鑑賞、富田公園でのウォーキングと清掃活動を日課とする。防災士、災害ボランティアコーディネーター資格を保有。",
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "公明党公式議員プロフィール + 本人公式ホームページ 確認。1954年12月21日生まれ、6期、中川区選出。公明党名古屋市議団 団長、公明党名古屋第5総支部長。",
+      "reason": "公明党公式議員プロフィール + 本人公式ホームページ（komei.or.jp/km/nagoya-kinoshita-masaru/profile/）確認。1954年12月21日生まれ、鹿児島県出身、6期、中川区選出。公明党名古屋市議団 団長、公明党名古屋第5総支部長。経歴・学歴・職歴・趣味は本人公式から取得。",
       "appliedAt": "2026-05-29"
     },
     {
