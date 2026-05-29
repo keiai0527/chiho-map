@@ -11,12 +11,59 @@
         "officialProfileUrl": "https://ishinnokai-osakashikai.jp/member/%E8%97%A4%E7%94%B0%E3%80%80%E3%81%82%E3%81%8D%E3%82%89",
         "websiteUrl": "http://fujitaakira.com/",
         "twitterUrl": "https://x.com/fujita_akira_",
-        "termsServed": 4,
+        "termsServed": 3,
+        "committees": ["財政総務委員会委員長", "決算特別委員会委員長", "都構想設計図作成の特別区設置協議会", "関西広域連合議会"],
+        "birthDate": "1981",
+        "birthPlace": "大阪市港区",
+        "education": [
+          "みなと幼稚園",
+          "大阪市立弁天小学校 卒業",
+          "大阪市立市岡中学校 卒業",
+          "大阪府立大手前高等学校 卒業",
+          "大阪大学 人間科学部 教育文化学専攻 卒業"
+        ],
+        "career": [
+          "株式会社髙島屋 入社（大阪店で店頭業務・商品買付・催事企画・営業計画等に従事）",
+          "2012年 髙島屋 辞職、大阪市会議員 補欠選挙で初当選（北区）"
+        ],
+        "biography": "1981年大阪市港区生まれ。市岡中学校・大手前高校から大阪大学人間科学部教育文化学専攻卒業。株式会社髙島屋大阪店で店頭業務・商品買付・催事企画・営業計画等に従事した後、2012年に同社を辞職し、大阪市会議員補欠選挙で初当選。現在3期目。財政総務委員会委員長、決算特別委員会委員長、都構想設計図作成の特別区設置協議会委員、関西広域連合議会議員。大阪維新の会幹事長代行・政務調査会長を歴任、2022年から日本維新の会常任役員（政調会長代行）。",
+        "keyPolicies": [
+          {
+            "category": "都市制度",
+            "title": "大阪都構想・二重行政の解消",
+            "description": "二重行政解消、民営化・集権化・分権化の3つを柱に大阪都構想を推進。",
+            "sourceUrl": "http://fujitaakira.com/"
+          },
+          {
+            "category": "財政",
+            "title": "財政改革（議員報酬25%カット・市債圧縮・黒字化）",
+            "description": "議員報酬25%カット、市債5兆円超から3兆円台へ圧縮、市の赤字を黒字化に成功させた財政改革の実績を強調。",
+            "sourceUrl": "http://fujitaakira.com/"
+          },
+          {
+            "category": "経済",
+            "title": "スタートアップ・中小企業支援、IR誘致",
+            "description": "スタートアップ支援、中小企業支援体制の整備、IR（統合型リゾート）誘致関連施策を推進。",
+            "sourceUrl": "http://fujitaakira.com/"
+          },
+          {
+            "category": "教育",
+            "title": "教育改革（組立体操制限・教員多忙解消）",
+            "description": "組み立て体操の制限実施、教員多忙の解消、カリキュラム推進室設置を推進。",
+            "sourceUrl": "http://fujitaakira.com/"
+          },
+          {
+            "category": "福祉",
+            "title": "高齢者支援・福祉情報アクセス",
+            "description": "高齢者支援体制の充実、福祉情報へのアクセス改善を推進。",
+            "sourceUrl": "http://fujitaakira.com/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "大阪維新の会大阪市会議員団 公式サイト（ishinnokai-osakashikai.jp）に本人プロフィール掲載確認。個人公式サイト fujitaakira.com、X アカウント @fujita_akira_ も本人発信を確認。",
+      "reason": "大阪維新の会大阪市会議員団公式 + 本人公式サイト fujitaakira.com + 本人X @fujita_akira_ 確認。1981年大阪市港区生まれ、大阪大学人間科学部卒、元株式会社髙島屋勤務、2012年補欠選挙で初当選、現在3期目（本人サイト記載に従い termsServed=3 に修正、以前の=4は誤）。財政総務委員会委員長、決算特別委員会委員長、関西広域連合議会議員、日本維新の会常任役員（政調会長代行）。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -25,11 +72,13 @@
         "officialProfileUrl": "https://ishinnokai-osakashikai.jp/member/%E8%BE%BB%E6%B7%B3%E5%AD%90",
         "twitterUrl": "https://x.com/tsujijunko",
         "termsServed": 6,
+        "birthDate": "1952-11-29",
+        "biography": "1952年11月29日生まれ。大阪市会議員6期、大阪維新の会所属。元大阪市会議長を務めた経験を持つ女性議員。事務所所在地は西成区玉出中2-6-18。",
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "大阪維新の会公式 + 本人運営Xアカウント @tsujijunko を確認。元市会議長。",
+      "reason": "大阪維新の会大阪市会議員団公式 + 本人運営X @tsujijunko 確認。1952年11月29日生まれ、6期、元大阪市会議長。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -700,11 +749,41 @@
         "websiteUrl": "https://www.fukushima-naoko.info/",
         "termsServed": 6,
         "committees": ["水道・交通委員会", "基地対策特別委員会"],
+        "birthDate": "1956-08-10",
+        "biography": "1956年8月10日生まれ。横浜市会議員6期、中区選出、公明党所属。第61代横浜市会副議長。公明党神奈川県本部副代表、公明党中区支部長。神奈川県後期高齢者医療広域連合議会議員としても活動。最近は住宅補助、環境保全、後期高齢者医療制度に注力。",
+        "keyPolicies": [
+          {
+            "category": "医療・福祉",
+            "title": "後期高齢者医療制度の持続可能性",
+            "description": "神奈川県後期高齢者医療広域連合議会議員として、「世代間負担の公平」と「持続可能な制度設計」を重視。",
+            "sourceUrl": "https://www.fukushima-naoko.info/"
+          },
+          {
+            "category": "健康",
+            "title": "健康寿命の延伸",
+            "description": "「大事に至る前に自らの健康課題を知ること」の重要性を主張し、公的制度の活用を推奨。",
+            "sourceUrl": "https://www.fukushima-naoko.info/"
+          }
+        ],
+        "notableQuotes": [
+          {
+            "date": "2026-04-16",
+            "content": "後期高齢者医療制度に関する市政レポート発行。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.fukushima-naoko.info/"
+          },
+          {
+            "date": "2026-03-24",
+            "content": "予算特別委員会で質問活動を実施。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.fukushima-naoko.info/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "公明党公式議員プロフィール + 本人公式サイト fukushima-naoko.info 確認。1956年8月10日生まれ、6期、第61代横浜市会副議長、公明党神奈川県本部副代表。",
+      "reason": "公明党公式議員プロフィール + 本人公式サイト fukushima-naoko.info 確認。1956年8月10日生まれ、6期、中区選出、第61代横浜市会副議長、公明党神奈川県本部副代表、公明党中区支部長、神奈川県後期高齢者医療広域連合議会議員。最近は住宅補助、環境保全、後期高齢者医療制度に注力。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -973,11 +1052,54 @@
         "officialProfileUrl": "https://www.sakuraline.jp/",
         "websiteUrl": "https://www.sakuraline.jp/profile",
         "termsServed": 8,
+        "birthDate": "1965-02-24",
+        "birthPlace": "東京都渋谷区代々木",
+        "education": [
+          "法政大学法学部 中退（在学中から市民運動に参加）"
+        ],
+        "career": [
+          "1995年 横浜市会議員 初当選（無所属、鶴見区）以降 連続8期"
+        ],
+        "biography": "1965年2月24日東京都渋谷区代々木生まれ。法政大学法学部に在学中から市民運動に参加し、1995年に横浜市会議員（無所属、鶴見区）に初当選。以後「ボランティアとカンパ」のみで連続8期当選を続ける異例の無所属議員。2005年に市議会で「無所属クラブ」を結成し幹事長就任。超党派「横浜市会女性議員の会」会長、「がん撲滅横浜市会議員連盟」幹事、「被災者・避難者支援つるみの会」代表。岸谷在住、「ピンクのバイクが目印」として地域で知られる。",
+        "keyPolicies": [
+          {
+            "category": "行政監視",
+            "title": "ムダ・談合・天下りの追及",
+            "description": "談合防止の入札改革推進により年間70億円のムダ削減を実現。Y150事業の不正公金支出を告発し、外郭団体への天下り廃止を主張。",
+            "sourceUrl": "https://www.sakuraline.jp/profile"
+          },
+          {
+            "category": "生活・福祉",
+            "title": "市バス路線維持・駅環境整備・アスベスト救済",
+            "description": "市バス路線維持制度の実現、鶴見駅へのエレベーター・駐輪場設置、アスベスト被害救済対応を推進。",
+            "sourceUrl": "https://www.sakuraline.jp/profile"
+          },
+          {
+            "category": "議会改革",
+            "title": "政務調査費全面公開・海外視察辞退・議員歳費10%削減",
+            "description": "政務調査費の全面公開を実現、海外視察を全辞退、2009年に議員歳費10%削減条例案を提出。",
+            "sourceUrl": "https://www.sakuraline.jp/profile"
+          }
+        ],
+        "notableQuotes": [
+          {
+            "date": "1995",
+            "content": "横浜市会議員に初当選。以後8期連続当選を「ボランティアとカンパ」のみで実現。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.sakuraline.jp/profile"
+          },
+          {
+            "date": "2009",
+            "content": "議員歳費10%削減条例案を提出。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.sakuraline.jp/profile"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "本人公式サイト sakuraline.jp 確認。1965年2月24日生まれ、8期、無所属、鶴見区選出。1995年初当選、ボランティアとカンパで市議連続当選、2005年市議会で『無所属クラブ』結成。横浜市会女性議員の会（超党派）会長、がん撲滅横浜市会議員連盟幹事。",
+      "reason": "本人公式サイト sakuraline.jp（/profile 含む）確認。1965年2月24日東京都渋谷区代々木生まれ、法政大学法学部中退、8期（1995年初当選）、無所属、鶴見区選出。談合防止の入札改革で年間70億円のムダ削減、議員歳費10%削減条例案提出等の議会改革実績。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -1823,11 +1945,55 @@
         "websiteUrl": "https://kogayu.net/",
         "twitterUrl": "https://x.com/yasuhirokogayu",
         "termsServed": 6,
+        "committees": ["総務委員会", "大都市制度特別委員会"],
+        "birthDate": "1967-09-10",
+        "birthPlace": "横浜市鶴見区",
+        "education": [
+          "早稲田大学 理工学部 土木工学科 卒業",
+          "早稲田大学大学院 理工学研究科 修士課程 修了"
+        ],
+        "career": [
+          "三菱重工業（LNGタンク設計、組合中央執行委員等）13年",
+          "2006年3月 横浜市会議員 初当選（旭区）"
+        ],
+        "biography": "1967年9月10日横浜市鶴見区生まれ。早稲田大学理工学部土木工学科を経て、同大学院理工学研究科修士課程修了。三菱重工業でLNGタンクの設計業務に携わるかたわら、組合活動でも中央執行委員等を歴任、計13年間勤務。2006年3月に横浜市会議員（旭区）初当選、現在6期目。コンクリート診断士・一級土木施工管理技士の資格を持つエンジニア出身議員。国民民主党横浜市会議員団団長、国民民主党神奈川県連 幹事・顧問。",
+        "keyPolicies": [
+          {
+            "category": "理念",
+            "title": "「2つの好循環」（子ども支援×賃金上昇）による持続可能な市政",
+            "description": "「子ども支援を起点とした市政運営」と「賃金上昇を起点とした経済循環」の2つの好循環を市政運営の核に据える。",
+            "sourceUrl": "https://kogayu.net/"
+          },
+          {
+            "category": "子育て",
+            "title": "子ども医療費ゼロ拡大・児童手当の所得制限撤廃・幼児教育無償化",
+            "description": "子ども医療費ゼロ対象の拡大、児童手当の所得制限撤廃、幼児教育の完全無償化を推進。",
+            "sourceUrl": "https://kogayu.net/"
+          },
+          {
+            "category": "医療・福祉",
+            "title": "在宅医療強化・認知症支援",
+            "description": "在宅医療体制の強化、認知症支援施設の拡充、地域医療サービスの向上。",
+            "sourceUrl": "https://kogayu.net/"
+          },
+          {
+            "category": "地域・経済",
+            "title": "中小企業支援、女性活躍、脱炭素、大規模団地再生",
+            "description": "中小企業支援、地域交通の改善、女性のエンパワーメント、脱炭素化、大規模住宅団地の再生に取り組む。",
+            "sourceUrl": "https://kogayu.net/"
+          },
+          {
+            "category": "旭区地域",
+            "title": "相鉄線鶴ヶ峰駅地下化工事の推進、防災・空き家対策",
+            "description": "旭区の防災強化、空き家管理、道路インフラ改善、相鉄線鶴ヶ峰駅地下化工事の進捗推進を地域重点課題に据える。",
+            "sourceUrl": "https://kogayu.net/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "国民民主党神奈川県連公式 + 本人公式サイト kogayu.net + 本人X @yasuhirokogayu 確認。1967年9月10日生まれ、早稲田大学理工学部土木工学科卒、早稲田大学院理工学研究科修士修了。民間13年、2006年初当選、6期、旭区選出。国民民主党横浜市会議員団 団長。",
+      "reason": "国民民主党神奈川県連公式 + 本人公式サイト kogayu.net + 本人X @yasuhirokogayu 確認。1967年9月10日横浜市鶴見区生まれ、早稲田大学理工学部土木工学科卒・院修士、三菱重工業13年（LNGタンク設計）、2006年3月初当選、6期、旭区選出。国民民主党横浜市会議員団 団長。コンクリート診断士・一級土木施工管理技士保有のエンジニア議員。",
       "appliedAt": "2026-05-29"
     },
     {
