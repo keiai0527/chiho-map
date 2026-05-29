@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
+import { MemberSearch } from "@/components/MemberSearch";
 import {
   getCities,
   getCity,
   getKaihaMap,
   getMembersByCity,
-  getPartyMap,
+  getParties,
 } from "@/lib/data";
 import type { CityId } from "@/lib/types";
 
@@ -25,7 +27,7 @@ export async function generateMetadata({ params }: { params: Params }) {
   if (!c) return {};
   return {
     title: `${c.name}の市議会議員一覧`,
-    description: `${c.councilName}の議員 約${c.approxMemberCount}名を会派・選挙区別に掲載。`,
+    description: `${c.councilName}の議員 約${c.approxMemberCount}名を会派・選挙区別に検索・絞り込み。`,
     alternates: { canonical: `/${c.id}` },
   };
 }
@@ -36,19 +38,42 @@ export default async function CityPage({ params }: { params: Params }) {
   if (!c) notFound();
 
   const members = await getMembersByCity(city as CityId);
-  const partyMap = await getPartyMap();
+  const parties = await getParties();
   const kaihaMap = await getKaihaMap(city as CityId);
 
-  // 会派でグルーピング（会派マスタの順に並べる）
-  const byKaiha = new Map<string, typeof members>();
-  for (const g of kaihaMap.values()) byKaiha.set(g.id, []);
-  for (const m of members) {
-    const list = byKaiha.get(m.parliamentaryGroupId) ?? [];
-    list.push(m);
-    byKaiha.set(m.parliamentaryGroupId, list);
-  }
-  // メンバー0の会派は表示しない
-  for (const [k, v] of byKaiha) if (v.length === 0) byKaiha.delete(k);
+  // 選挙区一覧（公式名簿に出てきた順を保ちつつ重複除去）
+  const districtSet = new Set<string>();
+  for (const m of members) districtSet.add(m.electoralDistrict);
+  const districts = [...districtSet];
+
+  // 会派一覧（マスタ順）
+  const kaihaList = [...kaihaMap.values()].map((k) => ({
+    id: k.id,
+    name: k.name,
+    shortName: k.shortName,
+  }));
+
+  // データを client component に渡せる形に変換
+  const memberViews = members.map((m) => ({
+    id: m.id,
+    name: m.name,
+    nameKana: m.nameKana,
+    partyId: m.partyId,
+    parliamentaryGroupId: m.parliamentaryGroupId,
+    electoralDistrict: m.electoralDistrict,
+    termsServed: m.termsServed,
+    hasOfficialLink: Boolean(m.officialProfileUrl || m.websiteUrl),
+    hasSnsLink: Boolean(
+      m.twitterUrl || m.facebookUrl || m.instagramUrl || m.youtubeUrl,
+    ),
+  }));
+
+  const partyViews = parties.map((p) => ({
+    id: p.id,
+    name: p.name,
+    shortName: p.shortName,
+    color: p.color,
+  }));
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
@@ -73,14 +98,16 @@ export default async function CityPage({ params }: { params: Params }) {
         </p>
       </header>
 
-      <aside className="mb-8 rounded-lg border border-amber-200 bg-amber-50 p-4 text-xs text-amber-900">
+      <aside className="mb-6 rounded-lg border border-amber-200 bg-amber-50 p-4 text-xs text-amber-900">
         <p>
           <span className="mr-1 rounded bg-amber-200 px-1.5 py-0.5 font-bold">
             β版
           </span>
           {c.councilName}の公式名簿（取得日: 2026年5月29日）をもとに作成しています。
-          <strong>複数政党の合同会派に所属する議員の政党表示、ふりがな、当選回数等に暫定情報を含む場合があります</strong>。
-          公式名簿:{" "}
+          <strong>
+            複数政党の合同会派に所属する議員の政党表示、ふりがな、当選回数等に暫定情報を含む場合があります
+          </strong>
+          。 公式名簿:{" "}
           <a
             href={c.sources.byKaiha}
             target="_blank"
@@ -90,89 +117,29 @@ export default async function CityPage({ params }: { params: Params }) {
             {c.councilName} 会派別名簿 →
           </a>
           {" / "}
-          <Link
-            href="/about"
-            className="underline-offset-2 hover:underline"
-          >
+          <Link href="/about" className="underline-offset-2 hover:underline">
             データの注意点
           </Link>
-          {" / "}
-          訂正依頼は X{" "}
-          <a
-            href="https://x.com/kokkai_map"
-            target="_blank"
-            rel="noopener"
-            className="underline-offset-2 hover:underline"
-          >
-            @kokkai_map
-          </a>{" "}
-          DM へ。
         </p>
       </aside>
 
-      {members.length === 0 && (
+      {members.length === 0 ? (
         <div className="rounded-xl border border-amber-200 bg-amber-50 p-5 text-sm text-amber-900">
           <p className="font-medium">データ収集中</p>
-          <p className="mt-1">
-            {c.councilName}の議員データは現在収集中です。
-            公式名簿:{" "}
-            <a
-              href={c.sources.byKaiha}
-              target="_blank"
-              rel="noopener"
-              className="underline-offset-2 hover:underline"
-            >
-              {c.sources.byKaiha}
-            </a>
-          </p>
         </div>
-      )}
-
-      {members.length > 0 && (
-        <div className="space-y-8">
-          {[...byKaiha.entries()].map(([kaihaId, list]) => {
-            const kaiha = kaihaMap.get(kaihaId);
-            return (
-            <section key={kaihaId}>
-              <h2 className="mb-3 text-lg font-semibold text-slate-900">
-                {kaiha?.name ?? kaihaId}
-                <span className="ml-2 text-sm font-normal text-slate-500">
-                  {list.length}名
-                </span>
-              </h2>
-              <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                {list.map((m) => {
-                  const party = partyMap.get(m.partyId);
-                  return (
-                    <li key={m.id}>
-                      <Link
-                        href={`/giin/${m.id}`}
-                        className="flex items-center gap-3 rounded-lg border border-slate-200 bg-white p-3 transition hover:border-slate-300"
-                      >
-                        <div
-                          className="h-1 w-12 shrink-0 rounded"
-                          style={{
-                            backgroundColor: party?.color ?? "#94a3b8",
-                          }}
-                        />
-                        <div className="min-w-0">
-                          <p className="truncate font-medium text-slate-900">
-                            {m.name}
-                          </p>
-                          <p className="truncate text-xs text-slate-500">
-                            {party?.shortName ?? "不明"} ／{" "}
-                            {m.electoralDistrict}
-                          </p>
-                        </div>
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ul>
-            </section>
-            );
-          })}
-        </div>
+      ) : (
+        <Suspense
+          fallback={
+            <div className="text-sm text-slate-400">読み込み中…</div>
+          }
+        >
+          <MemberSearch
+            members={memberViews}
+            parties={partyViews}
+            kaihaList={kaihaList}
+            districts={districts}
+          />
+        </Suspense>
       )}
     </main>
   );

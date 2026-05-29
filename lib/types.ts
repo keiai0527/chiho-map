@@ -47,6 +47,14 @@ export interface ParliamentaryGroup {
   partyIds: PartyId[];
 }
 
+/**
+ * データの信頼度
+ * - verified: 公式情報と照合済、本人発信等で確認済
+ * - partial: 一部のフィールドが暫定（混合会派の partyId、推定ふりがな等）
+ * - estimated: 多くが推定（β初版段階）
+ */
+export type DataConfidence = "verified" | "partial" | "estimated";
+
 export interface Member {
   /** 一意ID: `${cityId}-${slug}` 例: "osaka-yamada-taro" */
   id: string;
@@ -62,10 +70,36 @@ export interface Member {
   /** 当選回数 */
   termsServed?: number;
   photoUrl?: string;
+
+  // ── 公式リンク（追加予定枠を含む）──
+  /** 市議会公式の議員プロフィールページURL */
   officialProfileUrl?: string;
-  /** 議員個人サイト/SNS */
+  /** 議員個人サイト/事務所サイト */
   websiteUrl?: string;
+  /** X (Twitter) URL */
   twitterUrl?: string;
+  facebookUrl?: string;
+  instagramUrl?: string;
+  youtubeUrl?: string;
+
+  // ── 活動・政策（追加予定枠）──
+  /** 所属委員会名（公式情報から取得） */
+  committees?: string[];
+  /** 過去の発言・質問記録の入口URL（市議会公式の議事録検索等） */
+  speechRecordUrl?: string;
+  /** 議案賛否記録URL（将来枠：市議会公式の本会議採決結果等） */
+  voteRecordUrl?: string;
+  /** 政策タグ（運営者が公式発言から付与する分類） */
+  policyTags?: string[];
+
+  // ── データ品質（追加予定枠）──
+  /** データ信頼度 */
+  dataConfidence?: DataConfidence;
+  /** 暫定情報を含むかのフラグ（合同会派の partyId、推定ふりがな等） */
+  hasProvisionalData?: boolean;
+  /** 最終確認日（ISO date）。空なら未確認 */
+  lastVerifiedAt?: string;
+
   /** データ取得元と取得日 */
   source: {
     url: string;

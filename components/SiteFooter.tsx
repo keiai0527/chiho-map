@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CORRECTION_EMAIL, CORRECTION_FORM_URL, TWITTER_URL } from "@/lib/config";
 
 export function SiteFooter() {
   return (
@@ -70,19 +71,44 @@ export function SiteFooter() {
               ）。
             </p>
             <div className="rounded border border-amber-200 bg-amber-50 px-3 py-2 text-amber-900">
-              <p className="font-medium">訂正依頼フォーム 準備中</p>
-              <p className="mt-0.5">
-                開設までの当面、X の{" "}
-                <a
-                  href="https://x.com/kokkai_map"
-                  target="_blank"
-                  rel="noopener"
-                  className="underline-offset-2 hover:underline"
-                >
-                  @kokkai_map
-                </a>{" "}
-                DMで受付。
-              </p>
+              <p className="font-medium">訂正依頼窓口</p>
+              <ul className="mt-1 space-y-0.5">
+                {CORRECTION_FORM_URL ? (
+                  <li>
+                    ・
+                    <a
+                      href={CORRECTION_FORM_URL}
+                      target="_blank"
+                      rel="noopener"
+                      className="underline-offset-2 hover:underline"
+                    >
+                      訂正依頼フォーム
+                    </a>
+                  </li>
+                ) : (
+                  <li>・訂正依頼フォーム（準備中）</li>
+                )}
+                <li>
+                  ・メール:{" "}
+                  <a
+                    href={`mailto:${CORRECTION_EMAIL}`}
+                    className="underline-offset-2 hover:underline"
+                  >
+                    {CORRECTION_EMAIL}
+                  </a>
+                </li>
+                <li>
+                  ・X DM:{" "}
+                  <a
+                    href={TWITTER_URL}
+                    target="_blank"
+                    rel="noopener"
+                    className="underline-offset-2 hover:underline"
+                  >
+                    @kokkai_map
+                  </a>
+                </li>
+              </ul>
             </div>
             <p className="text-slate-500">
               現時点では広告・スポンサーを掲載していません。将来クラウドファンディング等の市民支援を検討する場合があります（編集方針に影響する支援は受け付けません）。

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { CORRECTION_EMAIL, CORRECTION_FORM_URL, TWITTER_URL } from "@/lib/config";
 import {
   getAllMembers,
   getCity,
@@ -41,6 +42,37 @@ export default async function MemberPage({ params }: { params: Params }) {
   const kaihaMap = await getKaihaMap(m.cityId);
   const kaiha = kaihaMap.get(m.parliamentaryGroupId);
 
+  const hasAnyOfficialLink = Boolean(
+    m.officialProfileUrl ||
+      m.websiteUrl ||
+      m.twitterUrl ||
+      m.facebookUrl ||
+      m.instagramUrl ||
+      m.youtubeUrl,
+  );
+  const hasAnyActivity = Boolean(
+    (m.committees && m.committees.length > 0) ||
+      m.speechRecordUrl ||
+      m.voteRecordUrl,
+  );
+  const hasAnyPolicyTag = Boolean(m.policyTags && m.policyTags.length > 0);
+
+  // 混合会派 partyId 暫定処理に該当する会派ID（types.ts 拡張前の既存データに合わせる）
+  const mixedKaihaIds = new Set([
+    "osaka-ldp-shimin",
+    "osaka-ldp-dpp-tsunagaru",
+    "sapporo-minshu",
+    "nagoya-minshu",
+    "fukuoka-shimin",
+  ]);
+  const isProvisional =
+    m.hasProvisionalData === true || mixedKaihaIds.has(m.parliamentaryGroupId);
+
+  // 推定ふりがなかどうか（簡易判定: kana が name と同一の場合、推定の可能性が高い）
+  const kanaSameAsName = m.nameKana && m.nameKana.replace(/\s+/g, "") === m.name.replace(/\s+/g, "");
+
+  const confidence = m.dataConfidence ?? (isProvisional ? "partial" : "estimated");
+
   return (
     <main className="mx-auto max-w-2xl px-4 py-10">
       <nav className="mb-6 text-sm">
@@ -57,107 +89,322 @@ export default async function MemberPage({ params }: { params: Params }) {
         style={{ backgroundColor: party?.color ?? "#94a3b8" }}
       />
 
-      <h1 className="text-3xl font-bold text-slate-900">{m.name}</h1>
-      {m.nameKana && (
-        <p className="mt-1 text-sm text-slate-500">{m.nameKana}</p>
-      )}
-
-      <dl className="mt-6 divide-y divide-slate-200 border-y border-slate-200">
-        <div className="grid grid-cols-3 gap-2 py-3 text-sm">
-          <dt className="text-slate-500">議会</dt>
-          <dd className="col-span-2 text-slate-900">{c?.councilName ?? ""}</dd>
-        </div>
-        <div className="grid grid-cols-3 gap-2 py-3 text-sm">
-          <dt className="text-slate-500">政党</dt>
-          <dd className="col-span-2 text-slate-900">
-            {party?.name ?? "不明"}
-          </dd>
-        </div>
-        <div className="grid grid-cols-3 gap-2 py-3 text-sm">
-          <dt className="text-slate-500">会派</dt>
-          <dd className="col-span-2 text-slate-900">
-            {kaiha?.name ?? m.parliamentaryGroupId}
-          </dd>
-        </div>
-        <div className="grid grid-cols-3 gap-2 py-3 text-sm">
-          <dt className="text-slate-500">選挙区</dt>
-          <dd className="col-span-2 text-slate-900">{m.electoralDistrict}</dd>
-        </div>
-        {m.termsServed != null && (
-          <div className="grid grid-cols-3 gap-2 py-3 text-sm">
-            <dt className="text-slate-500">当選回数</dt>
-            <dd className="col-span-2 text-slate-900">{m.termsServed}</dd>
-          </div>
-        )}
-      </dl>
-
-      <div className="mt-6 space-y-2 text-sm">
-        {m.officialProfileUrl && (
-          <p>
-            <a
-              href={m.officialProfileUrl}
-              target="_blank"
-              rel="noopener"
-              className="text-slate-700 underline-offset-2 hover:underline"
-            >
-              {c?.councilName ?? ""} 公式プロフィール →
-            </a>
-          </p>
-        )}
-        {m.websiteUrl && (
-          <p>
-            <a
-              href={m.websiteUrl}
-              target="_blank"
-              rel="noopener"
-              className="text-slate-700 underline-offset-2 hover:underline"
-            >
-              個人サイト →
-            </a>
-          </p>
-        )}
-        {m.twitterUrl && (
-          <p>
-            <a
-              href={m.twitterUrl}
-              target="_blank"
-              rel="noopener"
-              className="text-slate-700 underline-offset-2 hover:underline"
-            >
-              X (Twitter) →
-            </a>
-          </p>
-        )}
-      </div>
-
-      <p className="mt-10 text-xs text-slate-400">
-        出典: {m.source.url} ({m.source.fetchedAt})
-      </p>
-
-      <aside className="mt-6 rounded-lg border border-amber-200 bg-amber-50 p-4 text-xs text-amber-900">
-        <p>
-          <span className="mr-1 rounded bg-amber-200 px-1.5 py-0.5 font-bold">
+      <header className="mb-6">
+        <div className="mb-2 flex items-center gap-2 text-xs">
+          <span className="rounded bg-amber-100 px-2 py-0.5 font-semibold text-amber-900">
             β版
           </span>
-          本ページの情報には<strong>暫定値が含まれる場合があります</strong>。
-          複数政党の合同会派所属議員の政党表示、公式名簿に振り仮名が無い議員のふりがな、
-          当選回数（未取得の市あり）等は今後の更新で精度を上げます。
-          詳細は{" "}
-          <Link href="/about" className="underline-offset-2 hover:underline">
-            このサイトについて
-          </Link>
-          。誤りを見つけたら X{" "}
+          <span className="text-slate-500">
+            データ整備中 ／ 多くの項目を順次追加予定
+          </span>
+        </div>
+        <h1 className="text-3xl font-bold text-slate-900">{m.name}</h1>
+        {m.nameKana && (
+          <p className="mt-1 text-sm text-slate-500">{m.nameKana}</p>
+        )}
+      </header>
+
+      {/* ── 掲載中の情報 ── */}
+      <section className="mb-8">
+        <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
+          掲載中の情報
+        </h2>
+        <dl className="divide-y divide-slate-200 border-y border-slate-200">
+          <Row label="議会" value={c?.councilName ?? ""} />
+          <Row label="政党" value={party?.name ?? "不明"} />
+          <Row label="会派" value={kaiha?.name ?? m.parliamentaryGroupId} />
+          <Row label="選挙区" value={m.electoralDistrict} />
+          {m.termsServed != null ? (
+            <Row label="当選回数" value={`${m.termsServed}期`} />
+          ) : (
+            <Row label="当選回数" value="未取得（収集中）" muted />
+          )}
+        </dl>
+      </section>
+
+      {/* ── 公式リンク・SNS ── */}
+      <section className="mb-8">
+        <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
+          公式リンク・SNS
+        </h2>
+        {hasAnyOfficialLink ? (
+          <ul className="space-y-2 text-sm">
+            {m.officialProfileUrl && (
+              <LinkRow
+                href={m.officialProfileUrl}
+                label={`${c?.councilName ?? ""} 公式プロフィール`}
+              />
+            )}
+            {m.websiteUrl && <LinkRow href={m.websiteUrl} label="個人サイト" />}
+            {m.twitterUrl && <LinkRow href={m.twitterUrl} label="X (Twitter)" />}
+            {m.facebookUrl && <LinkRow href={m.facebookUrl} label="Facebook" />}
+            {m.instagramUrl && <LinkRow href={m.instagramUrl} label="Instagram" />}
+            {m.youtubeUrl && <LinkRow href={m.youtubeUrl} label="YouTube" />}
+          </ul>
+        ) : (
+          <PendingBlock
+            title="公式リンクは収集中です"
+            items={[
+              `${c?.councilName ?? "市議会"} 公式プロフィール`,
+              "個人サイト・事務所サイト",
+              "X (Twitter) / Facebook / Instagram / YouTube",
+            ]}
+          />
+        )}
+      </section>
+
+      {/* ── 委員会・活動記録 ── */}
+      <section className="mb-8">
+        <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
+          委員会・活動記録
+        </h2>
+        {hasAnyActivity ? (
+          <div className="space-y-3 text-sm">
+            {m.committees && m.committees.length > 0 && (
+              <div>
+                <p className="mb-1 text-xs text-slate-500">所属委員会</p>
+                <ul className="flex flex-wrap gap-1.5">
+                  {m.committees.map((cm) => (
+                    <li
+                      key={cm}
+                      className="rounded bg-slate-100 px-2 py-0.5 text-xs text-slate-700"
+                    >
+                      {cm}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {m.speechRecordUrl && (
+              <LinkRow href={m.speechRecordUrl} label="発言・質問の議事録" />
+            )}
+            {m.voteRecordUrl && (
+              <LinkRow href={m.voteRecordUrl} label="議案への賛否記録" />
+            )}
+          </div>
+        ) : (
+          <PendingBlock
+            title="活動記録は収集中です"
+            items={[
+              "所属委員会",
+              "本会議・委員会での発言・質問の入口リンク",
+              "議案への賛否記録（市議会公式の採決結果）",
+            ]}
+          />
+        )}
+      </section>
+
+      {/* ── 政策タグ ── */}
+      <section className="mb-8">
+        <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
+          政策タグ
+        </h2>
+        {hasAnyPolicyTag ? (
+          <ul className="flex flex-wrap gap-1.5">
+            {m.policyTags!.map((t) => (
+              <li
+                key={t}
+                className="rounded bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-900"
+              >
+                #{t}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <PendingBlock
+            title="政策タグは収集中です"
+            items={[
+              "本人の公式発言・所信表明から運営者が付与する分類",
+              "（例: 子育て / 教育 / 防災 / 交通 / 議会改革）",
+            ]}
+          />
+        )}
+      </section>
+
+      {/* ── データ品質 ── */}
+      <section className="mb-8">
+        <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
+          データ品質
+        </h2>
+        <dl className="divide-y divide-slate-200 border-y border-slate-200">
+          <Row
+            label="信頼度"
+            value={
+              <ConfidenceBadge value={confidence} />
+            }
+          />
+          <Row
+            label="暫定情報"
+            value={
+              isProvisional ? (
+                <span className="rounded bg-amber-100 px-2 py-0.5 text-xs text-amber-900">
+                  あり（{mixedKaihaIds.has(m.parliamentaryGroupId)
+                    ? "合同会派所属、政党は暫定"
+                    : kanaSameAsName
+                      ? "ふりがな推定"
+                      : "暫定要素あり"}
+                  ）
+                </span>
+              ) : (
+                <span className="text-slate-500">なし</span>
+              )
+            }
+          />
+          <Row
+            label="最終確認日"
+            value={m.lastVerifiedAt ?? `公式名簿取得日: ${m.source.fetchedAt}`}
+          />
+        </dl>
+      </section>
+
+      {/* ── 出典 ── */}
+      <section className="mb-8">
+        <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
+          出典
+        </h2>
+        <p className="text-xs text-slate-500">
           <a
-            href="https://x.com/kokkai_map"
+            href={m.source.url}
             target="_blank"
             rel="noopener"
-            className="underline-offset-2 hover:underline"
+            className="break-all text-slate-700 underline-offset-2 hover:underline"
           >
-            @kokkai_map
-          </a>{" "}
-          DMでお知らせください。
+            {m.source.url}
+          </a>
+          {" "}（取得日: {m.source.fetchedAt}）
+        </p>
+      </section>
+
+      {/* ── 訂正窓口 ── */}
+      <aside className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-xs text-amber-900">
+        <p className="font-medium">この議員の情報に誤り・追加情報があれば</p>
+        <ul className="mt-2 space-y-1">
+          {CORRECTION_FORM_URL ? (
+            <li>
+              ・
+              <a
+                href={CORRECTION_FORM_URL}
+                target="_blank"
+                rel="noopener"
+                className="underline-offset-2 hover:underline"
+              >
+                訂正依頼フォーム
+              </a>
+            </li>
+          ) : (
+            <li>・訂正依頼フォーム（準備中）</li>
+          )}
+          <li>
+            ・
+            <a
+              href={`mailto:${CORRECTION_EMAIL}?subject=${encodeURIComponent(`【訂正依頼】${m.name}（${c?.name ?? ""}）`)}`}
+              className="underline-offset-2 hover:underline"
+            >
+              {CORRECTION_EMAIL}
+            </a>{" "}
+            にメール
+          </li>
+          <li>
+            ・X{" "}
+            <a
+              href={TWITTER_URL}
+              target="_blank"
+              rel="noopener"
+              className="underline-offset-2 hover:underline"
+            >
+              @kokkai_map
+            </a>{" "}
+            にDM
+          </li>
+        </ul>
+        <p className="mt-2 text-amber-800">
+          一次情報源（公式ページのURL等）を併せてお送りいただけると確認がスムーズです。
         </p>
       </aside>
     </main>
+  );
+}
+
+// ──── 内部ヘルパー ────
+
+function Row({
+  label,
+  value,
+  muted = false,
+}: {
+  label: string;
+  value: React.ReactNode;
+  muted?: boolean;
+}) {
+  return (
+    <div className="grid grid-cols-3 gap-2 py-3 text-sm">
+      <dt className="text-slate-500">{label}</dt>
+      <dd className={muted ? "col-span-2 text-slate-400" : "col-span-2 text-slate-900"}>
+        {value}
+      </dd>
+    </div>
+  );
+}
+
+function LinkRow({ href, label }: { href: string; label: string }) {
+  return (
+    <li>
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener"
+        className="text-slate-700 underline-offset-2 hover:underline"
+      >
+        {label} →
+      </a>
+    </li>
+  );
+}
+
+function PendingBlock({
+  title,
+  items,
+}: {
+  title: string;
+  items: string[];
+}) {
+  return (
+    <div className="rounded-lg border border-dashed border-slate-300 bg-slate-50 p-4 text-xs text-slate-600">
+      <p className="font-medium text-slate-700">{title}</p>
+      <p className="mt-1 text-slate-500">追加予定の項目:</p>
+      <ul className="mt-1 list-inside list-disc space-y-0.5">
+        {items.map((it) => (
+          <li key={it}>{it}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function ConfidenceBadge({ value }: { value: "verified" | "partial" | "estimated" }) {
+  const conf = {
+    verified: {
+      label: "確認済",
+      cls: "bg-emerald-100 text-emerald-900",
+      desc: "公式情報と照合済",
+    },
+    partial: {
+      label: "一部暫定",
+      cls: "bg-amber-100 text-amber-900",
+      desc: "一部のフィールドが暫定（合同会派の政党表示・推定ふりがな等）",
+    },
+    estimated: {
+      label: "初版推定",
+      cls: "bg-slate-200 text-slate-700",
+      desc: "β初版段階。今後の更新で精度を上げます",
+    },
+  }[value];
+  return (
+    <span>
+      <span className={`rounded px-2 py-0.5 text-xs ${conf.cls}`}>
+        {conf.label}
+      </span>
+      <span className="ml-2 text-xs text-slate-500">{conf.desc}</span>
+    </span>
   );
 }

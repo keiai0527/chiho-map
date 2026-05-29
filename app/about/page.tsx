@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CORRECTION_EMAIL, CORRECTION_FORM_URL, TWITTER_URL } from "@/lib/config";
 import { getCities } from "@/lib/data";
 
 export const revalidate = false;
@@ -176,25 +177,49 @@ export default async function AboutPage() {
 
       <section className="mt-10 space-y-3">
         <h2 className="text-xl font-bold text-slate-900">訂正・削除依頼</h2>
-        <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
-          <p className="font-medium">専用訂正依頼フォーム 準備中</p>
-          <p className="mt-1">
-            現在、誰でも訂正依頼を出せる Google フォーム形式の専用窓口を準備中です。
-            開設までの当面の間、下記の X DM での受付を継続します。
-          </p>
-        </div>
         <p className="text-sm leading-relaxed text-slate-700">
-          掲載情報の訂正・削除・追加のご依頼は、X の{" "}
-          <a
-            href="https://x.com/kokkai_map"
-            target="_blank"
-            rel="noopener"
-            className="text-slate-900 underline-offset-2 hover:underline"
-          >
-            @kokkai_map
-          </a>{" "}
-          までDMでご連絡ください。可能な限り速やかに確認・対応します。
+          掲載情報の訂正・削除・追加のご依頼は、以下のいずれかからご連絡ください。可能な限り速やかに確認・対応します。
         </p>
+        <ul className="space-y-2 rounded-lg border border-slate-200 bg-white p-4 text-sm text-slate-800">
+          {CORRECTION_FORM_URL ? (
+            <li>
+              <strong>訂正依頼フォーム:</strong>{" "}
+              <a
+                href={CORRECTION_FORM_URL}
+                target="_blank"
+                rel="noopener"
+                className="text-slate-900 underline-offset-2 hover:underline"
+              >
+                {CORRECTION_FORM_URL}
+              </a>
+            </li>
+          ) : (
+            <li>
+              <strong>訂正依頼フォーム:</strong>
+              <span className="ml-1 text-slate-500">（準備中）</span>
+            </li>
+          )}
+          <li>
+            <strong>メール:</strong>{" "}
+            <a
+              href={`mailto:${CORRECTION_EMAIL}?subject=${encodeURIComponent("【訂正依頼】地方議員マップ")}`}
+              className="text-slate-900 underline-offset-2 hover:underline"
+            >
+              {CORRECTION_EMAIL}
+            </a>
+          </li>
+          <li>
+            <strong>X DM:</strong>{" "}
+            <a
+              href={TWITTER_URL}
+              target="_blank"
+              rel="noopener"
+              className="text-slate-900 underline-offset-2 hover:underline"
+            >
+              @kokkai_map
+            </a>
+          </li>
+        </ul>
         <p className="text-sm leading-relaxed text-slate-700">
           議員ご本人および関係者からのご連絡を優先的に対応します。
           一次情報源（公式ページのURL等）を併せてお送りいただけると確認がスムーズです。
