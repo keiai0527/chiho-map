@@ -73,24 +73,6 @@ export default async function Home() {
         })}
       </ul>
 
-      <footer className="mt-16 border-t border-slate-200 pt-6 text-xs text-slate-500">
-        <p>
-          データ更新日: 2026年5月29日 |
-          政令指定都市の市議会公式名簿を出典としています。
-        </p>
-        <p className="mt-1">
-          誤りを見つけたら{" "}
-          <a
-            href="https://x.com/kokkai_map"
-            target="_blank"
-            rel="noopener"
-            className="underline-offset-2 hover:underline"
-          >
-            @kokkai_map
-          </a>{" "}
-          までお知らせください。
-        </p>
-      </footer>
     </main>
   );
 }

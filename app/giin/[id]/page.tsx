@@ -3,10 +3,10 @@ import { notFound } from "next/navigation";
 import {
   getAllMembers,
   getCity,
+  getKaihaMap,
   getMemberById,
   getPartyMap,
 } from "@/lib/data";
-import type { CityId } from "@/lib/types";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -37,6 +37,8 @@ export default async function MemberPage({ params }: { params: Params }) {
   const c = await getCity(m.cityId);
   const partyMap = await getPartyMap();
   const party = partyMap.get(m.partyId);
+  const kaihaMap = await getKaihaMap(m.cityId);
+  const kaiha = kaihaMap.get(m.parliamentaryGroupId);
 
   return (
     <main className="mx-auto max-w-2xl px-4 py-10">
@@ -73,7 +75,7 @@ export default async function MemberPage({ params }: { params: Params }) {
         <div className="grid grid-cols-3 gap-2 py-3 text-sm">
           <dt className="text-slate-500">会派</dt>
           <dd className="col-span-2 text-slate-900">
-            {m.parliamentaryGroupId}
+            {kaiha?.name ?? m.parliamentaryGroupId}
           </dd>
         </div>
         <div className="grid grid-cols-3 gap-2 py-3 text-sm">

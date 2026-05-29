@@ -65,7 +65,8 @@
       "id": "fukuoka",
       "name": "福岡市",
       "councilName": "福岡市議会",
-      "approxMemberCount": 62,
+      "approxMemberCount": 60,
+      "$verifiedAt": "2026-05-29: 公式alphabetページで60名を実数確認（議員定数は62、欠員2の可能性あり後追跡）",
       "sources": {
         "byKaiha": "https://gikai.city.fukuoka.lg.jp/member/party",
         "byAlphabet": "https://gikai.city.fukuoka.lg.jp/member/alphabet",
@@ -86,7 +87,8 @@
       "id": "sapporo",
       "name": "札幌市",
       "councilName": "札幌市議会",
-      "approxMemberCount": 68,
+      "approxMemberCount": 67,
+      "$verifiedAt": "2026-05-29: 公式50音名簿で67名を実数確認",
       "sources": {
         "byKaiha": "https://www.city.sapporo.jp/gikai/meibo/meibo-kaiha.html",
         "byAlphabet": "https://www.city.sapporo.jp/gikai/meibo/meibo-50on.html",

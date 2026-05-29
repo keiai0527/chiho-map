@@ -112,15 +112,30 @@ interface KaihaFile {
   groups: ParliamentaryGroup[];
 }
 
+const _kaihaByCity = new Map<CityId, ParliamentaryGroup[]>();
+
 export async function getParliamentaryGroups(
   cityId: CityId,
 ): Promise<ParliamentaryGroup[]> {
+  if (_kaihaByCity.has(cityId)) return _kaihaByCity.get(cityId)!;
   const filePath = path.join(DATA_DIR, "kaiha", `${cityId}.json`);
   try {
     const content = await fs.readFile(filePath, "utf-8");
     const parsed = JSON.parse(content) as KaihaFile;
+    _kaihaByCity.set(cityId, parsed.groups);
     return parsed.groups;
   } catch {
     return [];
   }
+}
+
+/**
+ * 会派ID → 会派オブジェクト の lookup map を返す。
+ * UI で {parliamentaryGroupId} を直接表示せず、必ずこれを通して会派名を取得すること。
+ */
+export async function getKaihaMap(
+  cityId: CityId,
+): Promise<Map<string, ParliamentaryGroup>> {
+  const groups = await getParliamentaryGroups(cityId);
+  return new Map(groups.map((g) => [g.id, g]));
 }

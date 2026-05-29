@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import {
   getCities,
   getCity,
+  getKaihaMap,
   getMembersByCity,
   getPartyMap,
 } from "@/lib/data";
@@ -35,14 +36,18 @@ export default async function CityPage({ params }: { params: Params }) {
 
   const members = await getMembersByCity(city as CityId);
   const partyMap = await getPartyMap();
+  const kaihaMap = await getKaihaMap(city as CityId);
 
-  // 会派でグルーピング
+  // 会派でグルーピング（会派マスタの順に並べる）
   const byKaiha = new Map<string, typeof members>();
+  for (const g of kaihaMap.values()) byKaiha.set(g.id, []);
   for (const m of members) {
     const list = byKaiha.get(m.parliamentaryGroupId) ?? [];
     list.push(m);
     byKaiha.set(m.parliamentaryGroupId, list);
   }
+  // メンバー0の会派は表示しない
+  for (const [k, v] of byKaiha) if (v.length === 0) byKaiha.delete(k);
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
@@ -87,10 +92,12 @@ export default async function CityPage({ params }: { params: Params }) {
 
       {members.length > 0 && (
         <div className="space-y-8">
-          {[...byKaiha.entries()].map(([kaihaId, list]) => (
+          {[...byKaiha.entries()].map(([kaihaId, list]) => {
+            const kaiha = kaihaMap.get(kaihaId);
+            return (
             <section key={kaihaId}>
               <h2 className="mb-3 text-lg font-semibold text-slate-900">
-                {kaihaId}
+                {kaiha?.name ?? kaihaId}
                 <span className="ml-2 text-sm font-normal text-slate-500">
                   {list.length}名
                 </span>
@@ -125,7 +132,8 @@ export default async function CityPage({ params }: { params: Params }) {
                 })}
               </ul>
             </section>
-          ))}
+            );
+          })}
         </div>
       )}
     </main>
