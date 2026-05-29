@@ -177,6 +177,262 @@
       },
       "reason": "本人公式サイト satakeriho.info + 本人X @satake_riho 確認。1987年12月28日生まれ、1期、淀川区選出。「総活躍社会実現の会」1人会派。経歴：シスメックス株式会社、メディア放送局を経て28歳で起業、（株）エスリンクス代表取締役。",
       "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-iijima-hiroyuki",
+      "fields": {
+        "officialProfileUrl": "https://jiminsapporo.jp/member/643/",
+        "websiteUrl": "http://www.iijima-hiroyuki.jp/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "さっぽろ自民党公式 + 本人公式サイト iijima-hiroyuki.jp 確認。第36代札幌市議会議長（2023年5月就任）。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-kuniyasu-masanori",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/01102154",
+        "websiteUrl": "https://sapporokomei.jp/",
+        "termsServed": 5,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 公明党札幌市議団公式（sapporokomei.jp）確認。5期、1968年7月12日生まれ、北海道学園大学経済学部卒。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-ota-hideko",
+      "fields": {
+        "officialProfileUrl": "https://www.jcp.or.jp/web_member/2015/01/011037-34.html",
+        "websiteUrl": "http://ootahideko.com/",
+        "twitterUrl": "https://x.com/ohtahideko",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本共産党中央委員会公式 + 本人公式サイト ootahideko.com + 本人X @ohtahideko 確認。1957年11月生まれ。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-hada-daisen",
+      "fields": {
+        "officialProfileUrl": "https://o-ishin.jp/member/detail/post_944.html",
+        "websiteUrl": "https://hada-daisen.com/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本維新の会公式 + 本人公式サイト hada-daisen.com 確認。1989年生まれ、北海道大学経済学部卒、行政書士・社会福祉士。札幌市議会 維新1人会派。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-narita-yuki",
+      "fields": {
+        "partyId": "cdp",
+        "officialProfileUrl": "https://cdp-japan.jp/member/446",
+        "websiteUrl": "https://www.naritayuki.com/",
+        "facebookUrl": "https://www.facebook.com/sapporonarita/",
+        "instagramUrl": "https://www.instagram.com/naritasapporo/",
+        "termsServed": 3,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "立憲民主党公式（cdp-japan.jp）+ 本人公式サイト naritayuki.com + Facebook/Instagram 本人発信を確認。partyId='regional' を 'cdp' に修正（会派『ミライ』は実体として立憲民主党1人会派）。札幌市議3期目（前職：小樽市議2期 2007-2014）。kaiha/sapporo.json の sapporo-mirai partyIds も ['cdp'] に同時修正。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-asai-masahito",
+      "fields": {
+        "officialProfileUrl": "https://jimin-nagoya.com/staff/",
+        "websiteUrl": "https://asaimasahito.com/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "自由民主党名古屋市会議員団公式 + 本人公式サイト asaimasahito.com 確認。1964年11月14日生まれ。令和7年度 自民党名古屋市会議員団幹事、財政福祉委員会委員長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-ota-tomihiko",
+      "fields": {
+        "officialProfileUrl": "https://genzei758.com/member/ota_tomihiko/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "減税日本ナゴヤ公式（genzei758.com）に本人プロフィール掲載確認。減税日本ナゴヤ団長。河村たかし前市長を37年間支援した古参。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-akamatsu-tetsuji",
+      "fields": {
+        "officialProfileUrl": "https://cdp-japan.jp/member/1606",
+        "websiteUrl": "https://www.akamatsu-tetsuji.com/",
+        "termsServed": 2,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "立憲民主党公式 + 本人公式サイト akamatsu-tetsuji.com + 名古屋民主市会議員団公式（nagoyacity.net）確認。2期、立憲民主党 名古屋民主会派。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-oka-chie",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/23105148",
+        "websiteUrl": "http://www.komeinagoya.jp/",
+        "termsServed": 1,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 公明党名古屋市議団公式 確認。1期、中村区選出。元法律事務職員。2023年市議選で初当選。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-okada-yukiko",
+      "fields": {
+        "officialProfileUrl": "https://www.jcp.or.jp/list/member/2310371",
+        "websiteUrl": "https://www.n-jcp.jp/profile/okada",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本共産党中央委員会公式 + 日本共産党名古屋市会議員団公式（n-jcp.jp）確認。2011年初当選。日本共産党愛知県委員会・北西地区委員会所属。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-yamada-issei",
+      "fields": {
+        "officialProfileUrl": "https://jiminyokohama.gr.jp/members/",
+        "websiteUrl": "https://yamadakazumasa.com/",
+        "termsServed": 2,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "よこはま自民党公式 + 本人公式サイト yamadakazumasa.com 確認。1976年10月6日生まれ、弁護士20年、2期。令和3年度『横浜市子供を虐待から守る条例』改正の議員提案 事務局長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-nakayama-daisuke",
+      "fields": {
+        "officialProfileUrl": "https://cdp-japan.jp/member/171",
+        "websiteUrl": "https://ameblo.jp/daisuke-naka/",
+        "termsServed": 6,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "立憲民主党公式 + 本人公式ブログ（ameblo.jp/daisuke-naka）確認。6期、1975年8月23日生まれ、東京都渋谷区出身、日本大学大学院グローバルビジネス研究科卒。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-kashiwabara-suguru",
+      "fields": {
+        "officialProfileUrl": "https://o-ishin.jp/member/detail/post_316.html",
+        "websiteUrl": "https://suguru-kashiwabara.jp/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本維新の会公式 + 本人公式サイト suguru-kashiwabara.jp 確認。1985年広島生まれ、千葉大学工学部卒、施工管理・プロジェクトマネージャー経験。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-ozaki-futoshi",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/14101167",
+        "websiteUrl": "https://www.ozaki-futoshi.com/",
+        "termsServed": 4,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人公式サイト ozaki-futoshi.com 確認。4期、横浜市会副議長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-kumamoto-chihiro",
+      "fields": {
+        "officialProfileUrl": "https://new-kokumin.jp/member/kumamoto-chihiro",
+        "websiteUrl": "https://kumamotochihiro.jp/",
+        "twitterUrl": "https://x.com/kumamoto_chi",
+        "termsServed": 1,
+        "committees": ["市民・にぎわいスポーツ文化・消防委員会", "未来のまちづくり推進特別委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "国民民主党公式 + 本人公式サイト kumamotochihiro.jp + 本人X @kumamoto_chi 確認。1994年2月27日生まれ、1期。2025年2月9日 横浜市議補選（南区）で15,250票獲得し初当選。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-abe-shinnosuke",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/abe_shinnosuke",
+        "websiteUrl": "https://shin-no-suke.net/",
+        "termsServed": 6,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 本人公式サイト shin-no-suke.net + 自由民主党福岡市議団公式 確認。1964年5月6日生まれ、6期、九州大学法学部法律学科卒、2003年初当選。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-ikeda-ryoko",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/ikeda_yoshiko",
+        "websiteUrl": "http://www.ikedayoshiko.com",
+        "committees": ["生活環境委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 本人公式サイト ikedayoshiko.com 確認。1951年10月生まれ、福岡教育大学卒、元小学校教諭。福岡市民クラブ代表。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-abe-masataka",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/abe_seigou",
+        "websiteUrl": "https://o-ishin.jp/member/detail/post_369.html",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 日本維新の会公式議員プロフィール 確認。日本維新の会 福岡市議団所属。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-ishimoto-yuko",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/ishimoto_yuko",
+        "websiteUrl": "https://komei-fukuokacity.net/member/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 公明党福岡市議団公式 確認。早良区選出。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-kuramoto-tatsuro",
+      "fields": {
+        "officialProfileUrl": "http://www.jcp-fukuoka.jp/kuramoto/",
+        "websiteUrl": "http://kuramoto-tatsuo.jp/",
+        "termsServed": 6,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本共産党福岡市議団公式 + 本人公式サイト kuramoto-tatsuo.jp 確認。6期、1967年福岡生まれ、福岡大学卒、1999年初当選。JCP福岡市議団幹事長。",
+      "appliedAt": "2026-05-29"
     }
   ]
 }

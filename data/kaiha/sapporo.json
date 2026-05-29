@@ -6,7 +6,7 @@
     {"id":"sapporo-jcp","cityId":"sapporo","name":"日本共産党","shortName":"共産","partyIds":["jcp"]},
     {"id":"sapporo-sakamoto-arai","cityId":"sapporo","name":"坂元・荒井","shortName":"坂元・荒井","partyIds":["independent"]},
     {"id":"sapporo-yamaguchi","cityId":"sapporo","name":"山口かずさ","shortName":"山口","partyIds":["independent"]},
-    {"id":"sapporo-mirai","cityId":"sapporo","name":"未来さっぽろ","shortName":"未来","partyIds":["regional"]},
+    {"id":"sapporo-mirai","cityId":"sapporo","name":"未来さっぽろ","shortName":"未来","partyIds":["cdp"]},
     {"id":"sapporo-kenko","cityId":"sapporo","name":"健康さっぽろ","shortName":"健康","partyIds":["regional"]},
     {"id":"sapporo-daichi","cityId":"sapporo","name":"大地さっぽろ","shortName":"大地","partyIds":["regional"]},
     {"id":"sapporo-shimin-network","cityId":"sapporo","name":"市民ネットワーク北海道","shortName":"市民ネット","partyIds":["regional"]},
