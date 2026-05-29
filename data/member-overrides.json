@@ -433,6 +433,226 @@
       },
       "reason": "日本共産党福岡市議団公式 + 本人公式サイト kuramoto-tatsuo.jp 確認。6期、1967年福岡生まれ、福岡大学卒、1999年初当選。JCP福岡市議団幹事長。",
       "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-kinoshita-yoshinobu",
+      "fields": {
+        "officialProfileUrl": "https://www.osaka-jimin.jp/members/%E6%9C%A8%E4%B8%8B%E3%80%80%E5%90%89%E4%BF%A1/",
+        "websiteUrl": "https://www.kinoshita-yoshinobu.com/",
+        "termsServed": 9,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "自民党大阪府連公式 + 本人公式サイト kinoshita-yoshinobu.com 確認。1961年6月7日生まれ、9期、1992年補欠選挙で初当選。第110代大阪市会議長、第115代副議長を歴任。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-nishi-tokuto",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/km/osaka-nishi-norihito/",
+        "websiteUrl": "https://norihito-nishi.com/",
+        "termsServed": 4,
+        "committees": ["議会運営委員会", "財政総務委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人公式サイト norihito-nishi.com 確認。1963年8月11日生まれ、4期、大阪市会副議長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-nishi-takuro",
+      "fields": {
+        "officialProfileUrl": "https://www.city.osaka.lg.jp/shikai/page/0000310464.html",
+        "termsServed": 2,
+        "committees": ["市政改革委員会"],
+        "dataConfidence": "partial",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": true
+      },
+      "reason": "大阪市会公式名簿で2期、1990年7月8日生まれ、市政改革委員会所属確認。会派「大阪にし」1人会派。本人公式サイト・SNSは検索で確認できず、partial 扱い。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-igarashi-tokumi",
+      "fields": {
+        "officialProfileUrl": "https://jiminsapporo.jp/member/657/",
+        "websiteUrl": "https://igarashi-tokumi.com/",
+        "termsServed": 7,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "さっぽろ自民党公式 + 本人公式サイト igarashi-tokumi.com 確認。1958年1月2日生まれ、7期、札幌大学経営学部卒、1999年初当選。第34代札幌市議会議長、現在 札幌市議会自民党議員会会長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-aoi-hiromi",
+      "fields": {
+        "officialProfileUrl": "https://cdp-japan.jp/member/1509/%E7%A2%A7%E3%81%B2%E3%82%8D%E3%81%BF",
+        "termsServed": 2,
+        "committees": ["財政市民委員会委員長"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "立憲民主党公式（cdp-japan.jp）に本人プロフィール掲載確認。2期、財政市民委員会委員長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-takeuchi-takayo",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/01110129",
+        "websiteUrl": "https://www.komei.or.jp/km/sapporo-takeuchi-takayo/",
+        "termsServed": 3,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 公明党札幌議員団 本人公式ページ確認。1971年4月9日生まれ、3期、清田区選出。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-tanaka-keisuke",
+      "fields": {
+        "officialProfileUrl": "https://www.jcp.or.jp/list/member/110701",
+        "websiteUrl": "https://www.jcp-sapporo.jp/assembly/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本共産党中央委員会公式 + 日本共産党札幌市議団公式 確認。1972年8月生まれ、西区選出。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-oshima-hidehiro",
+      "fields": {
+        "officialProfileUrl": "https://o-ishin.jp/member/detail/post_641.html",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本維新の会公式議員プロフィール 確認。名古屋市議会 維新1人会派、名東区選出。本人個人サイトは検索で確認できず、党公式のみ。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-asano-tamotsu",
+      "fields": {
+        "officialProfileUrl": "https://jimin-nagoya.com/staff/%E6%B5%85%E9%87%8E%E6%9C%89/",
+        "websiteUrl": "https://www.jimin-aichi.or.jp/archives/member/%E6%B5%85%E9%87%8E%E6%9C%89",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "自由民主党名古屋市会議員団公式 + 自由民主党愛知県支部連合会公式 確認。自民党名古屋市会議員団副幹事長、西区選出。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-taguchi-kazuto",
+      "fields": {
+        "officialProfileUrl": "https://www.jcp.or.jp/list/member/2311691",
+        "websiteUrl": "https://www.n-jcp.jp/profile/taguchi",
+        "twitterUrl": "https://x.com/TaguchiKazuto",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本共産党中央委員会公式 + 日本共産党名古屋市会議員団公式 + 本人X @TaguchiKazuto 確認。名古屋大学文学部卒、1997年補欠選挙で初当選。日本共産党名古屋市議団団長、党愛知県委員。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-fukushima-naoko",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/14104133",
+        "websiteUrl": "https://www.fukushima-naoko.info/",
+        "termsServed": 6,
+        "committees": ["水道・交通委員会", "基地対策特別委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人公式サイト fukushima-naoko.info 確認。1956年8月10日生まれ、6期、第61代横浜市会副議長、公明党神奈川県本部副代表。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-furuya-yasuhiko",
+      "fields": {
+        "officialProfileUrl": "https://www.jcp.or.jp/list/member/1410111",
+        "websiteUrl": "http://furuya-yasuhiko.com/",
+        "twitterUrl": "https://x.com/furuyayasuhiko",
+        "termsServed": 4,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本共産党中央委員会公式 + 本人公式サイト furuya-yasuhiko.com + 本人X @furuyayasuhiko 確認。1971年10月14日生まれ、4期、大阪府泉佐野市出身、中央大学法学部卒。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-ota-masataka",
+      "fields": {
+        "websiteUrl": "http://www.ota-masataka.com/",
+        "facebookUrl": "https://www.facebook.com/masataka.ota.16",
+        "termsServed": 12,
+        "dataConfidence": "partial",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": true
+      },
+      "reason": "本人公式サイト ota-masataka.com + Facebook 確認。1945年11月11日生まれ、12期（1979年新自由クラブで初当選）、磯子区選出。会派「自民太田」1人会派。Wikipediaやタウンニュースでは『無所属』表記もあり政党所属の現状確認が困難なため partyId は触らず partial 扱い（要再確認）。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-ogiwara-takahiro",
+      "fields": {
+        "partyId": "cdp",
+        "officialProfileUrl": "https://cdp-japan.jp/member/1687",
+        "termsServed": 4,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "立憲民主党公式（cdp-japan.jp）に本人プロフィール掲載確認。partyId='regional' を 'cdp' に修正（会派『横浜の風』は実体として立憲民主党1人会派）。4期、西区選出。kaiha/yokohama.json の yokohama-kaze partyIds も ['cdp'] に同時修正。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-obana-yasuhiro",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/km/fukuoka-obana-yasuhiro/",
+        "websiteUrl": "https://komei-fukuokacity.net/member/",
+        "termsServed": 4,
+        "committees": ["保健福祉都市整備委員会", "こども・教育委員会", "交通対策特別委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式（komei.or.jp 個人ホームページ）+ 公明党福岡市議団公式 確認。1963年8月12日生まれ、4期、西南学院大学法学部卒、元厚生労働省ハローワーク職員（20年）。福岡市議会副議長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-kawaguchi-hiroshi",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/kawaguchi_hiroshi",
+        "websiteUrl": "https://kawaguchihiroshi.com/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 本人公式サイト kawaguchihiroshi.com 確認。博多区選出、無所属。「子ども目線の政治」を掲げる。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-nakayama-ikumi",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/nakayama_ikumi",
+        "websiteUrl": "http://nakayama-ikumi.jp/",
+        "termsServed": 5,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 本人公式サイト nakayama-ikumi.jp 確認。1960年1月22日生まれ、5期、元中学校教諭18年（早良中・城香中・西陵中・原中で卓球部顧問）。日本共産党福岡市議団 団長。",
+      "appliedAt": "2026-05-29"
     }
   ]
 }

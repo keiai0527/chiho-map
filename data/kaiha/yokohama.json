@@ -9,7 +9,7 @@
     {"id":"yokohama-chiiki","cityId":"yokohama","name":"地域政党よこはま","shortName":"地域よこはま","partyIds":["regional"]},
     {"id":"yokohama-ota-faction","cityId":"yokohama","name":"自民太田","shortName":"自民太田","partyIds":["ldp"]},
     {"id":"yokohama-inoue-faction","cityId":"yokohama","name":"井上さくら","shortName":"井上さくら","partyIds":["independent"]},
-    {"id":"yokohama-kaze","cityId":"yokohama","name":"横浜の風","shortName":"横浜の風","partyIds":["regional"]},
+    {"id":"yokohama-kaze","cityId":"yokohama","name":"横浜の風","shortName":"横浜の風","partyIds":["cdp"]},
     {"id":"yokohama-shiminnoto","cityId":"yokohama","name":"市民の党","shortName":"市民の党","partyIds":["regional"]},
     {"id":"yokohama-saito-faction","cityId":"yokohama","name":"斉藤達也","shortName":"斉藤達也","partyIds":["independent"]},
     {"id":"yokohama-tanaka-faction","cityId":"yokohama","name":"田中ゆき","shortName":"田中ゆき","partyIds":["independent"]},
