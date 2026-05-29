@@ -1,0 +1,20 @@
+{
+  "groups": [
+    {"id":"yokohama-ldp","cityId":"yokohama","name":"自由民主党横浜市会議員団","shortName":"自民","partyIds":["ldp"]},
+    {"id":"yokohama-komei","cityId":"yokohama","name":"公明党横浜市会議員団","shortName":"公明","partyIds":["komei"]},
+    {"id":"yokohama-cdp","cityId":"yokohama","name":"立憲民主党横浜市会議員団","shortName":"立憲","partyIds":["cdp"]},
+    {"id":"yokohama-ishin","cityId":"yokohama","name":"日本維新の会・無所属の会","shortName":"維新・無所属","partyIds":["ishin","independent"]},
+    {"id":"yokohama-dpp","cityId":"yokohama","name":"国民民主党横浜市会議員団","shortName":"国民","partyIds":["dpp"]},
+    {"id":"yokohama-jcp","cityId":"yokohama","name":"日本共産党横浜市会議員団","shortName":"共産","partyIds":["jcp"]},
+    {"id":"yokohama-chiiki","cityId":"yokohama","name":"地域政党よこはま","shortName":"地域よこはま","partyIds":["regional"]},
+    {"id":"yokohama-ota-faction","cityId":"yokohama","name":"自民太田","shortName":"自民太田","partyIds":["ldp"]},
+    {"id":"yokohama-inoue-faction","cityId":"yokohama","name":"井上さくら","shortName":"井上さくら","partyIds":["independent"]},
+    {"id":"yokohama-kaze","cityId":"yokohama","name":"横浜の風","shortName":"横浜の風","partyIds":["regional"]},
+    {"id":"yokohama-shiminnoto","cityId":"yokohama","name":"市民の党","shortName":"市民の党","partyIds":["regional"]},
+    {"id":"yokohama-saito-faction","cityId":"yokohama","name":"斉藤達也","shortName":"斉藤達也","partyIds":["independent"]},
+    {"id":"yokohama-tanaka-faction","cityId":"yokohama","name":"田中ゆき","shortName":"田中ゆき","partyIds":["independent"]},
+    {"id":"yokohama-hasegawa-faction","cityId":"yokohama","name":"長谷川えつこ","shortName":"長谷川えつこ","partyIds":["independent"]},
+    {"id":"yokohama-ono-faction","cityId":"yokohama","name":"大野トモイ","shortName":"大野トモイ","partyIds":["independent"]},
+    {"id":"yokohama-mushozoku","cityId":"yokohama","name":"無所属","shortName":"無所属","partyIds":["independent"]}
+  ]
+}
