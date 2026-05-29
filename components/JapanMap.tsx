@@ -16,12 +16,14 @@ interface CityInfo {
  * 5市の地図上の位置（%）。
  * geolonia/japanese-prefectures の SVG（viewBox 0 0 1000 1000）に合わせて補正。
  */
+// 位置はSVG（geolonia/japanese-prefectures）から、各県のpolygon bbox 中心を計算抽出。
+// 計算スクリプト: scripts/compute-pin-positions.mjs
 const cities: CityInfo[] = [
   {
     id: "sapporo",
     name: "札幌",
     count: 67,
-    left: "75%",
+    left: "70%",
     top: "18%",
     regionColor: "#0ea5e9",
     region: "北海道",
@@ -30,8 +32,8 @@ const cities: CityInfo[] = [
     id: "yokohama",
     name: "横浜",
     count: 86,
-    left: "82%",
-    top: "63%",
+    left: "58.2%",
+    top: "68.2%",
     regionColor: "#10b981",
     region: "関東",
   },
@@ -39,8 +41,8 @@ const cities: CityInfo[] = [
     id: "nagoya",
     name: "名古屋",
     count: 68,
-    left: "75%",
-    top: "64.5%",
+    left: "47.2%",
+    top: "70.9%",
     regionColor: "#f59e0b",
     region: "中部",
   },
@@ -48,8 +50,8 @@ const cities: CityInfo[] = [
     id: "osaka",
     name: "大阪",
     count: 81,
-    left: "65%",
-    top: "65.5%",
+    left: "37.4%",
+    top: "72.9%",
     regionColor: "#ef4444",
     region: "近畿",
   },
@@ -57,8 +59,8 @@ const cities: CityInfo[] = [
     id: "fukuoka",
     name: "福岡",
     count: 60,
-    left: "28%",
-    top: "73%",
+    left: "11.6%",
+    top: "79.3%",
     regionColor: "#f97316",
     region: "九州",
   },
