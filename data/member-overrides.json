@@ -271,11 +271,23 @@
         "officialProfileUrl": "https://ishinnokai-osakashikai.jp/member/%E9%AB%98%E5%B1%B1%E3%81%BF%E3%81%8B",
         "websiteUrl": "http://takayamamika.com/",
         "twitterUrl": "https://x.com/M_Takayama_1992",
+        "birthDate": "1992-09-11",
+        "education": [
+          "河内長野市南花台中学校 卒業",
+          "帝塚山学院高等学校 卒業",
+          "関西学院大学 商学部 卒業"
+        ],
+        "career": [
+          "民間証券会社 勤務",
+          "大学在学中 笹川理 府議会議員事務所で学生インターンシップ",
+          "政務活動補助員 従事"
+        ],
+        "biography": "1992年9月11日生まれ。河内長野市南花台中学校・帝塚山学院高校から関西学院大学商学部卒業。民間証券会社勤務を経て、大学在学中から笹川理大阪府議会議員事務所でインターンシップを経験、その後政務活動補助員として政治の現場に従事した経歴を持つ。大阪維新の会 政調会長代理。事務所は大阪市北区本庄東2-1-19 ガーディアンライフ1階。",
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "大阪維新の会大阪市会議員団公式 + 本人公式サイト takayamamika.com + 本人X @M_Takayama_1992 確認。1992年生まれ、若手議員。",
+      "reason": "大阪維新の会公式メンバーページ（oneosaka.jp/member/detail/takayama_mika.html）+ 本人公式サイト takayamamika.com + 本人X @M_Takayama_1992 確認。1992年9月11日生まれ、関西学院大学商学部卒、元民間証券会社勤務、大阪維新の会 政調会長代理、北区選出。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -370,11 +382,49 @@
       "fields": {
         "officialProfileUrl": "https://o-ishin.jp/member/detail/post_944.html",
         "websiteUrl": "https://hada-daisen.com/",
+        "birthDate": "1989-04-10",
+        "birthPlace": "北海道札幌市",
+        "education": [
+          "札幌旭丘高等学校 卒業",
+          "北海道大学 経済学部 経営学科 卒業"
+        ],
+        "career": [
+          "ホクレン農業協同組合連合会 勤務",
+          "松下政経塾 入塾",
+          "札幌市議会議員 当選（中央区）"
+        ],
+        "biography": "1989年4月10日北海道札幌市生まれ。札幌旭丘高校から北海道大学経済学部経営学科卒業。ホクレン農業協同組合連合会に勤務後、松下政経塾に入塾して政治家を志す。札幌市議会議員（中央区、日本維新の会1人会派）。資格は行政書士・社会福祉士、認知症サポーター養成講座講師、C級認定プロギングリーダー。NPO法人札幌成年後見センター理事長としても活動。日本維新の会 北海道総支部 政調会長。",
+        "keyPolicies": [
+          {
+            "category": "行政改革",
+            "title": "身を切る改革（議員定数削減等）",
+            "description": "日本維新の会の核心政策である「身を切る改革」を札幌市政でも実現するため、議員定数削減等を推進。",
+            "sourceUrl": "https://hada-daisen.com/"
+          },
+          {
+            "category": "国土",
+            "title": "副首都構想・政府関係機関の地方移転",
+            "description": "副首都構想と政府関係機関の地方移転を支持。",
+            "sourceUrl": "https://hada-daisen.com/"
+          },
+          {
+            "category": "都市インフラ",
+            "title": "札幌ドームの民間活力導入",
+            "description": "札幌ドームの運営に民間活力を導入し、収益化と公共性の両立を目指す。",
+            "sourceUrl": "https://hada-daisen.com/"
+          },
+          {
+            "category": "食・農",
+            "title": "農政ビジョン2040（食料自給国家実現）",
+            "description": "2040年までに食料自給国家を実現する農政ビジョンを掲げる。元ホクレン勤務の経験を活かす。",
+            "sourceUrl": "https://hada-daisen.com/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "日本維新の会公式 + 本人公式サイト hada-daisen.com 確認。1989年生まれ、北海道大学経済学部卒、行政書士・社会福祉士。札幌市議会 維新1人会派。",
+      "reason": "日本維新の会公式 + 本人公式サイト hada-daisen.com 確認。1989年4月10日北海道札幌市生まれ、北海道大学経済学部経営学科卒、元ホクレン農協連合会勤務、松下政経塾入塾、行政書士・社会福祉士、NPO札幌成年後見センター理事長、日本維新の会北海道総支部政調会長、札幌市議会 維新1人会派、中央区選出。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -847,11 +897,21 @@
         "websiteUrl": "https://norihito-nishi.com/",
         "termsServed": 4,
         "committees": ["議会運営委員会", "財政総務委員会"],
+        "birthDate": "1963-08-11",
+        "biography": "1963年8月11日生まれ。大阪市会議員4期、港区選出、公明党所属、大阪市会副議長。「実現力No.1」を掲げ、相談実績7,500件・港区地域実績117件を公表。「ミナトノミライプラン」を発表し、「ミナトノミライプロジェクト」を始動中。市民相談を月・水・金の9:30〜12:00に対応。",
+        "keyPolicies": [
+          {
+            "category": "地域振興",
+            "title": "ミナトノミライプロジェクト",
+            "description": "「ミナトノミライプラン」を策定し、港区の将来ビジョンを具体的なプロジェクトとして実行中。",
+            "sourceUrl": "https://norihito-nishi.com/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "公明党公式議員プロフィール + 本人公式サイト norihito-nishi.com 確認。1963年8月11日生まれ、4期、大阪市会副議長。",
+      "reason": "公明党公式議員プロフィール + 本人公式サイト norihito-nishi.com 確認。1963年8月11日生まれ、4期、港区選出、大阪市会副議長。相談実績7,500件・港区地域実績117件、「ミナトノミライプロジェクト」推進中。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -1357,11 +1417,48 @@
       "fields": {
         "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/shinkai_yuji",
         "websiteUrl": "https://yujisansei.com/",
+        "birthDate": "1968-08-22",
+        "birthPlace": "福岡県福岡市",
+        "education": [
+          "1984年 福岡市立博多中学校 卒業",
+          "1987年 福岡大学附属大濠高等学校 卒業",
+          "1992年 国立音楽大学 声楽科 卒業",
+          "在学中 ザルツブルグ・モーツァルテウム音楽院 サマーアカデミー 修了"
+        ],
+        "career": [
+          "1992年 フランス菓子モンパリ 入社（パティシエ）",
+          "1994年 フランス研修（5都市）",
+          "1997年 フランス菓子『Bonbon』 開業",
+          "2008年 福岡青年会議所 理事長",
+          "2009年 衆議院議員東京事務所 秘書",
+          "2019年〜 有限会社シャポー 入社"
+        ],
+        "biography": "1968年8月22日福岡市生まれ。福岡大学附属大濠高校から国立音楽大学声楽科を1992年に卒業（在学中にザルツブルグ・モーツァルテウム音楽院サマーアカデミー修了）。卒業後はパティシエとしてフランス菓子モンパリに入社し、1994年にフランス5都市で研修、1997年に自身の店『Bonbon』を開業。2008年福岡青年会議所理事長、2009年衆議院議員東京事務所秘書を経て、2019年から有限会社シャポー入社。現在は参政党福岡市博多区対策委員として地方政治に取り組む。",
+        "keyPolicies": [
+          {
+            "category": "教育",
+            "title": "自ら考え学ぶ力を育てる教育・多様な教育環境",
+            "description": "「自ら考え学ぶ力を育てる教育」と多様な教育環境の整備を推進。",
+            "sourceUrl": "https://yujisansei.com/"
+          },
+          {
+            "category": "食・健康",
+            "title": "化学物質に依存しない食と医療、オーガニック給食",
+            "description": "化学物質に依存しない食と医療、オーガニック給食の推進を掲げる。",
+            "sourceUrl": "https://yujisansei.com/"
+          },
+          {
+            "category": "地域",
+            "title": "所得向上・郷土愛と家族愛を重視したまちづくり",
+            "description": "所得向上、郷土愛と家族愛を重視したまちづくりを推進。",
+            "sourceUrl": "https://yujisansei.com/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "福岡市議会公式 + 本人公式サイト yujisansei.com（参政党）確認。博多区選出。会派『無所属』として登録（partyId='independent'）だが、参政党福岡市博多区対策委員として活動。会派整合性のため partyId は変更せず、本人発信が参政党であることを reason に明記（要再検討）。国立音楽大学声楽科卒、フランス菓子経歴。",
+      "reason": "福岡市議会公式 + 本人公式サイト yujisansei.com（参政党）確認。1968年8月22日福岡市生まれ、福岡大付属大濠高→国立音楽大学声楽科卒、元パティシエ（フランス菓子モンパリ→自店『Bonbon』）、2008年福岡青年会議所理事長、博多区選出。参政党福岡市博多区対策委員。会派『無所属』として登録（partyId='independent'）だが、本人発信は参政党所属を明示。",
       "appliedAt": "2026-05-29"
     },
     {
