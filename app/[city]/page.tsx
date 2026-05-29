@@ -24,8 +24,9 @@ export async function generateMetadata({ params }: { params: Params }) {
   const c = await getCity(city as CityId);
   if (!c) return {};
   return {
-    title: `${c.name}の市議会議員一覧 | 地方議員マップ`,
+    title: `${c.name}の市議会議員一覧`,
     description: `${c.councilName}の議員 約${c.approxMemberCount}名を会派・選挙区別に掲載。`,
+    alternates: { canonical: `/${c.id}` },
   };
 }
 

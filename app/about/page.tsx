@@ -4,9 +4,10 @@ import { getCities } from "@/lib/data";
 export const revalidate = false;
 
 export const metadata = {
-  title: "このサイトについて | 地方議員マップ",
+  title: "このサイトについて",
   description:
     "地方議員マップの運営者情報・データ出典・免責事項・訂正依頼窓口・中立性宣言。",
+  alternates: { canonical: "/about" },
 };
 
 export default async function AboutPage() {
