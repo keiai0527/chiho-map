@@ -1153,6 +1153,249 @@
       },
       "reason": "福岡市議会公式 + 立憲民主党福岡県総支部連合会公式 確認。西区選出、福岡市民クラブ所属。",
       "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-okada-yasutomo",
+      "fields": {
+        "officialProfileUrl": "https://ishinnokai-osakashikai.jp/member/%E5%B2%A1%E7%94%B0%E5%A6%A5%E7%9F%A5",
+        "websiteUrl": "http://okada-yasutomo.com/",
+        "twitterUrl": "https://x.com/yasutomo_okada",
+        "termsServed": 3,
+        "committees": ["市会運営委員会委員長", "財政総務委員会", "大都市・税財政制度特別委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "大阪維新の会大阪市会議員団公式 + 本人公式サイト okada-yasutomo.com + 本人X @yasutomo_okada 確認。1969年1月16日生まれ、3期、都島区選出、市会運営委員長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-sudo-shota",
+      "fields": {
+        "officialProfileUrl": "https://jimin-osaka.com/member_menu/",
+        "websiteUrl": "https://sspo.jp/",
+        "termsServed": 1,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "自民党大阪市会議員団公式 + 本人公式サイト sspo.jp 確認。1990年10月2日生まれ、1期、天王寺区選出、自由民主党天王寺区支部支部長、自由民主党大阪府連・大阪市連広報委員。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-fujiwara-yoichi",
+      "fields": {
+        "officialProfileUrl": "https://www.city.osaka.lg.jp/shikai/page/0000310594.html",
+        "termsServed": 1,
+        "committees": ["財政総務委員会"],
+        "dataConfidence": "partial",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": true
+      },
+      "reason": "大阪市会公式名簿 確認。1982年4月12日生まれ、1期、東成区選出、自国くらし会派。本人公式サイト・SNSは検索で見当たらず partial 扱い。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-koyama-mitsuaki",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/27108141",
+        "websiteUrl": "https://www.koyama-mituaki.com/",
+        "termsServed": 2,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人公式サイト koyama-mituaki.com 確認。2期、大正区選出。災害に強いまちづくり、高齢者・子育て支援が重点課題。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-ono-masami",
+      "fields": {
+        "officialProfileUrl": "https://cdp-japan.jp/member/323",
+        "websiteUrl": "https://cdp-h.com/archives/members/287.html",
+        "termsServed": 8,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "立憲民主党公式 + 立憲民主党北海道総支部連合会公式 確認。8期、手稲区選出。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-kumagai-seiichi",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/01101140",
+        "websiteUrl": "https://www.komei.or.jp/km/kumagai-seiichi-sapporo/",
+        "termsServed": 2,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人公式ホームページ 確認。2期、中央区選出。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-sato-aya",
+      "fields": {
+        "officialProfileUrl": "https://www.jcp.or.jp/list/member/110451",
+        "websiteUrl": "https://www.ayasato-jcp.com/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本共産党中央委員会公式 + 本人公式サイト ayasato-jcp.com + 日本共産党札幌市議団公式 確認。白石区選出、2019年初当選、党白石区市政相談室長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-ukai-harumi",
+      "fields": {
+        "officialProfileUrl": "https://cdp-japan.jp/member/436/%E9%B5%9C%E9%A3%BC%E6%98%A5%E7%BE%8E",
+        "websiteUrl": "http://harumichan.nagoya/",
+        "termsServed": 7,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "立憲民主党公式 + 本人公式サイト harumichan.nagoya + 名古屋民主市会議員団公式 確認。7期、中村区選出、元教員28年。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-omura-mitsuko",
+      "fields": {
+        "officialProfileUrl": "https://genzei758.com/member/oomura_mitsuko/",
+        "websiteUrl": "https://mitsuko-genki.jp/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "減税日本ナゴヤ公式 + 本人公式サイト mitsuko-genki.jp 確認。昭和区選出、減税日本ナゴヤ副幹事長。元ソニーコーダ・リクルートで23年（人事採用・育成）。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-uemura-michiyo",
+      "fields": {
+        "officialProfileUrl": "https://jimin-nagoya.com/staff/%E4%B8%8A%E6%9D%91%E3%81%BF%E3%81%A1%E3%82%88/",
+        "websiteUrl": "https://uemura-michiyo.jp/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "自由民主党名古屋市会議員団公式 + 本人公式サイト uemura-michiyo.jp 確認。東区選出、自民党名古屋市会議員団 副政調会長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-kinjo-yutaka",
+      "fields": {
+        "officialProfileUrl": "https://www.yutaka-kinjo.net/profile/",
+        "websiteUrl": "https://www.yutaka-kinjo.net/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "本人公式サイト yutaka-kinjo.net 確認。瑞穂区選出、2023年4月に減税日本ナゴヤから離団し新会派『なごや陽向（ひなた）の会』を結成、団長就任。昭和53年沖縄県立糸満高校卒、昭和57年東和大学工学部建設工学科卒、空手指導歴あり。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-yatabe-koichi",
+      "fields": {
+        "officialProfileUrl": "https://cdp-japan.jp/member/334",
+        "websiteUrl": "https://k-yatabe.net/",
+        "termsServed": 9,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "立憲民主党公式 + 本人公式サイト k-yatabe.net 確認。1949年7月25日生まれ、9期、金沢区選出、1991年初当選、日本飛行機労組出身。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-fujishiro-tetsuo",
+      "fields": {
+        "officialProfileUrl": "https://jiminyokohama.gr.jp/members/",
+        "websiteUrl": "http://www.fujishiro-tetsuo.com/",
+        "termsServed": 4,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "よこはま自民党公式 + 本人公式サイト fujishiro-tetsuo.com 確認。1979年12月6日生まれ、4期、神奈川区選出、2011年初当選、自民党横浜市会議員団 副団長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-anzai-hidetoshi",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/14111149",
+        "websiteUrl": "https://anzai-hidetoshi.com/",
+        "termsServed": 4,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人公式サイト anzai-hidetoshi.com 確認。1970年6月1日生まれ、4期、港南区選出。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-sakai-futoshi",
+      "fields": {
+        "officialProfileUrl": "https://o-ishin.jp/member/detail/post_298.html",
+        "websiteUrl": "https://yokohama-ishin.com/member/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本維新の会公式 + 日本維新の会横浜市会議員団公式 確認。1967年12月3日生まれ、金沢区選出、日本大学文理学部哲学科卒、日本大学院グローバルビジネス研究科修了（MBA）。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-uchikoshi-motoyasu",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/uchikoshi_motoyasu",
+        "websiteUrl": "https://uchikoshi.info/",
+        "termsServed": 6,
+        "committees": ["総務財政委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 本人公式サイト uchikoshi.info + 自民党福岡市議団公式 確認。1954年生まれ、6期、2003年初当選、南区選出。第75代福岡市議会議長（2023年5月就任）。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-wada-akihiko",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/wada_akihiko",
+        "websiteUrl": "https://akihiko-wada.studio.site/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 本人公式サイト akihiko-wada.studio.site + 日本維新の会公式 確認。博多区選出、日本維新の会博多区支部長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-inoue-mai",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/inoue_mai",
+        "websiteUrl": "https://inouemai.jp/",
+        "termsServed": 2,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 本人公式サイト inouemai.jp + 立憲民主党公式 確認。2期、城南区選出、立憲民主党所属、福岡市民クラブ。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-horiuchi-tetsuo",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/horiuchi_tetsuo",
+        "websiteUrl": "http://horiuchi-tetsuo.jp/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 本人公式サイト horiuchi-tetsuo.jp + 日本共産党福岡市議団公式 確認。南区選出、日本共産党所属。",
+      "appliedAt": "2026-05-29"
     }
   ]
 }
