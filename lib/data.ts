@@ -17,6 +17,12 @@ interface SourcesFile {
     councilName: string;
     approxMemberCount: number;
     sources: Record<string, string>;
+    /** 会議録検索システム（議員名等で検索可能なエントリーポイント） */
+    kaigirokuSearchUrl?: string;
+    /** 会議録一覧（PDF・本会議録のランディング） */
+    kaigirokuLandingUrl?: string;
+    /** 採決結果ページ（議案賛否） */
+    voteRecordUrl?: string;
     majorKaihaSeen: string[];
   }>;
 }

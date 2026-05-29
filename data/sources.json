@@ -11,6 +11,9 @@
         "byDistrict": "https://www.city.osaka.lg.jp/shikai/page/0000310422.html",
         "index": "https://www.city.osaka.lg.jp/shikai/category/3560-0-0-0-0-0-0-0-0-0.html"
       },
+      "kaigirokuSearchUrl": "https://ssp.kaigiroku.net/tenant/osakacity/SpMinuteView.html",
+      "kaigirokuLandingUrl": "https://www.city.osaka.lg.jp/shikai/category/3559-7-0-0-0-0-0-0-0-0.html",
+      "voteRecordUrl": "https://www.city.osaka.lg.jp/shikai/category/3559-3-0-0-0-0-0-0-0-0.html",
       "majorKaihaSeen": [
         "大阪維新の会大阪市会議員団",
         "公明党大阪市会議員団",
@@ -32,6 +35,9 @@
         "byAlphabet": "https://www.city.nagoya.jp/shikai/category/333-4-0-0-0-0-0-0-0-0.html",
         "index": "https://www.city.nagoya.jp/shikai/about/1030778/index.html"
       },
+      "kaigirokuSearchUrl": "https://nagoyacity.gijiroku.com/g07_Search.asp",
+      "kaigirokuLandingUrl": "https://www.city.nagoya.jp/shikai/category/333-9-0-0-0-0-0-0-0-0.html",
+      "voteRecordUrl": "https://www.city.nagoya.jp/shikai/page/0000136551.html",
       "majorKaihaSeen": [
         "自由民主党名古屋市会議員団",
         "名古屋民主市会議員団",
@@ -50,6 +56,9 @@
         "byDistrict": "https://www.city.yokohama.lg.jp/shikai/giin/kubetsu/",
         "index": "https://www.city.yokohama.lg.jp/shikai/giin/"
       },
+      "kaigirokuSearchUrl": "https://gikai-yokohamashi.dbsr.jp/index.php/",
+      "kaigirokuLandingUrl": "https://www.city.yokohama.lg.jp/shikai/honkaigi/kaigiroku.html",
+      "voteRecordUrl": "https://www.city.yokohama.lg.jp/shikai/honkaigi/saiketsu.html",
       "majorKaihaSeen": [
         "自由民主党横浜市会議員団",
         "公明党横浜市会議員団",
@@ -72,6 +81,9 @@
         "byAlphabet": "https://gikai.city.fukuoka.lg.jp/member/alphabet",
         "index": "https://gikai.city.fukuoka.lg.jp/member/"
       },
+      "kaigirokuSearchUrl": "https://www2.city.fukuoka.lg.jp/voices/",
+      "kaigirokuLandingUrl": "https://gikai.city.fukuoka.lg.jp/data",
+      "voteRecordUrl": "https://gikai.city.fukuoka.lg.jp/data",
       "majorKaihaSeen": [
         "自由民主党福岡市議団",
         "公明党福岡市議団",
@@ -95,6 +107,9 @@
         "byDistrict": "https://www.city.sapporo.jp/gikai/meibo/meibo-ku.html",
         "index": "https://www.city.sapporo.jp/gikai/html/giin.html"
       },
+      "kaigirokuSearchUrl": "https://www.kensaku.jp/sapporo-city/",
+      "kaigirokuLandingUrl": "https://www.city.sapporo.jp/gikai/kaigiroku/index.html",
+      "voteRecordUrl": "https://www.city.sapporo.jp/gikai/kaigi/saiketsu.html",
       "majorKaihaSeen": [
         "自由民主党",
         "民主市民連合",

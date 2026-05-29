@@ -222,40 +222,74 @@ export default async function MemberPage({ params }: { params: Params }) {
         )}
       </section>
 
-      {/* ── 委員会・活動記録 ── */}
+      {/* ── 委員会・所属 ── */}
       <section className="mb-8">
         <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
-          委員会・活動記録
+          所属委員会
         </h2>
-        {hasAnyActivity ? (
-          <div className="space-y-3 text-sm">
-            {m.committees && m.committees.length > 0 && (
-              <div>
-                <p className="mb-1 text-xs text-slate-500">所属委員会</p>
-                <ul className="flex flex-wrap gap-1.5">
-                  {m.committees.map((cm) => (
-                    <li
-                      key={cm}
-                      className="rounded bg-slate-100 px-2 py-0.5 text-xs text-slate-700"
-                    >
-                      {cm}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            {m.speechRecordUrl && (
-              <LinkRow href={m.speechRecordUrl} label="発言・質問の議事録" />
-            )}
-            {m.voteRecordUrl && (
-              <LinkRow href={m.voteRecordUrl} label="議案への賛否記録" />
-            )}
-          </div>
+        {m.committees && m.committees.length > 0 ? (
+          <ul className="flex flex-wrap gap-1.5">
+            {m.committees.map((cm) => (
+              <li
+                key={cm}
+                className="rounded bg-slate-100 px-2.5 py-1 text-xs text-slate-700"
+              >
+                {cm}
+              </li>
+            ))}
+          </ul>
         ) : (
+          <p className="text-xs text-slate-500">
+            所属委員会の情報は収集中です。
+          </p>
+        )}
+      </section>
+
+      {/* ── 議会活動・発言記録 ── */}
+      <section className="mb-8">
+        <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
+          議会活動・発言記録
+        </h2>
+        <p className="mb-3 text-[11px] leading-relaxed text-slate-500">
+          {c?.councilName ?? "市議会"}の公式会議録・採決結果・議案情報は、以下の市議会公式ページからご確認ください。
+          本人発信ベースの発言・実績は「注目発言・実績」セクションに掲載します（順次拡充中）。
+        </p>
+        <ul className="space-y-2 text-sm">
+          {c?.kaigirokuSearchUrl && (
+            <LinkRow
+              href={c.kaigirokuSearchUrl}
+              label={`${c.councilName} 会議録検索（議員名で検索）`}
+            />
+          )}
+          {c?.kaigirokuLandingUrl && (
+            <LinkRow
+              href={c.kaigirokuLandingUrl}
+              label={`${c.councilName} 本会議録 一覧`}
+            />
+          )}
+          {c?.voteRecordUrl && (
+            <LinkRow
+              href={c.voteRecordUrl}
+              label={`${c.councilName} 議案・採決結果`}
+            />
+          )}
+          {m.speechRecordUrl && (
+            <LinkRow href={m.speechRecordUrl} label="本人の発言・質問記録（個別）" />
+          )}
+          {m.voteRecordUrl && (
+            <LinkRow href={m.voteRecordUrl} label="本人の議案賛否記録（個別）" />
+          )}
+          {m.officialProfileUrl && (
+            <LinkRow
+              href={m.officialProfileUrl}
+              label={`${m.name} の公式プロフィール（一次情報）`}
+            />
+          )}
+        </ul>
+        {!hasAnyActivity && !c?.kaigirokuSearchUrl && (
           <PendingBlock
-            title="活動記録は収集中です"
+            title="議会活動記録は収集中です"
             items={[
-              "所属委員会",
               "本会議・委員会での発言・質問の入口リンク",
               "議案への賛否記録（市議会公式の採決結果）",
             ]}
