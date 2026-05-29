@@ -1,0 +1,13 @@
+{
+  "groups": [
+    {"id":"nagoya-ldp","cityId":"nagoya","name":"自由民主党名古屋市会議員団","shortName":"自民","partyIds":["ldp"]},
+    {"id":"nagoya-minshu","cityId":"nagoya","name":"名古屋民主市会議員団","shortName":"民主","partyIds":["cdp","dpp","independent"]},
+    {"id":"nagoya-komei","cityId":"nagoya","name":"公明党名古屋市会議員団","shortName":"公明","partyIds":["komei"]},
+    {"id":"nagoya-genzei","cityId":"nagoya","name":"減税日本ナゴヤ","shortName":"減税","partyIds":["genzei"]},
+    {"id":"nagoya-jcp","cityId":"nagoya","name":"日本共産党名古屋市会議員団","shortName":"共産","partyIds":["jcp"]},
+    {"id":"nagoya-hinata","cityId":"nagoya","name":"なごや陽向の会","shortName":"陽向","partyIds":["regional"]},
+    {"id":"nagoya-sosei","cityId":"nagoya","name":"なごや創政会","shortName":"創政","partyIds":["regional"]},
+    {"id":"nagoya-shinsei","cityId":"nagoya","name":"新生会","shortName":"新生","partyIds":["regional"]},
+    {"id":"nagoya-ishin","cityId":"nagoya","name":"日本維新の会名古屋市会議員団","shortName":"維新","partyIds":["ishin"]}
+  ]
+}
