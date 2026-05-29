@@ -768,11 +768,47 @@
       "fields": {
         "officialProfileUrl": "https://o-ishin.jp/member/detail/post_316.html",
         "websiteUrl": "https://suguru-kashiwabara.jp/",
+        "birthDate": "1985",
+        "birthPlace": "広島県",
+        "education": [
+          "千葉大学 工学部 卒業"
+        ],
+        "career": [
+          "建設業（現場監督・プロジェクトマネージャー）",
+          "横浜市会議員 当選（鶴見区）"
+        ],
+        "biography": "1985年広島県生まれ。千葉大学工学部卒業後、建設業界で現場監督・プロジェクトマネージャーとして従事。2013年から横浜市鶴見区寺谷に在住。妻と息子3人の5人世帯。横浜市会議員（鶴見区、日本維新の会）。「誰もが何度でも挑戦できる社会」「身近で気軽に使える議員」をスローガンに、陳情対応や地域課題の現場確認を重視する活動スタイル。",
+        "keyPolicies": [
+          {
+            "category": "子ども・教育",
+            "title": "小学校給食費無償化・児童給付金",
+            "description": "小学校給食費の無償化と児童給付金の充実を推進。",
+            "sourceUrl": "https://suguru-kashiwabara.jp/"
+          },
+          {
+            "category": "交通",
+            "title": "JR鶴見駅への中距離電車停車、ガード下安全性改善",
+            "description": "JR鶴見駅への中距離電車停車、ガード下の安全性改善など鶴見区の交通課題に取り組む。",
+            "sourceUrl": "https://suguru-kashiwabara.jp/"
+          },
+          {
+            "category": "環境",
+            "title": "海軍道路の桜保護・資源循環",
+            "description": "海軍道路の桜並木の保護、資源循環の取り組み強化。",
+            "sourceUrl": "https://suguru-kashiwabara.jp/"
+          },
+          {
+            "category": "情報公開",
+            "title": "透明性と情報公開の重視",
+            "description": "市政の透明性と情報公開を重視。",
+            "sourceUrl": "https://suguru-kashiwabara.jp/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "日本維新の会公式 + 本人公式サイト suguru-kashiwabara.jp 確認。1985年広島生まれ、千葉大学工学部卒、施工管理・プロジェクトマネージャー経験。",
+      "reason": "日本維新の会公式 + 本人公式サイト suguru-kashiwabara.jp 確認。1985年広島生まれ、千葉大学工学部卒、元建設業現場監督・プロジェクトマネージャー、鶴見区選出、日本維新の会。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -1390,11 +1426,48 @@
         "officialProfileUrl": "https://www.komei.or.jp/member/detail/14102126",
         "websiteUrl": "https://www.yhkomei.com/member/kanagawa.html",
         "termsServed": 4,
+        "birthDate": "1960-06-10",
+        "birthPlace": "横浜市",
+        "education": [
+          "東海大学付属相模高等学校 卒業（硬式野球部）",
+          "産業能率大学 卒業"
+        ],
+        "career": [
+          "株式会社学生援護会（現インテリジェンス） 21年勤務（神奈川営業部長等を歴任）",
+          "横浜市会議員 当選 → 4期（神奈川区）"
+        ],
+        "biography": "1960年6月10日横浜生まれ。東海大学付属相模高校（硬式野球部）から産業能率大学卒業。株式会社学生援護会（現インテリジェンス）に21年勤務し、神奈川営業部長等を歴任。公明党横浜市会議員団 神奈川区選出、4期。座右の銘は「大誠実 一人を大切に」。議会活性化検討会において、本会議一般質問の一問一答方式の導入を推進した。",
+        "keyPolicies": [
+          {
+            "category": "防災",
+            "title": "学校施設の耐震化促進",
+            "description": "学校施設の耐震化を継続的に推進。",
+            "sourceUrl": "https://www.yhkomei.com/member/kanagawa.html"
+          },
+          {
+            "category": "医療・子育て",
+            "title": "小児医療費助成の拡充・スクールソーシャルワーカー導入",
+            "description": "小児医療費助成の拡充とスクールソーシャルワーカーの学校配置を推進。",
+            "sourceUrl": "https://www.yhkomei.com/member/kanagawa.html"
+          },
+          {
+            "category": "観光",
+            "title": "観光振興計画の策定推進",
+            "description": "横浜市の観光振興計画策定を推進。",
+            "sourceUrl": "https://www.yhkomei.com/member/kanagawa.html"
+          },
+          {
+            "category": "議会改革",
+            "title": "本会議一般質問の一問一答方式導入",
+            "description": "議会活性化検討会において、本会議一般質問の一問一答方式の導入を推進し実現に貢献。",
+            "sourceUrl": "https://www.yhkomei.com/member/kanagawa.html"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "公明党公式議員プロフィール + 公明党横浜市会議員団公式 確認。1960年6月10日生まれ、4期、神奈川区選出。",
+      "reason": "公明党公式議員プロフィール + 公明党横浜市会議員団公式（yhkomei.com/member/kanagawa.html）確認。1960年6月10日横浜生まれ、東海大学付属相模高校・産業能率大学卒、元株式会社学生援護会（現インテリジェンス）21年神奈川営業部長、4期、神奈川区選出。議会活性化検討会で本会議一般質問の一問一答方式導入を推進。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -1545,11 +1618,33 @@
         "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/ito_yoshito/",
         "websiteUrl": "https://www.itouyoshito.com/",
         "termsServed": 7,
+        "birthDate": "1961-02-12",
+        "biography": "1961年2月12日生まれ。福岡市議会議員（南区）7期、自由民主党福岡市議団会長。「自分の発言や行動が、常に市民の目線に立ち、その立場を十分に理解し、その中で特に弱い立場の方々に寄り添えているのか、自問自答し続ける」を信念に活動。近年は障害児療育（南部療育センター）視察、教育多様化学校（百道松原中学校）視察、福岡城天守復元的整備、福岡市民ホール視察、発達障害者支援センター視察など、教育・福祉・文化施設の現場確認を重視した活動を展開。",
+        "keyPolicies": [
+          {
+            "category": "理念",
+            "title": "市民目線、特に弱い立場の方々への寄り添い",
+            "description": "「常に市民の目線に立ち、その立場を十分に理解し、その中で特に弱い立場の方々に寄り添えているのか自問自答し続ける」を信念とする。",
+            "sourceUrl": "https://www.itouyoshito.com/"
+          },
+          {
+            "category": "福祉・教育",
+            "title": "障害児療育・発達障害支援・教育多様化",
+            "description": "南部療育センター、発達障害者支援センター、教育多様化学校（百道松原中学校）等を継続的に視察、現場の声を市政に反映。",
+            "sourceUrl": "https://www.itouyoshito.com/"
+          },
+          {
+            "category": "文化",
+            "title": "福岡城天守の復元的整備",
+            "description": "福岡城天守の復元的整備を継続的に取り組む。",
+            "sourceUrl": "https://www.itouyoshito.com/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "福岡市議会公式 + 本人公式サイト itouyoshito.com + 自由民主党福岡県連公式 確認。1961年2月12日生まれ、7期、南区選出。自由民主党福岡市議団会長。",
+      "reason": "福岡市議会公式 + 本人公式サイト itouyoshito.com + 自由民主党福岡県連公式 確認。1961年2月12日生まれ、7期、南区選出、自由民主党福岡市議団会長。市民目線・弱い立場の方々への寄り添いを信念に、福祉・教育・文化施設の現場視察を重視。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -1697,11 +1792,53 @@
         "websiteUrl": "https://sato-yuko.com/",
         "twitterUrl": "https://x.com/yukosatoyuko",
         "termsServed": 3,
+        "birthDate": "1963-01",
+        "birthPlace": "名古屋市千種区",
+        "education": [
+          "1975年 名古屋市立富士見台小学校 卒業",
+          "1978年 私立金城学院中学校 卒業",
+          "1981年 私立金城学院高等学校 卒業",
+          "1983年 私立金城学院大学 短期大学部 保育科 卒業"
+        ],
+        "career": [
+          "1983年〜 幼稚園教諭",
+          "2006年〜 河村たかし 衆議院議員 秘書",
+          "2007年〜 愛知県議会議員 1期",
+          "2009年〜2015年 衆議院議員 1期（文部科学委員会等所属）",
+          "2015年〜 名古屋市議会議員 3期（東区）"
+        ],
+        "biography": "1963年1月名古屋市千種区生まれ。金城学院中・高・短大保育科卒業後、幼稚園教諭として勤務開始。2006年に河村たかし衆議院議員の秘書となり、2007年に愛知県議会議員に当選（1期）、2009年衆議院議員に当選（1期、文部科学委員会等）、2015年から名古屋市議会議員（東区）に転じて現在3期目。減税日本ナゴヤ所属。家族は夫、2男2女、孫8人。",
+        "keyPolicies": [
+          {
+            "category": "減税",
+            "title": "市民税減税の継続",
+            "description": "河村市政の核心政策である市民税減税の継続を強く主張。",
+            "sourceUrl": "https://sato-yuko.com/"
+          },
+          {
+            "category": "情報公開",
+            "title": "議員政務活動費の全面公開",
+            "description": "議員政務活動費の全面公開によって市政の透明性を高めることを推進。",
+            "sourceUrl": "https://sato-yuko.com/"
+          },
+          {
+            "category": "子ども・教育",
+            "title": "子ども支援の拡充、就学援助対象世帯の拡充",
+            "description": "元幼稚園教諭の経験を活かし、子ども支援の拡充と就学援助対象世帯の拡大を推進。",
+            "sourceUrl": "https://sato-yuko.com/"
+          },
+          {
+            "category": "高齢者",
+            "title": "敬老パス利用の改善",
+            "description": "敬老パスの利用条件改善を推進。",
+            "sourceUrl": "https://sato-yuko.com/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "減税日本ナゴヤ公式 + 本人公式サイト sato-yuko.com + 本人X @yukosatoyuko 確認。1963年1月6日生まれ、減税日本所属の名古屋市会議員（3期）。元衆議院議員1期、元愛知県議会議員1期。",
+      "reason": "減税日本ナゴヤ公式 + 本人公式サイト sato-yuko.com（/profile/）+ 本人X @yukosatoyuko 確認。1963年1月名古屋市千種区生まれ、金城学院短大保育科卒、元幼稚園教諭、河村たかし衆院議員秘書、愛知県議1期、衆議院議員1期（2009-2015、文部科学委員会等）、名古屋市議3期、東区選出、減税日本ナゴヤ所属。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -2724,11 +2861,40 @@
         "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/tanaka_shinsuke",
         "websiteUrl": "https://www.tanakashinsuke.jp/",
         "termsServed": 5,
+        "birthDate": "1978-06-14",
+        "birthPlace": "鹿児島県（両親は薩摩郡および種子島出身）",
+        "education": [
+          "1985年 山王幼稚園 卒園",
+          "1991年 福岡市立西高宮小学校 卒業",
+          "1994年 私立西南学院中学校 卒業",
+          "1997年 福岡県立筑紫丘高等学校 卒業",
+          "2001年 九州大学 法学部 卒業",
+          "2004年 早稲田大学大学院 政治学研究科 修士課程 修了"
+        ],
+        "career": [
+          "2004-2006年 アクセンチュア株式会社 勤務（官公庁本部 配属）",
+          "2007年 福岡市議会議員 初当選（中央区）"
+        ],
+        "biography": "1978年6月14日生まれ（両親の出身は鹿児島県薩摩郡・種子島）。福岡市立西高宮小学校・西南学院中学校・福岡県立筑紫丘高校から九州大学法学部に進学（2001年卒業）、早稲田大学大学院政治学研究科修士課程を2004年に修了。同年アクセンチュア株式会社に入社し官公庁本部に配属、公共政策のコンサルティングに従事した後、2007年に福岡市議会議員（中央区）に初当選。以来5期、立憲民主党所属。「新時代をつくる会」代表。修士論文ではPFI（民間活力導入）を研究、公共政策・財政問題・日米安保に関心を持つ。",
+        "keyPolicies": [
+          {
+            "category": "公共政策",
+            "title": "PFI（民間活力導入）の実務的活用",
+            "description": "早稲田大学院でPFI（民間活力導入）を専攻、アクセンチュアでの実務経験を背景に、公共サービスにおける民間活力の合理的な活用を主張。",
+            "sourceUrl": "https://www.tanakashinsuke.jp/"
+          },
+          {
+            "category": "財政",
+            "title": "財政問題への注力",
+            "description": "公共政策・財政問題を関心領域に挙げ、福岡市の財政運営を継続的に検証。",
+            "sourceUrl": "https://www.tanakashinsuke.jp/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "福岡市議会公式 + 本人公式サイト tanakashinsuke.jp + 立憲民主党公式 確認。5期、中央区選出、立憲民主党所属、『新時代をつくる会』代表。",
+      "reason": "福岡市議会公式 + 本人公式サイト tanakashinsuke.jp（/profile/）+ 立憲民主党公式 確認。1978年6月14日生まれ、筑紫丘高→九州大学法学部→早稲田大学院政治学研究科修士（PFI研究）、元アクセンチュア株式会社（官公庁本部）、2007年初当選、5期、中央区選出、立憲民主党所属、『新時代をつくる会』代表。",
       "appliedAt": "2026-05-29"
     },
     {
