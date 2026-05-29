@@ -110,6 +110,73 @@
       },
       "reason": "公式名簿で所属委員会確認（建設委員会副委員長、総合交通政策調査特別委員会）。SNS・個人サイト情報は今回検索で確認できず、partial 扱い。",
       "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-yamanaka-tomoko",
+      "fields": {
+        "officialProfileUrl": "https://www.jcp.or.jp/list/member/2711871",
+        "websiteUrl": "http://yamanaka-tomoko.wajcp.net/",
+        "termsServed": 7,
+        "committees": ["財政総務委員会", "大都市・税財政制度特別委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本共産党中央委員会公式（jcp.or.jp）+ 本人公式サイト yamanaka-tomoko.wajcp.net 確認。7期、日本共産党大阪市会議員団長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-inoue-hiroshi",
+      "fields": {
+        "officialProfileUrl": "https://www.jcp.or.jp/list/member/2712091",
+        "termsServed": 5,
+        "committees": ["建設港湾委員会", "環境対策特別委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本共産党中央委員会公式（jcp.or.jp）に本人プロフィール掲載確認。5期、日本共産党大阪市会議員団政調会長。住吉区選挙区（定数5）で4位当選。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-takayama-mika",
+      "fields": {
+        "officialProfileUrl": "https://ishinnokai-osakashikai.jp/member/%E9%AB%98%E5%B1%B1%E3%81%BF%E3%81%8B",
+        "websiteUrl": "http://takayamamika.com/",
+        "twitterUrl": "https://x.com/M_Takayama_1992",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "大阪維新の会大阪市会議員団公式 + 本人公式サイト takayamamika.com + 本人X @M_Takayama_1992 確認。1992年生まれ、若手議員。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-kondo-dai",
+      "fields": {
+        "officialProfileUrl": "https://ishinnokai-osakashikai.jp/member/%E8%BF%91%E8%97%A4%E3%80%80%E5%A4%A7",
+        "termsServed": 1,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "大阪維新の会大阪市会議員団公式に本人プロフィール掲載確認。平成2年(1990年)6月12日生まれ、1期、市政改革副委員長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-satake-riho",
+      "fields": {
+        "officialProfileUrl": "https://www.city.osaka.lg.jp/shikai/page/0000671345.html",
+        "websiteUrl": "https://satakeriho.info/",
+        "twitterUrl": "https://x.com/satake_riho",
+        "termsServed": 1,
+        "committees": ["都市経済委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "本人公式サイト satakeriho.info + 本人X @satake_riho 確認。1987年12月28日生まれ、1期、淀川区選出。「総活躍社会実現の会」1人会派。経歴：シスメックス株式会社、メディア放送局を経て28歳で起業、（株）エスリンクス代表取締役。",
+      "appliedAt": "2026-05-29"
     }
   ]
 }
