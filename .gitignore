@@ -1,0 +1,27 @@
+node_modules/
+.next/
+.vercel/
+out/
+build/
+dist/
+
+# env
+.env*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# editor
+.DS_Store
+.vscode/
+.idea/
+
+# iCloud
+.iCloud
+Icon?
+
+# audit snapshots
+data/audit/snapshots/*.json
+!data/audit/snapshots/.gitkeep

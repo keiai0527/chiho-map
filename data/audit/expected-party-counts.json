@@ -1,0 +1,68 @@
+{
+  "$schema": "市×政党 別の期待議員数。データ更新時の乖離検出に使う。±2名以上ずれたら warning。",
+  "$updatedAt": "2026-05-29",
+  "expectations": [
+    {
+      "cityId": "osaka",
+      "totalApprox": 81,
+      "byParty": {
+        "ishin": 42,
+        "komei": 18,
+        "ldp": 11,
+        "jcp": 4,
+        "dpp": 2,
+        "independent": 4
+      }
+    },
+    {
+      "cityId": "nagoya",
+      "totalApprox": 68,
+      "byParty": {
+        "ldp": 21,
+        "cdp": 14,
+        "komei": 12,
+        "genzei": 8,
+        "ishin": 4,
+        "independent": 9
+      }
+    },
+    {
+      "cityId": "yokohama",
+      "totalApprox": 86,
+      "byParty": {
+        "ldp": 24,
+        "komei": 15,
+        "cdp": 14,
+        "ishin": 8,
+        "jcp": 6,
+        "dpp": 4,
+        "regional": 6,
+        "independent": 9
+      }
+    },
+    {
+      "cityId": "fukuoka",
+      "totalApprox": 62,
+      "byParty": {
+        "ldp": 23,
+        "komei": 9,
+        "cdp": 8,
+        "jcp": 6,
+        "ishin": 4,
+        "independent": 12
+      }
+    },
+    {
+      "cityId": "sapporo",
+      "totalApprox": 68,
+      "byParty": {
+        "ldp": 20,
+        "cdp": 14,
+        "komei": 11,
+        "jcp": 8,
+        "ishin": 3,
+        "independent": 12
+      }
+    }
+  ]
+}

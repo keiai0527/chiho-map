@@ -1,0 +1,74 @@
+{
+  "groups": [
+    {
+      "id": "osaka-ishin",
+      "cityId": "osaka",
+      "name": "大阪維新の会大阪市会議員団",
+      "shortName": "大阪維新",
+      "partyIds": ["ishin"]
+    },
+    {
+      "id": "osaka-komei",
+      "cityId": "osaka",
+      "name": "公明党大阪市会議員団",
+      "shortName": "公明",
+      "partyIds": ["komei"]
+    },
+    {
+      "id": "osaka-ldp-shimin",
+      "cityId": "osaka",
+      "name": "自由民主党・市民クラブ大阪市会議員団",
+      "shortName": "自民・市民",
+      "partyIds": ["ldp", "independent"]
+    },
+    {
+      "id": "osaka-ldp-dpp-tsunagaru",
+      "cityId": "osaka",
+      "name": "自由民主党・国民民主党・市民とつながる・くらしが第一大阪市会議員団",
+      "shortName": "自国くらし",
+      "partyIds": ["ldp", "dpp", "independent"]
+    },
+    {
+      "id": "osaka-jcp",
+      "cityId": "osaka",
+      "name": "日本共産党大阪市会議員団",
+      "shortName": "共産",
+      "partyIds": ["jcp"]
+    },
+    {
+      "id": "osaka-mushozoku",
+      "cityId": "osaka",
+      "name": "無所属大阪市会議員団",
+      "shortName": "無所属",
+      "partyIds": ["independent"]
+    },
+    {
+      "id": "osaka-nishi",
+      "cityId": "osaka",
+      "name": "大阪にし大阪市会議員団",
+      "shortName": "大阪にし",
+      "partyIds": ["regional"]
+    },
+    {
+      "id": "osaka-fukushima-club",
+      "cityId": "osaka",
+      "name": "福島クラブ大阪市会議員団",
+      "shortName": "福島クラブ",
+      "partyIds": ["regional"]
+    },
+    {
+      "id": "osaka-hirano",
+      "cityId": "osaka",
+      "name": "大阪平野大阪市会議員団",
+      "shortName": "大阪平野",
+      "partyIds": ["regional"]
+    },
+    {
+      "id": "osaka-katsuyaku",
+      "cityId": "osaka",
+      "name": "総活躍社会実現の会大阪市会議員団",
+      "shortName": "総活躍",
+      "partyIds": ["regional"]
+    }
+  ]
+}

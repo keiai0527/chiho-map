@@ -1,0 +1,109 @@
+{
+  "$schema": "5市の議員公式名簿URL一覧。データ取得時の出典として参照する。",
+  "cities": [
+    {
+      "id": "osaka",
+      "name": "大阪市",
+      "councilName": "大阪市会",
+      "approxMemberCount": 81,
+      "sources": {
+        "byKaiha": "https://www.city.osaka.lg.jp/shikai/page/0000002245.html",
+        "byDistrict": "https://www.city.osaka.lg.jp/shikai/page/0000310422.html",
+        "index": "https://www.city.osaka.lg.jp/shikai/category/3560-0-0-0-0-0-0-0-0-0.html"
+      },
+      "majorKaihaSeen": [
+        "大阪維新の会大阪市会議員団",
+        "公明党大阪市会議員団",
+        "自由民主党・市民クラブ大阪市会議員団",
+        "自由民主党・国民民主党・市民とつながる・くらしが第一大阪市会議員団",
+        "日本共産党大阪市会議員団",
+        "大阪にし",
+        "福島クラブ",
+        "無所属"
+      ]
+    },
+    {
+      "id": "nagoya",
+      "name": "名古屋市",
+      "councilName": "名古屋市会",
+      "approxMemberCount": 68,
+      "sources": {
+        "byKaiha": "https://www.city.nagoya.jp/shikai/category/333-3-0-0-0-0-0-0-0-0.html",
+        "byAlphabet": "https://www.city.nagoya.jp/shikai/category/333-4-0-0-0-0-0-0-0-0.html",
+        "index": "https://www.city.nagoya.jp/shikai/about/1030778/index.html"
+      },
+      "majorKaihaSeen": [
+        "自由民主党名古屋市会議員団",
+        "名古屋民主市会議員団",
+        "公明党名古屋市会議員団",
+        "減税日本ナゴヤ"
+      ]
+    },
+    {
+      "id": "yokohama",
+      "name": "横浜市",
+      "councilName": "横浜市会",
+      "approxMemberCount": 86,
+      "sources": {
+        "byKaiha": "https://www.city.yokohama.lg.jp/shikai/giin/kaihabetsu.html",
+        "byAlphabet": "https://www.city.yokohama.lg.jp/shikai/giin/50on.html",
+        "byDistrict": "https://www.city.yokohama.lg.jp/shikai/giin/kubetsu/",
+        "index": "https://www.city.yokohama.lg.jp/shikai/giin/"
+      },
+      "majorKaihaSeen": [
+        "自由民主党横浜市会議員団",
+        "公明党横浜市会議員団",
+        "立憲民主党横浜市会議員団",
+        "日本維新の会・無所属の会",
+        "国民民主党",
+        "日本共産党",
+        "地域政党よこはま",
+        "無所属"
+      ]
+    },
+    {
+      "id": "fukuoka",
+      "name": "福岡市",
+      "councilName": "福岡市議会",
+      "approxMemberCount": 62,
+      "sources": {
+        "byKaiha": "https://gikai.city.fukuoka.lg.jp/member/party",
+        "byAlphabet": "https://gikai.city.fukuoka.lg.jp/member/alphabet",
+        "index": "https://gikai.city.fukuoka.lg.jp/member/"
+      },
+      "majorKaihaSeen": [
+        "自由民主党福岡市議団",
+        "公明党福岡市議団",
+        "福岡市民クラブ",
+        "日本共産党福岡市議団",
+        "新しい風ふくおか",
+        "日本維新の会福岡市議団",
+        "自民党新福岡",
+        "無所属"
+      ]
+    },
+    {
+      "id": "sapporo",
+      "name": "札幌市",
+      "councilName": "札幌市議会",
+      "approxMemberCount": 68,
+      "sources": {
+        "byKaiha": "https://www.city.sapporo.jp/gikai/meibo/meibo-kaiha.html",
+        "byAlphabet": "https://www.city.sapporo.jp/gikai/meibo/meibo-50on.html",
+        "byDistrict": "https://www.city.sapporo.jp/gikai/meibo/meibo-ku.html",
+        "index": "https://www.city.sapporo.jp/gikai/html/giin.html"
+      },
+      "majorKaihaSeen": [
+        "自由民主党",
+        "民主市民連合",
+        "公明党",
+        "日本共産党",
+        "未来さっぽろ",
+        "健康さっぽろ",
+        "大地さっぽろ",
+        "市民ネットワーク北海道",
+        "日本維新の会"
+      ]
+    }
+  ]
+}
