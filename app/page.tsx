@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { JapanMap } from "@/components/JapanMap";
 import { PostalCodeSearch } from "@/components/PostalCodeSearch";
 import { getCities, getMembersByCity } from "@/lib/data";
 import type { CityId } from "@/lib/types";
@@ -96,6 +97,10 @@ export default async function Home() {
           </li>
         </ul>
       </section>
+
+      <div className="mb-10">
+        <JapanMap />
+      </div>
 
       <PostalCodeSearch />
 
