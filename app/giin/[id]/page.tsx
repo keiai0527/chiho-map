@@ -8,8 +8,13 @@ import {
   getMemberById,
   getPartyMap,
 } from "@/lib/data";
+import {
+  getPublishedReviewsForMember,
+  type StoredReview,
+} from "@/lib/server-store";
 
-export const revalidate = false;
+// ISR: 60秒ごとに再生成（口コミの反映を担保）
+export const revalidate = 60;
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -65,6 +70,19 @@ export default async function MemberPage({ params }: { params: Params }) {
   );
   const hasKeyPolicies = Boolean(m.keyPolicies && m.keyPolicies.length > 0);
   const hasNotableQuotes = Boolean(m.notableQuotes && m.notableQuotes.length > 0);
+
+  // ===== 口コミ取得（DB 未設定環境では空配列にフォールバック）=====
+  let reviews: StoredReview[] = [];
+  try {
+    reviews = await getPublishedReviewsForMember(m.id);
+  } catch (err) {
+    // DATABASE_URL 未設定 or DB 未マイグレーション時は静かに空にする
+    console.warn("[member-page] reviews fetch failed:", err);
+  }
+  const avgRating =
+    reviews.length > 0
+      ? reviews.reduce((s, r) => s + r.rating, 0) / reviews.length
+      : 0;
 
   // 混合会派 partyId 暫定処理に該当する会派ID（types.ts 拡張前の既存データに合わせる）
   const mixedKaihaIds = new Set([
@@ -355,6 +373,78 @@ export default async function MemberPage({ params }: { params: Params }) {
               "（偏向・評価付けを避けるため慎重に運用します）",
             ]}
           />
+        )}
+      </section>
+
+      {/* ── 口コミ ── */}
+      <section className="mb-8">
+        <div className="mb-3 flex items-end justify-between gap-2">
+          <h2 className="text-xs font-semibold uppercase tracking-widest text-slate-500">
+            口コミ
+            {reviews.length > 0 && (
+              <span className="ml-2 text-[11px] font-normal text-slate-400">
+                {reviews.length}件 ／ 平均{" "}
+                <span className="text-accent font-bold">
+                  {avgRating.toFixed(1)}
+                </span>
+                ★
+              </span>
+            )}
+          </h2>
+          <Link
+            href={`/giin/${m.id}/review/new`}
+            className="inline-flex items-center gap-1 rounded bg-accent px-2.5 py-1 text-xs font-bold text-white hover:bg-accent/90"
+          >
+            + 口コミを書く
+          </Link>
+        </div>
+
+        <p className="mb-3 text-[11px] leading-relaxed text-slate-500">
+          市議会議員の<strong>公務・政策・議会活動</strong>に関する評価を投稿できます。
+          投稿には事前審査・運営手数料 ¥100 が必要です。誹謗中傷・人格攻撃・私生活への言及は
+          <Link href="/guidelines" className="underline mx-1">
+            ガイドライン
+          </Link>
+          に反するため受け付けません。
+        </p>
+
+        {reviews.length > 0 ? (
+          <ul className="space-y-3">
+            {reviews.map((r) => (
+              <li
+                key={r.id}
+                id={`review-${r.id}`}
+                className="rounded-lg border border-slate-200 bg-white p-3"
+              >
+                <div className="mb-1 flex items-center gap-2 text-xs">
+                  <span className="font-bold text-accent">
+                    {"★".repeat(r.rating)}
+                    <span className="text-slate-300">
+                      {"★".repeat(5 - r.rating)}
+                    </span>
+                  </span>
+                  <span className="rounded bg-slate-100 px-1.5 py-0.5 text-[10px] text-slate-700">
+                    {r.caseType}
+                  </span>
+                  <span className="text-slate-400">
+                    {new Date(r.publishedAt ?? r.createdAt).toLocaleDateString(
+                      "ja-JP",
+                    )}
+                  </span>
+                </div>
+                <p className="whitespace-pre-line text-sm leading-relaxed text-slate-800">
+                  {r.content}
+                </p>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <div className="rounded-lg border border-dashed border-slate-300 bg-slate-50 p-4 text-xs text-slate-600">
+            <p className="font-medium text-slate-700">まだ口コミは投稿されていません</p>
+            <p className="mt-1 text-slate-500">
+              この議員の公務・政策・議会活動について、最初の口コミを書いてみませんか？
+            </p>
+          </div>
         )}
       </section>
 
