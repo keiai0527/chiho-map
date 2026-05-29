@@ -42,6 +42,72 @@ export default async function Home() {
         </p>
       </header>
 
+      <section
+        aria-label="サイトの状態"
+        className="mb-10 rounded-xl border border-amber-200 bg-amber-50 p-5 sm:mb-12"
+      >
+        <div className="mb-3 flex items-center gap-2">
+          <span className="rounded bg-amber-200 px-2 py-0.5 text-xs font-bold text-amber-900">
+            β版
+          </span>
+          <span className="text-sm font-semibold text-amber-900">
+            このサイトの現状
+          </span>
+        </div>
+        <ul className="space-y-1.5 text-sm text-amber-900">
+          <li className="flex gap-2">
+            <span aria-hidden>•</span>
+            <span>
+              <strong>対応は5市のみ</strong>（大阪・名古屋・横浜・福岡・札幌）。
+              他の政令指定都市は順次拡張予定です。
+            </span>
+          </li>
+          <li className="flex gap-2">
+            <span aria-hidden>•</span>
+            <span>
+              <strong>各市議会公式名簿をもとに作成</strong>しています（取得日:
+              2026年5月29日）。
+            </span>
+          </li>
+          <li className="flex gap-2">
+            <span aria-hidden>•</span>
+            <span>
+              <strong>一部に暫定表示があります</strong>。
+              複数政党の合同会派に所属する議員の政党表示、公式名簿に振り仮名が無い議員のふりがな等は推定値を含みます（
+              <Link
+                href="/about"
+                className="underline-offset-2 hover:underline"
+              >
+                詳細
+              </Link>
+              ）。
+            </span>
+          </li>
+          <li className="flex gap-2">
+            <span aria-hidden>•</span>
+            <span>
+              <strong>誤りを見つけたら訂正依頼を</strong>。
+              専用フォームを準備中。当面は X の{" "}
+              <a
+                href="https://x.com/kokkai_map"
+                target="_blank"
+                rel="noopener"
+                className="underline-offset-2 hover:underline"
+              >
+                @kokkai_map
+              </a>{" "}
+              DMで受付。
+            </span>
+          </li>
+          <li className="flex gap-2">
+            <span aria-hidden>•</span>
+            <span>
+              <strong>非公式・個人運営の情報サイト</strong>です。各市議会・自治体が運営する公式サイトではありません。
+            </span>
+          </li>
+        </ul>
+      </section>
+
       <section className="mb-6 flex items-baseline justify-between">
         <h2 className="text-lg font-semibold text-slate-900">対応市</h2>
         <p className="text-sm text-slate-500">

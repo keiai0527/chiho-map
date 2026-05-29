@@ -79,7 +79,7 @@ export default async function AboutPage() {
           <div className="grid grid-cols-3 gap-2 py-3">
             <dt className="text-slate-500">運営方針</dt>
             <dd className="col-span-2 text-slate-900">
-              無料・広告なしで運営しています。
+              現時点では広告・スポンサーを掲載していません。今後、運営継続のためにクラウドファンディング等の市民支援を検討する場合があります。
             </dd>
           </div>
         </dl>
@@ -148,7 +148,13 @@ export default async function AboutPage() {
         <h2 className="text-xl font-bold text-slate-900">中立性宣言</h2>
         <p className="text-sm leading-relaxed text-slate-700">
           本サイトは特定の政党・会派・議員・支援団体・宗教団体の影響を受けず、中立な立場で情報を整理しています。
-          資金は運営者個人が負担しています。広告・スポンサー・寄付は受け付けていません。
+          現在の運営資金は運営者個人が負担しています。
+        </p>
+        <p className="text-sm leading-relaxed text-slate-700">
+          現時点では広告・スポンサーを掲載していません。
+          今後、運営継続のためにクラウドファンディング等の市民支援を検討する場合があります。
+          その場合も、<strong>編集方針・掲載基準に影響を与える支援は受け付けません</strong>。
+          特定の政党・会派・議員に有利または不利な扱いを依頼する条件付きの支援は、金額の多寡にかかわらずお断りします。
         </p>
         <p className="text-sm leading-relaxed text-slate-700">
           特定の議員を有利または不利に扱う意図はありません。
@@ -170,6 +176,13 @@ export default async function AboutPage() {
 
       <section className="mt-10 space-y-3">
         <h2 className="text-xl font-bold text-slate-900">訂正・削除依頼</h2>
+        <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
+          <p className="font-medium">専用訂正依頼フォーム 準備中</p>
+          <p className="mt-1">
+            現在、誰でも訂正依頼を出せる Google フォーム形式の専用窓口を準備中です。
+            開設までの当面の間、下記の X DM での受付を継続します。
+          </p>
+        </div>
         <p className="text-sm leading-relaxed text-slate-700">
           掲載情報の訂正・削除・追加のご依頼は、X の{" "}
           <a
@@ -180,8 +193,7 @@ export default async function AboutPage() {
           >
             @kokkai_map
           </a>{" "}
-          までDMでご連絡ください。
-          可能な限り速やかに確認・対応します。
+          までDMでご連絡ください。可能な限り速やかに確認・対応します。
         </p>
         <p className="text-sm leading-relaxed text-slate-700">
           議員ご本人および関係者からのご連絡を優先的に対応します。

@@ -63,19 +63,29 @@ export function SiteFooter() {
             </p>
             <p>
               掲載情報は各市議会の公式名簿をもとに2026年5月29日時点で作成しています。
-              データに誤りがある場合は、X の{" "}
-              <a
-                href="https://x.com/kokkai_map"
-                target="_blank"
-                rel="noopener"
-                className="underline-offset-2 hover:underline"
-              >
-                @kokkai_map
-              </a>{" "}
-              までDMでお知らせください。確認のうえ修正します。
+              一部、政党・ふりがな・期数等に暫定情報を含みます（詳細は{" "}
+              <Link href="/about" className="underline-offset-2 hover:underline">
+                このサイトについて
+              </Link>
+              ）。
             </p>
+            <div className="rounded border border-amber-200 bg-amber-50 px-3 py-2 text-amber-900">
+              <p className="font-medium">訂正依頼フォーム 準備中</p>
+              <p className="mt-0.5">
+                開設までの当面、X の{" "}
+                <a
+                  href="https://x.com/kokkai_map"
+                  target="_blank"
+                  rel="noopener"
+                  className="underline-offset-2 hover:underline"
+                >
+                  @kokkai_map
+                </a>{" "}
+                DMで受付。
+              </p>
+            </div>
             <p className="text-slate-500">
-              本サイトは無料・広告なしで運営しています。
+              現時点では広告・スポンサーを掲載していません。将来クラウドファンディング等の市民支援を検討する場合があります（編集方針に影響する支援は受け付けません）。
             </p>
           </div>
         </div>

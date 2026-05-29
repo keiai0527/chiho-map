@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { SiteFooter } from "@/components/SiteFooter";
+import { SITE_URL } from "@/lib/config";
 import "./globals.css";
-
-const SITE_URL = "https://chihogiin.jp";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

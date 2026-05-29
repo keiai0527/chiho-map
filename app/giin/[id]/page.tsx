@@ -133,6 +133,31 @@ export default async function MemberPage({ params }: { params: Params }) {
       <p className="mt-10 text-xs text-slate-400">
         出典: {m.source.url} ({m.source.fetchedAt})
       </p>
+
+      <aside className="mt-6 rounded-lg border border-amber-200 bg-amber-50 p-4 text-xs text-amber-900">
+        <p>
+          <span className="mr-1 rounded bg-amber-200 px-1.5 py-0.5 font-bold">
+            β版
+          </span>
+          本ページの情報には<strong>暫定値が含まれる場合があります</strong>。
+          複数政党の合同会派所属議員の政党表示、公式名簿に振り仮名が無い議員のふりがな、
+          当選回数（未取得の市あり）等は今後の更新で精度を上げます。
+          詳細は{" "}
+          <Link href="/about" className="underline-offset-2 hover:underline">
+            このサイトについて
+          </Link>
+          。誤りを見つけたら X{" "}
+          <a
+            href="https://x.com/kokkai_map"
+            target="_blank"
+            rel="noopener"
+            className="underline-offset-2 hover:underline"
+          >
+            @kokkai_map
+          </a>{" "}
+          DMでお知らせください。
+        </p>
+      </aside>
     </main>
   );
 }

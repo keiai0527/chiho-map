@@ -61,7 +61,7 @@ export default async function CityPage({ params }: { params: Params }) {
         </Link>
       </nav>
 
-      <header className="mb-8">
+      <header className="mb-6">
         <p className="text-xs font-medium tracking-widest text-slate-500">
           {c.councilName}
         </p>
@@ -72,6 +72,43 @@ export default async function CityPage({ params }: { params: Params }) {
           掲載 {members.length} / 想定 {c.approxMemberCount} 名
         </p>
       </header>
+
+      <aside className="mb-8 rounded-lg border border-amber-200 bg-amber-50 p-4 text-xs text-amber-900">
+        <p>
+          <span className="mr-1 rounded bg-amber-200 px-1.5 py-0.5 font-bold">
+            β版
+          </span>
+          {c.councilName}の公式名簿（取得日: 2026年5月29日）をもとに作成しています。
+          <strong>複数政党の合同会派に所属する議員の政党表示、ふりがな、当選回数等に暫定情報を含む場合があります</strong>。
+          公式名簿:{" "}
+          <a
+            href={c.sources.byKaiha}
+            target="_blank"
+            rel="noopener"
+            className="underline-offset-2 hover:underline"
+          >
+            {c.councilName} 会派別名簿 →
+          </a>
+          {" / "}
+          <Link
+            href="/about"
+            className="underline-offset-2 hover:underline"
+          >
+            データの注意点
+          </Link>
+          {" / "}
+          訂正依頼は X{" "}
+          <a
+            href="https://x.com/kokkai_map"
+            target="_blank"
+            rel="noopener"
+            className="underline-offset-2 hover:underline"
+          >
+            @kokkai_map
+          </a>{" "}
+          DM へ。
+        </p>
+      </aside>
 
       {members.length === 0 && (
         <div className="rounded-xl border border-amber-200 bg-amber-50 p-5 text-sm text-amber-900">

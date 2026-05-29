@@ -22,6 +22,9 @@ npm-debug.log*
 .iCloud
 Icon?
 
+# typescript incremental build cache
+tsconfig.tsbuildinfo
+
 # audit snapshots
 data/audit/snapshots/*.json
 !data/audit/snapshots/.gitkeep

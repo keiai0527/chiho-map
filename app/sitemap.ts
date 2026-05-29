@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/config";
 import { getAllMembers, getCities } from "@/lib/data";
 
-const SITE = "https://chihogiin.jp";
+const SITE = SITE_URL;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const cities = await getCities();
