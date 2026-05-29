@@ -1,0 +1,12 @@
+{
+  "groups": [
+    {"id":"fukuoka-ldp","cityId":"fukuoka","name":"自由民主党福岡市議団","shortName":"自民","partyIds":["ldp"]},
+    {"id":"fukuoka-komei","cityId":"fukuoka","name":"公明党福岡市議団","shortName":"公明","partyIds":["komei"]},
+    {"id":"fukuoka-shimin","cityId":"fukuoka","name":"福岡市民クラブ","shortName":"市民クラブ","partyIds":["cdp","dpp","independent"]},
+    {"id":"fukuoka-jcp","cityId":"fukuoka","name":"日本共産党福岡市議団","shortName":"共産","partyIds":["jcp"]},
+    {"id":"fukuoka-kaze","cityId":"fukuoka","name":"新しい風ふくおか","shortName":"新しい風","partyIds":["regional"]},
+    {"id":"fukuoka-ishin","cityId":"fukuoka","name":"日本維新の会福岡市議団","shortName":"維新","partyIds":["ishin"]},
+    {"id":"fukuoka-shin","cityId":"fukuoka","name":"自民党新福岡","shortName":"自民新福岡","partyIds":["ldp"]},
+    {"id":"fukuoka-mushozoku","cityId":"fukuoka","name":"無所属","shortName":"無所属","partyIds":["independent"]}
+  ]
+}
