@@ -103,11 +103,17 @@
         "facebookUrl": "https://www.facebook.com/kazuhiko.maeda.50/",
         "instagramUrl": "https://www.instagram.com/maedakazuhiko/",
         "termsServed": 3,
+        "birthDate": "1978年（47歳誕生日投稿2026.3.17から推定）",
+        "career": [
+          "財務省 財務事務官",
+          "大阪市会議員 初当選 → 3期（北区）"
+        ],
+        "biography": "1978年生まれ。財務省で財務事務官として勤務後、大阪市会議員に転身。北区選出で現在3期目。会派は『自由民主党・市民クラブ大阪市会議員団』に所属するが、本人は自由民主党所属。X・Facebook・Instagramで活発に情報発信。",
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "自民党大阪市会議員団公式 + 本人公式サイト + X/Facebook/Instagram 全て本人発信を確認。元財務省財務事務官。会派『自由民主党・市民クラブ』所属だが、本人は自民党所属で確定。",
+      "reason": "自民党大阪市会議員団公式 + 本人公式サイト + X/Facebook/Instagram 全て本人発信を確認。元財務省財務事務官、北区3期。会派『自由民主党・市民クラブ』所属だが、本人は自民党所属で確定。2026年3月17日の本人投稿で47歳誕生日と記載があり1978年生まれと推定。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -485,11 +491,67 @@
         "officialProfileUrl": "https://cdp-japan.jp/member/1606",
         "websiteUrl": "https://www.akamatsu-tetsuji.com/",
         "termsServed": 2,
+        "birthDate": "1981-11-06",
+        "birthPlace": "名古屋市中川区",
+        "education": [
+          "1994年 名古屋市立愛知小学校 卒業",
+          "名古屋学院中学校 卒業",
+          "名古屋学院高等学校 卒業",
+          "2006年 愛知学院大学 商学部 卒業"
+        ],
+        "career": [
+          "2006年 日本通運株式会社 入社",
+          "2010年 シンガポール日通 配属",
+          "2016年 日通 名古屋航空支店 転勤",
+          "全日通労働組合愛知県支部 会計監査",
+          "2018年4月〜 衆議院議員 赤松広隆 秘書"
+        ],
+        "biography": "1981年11月6日名古屋市中川区生まれ・育ち。名古屋学院中学・高校から愛知学院大学商学部卒業（2006年）。日本通運に新卒入社し、シンガポール日通配属（2010年）・名古屋航空支店（2016年）と国際物流業務を経験。全日通労組県支部会計監査を経て、2018年4月から衆議院議員・赤松広隆氏の秘書を務める。立憲民主党所属、名古屋民主市会議員団、中川区選出、現在2期目。",
+        "keyPolicies": [
+          {
+            "category": "教育・子育て",
+            "title": "義務教育の無償化・3歳未満児保育料無償化",
+            "description": "義務教育の完全無償化と、3歳未満児の保育料無償化を推進。",
+            "sourceUrl": "https://www.akamatsu-tetsuji.com/"
+          },
+          {
+            "category": "子育て",
+            "title": "子どもの放課後の安全な居場所づくり",
+            "description": "放課後子どもが安全に過ごせる居場所の整備を推進。",
+            "sourceUrl": "https://www.akamatsu-tetsuji.com/"
+          },
+          {
+            "category": "高齢者",
+            "title": "敬老パスの利用拡大",
+            "description": "敬老パスの回数制限見直し、JR・名鉄・近鉄での利用拡大を提案。",
+            "sourceUrl": "https://www.akamatsu-tetsuji.com/"
+          },
+          {
+            "category": "暮らし",
+            "title": "買い物サポート制度・住民票コンビニ交付",
+            "description": "高齢者等のための買い物サポート制度の創設、住民票のコンビニ交付を推進。",
+            "sourceUrl": "https://www.akamatsu-tetsuji.com/"
+          }
+        ],
+        "notableQuotes": [
+          {
+            "date": "コロナ禍",
+            "content": "新型コロナウイルス自宅療養者への配食サービス拡充を本会議で提案。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.akamatsu-tetsuji.com/"
+          },
+          {
+            "date": "実績",
+            "content": "子ども医療費の18歳まで無料化を提案・実現に貢献。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.akamatsu-tetsuji.com/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "立憲民主党公式 + 本人公式サイト akamatsu-tetsuji.com + 名古屋民主市会議員団公式（nagoyacity.net）確認。2期、立憲民主党 名古屋民主会派。",
+      "reason": "立憲民主党公式 + 本人公式サイト akamatsu-tetsuji.com + 名古屋民主市会議員団公式 確認。1981年11月6日名古屋市中川区生まれ、愛知学院大学商学部卒、元日本通運（シンガポール配属歴あり）、現赤松広隆衆院議員秘書、2期。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -523,11 +585,59 @@
         "officialProfileUrl": "https://jiminyokohama.gr.jp/members/",
         "websiteUrl": "https://yamadakazumasa.com/",
         "termsServed": 2,
+        "birthDate": "1976-10-06",
+        "birthPlace": "横浜市鶴見区",
+        "education": [
+          "横浜市立寺尾小学校 卒業",
+          "2000年3月 慶應義塾大学 法学部 法律学科 卒業",
+          "2000年10月 司法試験合格",
+          "最高裁判所司法研修所 修了"
+        ],
+        "career": [
+          "2002年10月 弁護士登録、横浜綜合法律事務所 所属",
+          "2007年4月 横浜開港法律事務所 設立・代表",
+          "横浜市会議員 初当選 → 2期（鶴見区）"
+        ],
+        "biography": "1976年10月6日横浜市鶴見区生まれ。横浜市立寺尾小学校から慶應義塾大学法学部法律学科卒業（2000年3月）。同年10月に司法試験合格し、最高裁判所司法研修所を経て2002年10月に弁護士登録。横浜綜合法律事務所所属を経て、2007年4月に「横浜開港法律事務所」を設立・代表。約20年の弁護士キャリアと並行して横浜市会議員として2期目を務める。鶴見区豊岡町在住。",
+        "keyPolicies": [
+          {
+            "category": "子ども・福祉",
+            "title": "児童虐待防止の法制化",
+            "description": "令和3年度『横浜市子供を虐待から守る条例』改正の議員提案で事務局長を務め、体罰や子どもの尊厳を傷つける行為の禁止など先端的内容に更新させた。",
+            "sourceUrl": "https://yamadakazumasa.com/"
+          },
+          {
+            "category": "DX・行政改革",
+            "title": "デジタル技術の活用",
+            "description": "デジタル技術を活用した市政効率化を推進。",
+            "sourceUrl": "https://yamadakazumasa.com/"
+          },
+          {
+            "category": "防災",
+            "title": "妊産婦・乳幼児の災害対策",
+            "description": "妊産婦・乳幼児という最も脆弱な層を念頭においた災害対策を推進。",
+            "sourceUrl": "https://yamadakazumasa.com/"
+          },
+          {
+            "category": "多様性",
+            "title": "多様性社会の推進",
+            "description": "多様性を尊重する社会づくりを推進。",
+            "sourceUrl": "https://yamadakazumasa.com/"
+          }
+        ],
+        "notableQuotes": [
+          {
+            "date": "2021",
+            "content": "『横浜市子供を虐待から守る条例』改正（議員提案）で事務局長を務め、体罰や子どもの尊厳を傷つける行為の禁止などを盛り込んだ条例改正に貢献。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://yamadakazumasa.com/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "よこはま自民党公式 + 本人公式サイト yamadakazumasa.com 確認。1976年10月6日生まれ、弁護士20年、2期。令和3年度『横浜市子供を虐待から守る条例』改正の議員提案 事務局長。",
+      "reason": "よこはま自民党公式 + 本人公式サイト yamadakazumasa.com 確認。1976年10月6日横浜市鶴見区生まれ、横浜市立寺尾小→慶應義塾大学法学部法律学科卒（2000年3月）、2000年10月司法試験合格、2002年10月弁護士登録、2007年4月「横浜開港法律事務所」設立・代表、2期、鶴見区選出。令和3年度『横浜市子供を虐待から守る条例』改正の議員提案事務局長。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -588,12 +698,55 @@
       "fields": {
         "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/abe_shinnosuke",
         "websiteUrl": "https://shin-no-suke.net/",
-        "termsServed": 6,
+        "termsServed": 5,
+        "birthDate": "1964-05-06",
+        "birthPlace": "福岡市",
+        "education": [
+          "福岡市立長尾小学校 卒業",
+          "福岡市立友泉中学校 卒業",
+          "福岡県立修猷館高等学校 卒業",
+          "鳥取大学 医学部 中退",
+          "九州大学 法学部 法律学科 卒業（刑事訴訟法専攻）"
+        ],
+        "career": [
+          "1999年 福岡市議選 初出馬（落選）",
+          "2003年 福岡市議会議員 初当選（城南区）",
+          "2019年5月〜2021年6月 第73代福岡市議会議長"
+        ],
+        "biography": "1964年5月6日福岡市生まれ。修猷館高校から鳥取大学医学部に進学するも中退し、九州大学法学部法律学科に再入学（刑事訴訟法専攻）して卒業。1999年に福岡市議選に初出馬したが落選、2003年に初当選し以来5期。2019年5月から2021年6月まで第73代福岡市議会議長を務めた。全国市議会議長会研究会会長、九州市議会議長会会長、福岡県市議会議長会会長を歴任。「新憲法制定」と「教育改革」を重点政策に掲げ、「福岡全体を見渡して行動・発言すべき」という姿勢を示す。城南区では多数のスポーツ団体顧問・会長を務め、医療職能団体推薦議員として地域活動に注力。",
+        "keyPolicies": [
+          {
+            "category": "憲法・国政課題",
+            "title": "新憲法制定",
+            "description": "地方議員でありながら新憲法制定を重点政策として掲げる。",
+            "sourceUrl": "https://shin-no-suke.net/"
+          },
+          {
+            "category": "教育",
+            "title": "教育改革",
+            "description": "教育改革を重点政策に掲げ、人材育成を福岡市政の柱に据える。",
+            "sourceUrl": "https://shin-no-suke.net/"
+          },
+          {
+            "category": "理念",
+            "title": "福岡全体を見渡した行動・発言",
+            "description": "城南区選出ではあるが、地域に閉じず福岡市全体を見渡して行動・発言すべきという姿勢を強調。",
+            "sourceUrl": "https://shin-no-suke.net/"
+          }
+        ],
+        "notableQuotes": [
+          {
+            "date": "2019-05",
+            "content": "第73代福岡市議会議長に就任（〜2021年6月）。在任中に全国市議会議長会研究会会長、九州市議会議長会会長、福岡県市議会議長会会長を歴任。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://shin-no-suke.net/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "福岡市議会公式 + 本人公式サイト shin-no-suke.net + 自由民主党福岡市議団公式 確認。1964年5月6日生まれ、6期、九州大学法学部法律学科卒、2003年初当選。",
+      "reason": "福岡市議会公式 + 本人公式サイト shin-no-suke.net + 自民党福岡市議団公式 確認。1964年5月6日福岡市生まれ、修猷館高校→鳥取大学医学部中退→九州大学法学部法律学科卒、5期（本人サイト記載に従い termsServed=5 に修正、第１弾追加時の検索結果=6 は誤）、2003年初当選、城南区選出、第73代福岡市議会議長（2019年5月-2021年6月）、全国・九州・福岡県市議会議長会会長を歴任。",
       "appliedAt": "2026-05-29"
     },
     {
