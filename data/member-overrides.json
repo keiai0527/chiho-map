@@ -87,11 +87,27 @@
         "officialProfileUrl": "https://www.komei.or.jp/member/detail/27127157",
         "websiteUrl": "https://tomoko-yamamoto.jp/",
         "twitterUrl": "https://x.com/Cafetonton",
+        "committees": ["2025大阪・関西万博特別委員会委員長"],
+        "biography": "公明党所属の大阪市会議員（北区選出）、2015年4月初当選。2025大阪・関西万博特別委員会委員長として、子どもたちの夢や希望を応援する万博推進に注力。「一人のために全力で」をスローガンに、市民相談を最重視した活動を展開。地元での実績として、長年要望していた扇町公園水系施設の整備（連日多くの人で賑わう）や、うめきた2期区域への4.5ha都市型公園「グラングリーン大阪」整備を支援。",
+        "keyPolicies": [
+          {
+            "category": "万博",
+            "title": "2025大阪・関西万博の推進",
+            "description": "万博特別委員会委員長として、「時代を担う子供たちの夢や希望を応援していきたい」と表明、万博を子ども目線で推進。",
+            "sourceUrl": "https://tomoko-yamamoto.jp/"
+          },
+          {
+            "category": "地域・公園",
+            "title": "扇町公園・グラングリーン大阪",
+            "description": "長年要望していた扇町公園水系施設の整備実現、うめきた2期区域グラングリーン大阪（4.5ha都市型公園）整備を支援。",
+            "sourceUrl": "https://tomoko-yamamoto.jp/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "公明党公式議員プロフィール + 本人サイト tomoko-yamamoto.jp 確認。2025大阪関西万博特別委員会委員長。",
+      "reason": "公明党公式議員プロフィール + 本人サイト tomoko-yamamoto.jp + 本人X @Cafetonton 確認。北区選出、2015年4月初当選、2025大阪・関西万博特別委員会委員長。扇町公園水系施設整備・グラングリーン大阪が地元実績。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -622,11 +638,43 @@
       "fields": {
         "officialProfileUrl": "https://www.jcp.or.jp/list/member/2310371",
         "websiteUrl": "https://www.n-jcp.jp/profile/okada",
+        "termsServed": 4,
+        "committees": ["総務環境委員会副委員長", "大都市制度・広域連携促進特別委員会"],
+        "birthDate": "1965-01",
+        "education": [
+          "信州大学医療技術短期大学部 看護学科 卒業"
+        ],
+        "career": [
+          "北医療生協 訪問看護ステーション 勤務",
+          "北医療生協 居宅介護支援事業所 勤務",
+          "2011年 名古屋市会議員 初当選（北区）"
+        ],
+        "biography": "1965年1月生まれ。信州大学医療技術短期大学部看護学科卒業。北医療生協の訪問看護ステーション、居宅介護支援事業所での看護師・ケアマネジャー経験を経て、2011年に名古屋市会議員（北区）に初当選、現在4期目。総務環境委員会副委員長、大都市制度・広域連携促進特別委員会委員、愛知県後期高齢者医療広域連合議会議員、日本共産党 党政審委員長。",
+        "keyPolicies": [
+          {
+            "category": "保育・教育",
+            "title": "公立保育所・私立幼稚園の廃園計画撤回",
+            "description": "公立保育所と私立幼稚園の廃園計画撤回を訴え続け、議会で繰り返し取り上げている。",
+            "sourceUrl": "https://www.n-jcp.jp/profile/okada"
+          },
+          {
+            "category": "福祉",
+            "title": "ホームレスの自立支援",
+            "description": "ホームレスの自立支援策の充実を求める活動。",
+            "sourceUrl": "https://www.n-jcp.jp/profile/okada"
+          },
+          {
+            "category": "住宅",
+            "title": "住まいの人権保障",
+            "description": "住まいの人権としての保障の充実を主張。",
+            "sourceUrl": "https://www.n-jcp.jp/profile/okada"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "日本共産党中央委員会公式 + 日本共産党名古屋市会議員団公式（n-jcp.jp）確認。2011年初当選。日本共産党愛知県委員会・北西地区委員会所属。",
+      "reason": "日本共産党中央委員会公式 + 日本共産党名古屋市会議員団公式（n-jcp.jp/profile/okada）確認。1965年1月生まれ、信州大学医療技術短期大学部看護学科卒、元北医療生協看護師・ケアマネ、2011年初当選、4期、北区選出。総務環境委員会副委員長、愛知県後期高齢者医療広域連合議会議員。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -696,11 +744,23 @@
         "officialProfileUrl": "https://cdp-japan.jp/member/171",
         "websiteUrl": "https://ameblo.jp/daisuke-naka/",
         "termsServed": 6,
+        "birthDate": "1975-08-23",
+        "birthPlace": "東京都渋谷区",
+        "education": [
+          "國學院大學 卒業",
+          "日本大学大学院 グローバルビジネス研究科 修了"
+        ],
+        "career": [
+          "シダックス株式会社 勤務",
+          "社会保険横浜中央病院 勤務",
+          "横浜市会議員 初当選 → 6期（神奈川区）"
+        ],
+        "biography": "1975年8月23日東京都渋谷区生まれ。國學院大學卒業後、シダックス株式会社、社会保険横浜中央病院で勤務。日本大学大学院グローバルビジネス研究科を修了。横浜市会議員（神奈川区）として6期務める立憲民主党所属のベテラン議員。",
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "立憲民主党公式 + 本人公式ブログ（ameblo.jp/daisuke-naka）確認。6期、1975年8月23日生まれ、東京都渋谷区出身、日本大学大学院グローバルビジネス研究科卒。",
+      "reason": "立憲民主党公式（cdp-japan.jp/member/171）+ 本人公式ブログ（ameblo.jp/daisuke-naka）確認。1975年8月23日東京都渋谷区生まれ、國學院大學卒・日本大学大学院グローバルビジネス研究科修了、元シダックス株式会社・社会保険横浜中央病院勤務、6期、神奈川区選出。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -1154,12 +1214,19 @@
       "fields": {
         "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/nakayama_ikumi",
         "websiteUrl": "http://nakayama-ikumi.jp/",
-        "termsServed": 5,
+        "termsServed": 6,
+        "committees": ["福祉都市委員会", "都市問題等調査特別委員会副委員長"],
+        "birthDate": "1960-01-22",
+        "career": [
+          "中学校教諭（早良中学校・城香中学校・西陵中学校・原中学校等）18年（卓球部顧問）",
+          "福岡市議会議員 初当選 → 6期（早良区）"
+        ],
+        "biography": "1960年1月22日生まれ。福岡市立の中学校（早良中・城香中・西陵中・原中等）で18年間にわたり教諭を務め、卓球部の顧問としても活動。教師としての教育現場経験を背景に福岡市議会議員（早良区）として6期目を務める。日本共産党福岡市議団 団長、福祉都市委員会、都市問題等調査特別委員会副委員長。事務所では毎月第2金曜日19時、隔月第3木曜日19時に鹿田住宅集会所で集会を実施。",
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "福岡市議会公式 + 本人公式サイト nakayama-ikumi.jp 確認。1960年1月22日生まれ、5期、元中学校教諭18年（早良中・城香中・西陵中・原中で卓球部顧問）。日本共産党福岡市議団 団長。",
+      "reason": "福岡市議会公式（gikai.city.fukuoka.lg.jp/nakayama_ikumi）+ 本人公式サイト nakayama-ikumi.jp 確認。1960年1月22日生まれ、6期（公式名簿に基づき termsServed を 5→6 に修正）、元中学校教諭18年（早良中・城香中・西陵中・原中で卓球部顧問）、早良区選出。日本共産党福岡市議団 団長、福祉都市委員会、都市問題等調査特別委員会副委員長。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -1709,11 +1776,13 @@
         "officialProfileUrl": "https://cdp-japan.jp/member/1550/%E6%A3%AE%E6%B3%B0%E9%9A%86",
         "websiteUrl": "https://mori-hirotaka.com/",
         "termsServed": 2,
+        "birthDate": "1977-11",
+        "biography": "1977年11月生まれ。横浜市会議員（保土ケ谷区）、立憲民主党所属、2期。2019年に初当選（10,324票・3位）、2023年にはトップ当選（15,097票）と地域での支持を急拡大。立憲民主党横浜市会議員団 政務調査会副会長（後に副団長就任）、立憲民主党神奈川県連 幹事長部局兼組織団体委員会事務局長、立憲民主党神奈川県横浜市保土ケ谷区支部 支部長。地域の声を政策の原点とする「奮闘記」「改善日記」「市政レポート」、保土ケ谷区6地区別の活動報告など、住民密着の情報発信が特徴。",
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "立憲民主党公式 + 本人公式サイト mori-hirotaka.com 確認。1977年11月生まれ、2期、保土ケ谷区選出。2019年初当選（10,324票・3位）、2023年トップ当選（15,097票）。立憲民主党横浜市会議員団 政務調査会副会長、立憲民主党神奈川県連 幹事長部局兼組織団体委員会事務局長。",
+      "reason": "立憲民主党公式 + 本人公式サイト mori-hirotaka.com 確認。1977年11月生まれ、2期、保土ケ谷区選出。2019年初当選（10,324票・3位）、2023年トップ当選（15,097票）。立憲民主党横浜市会議員団 政務調査会副会長（後に副団長）。",
       "appliedAt": "2026-05-29"
     },
     {
