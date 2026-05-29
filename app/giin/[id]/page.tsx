@@ -200,22 +200,30 @@ export default async function MemberPage({ params }: { params: Params }) {
           政策タグ
         </h2>
         {hasAnyPolicyTag ? (
-          <ul className="flex flex-wrap gap-1.5">
-            {m.policyTags!.map((t) => (
-              <li
-                key={t}
-                className="rounded bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-900"
-              >
-                #{t}
-              </li>
-            ))}
-          </ul>
+          <div>
+            <ul className="flex flex-wrap gap-1.5">
+              {m.policyTags!.map((t) => (
+                <li
+                  key={t}
+                  className="rounded bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-900"
+                >
+                  #{t}
+                </li>
+              ))}
+            </ul>
+            <p className="mt-2 text-[11px] text-slate-500">
+              本人の公式ページ・発言・公約に基づくタグです。出典は議員ご本人の公式情報に依拠しています。
+              （運営者が自動推定で付与したタグは「暫定」と明示します）
+            </p>
+          </div>
         ) : (
           <PendingBlock
-            title="政策タグは収集中です"
+            title="政策タグは未実装です（運用ポリシー策定中）"
             items={[
-              "本人の公式発言・所信表明から運営者が付与する分類",
-              "（例: 子育て / 教育 / 防災 / 交通 / 議会改革）",
+              "本人の公式ページ・発言・公約に出典がある内容のみをタグ化",
+              "出典URLを各タグに併記",
+              "運営者が自動推定したものは「暫定」と明示",
+              "（偏向・評価付けを避けるため慎重に運用します）",
             ]}
           />
         )}

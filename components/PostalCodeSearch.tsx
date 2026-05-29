@@ -101,9 +101,15 @@ export function PostalCodeSearch() {
       <h2 className="mb-1 text-lg font-bold text-slate-900">
         郵便番号から あなたの街の議員を探す
       </h2>
-      <p className="mb-4 text-xs text-slate-500">
-        7桁の郵便番号を入力すると、その住所の市区を判定して該当議員一覧へ案内します。
+      <p className="mb-2 text-xs text-slate-500">
+        7桁の郵便番号を入力すると、その住所の市区を推定して該当議員一覧へ案内します。
         対応は5市（大阪・名古屋・横浜・福岡・札幌）のみ。
+      </p>
+      <p className="mb-4 rounded border border-amber-200 bg-amber-50 px-3 py-2 text-[11px] text-amber-900">
+        ⚠️ 本機能は<strong>郵便番号から「市区」を推定</strong>するもので、
+        選挙区そのものを確定するものではありません。
+        郵便番号と行政区の関係には境界・複数区にまたがる地域もあり得ます。
+        <strong>選挙区の最終確認は、各市議会公式情報・選挙管理委員会公式情報をご確認ください</strong>。
       </p>
 
       <form onSubmit={onSubmit} className="flex flex-wrap gap-2">

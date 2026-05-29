@@ -4,5 +4,112 @@
     "osaka-ldp-dpp-tsunagaru 会派の5名（太田勝己/藤原よういち/武直樹/松崎孔/田中ひろき）は暫定で全員 partyId='ldp' としている。実際は自民党・国民民主党・無所属が混在する複合会派なので、個別議員の正確な政党所属を確認して partyId を上書きする必要がある。",
     "osaka-ldp-shimin 会派の10名は暫定で全員 partyId='ldp' としている。市民クラブの実体（無所属の集合か）を確認し、必要なら個別議員の partyId を 'independent' に上書きする。"
   ],
-  "overrides": []
+  "overrides": [
+    {
+      "id": "osaka-fujita-akira",
+      "fields": {
+        "officialProfileUrl": "https://ishinnokai-osakashikai.jp/member/%E8%97%A4%E7%94%B0%E3%80%80%E3%81%82%E3%81%8D%E3%82%89",
+        "websiteUrl": "http://fujitaakira.com/",
+        "twitterUrl": "https://x.com/fujita_akira_",
+        "termsServed": 4,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "大阪維新の会大阪市会議員団 公式サイト（ishinnokai-osakashikai.jp）に本人プロフィール掲載確認。個人公式サイト fujitaakira.com、X アカウント @fujita_akira_ も本人発信を確認。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-tsuji-junko",
+      "fields": {
+        "officialProfileUrl": "https://ishinnokai-osakashikai.jp/member/%E8%BE%BB%E6%B7%B3%E5%AD%90",
+        "twitterUrl": "https://x.com/tsujijunko",
+        "termsServed": 6,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "大阪維新の会公式 + 本人運営Xアカウント @tsujijunko を確認。元市会議長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-yamamoto-tomoko",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/27127157",
+        "websiteUrl": "https://tomoko-yamamoto.jp/",
+        "twitterUrl": "https://x.com/Cafetonton",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人サイト tomoko-yamamoto.jp 確認。2025大阪関西万博特別委員会委員長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-maeda-kazuhiko",
+      "fields": {
+        "officialProfileUrl": "https://jimin-osaka.com/member/%E5%89%8D%E7%94%B0%E5%92%8C%E5%BD%A6/",
+        "websiteUrl": "https://kazuhiko-maeda.weblike.jp/",
+        "twitterUrl": "https://x.com/kazuhikomaeda",
+        "facebookUrl": "https://www.facebook.com/kazuhiko.maeda.50/",
+        "instagramUrl": "https://www.instagram.com/maedakazuhiko/",
+        "termsServed": 3,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "自民党大阪市会議員団公式 + 本人公式サイト + X/Facebook/Instagram 全て本人発信を確認。元財務省財務事務官。会派『自由民主党・市民クラブ』所属だが、本人は自民党所属で確定。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-nakata-koichiro",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/27120167",
+        "websiteUrl": "https://komei.news/nakata/",
+        "termsServed": 2,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人公式サイト komei.news/nakata/ 確認。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-osanai-naoya",
+      "fields": {
+        "officialProfileUrl": "https://www.jiminsapporo.jp/shikkobu_giin_yakuin/shigikaigiiinitiran/osanai.html",
+        "websiteUrl": "http://www.naoya.jp/",
+        "committees": ["議長", "建設委員会", "総合交通政策調査特別委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "さっぽろ自民党公式 + 本人公式サイト naoya.jp 確認。7期、自民党札幌市支部連合会副会長、市議会議長経験者。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-hayashi-seiji",
+      "fields": {
+        "partyId": "cdp",
+        "officialProfileUrl": "https://cdp-japan.jp/member/445",
+        "committees": ["厚生委員会", "総合交通政策調査特別委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "立憲民主党公式サイト（cdp-japan.jp）に本人プロフィール掲載確認。会派『民主市民連合』所属、政党は立憲民主党（cdp）で確定。これにより民主市民連合 cdp 暫定割当てのうち本議員分は verified。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-ikeda-yumi",
+      "fields": {
+        "committees": ["建設委員会副委員長", "総合交通政策調査特別委員会"],
+        "dataConfidence": "partial",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": true
+      },
+      "reason": "公式名簿で所属委員会確認（建設委員会副委員長、総合交通政策調査特別委員会）。SNS・個人サイト情報は今回検索で確認できず、partial 扱い。",
+      "appliedAt": "2026-05-29"
+    }
+  ]
 }
