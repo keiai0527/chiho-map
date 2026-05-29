@@ -1643,6 +1643,264 @@
       },
       "reason": "公明党公式議員プロフィール + 本人公式ホームページ（komei.or.jp/km/shinohara）確認。4期、城南区選出、公明党福岡市議団 政調会長、文化・スポーツ振興推進協議会会長。",
       "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-shionaka-issei",
+      "fields": {
+        "officialProfileUrl": "https://ishinnokai-osakashikai.jp/member/%E5%A1%A9%E4%B8%AD%E3%80%80%E4%B8%80%E6%88%90",
+        "twitterUrl": "https://x.com/shionaka_ishin",
+        "termsServed": 2,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "大阪維新の会公式議員プロフィール + 本人X @shionaka_ishin 確認。1971年7月23日生まれ、2期、中央区選出、2020年3月の中央区再選挙で初当選、元国会議員秘書。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-sugita-tadahiro",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/27123133",
+        "websiteUrl": "http://sugita-t.net/",
+        "termsServed": 6,
+        "committees": ["都市経済委員会", "環境対策特別委員会"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人公式サイト sugita-t.net 確認。1954年7月30日生まれ、6期、淀川区選出。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-yamada-masakazu",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/27116138",
+        "websiteUrl": "https://yamada-masakazu.com/",
+        "termsServed": 4,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人公式サイト yamada-masakazu.com 確認。1966年6月8日生まれ、4期、生野区選出。公明党大阪府本部 幹事。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "osaka-fuchiue-hiromi",
+      "fields": {
+        "officialProfileUrl": "https://jimin-osaka.com/%E6%B8%95%E4%B8%8A%E6%B5%A9%E7%BE%8E/",
+        "websiteUrl": "https://fuchikami-hiromi.com/",
+        "termsServed": 1,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "自民党大阪市会議員団公式 + 本人公式サイト fuchikami-hiromi.com 確認。1期、東住吉区選出。聖母女子大学、ジョージワシントン大学、法政大学院政治学修士。元河野太郎衆議院議員秘書、カンボジア地雷除去NPO、JICA勤務歴。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-kawata-tadahisa",
+      "fields": {
+        "officialProfileUrl": "https://jiminsapporo.jp/member/681/",
+        "websiteUrl": "https://kawatatadahisa.com/",
+        "termsServed": 4,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "さっぽろ自民党公式 + 本人公式サイト kawatatadahisa.com 確認。1969年3月5日生まれ、4期、厚別区選出。自民党札幌議員会副会長（2023-2024）、自民党札連 政務調査会長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-shinoda-eriko",
+      "fields": {
+        "officialProfileUrl": "https://cdp-japan.jp/member/3150/%E7%AF%A0%E7%94%B0%E6%B1%9F%E9%87%8C%E5%AD%90",
+        "termsServed": 4,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "立憲民主党公式 確認。4期、東区選出。第42代札幌市議会副議長（2023年5月就任）。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-nagaya-izumi",
+      "fields": {
+        "officialProfileUrl": "https://www.jcp-sapporo.jp/assembly/",
+        "dataConfidence": "partial",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": true
+      },
+      "reason": "日本共産党札幌市議団公式 確認。北区選出、日本共産党所属。本人公式サイト・SNSは検索で見当たらず partial 扱い。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "sapporo-maekawa-takashi",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/01104150",
+        "websiteUrl": "https://www.maekawa.fun/",
+        "termsServed": 3,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人公式サイト maekawa.fun 確認。1967年9月22日生まれ、3期、白石区選出。公明党北海道本部 幹事・道民運動局長、公明党札幌白石総支部 総支部長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-kinoshita-masaru",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/23110136",
+        "websiteUrl": "https://www.komei.or.jp/km/nagoya-kinoshita-masaru/profile/",
+        "termsServed": 6,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人公式ホームページ 確認。1954年12月21日生まれ、6期、中川区選出。公明党名古屋市議団 団長、公明党名古屋第5総支部長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-tayama-hiroyuki",
+      "fields": {
+        "officialProfileUrl": "https://genzei758.com/member/tayama_hiroyuki/",
+        "websiteUrl": "http://htayama.net/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "減税日本ナゴヤ公式 + 本人公式サイト htayama.net 確認。北区選出、減税日本ナゴヤ 副団長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-kunimasa-naoki",
+      "fields": {
+        "officialProfileUrl": "https://cdp-japan.jp/member/81/%E5%9B%BD%E6%94%BF%E7%9B%B4%E8%A8%98",
+        "websiteUrl": "https://kunimasa.nagoya/",
+        "twitterUrl": "https://x.com/kunimasanaoki",
+        "facebookUrl": "https://www.facebook.com/KunimasaNaoki/",
+        "termsServed": 2,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "立憲民主党公式 + 本人公式サイト kunimasa.nagoya + 本人X @kunimasanaoki + Facebook 確認。平成元年（1989年）生まれ、2期、東区選出、名古屋民主市会議員団所属。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "nagoya-kitano-yoshiharu",
+      "fields": {
+        "officialProfileUrl": "https://jimin-nagoya.com/staff/%E5%8C%97%E9%87%8E%E3%82%88%E3%81%97%E3%81%AF%E3%82%8B/",
+        "websiteUrl": "http://www.kitanoyoshi.com/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "自由民主党名古屋市会議員団公式 + 本人公式サイト kitanoyoshi.com 確認。守山区選出（人口17万人超）、自民党名古屋市会議員団 広報委員長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-tanaka-shinichi",
+      "fields": {
+        "officialProfileUrl": "https://o-ishin.jp/member/detail/post_804.html",
+        "websiteUrl": "https://www.41tanaka.com/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "日本維新の会公式 + 本人公式サイト 41tanaka.com 確認。1963年10月22日生まれ、神奈川区選出、横浜市政担当。元企業広告担当、NTTグループ、大学非常勤講師・企画部長・理事歴。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-matsumoto-ken",
+      "fields": {
+        "officialProfileUrl": "https://jiminyokohama.gr.jp/members/",
+        "websiteUrl": "http://matsuken.hama1.jp/",
+        "termsServed": 8,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "よこはま自民党公式 + 本人公式サイト matsuken.hama1.jp 確認。1951年12月3日生まれ、8期、中区選出、1996年10月補選で初当選。第49代横浜市会議長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-fujisaki-kotaro",
+      "fields": {
+        "officialProfileUrl": "https://cdp-japan.jp/member/3287/%E8%97%A4%E5%B4%8E%E6%B5%A9%E5%A4%AA%E9%83%8E",
+        "websiteUrl": "https://www.fujisakikotaro.jp/",
+        "termsServed": 4,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "立憲民主党公式 + 本人公式サイト fujisakikotaro.jp 確認。1979年6月28日生まれ、4期、青葉区選出。福島県郡山市出身、立命館大学院政策科学研究科博士前期課程修了。立憲民主党横浜市会議員団 副団長（2026年1月会派名変更時就任）。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "yokohama-saito-shinichi",
+      "fields": {
+        "officialProfileUrl": "https://www.komei.or.jp/member/detail/14106139",
+        "websiteUrl": "https://shin-shin.com/",
+        "termsServed": 6,
+        "committees": ["こども青少年・教育委員会副委員長", "下水道河川・水道・交通委員会", "都心部活性化特別委員会", "健康づくり・スポーツ推進特別委員会副委員長"],
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "公明党公式議員プロフィール + 本人公式サイト shin-shin.com 確認。1968年2月4日生まれ、6期、保土ケ谷区選出。公明党横浜市会議員団 団長。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-inakazu-toshio",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/inakazu_toshio",
+        "websiteUrl": "https://fukuoka-jimin.jp/fksigidan/%E7%A8%B2%E5%93%A1%E3%80%80%E7%A8%94%E5%A4%AB/",
+        "termsServed": 3,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 自民党福岡県連公式 確認。1973年12月22日生まれ、3期、中央区選出、自由民主党福岡市議団所属。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-ochiishi-toshinori",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/ochiishi_toshinori",
+        "websiteUrl": "https://www.ochiishi.jp/",
+        "termsServed": 3,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 本人公式サイト ochiishi.jp 確認。3期11年余、東区選出。福岡市民クラブ 副代表。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-tanaka-shinsuke",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/tanaka_shinsuke",
+        "websiteUrl": "https://www.tanakashinsuke.jp/",
+        "termsServed": 5,
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 本人公式サイト tanakashinsuke.jp + 立憲民主党公式 確認。5期、中央区選出、立憲民主党所属、『新時代をつくる会』代表。",
+      "appliedAt": "2026-05-29"
+    },
+    {
+      "id": "fukuoka-nakajima-masahiro",
+      "fields": {
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/nakashima_masahiro",
+        "websiteUrl": "https://shinfukuoka.com/nakashima/",
+        "facebookUrl": "https://www.facebook.com/M.nakashima.kouenkai/",
+        "dataConfidence": "verified",
+        "lastVerifiedAt": "2026-05-29",
+        "hasProvisionalData": false
+      },
+      "reason": "福岡市議会公式 + 自民党新福岡公式（shinfukuoka.com）+ Facebook 確認。1961年福岡市中央区生まれ、保守系会派『自民党新福岡』所属。元日本プロゴルフ協会理事。防犯活動、防災対策、教育問題を重点。",
+      "appliedAt": "2026-05-29"
     }
   ]
 }
