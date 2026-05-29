@@ -55,6 +55,38 @@ export interface ParliamentaryGroup {
  */
 export type DataConfidence = "verified" | "partial" | "estimated";
 
+/**
+ * 議員の主張・政策の一項目（本人発信ベース）
+ * 偏向回避のため、出典URL必須・本人の公式発信から引用または要約のみ
+ */
+export interface PolicyItem {
+  /** カテゴリ（例: "教育・子育て", "防災", "産業"） */
+  category: string;
+  /** 短いタイトル（例: "保育所増設", "地下鉄延伸"） */
+  title: string;
+  /** 主張・政策の説明（本人発信からの要約、運営者の評価は含めない） */
+  description: string;
+  /** 出典URL（本人公式・市議会議事録・党公式等） */
+  sourceUrl?: string;
+}
+
+/**
+ * 注目発言・実績の記録
+ * 議事録引用や本人発信からの抜粋。出典必須。
+ */
+export interface NotableQuote {
+  /** 発言日・実績の日付（ISO date or 「2024-03-15」） */
+  date: string;
+  /** 発言内容または実績（出典通りに引用 or 要約） */
+  content: string;
+  /** 出典タイプ（例: "市議会本会議質問", "本人ブログ", "X投稿"） */
+  source: string;
+  /** 出典URL */
+  sourceUrl?: string;
+  /** 補足コンテクスト（任意） */
+  context?: string;
+}
+
 export interface Member {
   /** 一意ID: `${cityId}-${slug}` 例: "osaka-yamada-taro" */
   id: string;
@@ -91,6 +123,26 @@ export interface Member {
   voteRecordUrl?: string;
   /** 政策タグ（運営者が公式発言から付与する分類） */
   policyTags?: string[];
+
+  // ── プロフィール・経歴 ──
+  /** 生年月日（ISO date or 「1972-08-15」形式） */
+  birthDate?: string;
+  /** 出身地（例: 「大阪府大阪市」「北海道札幌市東区」） */
+  birthPlace?: string;
+  /** 学歴リスト（時系列降順 or 最終学歴のみ） */
+  education?: string[];
+  /** 職歴リスト（議員以前の主要キャリア） */
+  career?: string[];
+  /** 経歴・略歴の自然文（150〜500字程度、出典のある事実のみ） */
+  biography?: string;
+
+  // ── 主張・政策（深掘り） ──
+  /** 主要政策・主張のリスト（本人発信に基づく） */
+  keyPolicies?: PolicyItem[];
+
+  // ── 発言・実績 ──
+  /** 注目発言・本会議質問・実績の記録（出典必須） */
+  notableQuotes?: NotableQuote[];
 
   // ── データ品質（追加予定枠）──
   /** データ信頼度 */

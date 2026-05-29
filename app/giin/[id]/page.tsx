@@ -56,6 +56,15 @@ export default async function MemberPage({ params }: { params: Params }) {
       m.voteRecordUrl,
   );
   const hasAnyPolicyTag = Boolean(m.policyTags && m.policyTags.length > 0);
+  const hasProfile = Boolean(
+    m.birthDate ||
+      m.birthPlace ||
+      m.biography ||
+      (m.education && m.education.length > 0) ||
+      (m.career && m.career.length > 0),
+  );
+  const hasKeyPolicies = Boolean(m.keyPolicies && m.keyPolicies.length > 0);
+  const hasNotableQuotes = Boolean(m.notableQuotes && m.notableQuotes.length > 0);
 
   // 混合会派 partyId 暫定処理に該当する会派ID（types.ts 拡張前の既存データに合わせる）
   const mixedKaihaIds = new Set([
@@ -121,6 +130,48 @@ export default async function MemberPage({ params }: { params: Params }) {
           )}
         </dl>
       </section>
+
+      {/* ── プロフィール・経歴 ── */}
+      {hasProfile && (
+        <section className="mb-8">
+          <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
+            プロフィール・経歴
+          </h2>
+          <dl className="divide-y divide-slate-200 border-y border-slate-200">
+            {m.birthDate && <Row label="生年月日" value={m.birthDate} />}
+            {m.birthPlace && <Row label="出身地" value={m.birthPlace} />}
+            {m.education && m.education.length > 0 && (
+              <Row
+                label="学歴"
+                value={
+                  <ul className="space-y-0.5">
+                    {m.education.map((e) => (
+                      <li key={e}>{e}</li>
+                    ))}
+                  </ul>
+                }
+              />
+            )}
+            {m.career && m.career.length > 0 && (
+              <Row
+                label="職歴"
+                value={
+                  <ul className="space-y-0.5">
+                    {m.career.map((e) => (
+                      <li key={e}>{e}</li>
+                    ))}
+                  </ul>
+                }
+              />
+            )}
+          </dl>
+          {m.biography && (
+            <p className="mt-3 whitespace-pre-line text-sm leading-relaxed text-slate-700">
+              {m.biography}
+            </p>
+          )}
+        </section>
+      )}
 
       {/* ── 公式リンク・SNS ── */}
       <section className="mb-8">
@@ -193,6 +244,84 @@ export default async function MemberPage({ params }: { params: Params }) {
           />
         )}
       </section>
+
+      {/* ── 主張・政策（深掘り） ── */}
+      {hasKeyPolicies && (
+        <section className="mb-8">
+          <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
+            主張・政策
+          </h2>
+          <ul className="space-y-3 text-sm">
+            {m.keyPolicies!.map((p, i) => (
+              <li
+                key={`${p.category}-${p.title}-${i}`}
+                className="rounded-lg border border-slate-200 bg-white p-3"
+              >
+                <div className="mb-1 flex items-center gap-2">
+                  <span className="rounded bg-blue-50 px-2 py-0.5 text-[11px] font-medium text-blue-900">
+                    {p.category}
+                  </span>
+                  <span className="font-semibold text-slate-900">{p.title}</span>
+                </div>
+                <p className="text-slate-700">{p.description}</p>
+                {p.sourceUrl && (
+                  <a
+                    href={p.sourceUrl}
+                    target="_blank"
+                    rel="noopener"
+                    className="mt-2 inline-block text-xs text-slate-500 underline-offset-2 hover:underline"
+                  >
+                    出典 →
+                  </a>
+                )}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-2 text-[11px] text-slate-500">
+            本人の公式発信・市議会議事録・党公式情報からの要約です。出典URLを各項目に併記しています。
+          </p>
+        </section>
+      )}
+
+      {/* ── 注目発言・実績 ── */}
+      {hasNotableQuotes && (
+        <section className="mb-8">
+          <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
+            注目発言・実績
+          </h2>
+          <ul className="space-y-3 text-sm">
+            {m.notableQuotes!.map((q, i) => (
+              <li
+                key={`${q.date}-${i}`}
+                className="rounded-lg border-l-2 border-slate-300 bg-slate-50 p-3"
+              >
+                <div className="mb-1 flex flex-wrap items-center gap-2 text-xs text-slate-500">
+                  <span className="font-medium text-slate-700">{q.date}</span>
+                  <span>·</span>
+                  <span>{q.source}</span>
+                </div>
+                <p className="text-slate-800">{q.content}</p>
+                {q.context && (
+                  <p className="mt-1 text-xs text-slate-500">{q.context}</p>
+                )}
+                {q.sourceUrl && (
+                  <a
+                    href={q.sourceUrl}
+                    target="_blank"
+                    rel="noopener"
+                    className="mt-2 inline-block text-xs text-slate-500 underline-offset-2 hover:underline"
+                  >
+                    出典リンク →
+                  </a>
+                )}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-2 text-[11px] text-slate-500">
+            市議会本会議・委員会議事録、本人公式発信からの引用・要約です。
+          </p>
+        </section>
+      )}
 
       {/* ── 政策タグ ── */}
       <section className="mb-8">

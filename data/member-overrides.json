@@ -183,11 +183,33 @@
       "fields": {
         "officialProfileUrl": "https://jiminsapporo.jp/member/643/",
         "websiteUrl": "http://www.iijima-hiroyuki.jp/",
+        "termsServed": 5,
+        "birthDate": "1967年（昭和42年）",
+        "birthPlace": "北海道札幌市",
+        "education": [
+          "札幌市立手稲宮丘小学校 卒業",
+          "札幌市立手稲東中学校 卒業",
+          "北海道立札幌西高等学校 卒業",
+          "1991年 慶應義塾大学商学部 卒業"
+        ],
+        "career": [
+          "1991年 株式会社三和銀行（現 三菱東京UFJ銀行）入行",
+          "2007年 札幌市議会議員 初当選（西区）"
+        ],
+        "biography": "1967年札幌生まれ。札幌西高校・慶應義塾大学商学部卒業後、三和銀行で勤務。2007年に札幌市議会議員（西区）に初当選し、2023年5月に5期目当選とともに第36代札幌市議会議長に就任。札幌市議会自由民主党議員会幹事長（平成29-30年度）、建設常任委員会委員長（平成28年度）、厚生常任委員会委員長（平成23年度）等を歴任。",
+        "notableQuotes": [
+          {
+            "date": "2023-05",
+            "content": "第36代札幌市議会議長に就任。札幌市議会自由民主党議員会の中心メンバーとして議会運営を担う。",
+            "source": "さっぽろ自民党公式",
+            "sourceUrl": "https://jiminsapporo.jp/activity/%E7%AC%AC36%E4%BB%A3%E6%9C%AD%E5%B9%8C%E5%B8%82%E8%AD%B0%E4%BC%9A%E8%AD%B0%E9%95%B7%E3%81%AB%E9%A3%AF%E5%B3%B6%E5%BC%98%E4%B9%8B%E8%AD%B0%E5%93%A1%E3%81%8C%E5%B0%B1%E4%BB%BB%E3%81%97%E3%81%BE%E3%81%97/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "さっぽろ自民党公式 + 本人公式サイト iijima-hiroyuki.jp 確認。第36代札幌市議会議長（2023年5月就任）。",
+      "reason": "さっぽろ自民党公式 + 本人公式サイト iijima-hiroyuki.jp 確認。第36代札幌市議会議長（2023年5月就任）。経歴・学歴・職歴は札幌自民党公式プロフィール（jimin-sapporo.jp/iijimahiroyuki.html）から取得。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -249,11 +271,51 @@
       "fields": {
         "officialProfileUrl": "https://jimin-nagoya.com/staff/",
         "websiteUrl": "https://asaimasahito.com/",
+        "committees": ["財政福祉委員会委員長"],
+        "birthDate": "1964-11-14",
+        "education": [
+          "名古屋市立 荒子小学校 卒業",
+          "名古屋市立 一柳中学校 卒業",
+          "愛知高等学校 卒業",
+          "愛知学院大学 法学部 卒業"
+        ],
+        "career": [
+          "社会福祉法人 あさい福祉会 理事長"
+        ],
+        "biography": "1964年11月14日生まれ。名古屋市中川区出身、愛知学院大学法学部卒業。社会福祉法人あさい福祉会の理事長を務める。令和7年度 自民党名古屋市会議員団幹事、財政福祉委員会委員長。「市民の命を守る防災」「未来を担う子どもたちの環境整備」「税金のムダ使いは許さない」を3本柱に掲げる。",
+        "keyPolicies": [
+          {
+            "category": "防災",
+            "title": "市民の命を守る防災の充実",
+            "description": "災害対応力を強化し、安心して住み続けられる街を目指す。",
+            "sourceUrl": "https://asaimasahito.com/"
+          },
+          {
+            "category": "教育・子育て",
+            "title": "子どもたちにより良い環境を",
+            "description": "未来を担う子どもたちのための環境整備を行う。",
+            "sourceUrl": "https://asaimasahito.com/"
+          },
+          {
+            "category": "行政監視",
+            "title": "税金のムダ使いは許さない",
+            "description": "市民の汗の結晶である大切なお金の使いみちを議会で厳しくチェックする。",
+            "sourceUrl": "https://asaimasahito.com/"
+          }
+        ],
+        "notableQuotes": [
+          {
+            "date": "2026-03-05",
+            "content": "本会議で質問を実施。財政福祉委員会委員長の立場から、市の財政運営と福祉施策を中心に質疑。",
+            "source": "本人公式サイト 活動報告",
+            "sourceUrl": "https://asaimasahito.com/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "自由民主党名古屋市会議員団公式 + 本人公式サイト asaimasahito.com 確認。1964年11月14日生まれ。令和7年度 自民党名古屋市会議員団幹事、財政福祉委員会委員長。",
+      "reason": "自由民主党名古屋市会議員団公式 + 本人公式サイト asaimasahito.com 確認。1964年11月14日生まれ、中川区選出。令和7年度 自民党名古屋市会議員団幹事、財政福祉委員会委員長。経歴・学歴・職歴・政策3本柱は本人サイトから取得。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -439,12 +501,40 @@
       "fields": {
         "officialProfileUrl": "https://www.osaka-jimin.jp/members/%E6%9C%A8%E4%B8%8B%E3%80%80%E5%90%89%E4%BF%A1/",
         "websiteUrl": "https://www.kinoshita-yoshinobu.com/",
+        "twitterUrl": "https://x.com/osaka_kinoshita",
         "termsServed": 9,
+        "birthDate": "1961-06-07",
+        "birthPlace": "大阪市阿倍野区",
+        "education": [
+          "1974年 大阪教育大学附属天王寺小学校 卒業",
+          "1977年 同志社香里中学校 卒業",
+          "1980年 同志社香里高等学校 卒業",
+          "1984年 同志社大学 文学部社会学科 卒業"
+        ],
+        "career": [
+          "毎日放送 入社（報道局5年・スポーツ局3年、取材記者・チーフディレクター）",
+          "1992年3月 大阪市会議員 補欠選挙で初当選（阿倍野区）"
+        ],
+        "biography": "1961年大阪市阿倍野区生まれ。同志社香里高校・同志社大学文学部社会学科卒業（大学時代はラグビー部で全国大学選手権3度の日本一）。卒業後、毎日放送（MBS）で報道局5年・スポーツ局3年、取材記者やスポーツ番組のチーフディレクターを務める。1992年3月、父・木下伸生氏（第78代大阪市会議長）の遺志を継いで大阪市会議員補欠選挙に立候補し初当選。以来9期連続当選。祖父・木下常吉氏は第55代大阪市会議長を務めた政治家家系。2013年12月〜2014年5月 第110代大阪市会議長、2015年5月〜2016年5月 第115代副議長を歴任。",
+        "notableQuotes": [
+          {
+            "date": "2013-12",
+            "content": "第110代大阪市会議長に就任。",
+            "source": "本人公式プロフィール",
+            "sourceUrl": "https://www.kinoshita-yoshinobu.com/pages/profile/index.php"
+          },
+          {
+            "date": "2015-05",
+            "content": "第115代大阪市会副議長に就任。",
+            "source": "本人公式プロフィール",
+            "sourceUrl": "https://www.kinoshita-yoshinobu.com/pages/profile/index.php"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "自民党大阪府連公式 + 本人公式サイト kinoshita-yoshinobu.com 確認。1961年6月7日生まれ、9期、1992年補欠選挙で初当選。第110代大阪市会議長、第115代副議長を歴任。",
+      "reason": "自民党大阪府連公式 + 本人公式サイト kinoshita-yoshinobu.com（/pages/profile/）+ 本人X @osaka_kinoshita 確認。1961年6月7日生まれ、阿倍野区出身、9期、1992年補欠選挙で初当選。第110代大阪市会議長、第115代副議長を歴任。父・木下伸生（第78代議長）、祖父・木下常吉（第55代議長）の政治家家系。元毎日放送報道記者。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -1059,11 +1149,52 @@
         "officialProfileUrl": "https://jiminyokohama.gr.jp/members/",
         "websiteUrl": "https://www.watanabe-tadanori.com/",
         "termsServed": 5,
+        "biography": "鶴見区選出・自民党所属の横浜市会議員。5期。令和8年5月15日の市会本会議において第56代横浜市会議長に選任された。「誰もが安心して住み続けられる鶴見をつくります」をスローガンに、高齢者・障がい者支援、防災、子育て、インフラ整備を5つの政策の柱に据えている。",
+        "keyPolicies": [
+          {
+            "category": "高齢者支援",
+            "title": "コミュニティバス導入・バリアフリー化",
+            "description": "鶴見区内でコミュニティバスを導入し、高齢者が外出しやすい環境を整備。同時にバリアフリー化を推進する。",
+            "sourceUrl": "https://www.watanabe-tadanori.com/policy.html"
+          },
+          {
+            "category": "防災",
+            "title": "災害情報のスピーディな通知",
+            "description": "SNS等を活用した災害情報の素早い伝達を進め、住民の避難行動を支援する。",
+            "sourceUrl": "https://www.watanabe-tadanori.com/policy.html"
+          },
+          {
+            "category": "障がい者支援",
+            "title": "自立生活と保護者の安心を実現する制度",
+            "description": "障がいのある方の自立生活の支援と、保護者が安心できる仕組みづくりを進める。",
+            "sourceUrl": "https://www.watanabe-tadanori.com/policy.html"
+          },
+          {
+            "category": "子育て支援",
+            "title": "切れ目ない子育て支援",
+            "description": "妊娠・出産から学齢期まで切れ目のない支援で、子どもたちが健やかに育つ環境を整える。",
+            "sourceUrl": "https://www.watanabe-tadanori.com/policy.html"
+          },
+          {
+            "category": "インフラ整備",
+            "title": "鶴見の交通インフラ強化",
+            "description": "JR矢向駅高架化、鶴見駅での中距離電車停車、横浜環状鉄道延伸（鶴見〜日吉間）の実現に取り組む。",
+            "sourceUrl": "https://www.watanabe-tadanori.com/policy.html"
+          }
+        ],
+        "notableQuotes": [
+          {
+            "date": "2026-05-15",
+            "content": "第56代横浜市会議長に選任。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.watanabe-tadanori.com/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "よこはま自民党公式 + 本人公式サイト watanabe-tadanori.com 確認。5期、鶴見区選出、現横浜市会議長。",
+      "reason": "よこはま自民党公式 + 本人公式サイト watanabe-tadanori.com（/policy.html 含む）確認。5期、鶴見区選出、第56代横浜市会議長（2026年5月15日就任）。政策5項目は本人サイト policy.html から抽出。",
       "appliedAt": "2026-05-29"
     },
     {
@@ -1352,12 +1483,42 @@
         "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/uchikoshi_motoyasu",
         "websiteUrl": "https://uchikoshi.info/",
         "termsServed": 6,
-        "committees": ["総務財政委員会"],
+        "committees": ["総務財政委員会", "少子・高齢化対策特別委員会", "九州大学移転・跡地対策協議会"],
+        "birthDate": "1954-05-02",
+        "birthPlace": "福岡市南区",
+        "education": [
+          "1967年 福岡市立日佐小学校 卒業",
+          "1970年 福岡市立三宅中学校 卒業",
+          "1973年 東福岡高等学校 卒業",
+          "1977年 久留米大学商学部 卒業"
+        ],
+        "career": [
+          "1977年 三洋ビル管理株式会社 入社",
+          "1998年 三洋ビル管理株式会社 代表取締役 就任",
+          "2003年 同代表取締役 退任 / 福岡市議会議員 初当選（南区）"
+        ],
+        "biography": "1954年福岡市南区生まれ。久留米大学商学部卒業後、三洋ビル管理株式会社で勤務、1998年に代表取締役に就任。2003年に同社代表取締役を退任し福岡市議会議員初当選。以来6期連続当選し、2023年に第75代福岡市議会議長に就任、2025年に議長を退任。「誰もが報われる社会」をスローガンに掲げる。地域では福岡市バレーボール協会・福岡市スカッシュ協会の会長も務める。",
+        "keyPolicies": [
+          {
+            "category": "理念",
+            "title": "誰もが報われる社会へ",
+            "description": "地域が求めていることから対話を重ねて実践し、みんながイキイキと暮らせるまちにすることを目指す。",
+            "sourceUrl": "https://uchikoshi.info/"
+          }
+        ],
+        "notableQuotes": [
+          {
+            "date": "2023-05",
+            "content": "第75代福岡市議会議長に就任。",
+            "source": "RKBオンライン",
+            "sourceUrl": "https://rkb.jp/contents/202305/202305176030/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "福岡市議会公式 + 本人公式サイト uchikoshi.info + 自民党福岡市議団公式 確認。1954年生まれ、6期、2003年初当選、南区選出。第75代福岡市議会議長（2023年5月就任）。",
+      "reason": "福岡市議会公式 + 本人公式サイト uchikoshi.info（/profile/ 含む）+ 自民党福岡市議団公式 確認。1954年5月2日生まれ、6期、2003年初当選、南区選出。第75代福岡市議会議長（2023年5月就任、2025年退任）。経歴・学歴・職歴は本人サイト profile ページから取得。",
       "appliedAt": "2026-05-29"
     },
     {
