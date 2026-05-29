@@ -59,6 +59,14 @@
             "sourceUrl": "http://fujitaakira.com/"
           }
         ],
+        "notableQuotes": [
+          {
+            "date": "2025-03-26",
+            "content": "「2024-2025年度版 年次報告書」を公開。財政総務委員会委員長・決算特別委員会委員長・関西広域連合議会議員としての1年間の活動と、大阪維新の会大阪市会議員団 政務調査会長代行 兼 日本維新の会 政調会長代行としての職務を報告。",
+            "source": "本人公式サイト 年次報告書",
+            "sourceUrl": "https://fujitaakira.com/activity/report/annual_report_2024-2025/"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -261,6 +269,15 @@
             "sourceUrl": "https://www.jcp.or.jp/list/member/2711871"
           }
         ],
+        "notableQuotes": [
+          {
+            "date": "代表質問テーマ",
+            "content": "日本共産党大阪市会議員団 団長として、本会議の代表質問を継続的に行う。直近では新型コロナ感染症対策、特別区協定（大阪都構想）、住民サービス維持・拡充等を主要テーマに取り上げ。",
+            "source": "日本共産党 山中智子 公式サイト",
+            "sourceUrl": "http://yamanaka-tomoko.wajcp.net/",
+            "context": "具体的な質疑日・議事録は大阪市会の会議録検索（kaigiroku.net）で『山中智子』で検索すると一覧取得可能。"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -283,6 +300,15 @@
           "大阪市会議員 当選 → 5期（住吉区）"
         ],
         "biography": "1973年3月生まれ。関西鍼灸短期大学を卒業後、住之江鍼灸センターあびこ施術所の所長として鍼灸師の現場経験を積む。大阪市会議員（住吉区）として5期、日本共産党大阪市会議員団 政調会長。所属委員会は建設港湾委員会、環境対策特別委員会。大阪広域環境施設組合議会議員、住吉区社保協副会長としても活動。事務所は住吉区沢之町。",
+        "notableQuotes": [
+          {
+            "date": "建設港湾委員会 6月2日",
+            "content": "大阪市の大規模公園の運営が民間委託されている問題を取り上げ、コンセッション（運営権譲渡）方式での運営が住民サービス・公共性に与える影響について質疑。",
+            "source": "日本共産党中央委員会",
+            "sourceUrl": "https://www.jcp.or.jp/list/member/2712091",
+            "context": "党市議団政調会長として、建設港湾委員会・環境対策特別委員会で継続的に質疑。"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -997,6 +1023,12 @@
             "content": "第115代大阪市会副議長に就任。",
             "source": "本人公式プロフィール",
             "sourceUrl": "https://www.kinoshita-yoshinobu.com/pages/profile/index.php"
+          },
+          {
+            "date": "2026-01-07",
+            "content": "第105回「木下塾」を開催。市政の現状と課題について有権者・支援者と直接対話する定例勉強会を継続的に運営。",
+            "source": "本人公式サイト 更新情報",
+            "sourceUrl": "https://www.kinoshita-yoshinobu.com/"
           }
         ],
         "dataConfidence": "verified",
@@ -1734,11 +1766,30 @@
         "officialProfileUrl": "https://ishinnokai-osakashikai.jp/member",
         "websiteUrl": "https://takechi-hiroyuki.jp/",
         "termsServed": 1,
+        "committees": ["市会運営委員会", "都市経済委員会"],
+        "biography": "大阪維新の会・大阪市会議員（此花区）、1期。大阪維新の会大阪市会議員団 政務調査会副会長 兼 政調会長代行。市会運営委員・都市経済委員。此花区の特区民泊問題、地域共生、観光振興など、地元密着型の政策テーマで本会議・委員会で発言を継続。",
+        "keyPolicies": [
+          {
+            "category": "観光・地域",
+            "title": "特区民泊と地域共生のバランス",
+            "description": "「規制段階から次フェーズへ」を主張し、関係部局間の連携強化と検討会の再稼働を要望。質の高い民泊へのブラッシュアップを求める。",
+            "sourceUrl": "https://note.com/takechi_hiroyuki/n/n2618f8fc0b8b"
+          }
+        ],
+        "notableQuotes": [
+          {
+            "date": "2024-11",
+            "content": "決算特別委員会で此花区内の特区民泊問題について質問。「認定居室数が過去最高である一方、コロナ禍後に苦情が増加している」「住民説明会のルールが不明瞭」と指摘。市側（観光施策担当課長）は「コロナ禍で休止していた検討会を速やかに再稼働」「課題への検討と好事例の共有」に取り組むと回答。",
+            "source": "本人note記事「此花区内にある特区民泊について」",
+            "sourceUrl": "https://note.com/takechi_hiroyuki/n/n2618f8fc0b8b",
+            "context": "制度開始8年経過による状況変化を踏まえ、規制と緩和のバランス・地域共生型運営を提案。"
+          }
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
       },
-      "reason": "大阪維新の会大阪市会議員団公式 + 本人公式サイト takechi-hiroyuki.jp 確認。1期、此花区選出。大阪維新の会大阪市会議員団 政務調査会副会長。",
+      "reason": "大阪維新の会大阪市会議員団公式 + 本人公式サイト takechi-hiroyuki.jp + 本人note 確認。1期、此花区選出。大阪維新の会大阪市会議員団 政務調査会副会長。2024年11月決算特別委員会の特区民泊質疑をnoteで詳細公開。",
       "appliedAt": "2026-05-29"
     },
     {
