@@ -120,8 +120,8 @@ export default async function Home() {
             <li>・氏名 / ふりがな</li>
             <li>・所属市議会 / 所属政党 / 所属会派 / 選挙区</li>
             <li>・当選回数（5市の主要議員 100名以上）</li>
-            <li>・<strong>経歴・役職（議長歴・委員会・党/会派内役職）約114名分</strong></li>
-            <li>・所属委員会</li>
+            <li>・<strong>経歴・役職（議長歴・委員会・党/会派内役職）約118名分</strong></li>
+            <li>・<strong>所属委員会（5市すべて全議員 362名分）</strong></li>
             <li>・公式SNS（X / Facebook / Instagram / YouTube）</li>
             <li>・本人公式サイト / 事務所サイト</li>
             <li>・市議会公式 議員プロフィールリンク</li>

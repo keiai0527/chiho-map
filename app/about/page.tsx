@@ -149,7 +149,7 @@ export default async function AboutPage() {
             <strong>議案への賛否記録</strong>：未整備。市議会公式の採決結果一覧から段階的に整備予定。
           </li>
           <li>
-            <strong>所属委員会</strong>：override 済み議員については掲載中。全議員への拡張は順次。
+            <strong>所属委員会</strong>：<strong>5市すべての362名全員について整備済み</strong>（札幌・名古屋・横浜・福岡は公式委員会別名簿、大阪は令和8年5月18日現在の役員委員表PDFをもとに）。
           </li>
           <li>
             <strong>福岡市</strong>：公式名簿上の現職議員60名を掲載。議員定数62（欠員2の可能性）の差は次回追跡。
