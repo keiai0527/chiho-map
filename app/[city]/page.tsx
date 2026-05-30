@@ -178,7 +178,7 @@ function StaticMemberList({
   return (
     <div>
       <p className="mb-2 text-xs text-slate-500">
-        {members.length}名 該当 / 全{members.length}名（読み込み中。検索機能はJavaScript有効化後に利用可能）
+        {members.length}名 該当 / 全{members.length}名（検索フィルタはJavaScript有効環境で利用可能）
       </p>
       <ul className="space-y-1.5 text-sm">
         {members.map((m) => {
