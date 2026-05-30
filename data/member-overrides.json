@@ -371,6 +371,13 @@
             "source": "本人公式サイト",
             "sourceUrl": "http://www.naoya.jp/",
             "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "第37代札幌市議会議長（2025-04-02 就任）",
+            "content": "札幌市議会公式によると、令和7年（2025年）4月2日の臨時市議会で第37代札幌市議会議長に選出された。",
+            "source": "札幌市議会公式 議長と副議長",
+            "sourceUrl": "https://www.city.sapporo.jp/gikai/html/gichou.html",
+            "verifiedAt": "2026-05-30"
           }
         ],
         "officialSources": [
@@ -6339,6 +6346,121 @@
         ]
       },
       "reason": "福岡市議会公式 + 自民党新福岡公式（shinfukuoka.com）+ Facebook 確認。1961年福岡市中央区生まれ、保守系会派『自民党新福岡』所属。元日本プロゴルフ協会理事。防犯活動、防災対策、教育問題を重点。",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-murakami-yuko",
+      "fields": {
+        "careerMilestones": [
+          {
+            "label": "第43代札幌市議会副議長（2025-04-02 就任）",
+            "content": "札幌市議会公式によると、令和7年（2025年）4月2日の臨時市議会で第43代札幌市議会副議長に選出された。",
+            "source": "札幌市議会公式 議長と副議長",
+            "sourceUrl": "https://www.city.sapporo.jp/gikai/html/gichou.html",
+            "verifiedAt": "2026-05-30"
+          }
+        ],
+        "officialSources": [
+          {
+            "kind": "council_official",
+            "label": "札幌市議会公式 議員一覧",
+            "url": "https://www.city.sapporo.jp/gikai/meibo/meibo-50on.html",
+            "verifiedAt": "2026-05-30"
+          }
+        ],
+        "dataConfidence": "verified",
+        "hasProvisionalData": false,
+        "lastVerifiedAt": "2026-05-30"
+      },
+      "reason": "札幌市議会公式（city.sapporo.jp/gikai/html/gichou.html）確認。第43代札幌市議会副議長（2025年4月2日就任）。",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-koide-shoji",
+      "fields": {
+        "careerMilestones": [
+          {
+            "label": "名古屋市会議長",
+            "content": "名古屋市会公式『議長・副議長』ページによると、現職の名古屋市会議長に就任している。",
+            "source": "名古屋市会公式 議長・副議長",
+            "sourceUrl": "https://www.city.nagoya.jp/shikai/category/322-0-0-0-0-0-0-0-0-0.html",
+            "verifiedAt": "2026-05-30"
+          }
+        ],
+        "officialSources": [
+          {
+            "kind": "council_official",
+            "label": "名古屋市会公式 議員名簿",
+            "url": "https://www.city.nagoya.jp/shikai/category/333-0-0-0-0-0-0-0-0-0.html",
+            "verifiedAt": "2026-05-30"
+          }
+        ],
+        "dataConfidence": "verified",
+        "hasProvisionalData": false,
+        "lastVerifiedAt": "2026-05-30"
+      },
+      "reason": "名古屋市会公式（www.city.nagoya.jp/shikai/category/322-0-0-0-0-0-0-0-0-0.html）確認。現職の名古屋市会議長。",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-mori-tomoo",
+      "fields": {
+        "careerMilestones": [
+          {
+            "label": "名古屋市会副議長",
+            "content": "名古屋市会公式『議長・副議長』ページによると、現職の名古屋市会副議長に就任している。",
+            "source": "名古屋市会公式 議長・副議長",
+            "sourceUrl": "https://www.city.nagoya.jp/shikai/category/322-0-0-0-0-0-0-0-0-0.html",
+            "verifiedAt": "2026-05-30"
+          }
+        ],
+        "officialSources": [
+          {
+            "kind": "council_official",
+            "label": "名古屋市会公式 議員名簿",
+            "url": "https://www.city.nagoya.jp/shikai/category/333-0-0-0-0-0-0-0-0-0.html",
+            "verifiedAt": "2026-05-30"
+          }
+        ],
+        "dataConfidence": "verified",
+        "hasProvisionalData": false,
+        "lastVerifiedAt": "2026-05-30"
+      },
+      "reason": "名古屋市会公式（www.city.nagoya.jp/shikai/category/322-0-0-0-0-0-0-0-0-0.html）確認。現職の名古屋市会副議長。",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-hirahata-masahiro",
+      "fields": {
+        "careerMilestones": [
+          {
+            "label": "福岡市議会議長（自民党福岡市議団より選出）",
+            "content": "福岡市議会公式の議員個別ページ（gikai.city.fukuoka.lg.jp/hirahata_masahiro）に掲載されている現職議員。自民党福岡市議団より福岡市議会議長に選出された旨が報道（西日本新聞）で確認できる。",
+            "source": "福岡市議会公式 議員個別ページ",
+            "sourceUrl": "https://gikai.city.fukuoka.lg.jp/hirahata_masahiro",
+            "verifiedAt": "2026-05-30"
+          }
+        ],
+        "officialSources": [
+          {
+            "kind": "council_official",
+            "label": "福岡市議会公式 議員個別ページ",
+            "url": "https://gikai.city.fukuoka.lg.jp/hirahata_masahiro",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "kind": "party_official",
+            "label": "自由民主党 福岡市議団",
+            "url": "https://www.jimin-fukuokacity.com/members/",
+            "verifiedAt": "2026-05-30"
+          }
+        ],
+        "dataConfidence": "verified",
+        "hasProvisionalData": false,
+        "lastVerifiedAt": "2026-05-30",
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/hirahata_masahiro"
+      },
+      "reason": "福岡市議会公式（gikai.city.fukuoka.lg.jp/hirahata_masahiro）+ 自民党福岡市議団公式 確認。福岡市議会議長に選出。",
       "appliedAt": "2026-05-30"
     }
   ]
