@@ -48,7 +48,7 @@ export default function TokushohoPage() {
           {EMAIL}
         </Row>
         <Row label="ホームページURL">
-          https://chiho-map.vercel.app（公開予定の独自ドメイン: chihogiin.jp）
+          https://chihogiin.jp
         </Row>
       </dl>
 

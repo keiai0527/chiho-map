@@ -160,7 +160,7 @@ function TakedownForm() {
           value={reviewUrl}
           onChange={(e) => setReviewUrl(e.target.value)}
           className="w-full border border-border rounded px-3 py-2 text-sm bg-white font-mono"
-          placeholder="https://chiho-map.vercel.app/giin/.../#review-..."
+          placeholder="https://chihogiin.jp/giin/.../#review-..."
         />
       </div>
 
