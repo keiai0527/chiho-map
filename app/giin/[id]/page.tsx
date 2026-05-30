@@ -13,8 +13,9 @@ import {
   type StoredReview,
 } from "@/lib/server-store";
 
-// ISR: 60秒ごとに再生成（口コミの反映を担保）
-export const revalidate = 60;
+// ISR: 600秒（10分）ごとに再生成。口コミは事前審査制なので 60秒間隔は過剰、
+// 公開後アクセス集中時の DB 負荷を 1/10 に削減（中島さん指示・負荷対策）。
+export const revalidate = 600;
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
