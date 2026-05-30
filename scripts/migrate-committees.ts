@@ -382,7 +382,19 @@ const fukuokaCommittees: Record<string, string[]> = {
 // ====== ロジック ======
 
 function normalize(s: string): string {
-  return s.replace(/[\s　・]/g, "").toLowerCase();
+  // 異体字の統一（﨑→崎, 髙→高, 﨔→桑, 𠮷→吉 等）
+  const itaiji: Record<string, string> = {
+    "﨑": "崎",
+    "髙": "高",
+    "﨔": "桑",
+    "𠮷": "吉",
+    "𠩤": "原",
+  };
+  let out = s.replace(/[\s　・]/g, "").toLowerCase();
+  for (const [from, to] of Object.entries(itaiji)) {
+    out = out.split(from).join(to);
+  }
+  return out;
 }
 
 // 議員名 -> 委員会リスト
@@ -401,12 +413,132 @@ function buildCommitteeMap(
   return map;
 }
 
+// 大阪市会: 役員委員表 PDF 令和8年5月18日現在
+const osakaCommittees: Record<string, string[]> = {
+  市会運営委員会: [
+    "岡田妥知",
+    "藤田あきら",
+    "木下誠",
+    "永田典子",
+    "出雲輝英",
+    "金子恵美",
+    "ホンダリエ",
+    "荒木肇",
+    "今田信行",
+    "竹下隆",
+    "西徳人",
+    "森山よしひさ",
+    "高山美佳",
+    "坂井はじめ",
+    "佐々木哲夫",
+    "福田武洋",
+    "たけち博幸",
+    "岩池きよ",
+    "辻義隆",
+    "田中ひろき",
+  ],
+  財政総務委員会: [
+    "塩中一成",
+    "岡田妥知",
+    "山田正和",
+    "井上浩",
+    "くぼた亮",
+    "東貴之",
+    "前田和彦",
+    "松田まさとし",
+    "谷井正佳",
+    "木下誠",
+    "石川博紀",
+    "高山美佳",
+    "西徳人",
+    "藤原よういち",
+  ],
+  教育こども委員会: [
+    "橋本まさと",
+    "藤田あきら",
+    "佐々木哲夫",
+    "山中智子",
+    "山田かな",
+    "ますもとさおり",
+    "明石直樹",
+    "田辺信広",
+    "南隆文",
+    "伊藤亜実",
+    "永井広幸",
+    "大西しょういち",
+    "藤岡寛和",
+    "木下吉信",
+  ],
+  民生保健委員会: [
+    "中田光一郎",
+    "坂井はじめ",
+    "杉村幸太郎",
+    "武直樹",
+    "辻義隆",
+    "宮脇希",
+    "山本智子",
+    "広田和美",
+    "馬場のりゆき",
+    "大橋一隆",
+    "須藤奨太",
+    "竹下隆",
+    "木村ひかり",
+    "森山よしひさ",
+  ],
+  都市経済委員会: [
+    "わしみ慎一",
+    "くりたゆうや",
+    "小山光明",
+    "佐竹りほ",
+    "清水こう",
+    "黒田まりこ",
+    "杉田忠裕",
+    "岸本栄",
+    "梅園周",
+    "渕上浩美",
+    "たけち博幸",
+    "辻淳子",
+    "田中ひろき",
+  ],
+  市政改革委員会: [
+    "山口悟朗",
+    "岩池きよ",
+    "吉見みさこ",
+    "西拓郎",
+    "西﨑照明",
+    "近藤みわ",
+    "森慶吾",
+    "近藤大",
+    "永瀬かなこ",
+    "福田武洋",
+    "出雲輝英",
+    "ホンダリエ",
+    "松崎孔",
+  ],
+  建設港湾委員会: [
+    "鈴木理恵",
+    "金子恵美",
+    "人見つよし",
+    "太田勝己",
+    "荒木肇",
+    "原口悠介",
+    "今田信行",
+    "今村直人",
+    "片山一歩",
+    "土岐恭生",
+    "野上らん",
+    "上田智隆",
+    "永田典子",
+  ],
+};
+
 // 全市の commitee マップを統合
 const allCommitteesByCity: Record<string, Map<string, string[]>> = {
   sapporo: buildCommitteeMap(sapporoCommittees),
   nagoya: buildCommitteeMap(nagoyaCommittees),
   yokohama: buildCommitteeMap(yokohamaCommittees),
   fukuoka: buildCommitteeMap(fukuokaCommittees),
+  osaka: buildCommitteeMap(osakaCommittees),
 };
 
 // 出典URL
@@ -416,6 +548,8 @@ const sourceUrls: Record<string, string> = {
   yokohama:
     "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html",
   fukuoka: "https://gikai.city.fukuoka.lg.jp/member/standard",
+  osaka:
+    "https://www.city.osaka.lg.jp/shikai/cmsfiles/contents/0000150/150881/20260518iin.pdf",
 };
 
 // base members.json を load
@@ -449,7 +583,7 @@ let unmatched: string[] = [];
 let updated = 0;
 
 for (const member of baseMembers) {
-  if (!["sapporo", "nagoya", "yokohama", "fukuoka"].includes(member.cityId))
+  if (!["sapporo", "nagoya", "yokohama", "fukuoka", "osaka"].includes(member.cityId))
     continue;
   const committeeMap = allCommitteesByCity[member.cityId];
   const key = normalize(member.name);

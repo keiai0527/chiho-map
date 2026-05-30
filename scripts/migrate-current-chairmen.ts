@@ -63,6 +63,49 @@ if (osanai) {
   console.log("UPDATED: sapporo-osanai-naoya (第37代議長 追加)");
 }
 
+// 1-B. 大阪議長 杉村幸太郎（既存 override があれば追加、無ければ newOverrides で作成）
+const sugimura = data.overrides.find((o) => o.id === "osaka-sugimura-kotaro");
+if (sugimura) {
+  const existing = sugimura.fields.careerMilestones || [];
+  // 既に「議長」を含む careerMilestone がなければ追加
+  if (!existing.some((cm) => cm.content && cm.content.includes("議長"))) {
+    existing.push({
+      label: "大阪市会議長（令和8年5月18日時点 現職）",
+      content:
+        "大阪市会公式の役員委員表（令和8年5月18日現在）では、市会議長として記載されている。",
+      source: "大阪市会公式 役員委員表",
+      sourceUrl:
+        "https://www.city.osaka.lg.jp/shikai/cmsfiles/contents/0000150/150881/20260518iin.pdf",
+      verifiedAt: VERIFIED_AT,
+    });
+    sugimura.fields.careerMilestones = existing;
+    sugimura.appliedAt = VERIFIED_AT;
+    console.log("UPDATED: osaka-sugimura-kotaro (大阪市会議長 追加)");
+  }
+}
+
+// 1-C. 大阪副議長 山田正和
+const osakaYamada = data.overrides.find(
+  (o) => o.id === "osaka-yamada-masakazu",
+);
+if (osakaYamada) {
+  const existing = osakaYamada.fields.careerMilestones || [];
+  if (!existing.some((cm) => cm.content && cm.content.includes("副議長"))) {
+    existing.push({
+      label: "大阪市会副議長（令和8年5月18日時点 現職）",
+      content:
+        "大阪市会公式の役員委員表（令和8年5月18日現在）では、市会副議長として記載されている。",
+      source: "大阪市会公式 役員委員表",
+      sourceUrl:
+        "https://www.city.osaka.lg.jp/shikai/cmsfiles/contents/0000150/150881/20260518iin.pdf",
+      verifiedAt: VERIFIED_AT,
+    });
+    osakaYamada.fields.careerMilestones = existing;
+    osakaYamada.appliedAt = VERIFIED_AT;
+    console.log("UPDATED: osaka-yamada-masakazu (大阪市会副議長 追加)");
+  }
+}
+
 // === 2. 新規 override の追加 ===
 
 // 2-A. 札幌副議長 村上ゆうこ
@@ -158,6 +201,70 @@ const newOverrides = [
     },
     reason:
       "名古屋市会公式（www.city.nagoya.jp/shikai/category/322-0-0-0-0-0-0-0-0-0.html）確認。現職の名古屋市会副議長。",
+    appliedAt: VERIFIED_AT,
+  },
+
+  // 2-D2. 大阪議長 杉村幸太郎（既存 override がない場合に作成）
+  {
+    id: "osaka-sugimura-kotaro",
+    fields: {
+      careerMilestones: [
+        {
+          label: "大阪市会議長（令和8年5月18日時点 現職）",
+          content:
+            "大阪市会公式の役員委員表（令和8年5月18日現在）では、市会議長として記載されている。",
+          source: "大阪市会公式 役員委員表",
+          sourceUrl:
+            "https://www.city.osaka.lg.jp/shikai/cmsfiles/contents/0000150/150881/20260518iin.pdf",
+          verifiedAt: VERIFIED_AT,
+        },
+      ],
+      officialSources: [
+        {
+          kind: "council_official" as const,
+          label: "大阪市会公式 役員委員表（PDF）",
+          url: "https://www.city.osaka.lg.jp/shikai/page/0000150881.html",
+          verifiedAt: VERIFIED_AT,
+        },
+      ],
+      dataConfidence: "verified" as const,
+      hasProvisionalData: false,
+      lastVerifiedAt: VERIFIED_AT,
+    },
+    reason:
+      "大阪市会公式 役員委員表（令和8年5月18日現在）確認。市会議長として記載。",
+    appliedAt: VERIFIED_AT,
+  },
+
+  // 2-D3. 大阪副議長 山田正和
+  {
+    id: "osaka-yamada-masakazu",
+    fields: {
+      careerMilestones: [
+        {
+          label: "大阪市会副議長（令和8年5月18日時点 現職）",
+          content:
+            "大阪市会公式の役員委員表（令和8年5月18日現在）では、市会副議長として記載されている。",
+          source: "大阪市会公式 役員委員表",
+          sourceUrl:
+            "https://www.city.osaka.lg.jp/shikai/cmsfiles/contents/0000150/150881/20260518iin.pdf",
+          verifiedAt: VERIFIED_AT,
+        },
+      ],
+      officialSources: [
+        {
+          kind: "council_official" as const,
+          label: "大阪市会公式 役員委員表（PDF）",
+          url: "https://www.city.osaka.lg.jp/shikai/page/0000150881.html",
+          verifiedAt: VERIFIED_AT,
+        },
+      ],
+      dataConfidence: "verified" as const,
+      hasProvisionalData: false,
+      lastVerifiedAt: VERIFIED_AT,
+    },
+    reason:
+      "大阪市会公式 役員委員表（令和8年5月18日現在）確認。市会副議長として記載。",
     appliedAt: VERIFIED_AT,
   },
 
