@@ -273,26 +273,36 @@
             "sourceUrl": "http://www.naoya.jp/"
           }
         ],
-        "notableQuotes": [
-          {
-            "date": "議員提案条例",
-            "content": "ポイ捨て防止条例を議員提案で制定。",
-            "source": "本人公式サイト",
-            "sourceUrl": "http://www.naoya.jp/"
-          },
-          {
-            "date": "2011",
-            "content": "桑園小学校新築完成（平成23年）。",
-            "source": "本人公式サイト",
-            "sourceUrl": "http://www.naoya.jp/"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "7期",
+            "content": "さっぽろ自民党公式および本人公式サイトでは、札幌市議会議員7期、1999年初当選とされている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "http://www.naoya.jp/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "自民党札幌市支部連合会副会長・元議長",
+            "content": "さっぽろ自民党公式および本人公式サイトでは、自民党札幌市支部連合会副会長、札幌市議会議長経験者と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "http://www.naoya.jp/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "ポイ捨て防止条例の議員提案",
+            "content": "本人公式サイトでは、ポイ捨て防止条例を議員提案で制定したと記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "http://www.naoya.jp/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "さっぽろ自民党公式 + 本人公式サイト naoya.jp 確認。1964年11月15日札幌市生まれ、北海道大学工学部機械工学科・院修了、元証券アナリスト/ファンドマネージャー、1999年初当選、7期、自民党札幌市支部連合会副会長、市議会議長経験者。ポイ捨て防止条例の議員提案、北海道新幹線札幌延伸、冬季五輪誘致が重点政策。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "sapporo-hayashi-seiji",
@@ -550,20 +560,29 @@
           "2007年 札幌市議会議員 初当選（西区）"
         ],
         "biography": "1967年札幌生まれ。札幌西高校・慶應義塾大学商学部卒業後、三和銀行で勤務。2007年に札幌市議会議員（西区）に初当選し、2023年5月に5期目当選とともに第36代札幌市議会議長に就任。札幌市議会自由民主党議員会幹事長（平成29-30年度）、建設常任委員会委員長（平成28年度）、厚生常任委員会委員長（平成23年度）等を歴任。",
-        "notableQuotes": [
-          {
-            "date": "2023-05",
-            "content": "第36代札幌市議会議長に就任。札幌市議会自由民主党議員会の中心メンバーとして議会運営を担う。",
-            "source": "さっぽろ自民党公式",
-            "sourceUrl": "https://jiminsapporo.jp/activity/%E7%AC%AC36%E4%BB%A3%E6%9C%AD%E5%B9%8C%E5%B8%82%E8%AD%B0%E4%BC%9A%E8%AD%B0%E9%95%B7%E3%81%AB%E9%A3%AF%E5%B3%B6%E5%BC%98%E4%B9%8B%E8%AD%B0%E5%93%A1%E3%81%8C%E5%B0%B1%E4%BB%BB%E3%81%97%E3%81%BE%E3%81%97/"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "第36代札幌市議会議長（2023-05 就任）",
+            "content": "さっぽろ自民党公式では、2023年5月に第36代札幌市議会議長に就任したと記載されている。",
+            "source": "さっぽろ自民党公式",
+            "sourceUrl": "https://jiminsapporo.jp/activity/%E7%AC%AC36%E4%BB%A3%E6%9C%AD%E5%B9%8C%E5%B8%82%E8%AD%B0%E4%BC%9A%E8%AD%B0%E9%95%B7%E3%81%AB%E9%A3%AF%E5%B3%B6%E5%BC%98%E4%B9%8B%E8%AD%B0%E5%93%A1%E3%81%8C%E5%B0%B1%E4%BB%BB%E3%81%97%E3%81%BE%E3%81%97/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "略歴",
+            "content": "札幌自民党公式プロフィールでは、本人の経歴・学歴・職歴が掲載されている（jimin-sapporo.jp）。",
+            "source": "札幌自民党公式プロフィール",
+            "sourceUrl": "https://jimin-sapporo.jp/iijimahiroyuki.html",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "さっぽろ自民党公式 + 本人公式サイト iijima-hiroyuki.jp 確認。第36代札幌市議会議長（2023年5月就任）。経歴・学歴・職歴は札幌自民党公式プロフィール（jimin-sapporo.jp/iijimahiroyuki.html）から取得。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "sapporo-kuniyasu-masanori",
@@ -696,20 +715,36 @@
             "sourceUrl": "https://asaimasahito.com/"
           }
         ],
-        "notableQuotes": [
-          {
-            "date": "2026-03-05",
-            "content": "本会議で質問を実施。財政福祉委員会委員長の立場から、市の財政運営と福祉施策を中心に質疑。",
-            "source": "本人公式サイト 活動報告",
-            "sourceUrl": "https://asaimasahito.com/"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "中川区選出",
+            "content": "自由民主党名古屋市会議員団公式および本人公式サイトでは、中川区選出と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://asaimasahito.com/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "令和7年度 自民党名古屋市会議員団幹事・財政福祉委員会委員長",
+            "content": "自由民主党名古屋市会議員団公式および本人公式サイトでは、令和7年度の自民党名古屋市会議員団幹事、財政福祉委員会委員長と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://asaimasahito.com/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "2026-03-05 本会議質問",
+            "content": "本人公式サイトの活動報告では、2026年3月5日に本会議で財政運営と福祉施策について質疑を行ったと記載されている。",
+            "source": "本人公式サイト 活動報告",
+            "sourceUrl": "https://asaimasahito.com/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "自由民主党名古屋市会議員団公式 + 本人公式サイト asaimasahito.com 確認。1964年11月14日生まれ、中川区選出。令和7年度 自民党名古屋市会議員団幹事、財政福祉委員会委員長。経歴・学歴・職歴・政策3本柱は本人サイトから取得。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "nagoya-ota-tomihiko",
@@ -799,26 +834,43 @@
             "sourceUrl": "https://www.akamatsu-tetsuji.com/"
           }
         ],
-        "notableQuotes": [
-          {
-            "date": "コロナ禍",
-            "content": "新型コロナウイルス自宅療養者への配食サービス拡充を本会議で提案。",
-            "source": "本人公式サイト",
-            "sourceUrl": "https://www.akamatsu-tetsuji.com/"
-          },
-          {
-            "date": "実績",
-            "content": "子ども医療費の18歳まで無料化を提案・実現に貢献。",
-            "source": "本人公式サイト",
-            "sourceUrl": "https://www.akamatsu-tetsuji.com/"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "2期、名古屋市中川区",
+            "content": "立憲民主党公式および名古屋民主市会議員団公式では、2期、中川区選出と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.akamatsu-tetsuji.com/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "略歴",
+            "content": "本人公式サイトでは、愛知学院大学商学部卒、元日本通運（シンガポール配属歴あり）、現赤松広隆衆議院議員秘書と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.akamatsu-tetsuji.com/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "新型コロナ対応の本会議提案",
+            "content": "本人公式サイトでは、新型コロナウイルス自宅療養者への配食サービス拡充を本会議で提案したと記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.akamatsu-tetsuji.com/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "子ども医療費18歳まで無料化の提案",
+            "content": "本人公式サイトでは、子ども医療費の18歳まで無料化を提案したと記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.akamatsu-tetsuji.com/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "立憲民主党公式 + 本人公式サイト akamatsu-tetsuji.com + 名古屋民主市会議員団公式 確認。1981年11月6日名古屋市中川区生まれ、愛知学院大学商学部卒、元日本通運（シンガポール配属歴あり）、現赤松広隆衆院議員秘書、2期。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "nagoya-oka-chie",
@@ -926,20 +978,36 @@
             "sourceUrl": "https://yamadakazumasa.com/"
           }
         ],
-        "notableQuotes": [
-          {
-            "date": "2021",
-            "content": "『横浜市子供を虐待から守る条例』改正（議員提案）で事務局長を務め、体罰や子どもの尊厳を傷つける行為の禁止などを盛り込んだ条例改正に貢献。",
-            "source": "本人公式サイト",
-            "sourceUrl": "https://yamadakazumasa.com/"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "2期、鶴見区選出",
+            "content": "よこはま自民党公式および本人公式サイトでは、2期、鶴見区選出と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://yamadakazumasa.com/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "略歴",
+            "content": "本人公式サイトでは、横浜市立寺尾小学校→慶應義塾大学法学部法律学科卒（2000年3月）、2000年10月司法試験合格、2002年10月弁護士登録、2007年4月に「横浜開港法律事務所」を設立・代表と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://yamadakazumasa.com/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "令和3年度『横浜市子供を虐待から守る条例』改正（議員提案）の事務局長",
+            "content": "本人公式サイトでは、令和3年度に行われた『横浜市子供を虐待から守る条例』改正（議員提案）の事務局長を務め、体罰や子どもの尊厳を傷つける行為の禁止などを盛り込んだ条例改正に関わったと記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://yamadakazumasa.com/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "よこはま自民党公式 + 本人公式サイト yamadakazumasa.com 確認。1976年10月6日横浜市鶴見区生まれ、横浜市立寺尾小→慶應義塾大学法学部法律学科卒（2000年3月）、2000年10月司法試験合格、2002年10月弁護士登録、2007年4月「横浜開港法律事務所」設立・代表、2期、鶴見区選出。令和3年度『横浜市子供を虐待から守る条例』改正の議員提案事務局長。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "yokohama-nakayama-daisuke",
@@ -1097,20 +1165,36 @@
             "sourceUrl": "https://shin-no-suke.net/"
           }
         ],
-        "notableQuotes": [
-          {
-            "date": "2019-05",
-            "content": "第73代福岡市議会議長に就任（〜2021年6月）。在任中に全国市議会議長会研究会会長、九州市議会議長会会長、福岡県市議会議長会会長を歴任。",
-            "source": "本人公式サイト",
-            "sourceUrl": "https://shin-no-suke.net/"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "5期、城南区選出（2003年初当選）",
+            "content": "福岡市議会公式および本人公式サイトでは、5期、2003年初当選、城南区選出と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://shin-no-suke.net/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "略歴",
+            "content": "本人公式サイトでは、修猷館高校→鳥取大学医学部中退→九州大学法学部法律学科卒と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://shin-no-suke.net/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "第73代福岡市議会議長（2019-05 〜 2021-06）",
+            "content": "福岡市議会公式および本人公式サイトでは、2019年5月から2021年6月まで第73代福岡市議会議長を務め、在任中に全国市議会議長会研究会会長、九州市議会議長会会長、福岡県市議会議長会会長を歴任したと記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://shin-no-suke.net/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "福岡市議会公式 + 本人公式サイト shin-no-suke.net + 自民党福岡市議団公式 確認。1964年5月6日福岡市生まれ、修猷館高校→鳥取大学医学部中退→九州大学法学部法律学科卒、5期（本人サイト記載に従い termsServed=5 に修正、第１弾追加時の検索結果=6 は誤）、2003年初当選、城南区選出、第73代福岡市議会議長（2019年5月-2021年6月）、全国・九州・福岡県市議会議長会会長を歴任。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "fukuoka-ikeda-ryoko",
@@ -1453,26 +1537,50 @@
             "sourceUrl": "https://www.fukushima-naoko.info/"
           }
         ],
-        "notableQuotes": [
-          {
-            "date": "2026-04-16",
-            "content": "後期高齢者医療制度に関する市政レポート発行。",
-            "source": "本人公式サイト",
-            "sourceUrl": "https://www.fukushima-naoko.info/"
-          },
-          {
-            "date": "2026-03-24",
-            "content": "予算特別委員会で質問活動を実施。",
-            "source": "本人公式サイト",
-            "sourceUrl": "https://www.fukushima-naoko.info/"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "6期、中区選出",
+            "content": "公明党公式議員プロフィールおよび本人公式サイトでは、6期、中区選出と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.fukushima-naoko.info/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "第61代横浜市会副議長",
+            "content": "本人公式サイトでは、第61代横浜市会副議長と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.fukushima-naoko.info/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "公明党神奈川県本部副代表・他役職",
+            "content": "本人公式サイトでは、公明党神奈川県本部副代表、公明党中区支部長、神奈川県後期高齢者医療広域連合議会議員と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.fukushima-naoko.info/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "2026-04-16 後期高齢者医療制度に関する市政レポート発行",
+            "content": "本人公式サイトでは、2026年4月16日に後期高齢者医療制度に関する市政レポートを発行したと記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.fukushima-naoko.info/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "2026-03-24 予算特別委員会で質問",
+            "content": "本人公式サイトの活動報告では、2026年3月24日に予算特別委員会で質問を行ったと記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.fukushima-naoko.info/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "公明党公式議員プロフィール + 本人公式サイト fukushima-naoko.info 確認。1956年8月10日生まれ、6期、中区選出、第61代横浜市会副議長、公明党神奈川県本部副代表、公明党中区支部長、神奈川県後期高齢者医療広域連合議会議員。最近は住宅補助、環境保全、後期高齢者医療制度に注力。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "yokohama-furuya-yasuhiko",
@@ -1897,26 +2005,36 @@
             "sourceUrl": "https://www.sakuraline.jp/profile"
           }
         ],
-        "notableQuotes": [
-          {
-            "date": "1995",
-            "content": "横浜市会議員に初当選。以後8期連続当選を「ボランティアとカンパ」のみで実現。",
-            "source": "本人公式サイト",
-            "sourceUrl": "https://www.sakuraline.jp/profile"
-          },
-          {
-            "date": "2009",
-            "content": "議員歳費10%削減条例案を提出。",
-            "source": "本人公式サイト",
-            "sourceUrl": "https://www.sakuraline.jp/profile"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "8期（1995年初当選）、鶴見区選出",
+            "content": "本人公式サイトでは、1995年に横浜市会議員に初当選、以後8期連続当選、無所属、鶴見区選出と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.sakuraline.jp/profile",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "略歴",
+            "content": "本人公式サイトでは、1965年2月24日東京都渋谷区代々木生まれ、法政大学法学部中退と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.sakuraline.jp/profile",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "2009 議員歳費10%削減条例案を提出",
+            "content": "本人公式サイトでは、2009年に議員歳費10%削減条例案を提出したと記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.sakuraline.jp/profile",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "本人公式サイト sakuraline.jp（/profile 含む）確認。1965年2月24日東京都渋谷区代々木生まれ、法政大学法学部中退、8期（1995年初当選）、無所属、鶴見区選出。談合防止の入札改革で年間70億円のムダ削減、議員歳費10%削減条例案提出等の議会改革実績。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "fukuoka-katsuyama-shingo",
@@ -2339,20 +2457,29 @@
             "sourceUrl": "https://www.watanabe-tadanori.com/policy.html"
           }
         ],
-        "notableQuotes": [
-          {
-            "date": "2026-05-15",
-            "content": "第56代横浜市会議長に選任。",
-            "source": "本人公式サイト",
-            "sourceUrl": "https://www.watanabe-tadanori.com/"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "5期、鶴見区選出",
+            "content": "よこはま自民党公式および本人公式サイトでは、5期、鶴見区選出と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.watanabe-tadanori.com/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "第56代横浜市会議長（2026-05-15 選任）",
+            "content": "本人公式サイトでは、2026年5月15日に第56代横浜市会議長に選任されたと記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://www.watanabe-tadanori.com/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "よこはま自民党公式 + 本人公式サイト watanabe-tadanori.com（/policy.html 含む）確認。5期、鶴見区選出、第56代横浜市会議長（2026年5月15日就任）。政策5項目は本人サイト policy.html から抽出。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "yokohama-mori-hirotaka",
@@ -2687,20 +2814,29 @@
             "sourceUrl": "https://uchikoshi.info/"
           }
         ],
-        "notableQuotes": [
-          {
-            "date": "2023-05",
-            "content": "第75代福岡市議会議長に就任。",
-            "source": "RKBオンライン",
-            "sourceUrl": "https://rkb.jp/contents/202305/202305176030/"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "6期、南区選出（2003年初当選）",
+            "content": "福岡市議会公式および本人公式サイトでは、6期、2003年初当選、南区選出と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://uchikoshi.info/profile/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "第75代福岡市議会議長（2023-05 就任、2025 退任）",
+            "content": "福岡市議会公式および本人公式サイトでは、2023年5月に第75代福岡市議会議長に就任し、2025年に退任したと記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://uchikoshi.info/profile/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "福岡市議会公式 + 本人公式サイト uchikoshi.info（/profile/ 含む）+ 自民党福岡市議団公式 確認。1954年5月2日生まれ、6期、2003年初当選、南区選出。第75代福岡市議会議長（2023年5月就任、2025年退任）。経歴・学歴・職歴は本人サイト profile ページから取得。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "fukuoka-wada-akihiko",
