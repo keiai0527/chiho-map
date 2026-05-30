@@ -112,6 +112,27 @@ const REASON_FORBIDDEN_WORDS = [
   "達成した",
   "英断",
   "腕利き",
+  // 評価語（クラウド監査官指摘 2026-05-31、井上さくら議員ページ）
+  "異例の",
+  "異色の",
+  "稀有な",
+  "傑出した",
+];
+
+// biography に含めてはいけない私生活・住所情報
+// （クラウド監査官指摘 2026-05-31、編集方針: 公的行動のみ・属性情報禁止）
+const BIOGRAPHY_PRIVATE_INFO_WORDS = [
+  "町在住",  // ◯◯町在住（町名級住所）
+  "家族は夫",
+  "家族は妻",
+  "妻と息子",
+  "妻と娘",
+  "夫と息子",
+  "夫と娘",
+  "趣味は",
+  "愛犬",
+  "愛車",
+  "が目印",
 ];
 
 // keyPolicies.description / biography 等もスキャンする実績認定語
@@ -333,6 +354,16 @@ async function main() {
             "error",
             "biography_forbidden",
             `${o.id}: biography に禁止語「${word}」を含む（フロント表示されるため必修正）`,
+          );
+        }
+      }
+      // 私生活・住所情報スキャン（編集方針: 公的行動のみ、属性情報禁止）
+      for (const word of BIOGRAPHY_PRIVATE_INFO_WORDS) {
+        if (bio.includes(word)) {
+          add(
+            "error",
+            "biography_private_info",
+            `${o.id}: biography に私生活/住所情報「${word}」を含む（編集方針違反・嫌がらせ誘発リスク）`,
           );
         }
       }
