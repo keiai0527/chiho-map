@@ -10,6 +10,8 @@ interface CityInfo {
   /** 地方別カラー（kokkaimap.jp と同系統） */
   regionColor: string;
   region: string;
+  /** ラベルをドットの左右どちらに表示するか（密集回避用、デフォルト right） */
+  labelSide?: "left" | "right";
 }
 
 /**
@@ -32,19 +34,21 @@ const cities: CityInfo[] = [
     id: "yokohama",
     name: "横浜",
     count: 86,
-    left: "58.2%",
-    top: "68.2%",
+    left: "60.5%",
+    top: "66.5%",
     regionColor: "#10b981",
     region: "関東",
+    labelSide: "right" as const,
   },
   {
     id: "nagoya",
     name: "名古屋",
     count: 68,
-    left: "47.2%",
-    top: "70.9%",
+    left: "44%",
+    top: "72%",
     regionColor: "#f59e0b",
     region: "中部",
+    labelSide: "left" as const,
   },
   {
     id: "osaka",
@@ -113,7 +117,11 @@ export function JapanMap() {
                 style={{ backgroundColor: c.regionColor }}
                 aria-hidden
               />
-              <span className="absolute left-2 top-1 flex items-center gap-1 whitespace-nowrap rounded border border-slate-200 bg-white/95 px-1.5 py-0.5 text-xs shadow-sm">
+              <span
+                className={`absolute top-1 flex items-center gap-1 whitespace-nowrap rounded border border-slate-200 bg-white/95 px-1.5 py-0.5 text-xs shadow-sm ${
+                  c.labelSide === "left" ? "right-2" : "left-2"
+                }`}
+              >
                 <span className="font-bold text-slate-900">{c.name}</span>
                 <span
                   className="rounded px-1 py-0.5 text-[9px] font-bold text-white"

@@ -186,6 +186,56 @@ export default async function Home() {
         })}
       </ul>
 
+      {/* 応援バナー（国会議員マップと同形式・HTML/CSS で再現）
+          画像バナー (kokkaigiinmap_support_banner_clean_layout.png) は国会議員マップ用のテキストが
+          焼き込まれているため、地方議員マップでは正確性を担保する目的で HTML/CSS でリッチカード化。
+          将来、地方議員マップ専用のバナー画像が用意できれば差し替え可能。 */}
+      <section className="mt-10 sm:mt-14">
+        <Link
+          href="/support"
+          className="block rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100 p-5 transition hover:border-amber-400 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-accent sm:p-7"
+          aria-label="地方議員マップを応援するページへ"
+        >
+          <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-6">
+            {/* 左：「応」アイコン */}
+            <div className="shrink-0">
+              <div className="flex h-20 w-20 flex-col items-center justify-center rounded-2xl border-2 border-amber-300 bg-white shadow-sm sm:h-24 sm:w-24">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-amber-400 to-orange-500 text-2xl font-bold text-white shadow-inner sm:h-14 sm:w-14 sm:text-3xl">
+                  応
+                </div>
+                <p className="mt-1 text-[10px] font-medium text-amber-900 sm:text-xs">
+                  運営支援
+                </p>
+              </div>
+            </div>
+
+            {/* 中央：テキスト */}
+            <div className="flex-1">
+              <span className="inline-block rounded-full bg-slate-900 px-3 py-1 text-xs font-medium text-white">
+                個人運営サイトです
+              </span>
+              <h2 className="mt-2 text-xl font-bold text-slate-900 sm:text-2xl">
+                地方議員マップを応援する
+              </h2>
+              <p className="mt-1 text-sm text-slate-700 sm:text-base">
+                サーバー費・管理費を個人で負担して運営しています
+              </p>
+              <span className="mt-3 inline-block rounded-md border border-amber-300 bg-white px-3 py-1 text-xs font-medium text-amber-900 sm:text-sm">
+                任意の金額でサポートできます
+              </span>
+            </div>
+
+            {/* 右：CTAボタン */}
+            <div className="shrink-0 self-end sm:self-center">
+              <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 px-5 py-2 text-sm font-bold text-white shadow-sm sm:text-base">
+                応援ページへ
+                <span aria-hidden>▶</span>
+              </span>
+            </div>
+          </div>
+        </Link>
+      </section>
+
     </main>
   );
 }
