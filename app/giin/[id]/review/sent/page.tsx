@@ -78,23 +78,19 @@ export default async function ReviewSentPage({
 
   let isQueued = review.status === "under_review";
   if (review.status === "pending_payment") {
+    // β版の方針: 機微キーワードの有無にかかわらず全件を運営者事前審査キューへ。
     const hasFlags = review.flags && review.flags.length > 0;
-    isQueued = hasFlags;
-    await promoteReviewAfterPayment(
-      review.id,
-      hasFlags ? "under_review" : "published",
-    );
-    if (hasFlags) {
-      await addToQueue({
-        id: `q-${crypto.randomUUID()}`,
-        reviewId: review.id,
-        memberId: review.memberId,
-        content: review.content,
-        rating: review.rating,
-        caseType: review.caseType,
-        autoFlags: review.flags,
-      });
-    }
+    isQueued = true;
+    await promoteReviewAfterPayment(review.id, "under_review");
+    await addToQueue({
+      id: `q-${crypto.randomUUID()}`,
+      reviewId: review.id,
+      memberId: review.memberId,
+      content: review.content,
+      rating: review.rating,
+      caseType: review.caseType,
+      autoFlags: review.flags || [],
+    });
 
     try {
       const memberPageUrl = `${SITE_URL}/giin/${review.memberId}#review-${review.id}`;
@@ -103,17 +99,21 @@ export default async function ReviewSentPage({
           ? review.content.slice(0, 500) + "…"
           : review.content;
 
-      if (hasFlags) {
-        await sendOperatorMail({
-          subject: `【地方議員マップ】⚠️ 要審査の口コミ投稿（${review.id}）`,
-          text: `モデレーションキューに新しい投稿が入りました。72時間以内のご対応をお願いします。
+      // β版: 全件審査キューに入るため、メールは常に「要審査」通知
+      const flagsLabel = hasFlags
+        ? review.flags.map((f) => `${f.category}:${f.matched}`).join(", ")
+        : "（自動検出フラグなし）";
+      await sendOperatorMail({
+        subject: `【地方議員マップ】要審査の口コミ投稿（${review.id}）`,
+        text: `モデレーションキューに新しい投稿が入りました。72時間以内のご対応をお願いします。
+β版の方針により全件事前審査となっています。
 
 議員名: ${memberName || "(不明)"}
 議員ID: ${review.memberId}
 評価: ${review.rating}★
 カテゴリ: ${review.caseType}
 投稿ID: ${review.id}
-検出フラグ: ${review.flags.map((f) => `${f.category}:${f.matched}`).join(", ")}
+自動検出フラグ: ${flagsLabel}
 
 本文:
 ${contentExcerpt}
@@ -121,26 +121,7 @@ ${contentExcerpt}
 議員ページ:
 ${memberPageUrl}
 `,
-        });
-      } else {
-        await sendOperatorMail({
-          subject: `【地方議員マップ】口コミが公開されました（${review.id}）`,
-          text: `自動公開された新しい口コミ投稿があります。問題があれば削除可能です。
-
-議員名: ${memberName || "(不明)"}
-議員ID: ${review.memberId}
-評価: ${review.rating}★
-カテゴリ: ${review.caseType}
-投稿ID: ${review.id}
-
-本文:
-${contentExcerpt}
-
-議員ページ:
-${memberPageUrl}
-`,
-        });
-      }
+      });
     } catch (e) {
       console.error("[review-sent] operator mail send failed:", e);
     }
@@ -156,12 +137,11 @@ ${memberPageUrl}
         ✓
       </div>
       <h1 className="text-xl font-bold text-primary mb-3">
-        {isQueued ? "投稿を受け付けました（事前審査中）" : "投稿が公開されました"}
+        投稿を受け付けました（事前審査中）
       </h1>
       <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-        {isQueued
-          ? "投稿内容に注意キーワードが含まれているため、運営者による事前審査を行います。最大72時間以内に公開判断をいたします。"
-          : `${memberName ? memberName + " 議員のページに" : ""}ご投稿ありがとうございました。すぐに反映されます。`}
+        β版の方針により、投稿は原則として全件、運営者による確認後に公開します。確認には最大72時間程度かかる場合があります。
+        ご投稿ありがとうございました。
       </p>
       {isTestMode && (
         <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded p-2 max-w-sm mx-auto mb-6">

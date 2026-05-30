@@ -99,24 +99,21 @@ async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
     }
     if (review.status !== "pending_payment") return;
 
+    // β版の方針: 機微キーワードの有無にかかわらず全件を運営者事前審査キューへ。
+    // 自動公開は危険（政治家への口コミは法的・中立性リスクが高い）。
     const hasFlags = review.flags.length > 0;
-    await promoteReviewAfterPayment(
-      review.id,
-      hasFlags ? "under_review" : "published",
-    );
-    if (hasFlags) {
-      const existing = await findQueueByReviewId(review.id);
-      if (!existing) {
-        await addToQueue({
-          id: `q-${crypto.randomUUID()}`,
-          reviewId: review.id,
-          memberId: review.memberId,
-          content: review.content,
-          rating: review.rating,
-          caseType: review.caseType,
-          autoFlags: review.flags,
-        });
-      }
+    await promoteReviewAfterPayment(review.id, "under_review");
+    const existing = await findQueueByReviewId(review.id);
+    if (!existing) {
+      await addToQueue({
+        id: `q-${crypto.randomUUID()}`,
+        reviewId: review.id,
+        memberId: review.memberId,
+        content: review.content,
+        rating: review.rating,
+        caseType: review.caseType,
+        autoFlags: review.flags,
+      });
     }
     await addLog({
       id: `log-${crypto.randomUUID()}`,

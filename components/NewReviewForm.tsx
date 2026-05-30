@@ -148,7 +148,7 @@ export function NewReviewForm({ member }: { member: NewReviewFormMember }) {
           をご確認ください。
         </p>
         <p className="text-amber-900 leading-relaxed">
-          投稿内容は、機微キーワードを含む場合は運営者による事前審査後に公開されます。投稿ガイドラインに違反する内容は非公開または削除される場合があります。
+          β版運営期間中は、投稿は原則として全件、運営者による確認後に公開します（最大72時間程度かかる場合があります）。投稿ガイドラインに違反する内容は非公開または削除される場合があります。
         </p>
       </div>
 

@@ -288,11 +288,11 @@ export default async function MemberPage({ params }: { params: Params }) {
       </section>
 
 
-      {/* ── 主張・政策（深掘り） ── */}
+      {/* ── 本人発信に基づく主なテーマ（深掘り） ── */}
       {hasKeyPolicies && (
         <section className="mb-8">
           <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
-            主張・政策
+            本人発信に基づく主なテーマ
           </h2>
           <ul className="space-y-3 text-sm">
             {m.keyPolicies!.map((p, i) => (
@@ -321,7 +321,8 @@ export default async function MemberPage({ params }: { params: Params }) {
             ))}
           </ul>
           <p className="mt-2 text-[11px] text-slate-500">
-            本人の公式発信・市議会議事録・党公式情報からの要約です。出典URLを各項目に併記しています。
+            本人公式サイト・本人note・党公式・市議会議事録の発信内容に基づき、出典付きで要約しています。
+            運営者の評価は含まず、本人発信そのものを参照できるよう出典URLを各項目に併記しています。
           </p>
         </section>
       )}
@@ -362,7 +363,7 @@ export default async function MemberPage({ params }: { params: Params }) {
               ))}
             </ul>
             <p className="mt-2 text-[11px] text-slate-500">
-              本人の議会質問・本会議発言・本人公式SNS投稿・本人ブログからの直接引用のみを掲載しています。実績・役職は「経歴・役職」セクションに分けています。
+              本人の議会質問・本会議発言・本人公式SNS投稿・本人ブログ等をもとに、出典付きで要約しています。直接引用部分がある場合は引用として明示します。実績・役職は「経歴・役職」セクションに分けています。
             </p>
           </>
         ) : (

@@ -121,7 +121,16 @@ export default async function AboutPage() {
         </p>
         <ul className="list-inside list-disc space-y-1 text-sm leading-relaxed text-slate-700">
           <li>
-            氏名・選挙区・所属会派：5市すべて公式名簿から完全取得済み（362名／362名）
+            <strong>基礎情報（氏名・選挙区・所属会派）</strong>：5市すべて公式名簿から完全取得済み（362名／362名）
+          </li>
+          <li>
+            <strong>経歴・役職</strong>：5市計 約118名分を整備済み（議長・副議長・各党会派長・委員会委員長等を中心に、本人公式サイト・政党公式・議会公式からの一次情報をもとに記載、各項目に出典URLと確認日を付与）。残り 約 244名分は今後の更新で順次拡充。
+          </li>
+          <li>
+            <strong>一次情報出典リンク</strong>：約 150名分について、議会公式・政党公式・本人公式のURLを構造化リンク集として掲載。
+          </li>
+          <li>
+            <strong>現職議長・副議長</strong>：5市すべての現職議長・副議長を掲載済み（札幌・名古屋・横浜・福岡の各市議会公式情報をもとに）。
           </li>
           <li>
             <strong>政党所属（partyId）</strong>：複数政党の合同会派に所属する議員（合計約60名）については、
@@ -134,15 +143,21 @@ export default async function AboutPage() {
             一般的な読みを推定で表示しています。誤りがあればご指摘ください。
           </li>
           <li>
-            <strong>当選回数</strong>：現時点で札幌市のみ掲載。他4市は順次追加予定。
+            <strong>本人発言・議会質問の直接引用</strong>：現時点で1名分のみ。今後、各市議会会議録・本人公式SNS・本人公式blog・本人note等から段階的に整備します。各議員ページの「本人発言・議会質問」セクションに「会議録で本人発言を全件検索」リンクを常時表示しています。
           </li>
           <li>
-            <strong>公式プロフィールへのリンク</strong>：現時点で会派別名簿ページへのリンクのみ。個別議員ページへのリンクは順次追加予定。
+            <strong>議案への賛否記録</strong>：未整備。市議会公式の採決結果一覧から段階的に整備予定。
+          </li>
+          <li>
+            <strong>所属委員会</strong>：override 済み議員については掲載中。全議員への拡張は順次。
           </li>
           <li>
             <strong>福岡市</strong>：公式名簿上の現職議員60名を掲載。議員定数62（欠員2の可能性）の差は次回追跡。
           </li>
         </ul>
+        <p className="mt-3 text-sm leading-relaxed text-slate-700">
+          整備状況のリアルタイム数字（経歴・役職 整備済み 118名 等）は<Link href="/" className="underline">トップページ</Link>に掲載しています。
+        </p>
       </section>
 
       <section className="mt-10 space-y-3">
