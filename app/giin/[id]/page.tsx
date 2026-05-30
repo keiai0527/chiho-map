@@ -288,17 +288,20 @@ export default async function MemberPage({ params }: { params: Params }) {
       </section>
 
 
-      {/* ── 本人発信に基づく主なテーマ（深掘り） ── */}
+      {/* ── 本人公式情報に基づく主な掲載テーマ（深掘り） ── */}
       {hasKeyPolicies && (
         <section className="mb-8">
           <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
-            本人発信に基づく主なテーマ
+            本人公式情報に基づく主な掲載テーマ
           </h2>
+          <p className="mb-2 text-[11px] text-slate-500">
+            以下は本人公式サイト・本人公式SNS・党公式での記載内容を運営者が要約したものです。本人公式での主張・記載であり、運営者による実績認定ではありません。
+          </p>
           <ul className="space-y-3 text-sm">
             {m.keyPolicies!.map((p, i) => (
               <li
                 key={`${p.category}-${p.title}-${i}`}
-                className="rounded-lg border border-slate-200 bg-white p-3"
+                className="rounded-lg border-l-2 border-slate-300 bg-slate-50 p-3"
               >
                 <div className="mb-1 flex items-center gap-2">
                   <span className="rounded bg-blue-50 px-2 py-0.5 text-[11px] font-medium text-blue-900">
@@ -306,7 +309,10 @@ export default async function MemberPage({ params }: { params: Params }) {
                   </span>
                   <span className="font-semibold text-slate-900">{p.title}</span>
                 </div>
-                <p className="text-slate-700">{p.description}</p>
+                <p className="text-[10px] text-slate-500 mb-1">
+                  本人公式での記載（要約）:
+                </p>
+                <p className="text-slate-700 italic">「{p.description}」</p>
                 {p.sourceUrl && (
                   <a
                     href={p.sourceUrl}
@@ -314,16 +320,12 @@ export default async function MemberPage({ params }: { params: Params }) {
                     rel="noopener"
                     className="mt-2 inline-block text-xs text-slate-500 underline-offset-2 hover:underline"
                   >
-                    出典 →
+                    出典（本人公式） →
                   </a>
                 )}
               </li>
             ))}
           </ul>
-          <p className="mt-2 text-[11px] text-slate-500">
-            本人公式サイト・本人note・党公式・市議会議事録の発信内容に基づき、出典付きで要約しています。
-            運営者の評価は含まず、本人発信そのものを参照できるよう出典URLを各項目に併記しています。
-          </p>
         </section>
       )}
 
@@ -362,9 +364,15 @@ export default async function MemberPage({ params }: { params: Params }) {
                 </li>
               ))}
             </ul>
-            <p className="mt-2 text-[11px] text-slate-500">
-              本人の議会質問・本会議発言・本人公式SNS投稿・本人ブログ等をもとに、出典付きで要約しています。直接引用部分がある場合は引用として明示します。実績・役職は「経歴・役職」セクションに分けています。
-            </p>
+            <div className="mt-2 text-[11px] text-slate-500 space-y-1">
+              <p>
+                <strong>要約</strong>：本人の議会質問・本会議発言・本人公式SNS投稿・本人ブログ等をもとに、運営者が出典付きで要約した内容を掲載しています。運営者の評価ではありません。
+              </p>
+              <p>
+                <strong>直接引用</strong>：原文をそのまま引用する場合は「」（カギ括弧）で囲み、引用であることを明示します。
+              </p>
+              <p>実績・役職は「経歴・役職」セクションに分けています。</p>
+            </div>
           </>
         ) : (
           <p className="text-xs text-slate-500">

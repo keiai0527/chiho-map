@@ -102,6 +102,29 @@ const REASON_FORBIDDEN_WORDS = [
   "裏で",
   "○○系",
   "金権",
+  // 運営の実績認定に見える表現（社長指示 2026-05-30）
+  "実績を強調",
+  "実績を訴え",
+  "実績を作",
+  "成功させた",
+  "実現に貢献",
+  "貢献した",
+  "達成した",
+  "英断",
+  "腕利き",
+];
+
+// keyPolicies.description / biography 等もスキャンする実績認定語
+const ACHIEVEMENT_BANNED_WORDS = [
+  "実績を強調",
+  "実績を訴え",
+  "実績を作",
+  "成功させた",
+  "実現に貢献",
+  "貢献した",
+  "達成した",
+  "英断",
+  "腕利き",
 ];
 
 // notableQuotes content に含まれていたら警告（実績混入の疑い）
@@ -313,6 +336,25 @@ async function main() {
           );
         }
       }
+    }
+
+    // 7-A3. keyPolicies.description の実績認定語スキャン
+    for (const o of overrides.overrides) {
+      const kps = (o.fields as { keyPolicies?: { description?: string }[] })
+        .keyPolicies;
+      if (!kps) continue;
+      kps.forEach((kp, i) => {
+        if (!kp.description) return;
+        for (const word of ACHIEVEMENT_BANNED_WORDS) {
+          if (kp.description.includes(word)) {
+            add(
+              "error",
+              "keypolicies_achievement_word",
+              `${o.id}.keyPolicies[${i}]: description に運営実績認定語「${word}」を含む。本人公式記載の引用スタイル「○○と本人公式サイトに記載されている」に置き換えてください`,
+            );
+          }
+        }
+      });
     }
 
     // 7-B. notableQuotes に実績キーワードが混入していないか

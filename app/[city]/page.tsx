@@ -131,11 +131,7 @@ export default async function CityPage({ params }: { params: Params }) {
           <p className="font-medium">データ収集中</p>
         </div>
       ) : (
-        <Suspense
-          fallback={
-            <div className="text-sm text-slate-400">読み込み中…</div>
-          }
-        >
+        <Suspense fallback={<StaticMemberList members={memberViews} parties={partyViews} kaihaList={kaihaList} />}>
           <MemberSearch
             members={memberViews}
             parties={partyViews}
@@ -144,6 +140,77 @@ export default async function CityPage({ params }: { params: Params }) {
           />
         </Suspense>
       )}
+
+      {/* SEO / クローラ用：JS 無効環境でも議員一覧が見えるよう noscript で出力 */}
+      {members.length > 0 && (
+        <noscript>
+          <StaticMemberList
+            members={memberViews}
+            parties={partyViews}
+            kaihaList={kaihaList}
+          />
+        </noscript>
+      )}
     </main>
+  );
+}
+
+// Server-rendered fallback：MemberSearch（client）が読み込まれるまでに表示。
+// SEO/SNSクローラ・JS無効環境でも議員一覧を可視化する役割を兼ねる。
+function StaticMemberList({
+  members,
+  parties,
+  kaihaList,
+}: {
+  members: {
+    id: string;
+    name: string;
+    partyId: string;
+    parliamentaryGroupId: string;
+    electoralDistrict: string;
+    hasCareerMilestones?: boolean;
+  }[];
+  parties: { id: string; shortName: string; color: string }[];
+  kaihaList: { id: string; shortName: string }[];
+}) {
+  const partyMap = new Map(parties.map((p) => [p.id, p]));
+  const kaihaMap = new Map(kaihaList.map((k) => [k.id, k]));
+  return (
+    <div>
+      <p className="mb-2 text-xs text-slate-500">
+        {members.length}名 該当 / 全{members.length}名（読み込み中。検索機能はJavaScript有効化後に利用可能）
+      </p>
+      <ul className="space-y-1.5 text-sm">
+        {members.map((m) => {
+          const party = partyMap.get(m.partyId);
+          const kaiha = kaihaMap.get(m.parliamentaryGroupId);
+          return (
+            <li key={m.id}>
+              <Link
+                href={`/giin/${m.id}`}
+                className="flex items-center gap-2 rounded border border-slate-200 bg-white p-2 hover:border-slate-300"
+              >
+                <span
+                  className="h-1 w-8 shrink-0 rounded"
+                  style={{ backgroundColor: party?.color ?? "#94a3b8" }}
+                />
+                <span className="font-medium text-slate-900">{m.name}</span>
+                {m.hasCareerMilestones && (
+                  <span className="rounded bg-emerald-100 px-1 py-0.5 text-[10px] text-emerald-800">
+                    整備済
+                  </span>
+                )}
+                <span className="text-xs text-slate-500">
+                  {party?.shortName ?? "不明"} ／ {m.electoralDistrict}
+                </span>
+                <span className="text-[10px] text-slate-400">
+                  {kaiha?.shortName ?? ""}
+                </span>
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
   );
 }
