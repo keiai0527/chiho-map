@@ -84,8 +84,9 @@ export default function SupportPage() {
           <p className="font-bold">応援金の独立性に関する宣言</p>
           <ul className="list-disc pl-4 space-y-1">
             <li>
-              <strong>応援金の有無や金額</strong>が、議員プロフィール・政策・賛否・口コミ表示・表示順位・検索順位などの
-              <strong>掲載内容に影響することは一切ありません</strong>。
+              <strong>応援金の有無や金額</strong>が、議員プロフィール・政策・賛否・口コミ表示・表示順位・検索順位、
+              <strong>口コミ審査・訂正対応・編集方針</strong>などに
+              <strong>優遇・変更が生じることは一切ありません</strong>。
             </li>
             <li>
               <strong>広告は現時点で一切掲載していません</strong>

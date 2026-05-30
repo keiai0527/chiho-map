@@ -8,7 +8,7 @@ export const metadata = {
 
 const ADDRESS_PLACEHOLDER = "（請求があった場合に遅滞なく開示いたします）";
 const PHONE_PLACEHOLDER = "（請求があった場合に遅滞なく開示いたします）";
-const EMAIL = "keiai0527@gmail.com";
+const EMAIL = "keiai0527+chiho-map@gmail.com";
 
 // ページキャッシュ固定（次回デプロイまで）
 export const revalidate = false;
@@ -71,6 +71,7 @@ export default function TokushohoPage() {
                   <li>政治活動資金ではありません。</li>
                   <li>サイト運営費（サーバー費用、データ整備費、法務確認費用、審査体制維持費等）に充てます。</li>
                   <li>応援の対価としての商品・サービスの提供はなく、寄附金控除の対象になることを保証するものではありません。</li>
+                  <li><strong>応援金の支払いによって、掲載内容、表示順位、口コミ審査、訂正対応、編集方針が優遇・変更されることはありません。</strong></li>
                 </ul>
               </li>
             </ul>

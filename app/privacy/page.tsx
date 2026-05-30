@@ -12,7 +12,7 @@ export default function PrivacyPage() {
     {
       label: "収集する情報",
       value:
-        "投稿内容、IPアドレスをハッシュ化した情報（原則として当該情報のみで個人を直接特定することはできませんが、他の情報と組み合わさることで個人関連情報・個人情報に近く扱われる可能性があります）、ブラウザ情報、Stripe 決済時の決済情報（カード番号は当サイトに保管されません）、訂正依頼・削除依頼フォームでご提供いただいた連絡先情報",
+        "投稿内容、IPアドレスをハッシュ化した情報（当サイトのアプリケーション上ではハッシュ化して保存し、生のIPアドレスはDB・管理画面に保存していません。原則として当該ハッシュ情報のみで個人を直接特定することはできませんが、他の情報と組み合わさることで個人関連情報・個人情報に近く扱われる可能性があります）、ブラウザ情報、Stripe 決済時の決済情報（カード番号は当サイトに保管されません）、訂正依頼・削除依頼フォームでご提供いただいた連絡先情報",
     },
     {
       label: "利用目的",
@@ -36,7 +36,7 @@ export default function PrivacyPage() {
     },
     {
       label: "お問い合わせ",
-      value: "keiai0527@gmail.com",
+      value: "keiai0527+chiho-map@gmail.com",
     },
   ];
 
@@ -92,7 +92,7 @@ export default function PrivacyPage() {
               決済時に当サイトに保存される範囲）等です。
             </li>
             <li>
-              請求は <strong>keiai0527@gmail.com</strong>{" "}
+              請求は <strong>keiai0527+chiho-map@gmail.com</strong>{" "}
               宛にお寄せください。請求の受付・回答には個人運営の都合上、相応のお時間をいただく場合があります。
             </li>
           </ul>
@@ -129,6 +129,13 @@ export default function PrivacyPage() {
           <p>
             投稿コンテンツや個人情報を AI 等の外部サービスに送信して解析・要約することは現時点ではありません。将来的に AI 要約を導入する場合は、本ポリシーを改訂し、対象範囲を明示します。
           </p>
+          <p className="text-xs text-muted-foreground border-t border-border pt-2 mt-2">
+            <strong>※ ホスティング・外部サービスのアクセスログについて</strong>
+            ：当サイトのアプリケーション上では、IPアドレスをハッシュ化して保存します。
+            ただし、利用するホスティング（Vercel）、データベース（Neon）、決済（Stripe）、メール配信（Resend）等の外部サービスにおいて、
+            サービス提供のために接続情報（生のIPアドレス、リクエストヘッダ等）が一定期間ログとして保存される場合があります。
+            これらのログは当サイト運営者が直接管理するものではなく、各サービス事業者のプライバシーポリシーに従って取り扱われます。
+          </p>
         </div>
       </section>
 
@@ -139,7 +146,7 @@ export default function PrivacyPage() {
         <div className="bg-surface border border-border rounded p-5 space-y-2 text-sm leading-relaxed">
           <p>
             ご自身の投稿・問い合わせに関する情報の開示・訂正・削除・利用停止のご請求は、本人確認のうえ対応いたします。
-            <strong>keiai0527@gmail.com</strong> までメールでご連絡いただくか、
+            <strong>keiai0527+chiho-map@gmail.com</strong> までメールでご連絡いただくか、
             <Link
               href="/takedown"
               className="text-primary underline mx-0.5"
