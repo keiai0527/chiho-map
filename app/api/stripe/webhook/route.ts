@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import type Stripe from "stripe";
 import crypto from "node:crypto";
 import { stripe } from "@/lib/stripe";
+import { sendOperatorMail } from "@/lib/mailer";
 import {
   findReviewByStripeSession,
   promoteReviewAfterPayment,
@@ -131,6 +132,10 @@ async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
       },
     });
   } else if (kind === "donation_chiho") {
+    const amount = session.amount_total ?? 0;
+    const currency = (session.currency ?? "jpy").toUpperCase();
+    const donorName = session.metadata?.donor_name ?? null;
+    const message = session.metadata?.message ?? null;
     await addLog({
       id: `log-${crypto.randomUUID()}`,
       actionType: "donation-received",
@@ -138,12 +143,27 @@ async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
       operator: "system:stripe-webhook",
       snapshot: {
         sessionId: session.id,
-        amount: session.amount_total,
+        amount,
         currency: session.currency,
-        donorName: session.metadata?.donor_name ?? null,
-        message: session.metadata?.message ?? null,
+        donorName,
+        message,
         livemode: session.livemode,
       },
+    });
+    await sendOperatorMail({
+      subject: `【地方議員マップ】応援金をいただきました（${currency} ${amount.toLocaleString()}${session.livemode ? "" : " / テスト"}）`,
+      text: [
+        `応援金が入金されました。`,
+        ``,
+        `金額: ${currency} ${amount.toLocaleString()}`,
+        `寄付者名: ${donorName ?? "(匿名)"}`,
+        `メッセージ: ${message ?? "(なし)"}`,
+        `Stripe session: ${session.id}`,
+        `モード: ${session.livemode ? "本番 (livemode)" : "テスト (test mode)"}`,
+        ``,
+        `Stripe ダッシュボード:`,
+        `https://dashboard.stripe.com${session.livemode ? "" : "/test"}/payments`,
+      ].join("\n"),
     });
   }
   // 他の kind（diet-map のもの含む）は無視
