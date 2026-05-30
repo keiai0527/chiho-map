@@ -71,20 +71,60 @@ export interface PolicyItem {
 }
 
 /**
- * 注目発言・実績の記録
- * 議事録引用や本人発信からの抜粋。出典必須。
+ * 本人発言・議会質問の1項目
+ * 本人の議会質問・本会議発言・本人公式SNS投稿・本人ブログの直接引用のみ。
+ * 実績・役職・経歴は CareerMilestone に分けること。
+ * 第三者解説・要約・評価は入れない。
+ * 出典URLは運用ルールで必須（型では既存互換のため optional）。
  */
 export interface NotableQuote {
-  /** 発言日・実績の日付（ISO date or 「2024-03-15」） */
+  /** 発言日（ISO date or 「2024-03-15」）。実績の時期は CareerMilestone へ */
   date: string;
-  /** 発言内容または実績（出典通りに引用 or 要約） */
+  /** 発言内容（出典通りに引用 or 本人発信の要約のみ。実績・役職は不可） */
   content: string;
   /** 出典タイプ（例: "市議会本会議質問", "本人ブログ", "X投稿"） */
   source: string;
-  /** 出典URL */
+  /** 出典URL（運用上は必須） */
   sourceUrl?: string;
   /** 補足コンテクスト（任意） */
   context?: string;
+}
+
+/**
+ * 経歴・役職の1項目（公式資料で確認できる事実のみ）
+ * 「6期」「平成24年5月30日〜平成25年5月30日」など原文表現を label に入れる。
+ * 出典URL + 確認日必須。解釈・要約・政治的背景説明は加えない。
+ */
+export interface CareerMilestone {
+  /** 短い見出し（例: "西成区：6期", "第108代大阪市会議長", "略歴", "役職・委員会"） */
+  label?: string;
+  /** 公式資料の記載をそのまま引用または事実のみ（解釈を加えない） */
+  content: string;
+  /** 出典名（例: "大阪市会公式 歴代議長・副議長一覧"） */
+  source: string;
+  /** 出典URL（必須） */
+  sourceUrl: string;
+  /** 確認日 ISO date "YYYY-MM-DD" */
+  verifiedAt: string;
+}
+
+/**
+ * 公式プロフィール・一次情報の出典リンク
+ * 議員ページ末尾「出典・確認情報」セクションに表示。
+ * news（報道・第三者記事）は意図的に除外、一次情報のみ。
+ */
+export type OfficialSourceKind =
+  | "council_official"      // 議会公式
+  | "party_official"         // 政党公式
+  | "election_committee"     // 選挙管理委員会
+  | "personal_official"      // 本人公式サイト
+  | "government_official";   // 自治体公式
+
+export interface OfficialSource {
+  kind: OfficialSourceKind;
+  label: string;
+  url: string;
+  verifiedAt: string;
 }
 
 export interface Member {
@@ -141,8 +181,16 @@ export interface Member {
   keyPolicies?: PolicyItem[];
 
   // ── 発言・実績 ──
-  /** 注目発言・本会議質問・実績の記録（出典必須） */
+  /** 本人発言・議会質問の記録（直接引用のみ。実績は careerMilestones へ） */
   notableQuotes?: NotableQuote[];
+
+  // ── 経歴・役職（構造化）──
+  /** 経歴・役職・委員会・議長就任等の構造化記録（出典URL + 確認日必須） */
+  careerMilestones?: CareerMilestone[];
+
+  // ── 公式プロフィール出典 ──
+  /** 一次情報の出典リンク集（議会公式・政党公式・選管・本人公式・自治体公式のみ） */
+  officialSources?: OfficialSource[];
 
   // ── データ品質（追加予定枠）──
   /** データ信頼度 */

@@ -12,7 +12,12 @@
         "websiteUrl": "http://fujitaakira.com/",
         "twitterUrl": "https://x.com/fujita_akira_",
         "termsServed": 3,
-        "committees": ["財政総務委員会委員長", "決算特別委員会委員長", "都構想設計図作成の特別区設置協議会", "関西広域連合議会"],
+        "committees": [
+          "財政総務委員会委員長",
+          "決算特別委員会委員長",
+          "都構想設計図作成の特別区設置協議会",
+          "関西広域連合議会"
+        ],
         "birthDate": "1981",
         "birthPlace": "大阪市港区",
         "education": [
@@ -59,20 +64,36 @@
             "sourceUrl": "http://fujitaakira.com/"
           }
         ],
-        "notableQuotes": [
-          {
-            "date": "2025-03-26",
-            "content": "「2024-2025年度版 年次報告書」を公開。財政総務委員会委員長・決算特別委員会委員長・関西広域連合議会議員としての1年間の活動と、大阪維新の会大阪市会議員団 政務調査会長代行 兼 日本維新の会 政調会長代行としての職務を報告。",
-            "source": "本人公式サイト 年次報告書",
-            "sourceUrl": "https://fujitaakira.com/activity/report/annual_report_2024-2025/"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "3期、北区選出",
+            "content": "大阪維新の会大阪市会議員団公式プロフィールでは、北区選出・3期とされている。2012年補欠選挙で初当選。",
+            "source": "大阪維新の会大阪市会議員団公式プロフィール",
+            "sourceUrl": "https://ishinnokai-osakashikai.jp/member/%E8%97%A4%E7%94%B0%E3%80%80%E3%81%82%E3%81%8D%E3%82%89",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "現職役職・委員会",
+            "content": "大阪維新の会大阪市会議員団公式プロフィールでは、財政総務委員会委員長、決算特別委員会委員長、関西広域連合議会議員、日本維新の会常任役員（政調会長代行）と記載されている。",
+            "source": "大阪維新の会大阪市会議員団公式プロフィール",
+            "sourceUrl": "https://ishinnokai-osakashikai.jp/member/%E8%97%A4%E7%94%B0%E3%80%80%E3%81%82%E3%81%8D%E3%82%89",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "2024-2025年度版 年次報告書 公開（2025-03-26）",
+            "content": "本人公式サイトで「2024-2025年度版 年次報告書」を公開。財政総務委員会委員長・決算特別委員会委員長・関西広域連合議会議員としての1年間の活動と、大阪維新の会大阪市会議員団 政務調査会長代行 兼 日本維新の会 政調会長代行としての職務が報告されている。",
+            "source": "本人公式サイト 年次報告書",
+            "sourceUrl": "https://fujitaakira.com/activity/report/annual_report_2024-2025/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "大阪維新の会大阪市会議員団公式 + 本人公式サイト fujitaakira.com + 本人X @fujita_akira_ 確認。1981年大阪市港区生まれ、大阪大学人間科学部卒、元株式会社髙島屋勤務、2012年補欠選挙で初当選、現在3期目（本人サイト記載に従い termsServed=3 に修正、以前の=4は誤）。財政総務委員会委員長、決算特別委員会委員長、関西広域連合議会議員、日本維新の会常任役員（政調会長代行）。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-tsuji-junko",
@@ -84,10 +105,40 @@
         "biography": "1952年11月29日生まれ。大阪市会議員6期、大阪維新の会所属。元大阪市会議長を務めた経験を持つ女性議員。事務所所在地は西成区玉出中2-6-18。",
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "西成区：6期",
+            "content": "大阪維新の会大阪市会議員団公式プロフィールでは、西成区選出・6期とされている。",
+            "source": "大阪維新の会大阪市会議員団公式プロフィール",
+            "sourceUrl": "https://ishinnokai-osakashikai.jp/member/%E8%BE%BB%E6%B7%B3%E5%AD%90",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "略歴",
+            "content": "大阪維新の会公式プロフィールでは、武庫川女子大学薬学部卒、薬剤師と記載されている。",
+            "source": "大阪維新の会公式プロフィール",
+            "sourceUrl": "https://oneosaka.jp/member/detail/tsuji_junko.html",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "第108代大阪市会議長",
+            "content": "大阪市会公式の歴代議長一覧では、第108代議長として辻淳子氏、在任期間は平成24年5月30日から平成25年5月30日までと記載されている。",
+            "source": "大阪市会公式「歴代議長・副議長」",
+            "sourceUrl": "https://www.city.osaka.lg.jp/shikai/page/0000001333.html",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "役職・委員会",
+            "content": "大阪維新の会公式プロフィールでは、日本維新の会常任役員、都市経済委員会と記載されている。",
+            "source": "大阪維新の会公式プロフィール",
+            "sourceUrl": "https://oneosaka.jp/member/detail/tsuji_junko.html",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "大阪維新の会大阪市会議員団公式 + 本人運営X @tsujijunko 確認。1952年11月29日生まれ、6期、元大阪市会議長。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-yamamoto-tomoko",
@@ -95,7 +146,9 @@
         "officialProfileUrl": "https://www.komei.or.jp/member/detail/27127157",
         "websiteUrl": "https://tomoko-yamamoto.jp/",
         "twitterUrl": "https://x.com/Cafetonton",
-        "committees": ["2025大阪・関西万博特別委員会委員長"],
+        "committees": [
+          "2025大阪・関西万博特別委員会委員長"
+        ],
         "biography": "公明党所属の大阪市会議員（北区選出）、2015年4月初当選。2025大阪・関西万博特別委員会委員長として、子どもたちの夢や希望を応援する万博推進に注力。「一人のために全力で」をスローガンに、市民相談を最重視した活動を展開。地元での実績として、長年要望していた扇町公園水系施設の整備（連日多くの人で賑わう）や、うめきた2期区域への4.5ha都市型公園「グラングリーン大阪」整備を支援。",
         "keyPolicies": [
           {
@@ -135,10 +188,26 @@
         "biography": "1978年生まれ。財務省で財務事務官として勤務後、大阪市会議員に転身。北区選出で現在3期目。会派は『自由民主党・市民クラブ大阪市会議員団』に所属するが、本人は自由民主党所属。X・Facebook・Instagramで活発に情報発信。",
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "3期、北区選出",
+            "content": "自由民主党大阪市会議員団公式プロフィールでは、北区選出・3期とされている。",
+            "source": "自由民主党大阪市会議員団公式",
+            "sourceUrl": "https://www.osaka-jimin-shikai.jp/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "略歴",
+            "content": "自由民主党大阪市会議員団公式および本人公式サイトでは、元財務省財務事務官と記載されている。",
+            "source": "自由民主党大阪市会議員団公式",
+            "sourceUrl": "https://www.osaka-jimin-shikai.jp/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "自民党大阪市会議員団公式 + 本人公式サイト + X/Facebook/Instagram 全て本人発信を確認。元財務省財務事務官、北区3期。会派『自由民主党・市民クラブ』所属だが、本人は自民党所属で確定。2026年3月17日の本人投稿で47歳誕生日と記載があり1978年生まれと推定。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-nakata-koichiro",
@@ -158,7 +227,11 @@
       "fields": {
         "officialProfileUrl": "https://www.jiminsapporo.jp/shikkobu_giin_yakuin/shigikaigiiinitiran/osanai.html",
         "websiteUrl": "http://www.naoya.jp/",
-        "committees": ["議長", "建設委員会", "総合交通政策調査特別委員会"],
+        "committees": [
+          "議長",
+          "建設委員会",
+          "総合交通政策調査特別委員会"
+        ],
         "termsServed": 7,
         "birthDate": "1964-11-15",
         "birthPlace": "札幌市（現・中央区）",
@@ -226,7 +299,10 @@
       "fields": {
         "partyId": "cdp",
         "officialProfileUrl": "https://cdp-japan.jp/member/445",
-        "committees": ["厚生委員会", "総合交通政策調査特別委員会"],
+        "committees": [
+          "厚生委員会",
+          "総合交通政策調査特別委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -237,7 +313,10 @@
     {
       "id": "sapporo-ikeda-yumi",
       "fields": {
-        "committees": ["建設委員会副委員長", "総合交通政策調査特別委員会"],
+        "committees": [
+          "建設委員会副委員長",
+          "総合交通政策調査特別委員会"
+        ],
         "dataConfidence": "partial",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": true
@@ -251,7 +330,10 @@
         "officialProfileUrl": "https://www.jcp.or.jp/list/member/2711871",
         "websiteUrl": "http://yamanaka-tomoko.wajcp.net/",
         "termsServed": 7,
-        "committees": ["財政総務委員会", "大都市・税財政制度特別委員会"],
+        "committees": [
+          "財政総務委員会",
+          "大都市・税財政制度特別委員会"
+        ],
         "birthDate": "1962-06",
         "education": [
           "同志社大学 卒業"
@@ -269,28 +351,46 @@
             "sourceUrl": "https://www.jcp.or.jp/list/member/2711871"
           }
         ],
-        "notableQuotes": [
-          {
-            "date": "代表質問テーマ",
-            "content": "日本共産党大阪市会議員団 団長として、本会議の代表質問を継続的に行う。直近では新型コロナ感染症対策、特別区協定（大阪都構想）、住民サービス維持・拡充等を主要テーマに取り上げ。",
-            "source": "日本共産党 山中智子 公式サイト",
-            "sourceUrl": "http://yamanaka-tomoko.wajcp.net/",
-            "context": "具体的な質疑日・議事録は大阪市会の会議録検索（kaigiroku.net）で『山中智子』で検索すると一覧取得可能。"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "7期",
+            "content": "日本共産党中央委員会公式議員紹介ページでは、大阪市会議員 7期とされている。",
+            "source": "日本共産党中央委員会公式 議員紹介",
+            "sourceUrl": "https://www.jcp.or.jp/web_jcp/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "日本共産党大阪市会議員団 団長",
+            "content": "本人公式サイトおよび日本共産党中央委員会公式では、日本共産党大阪市会議員団 団長と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "http://yamanaka-tomoko.wajcp.net/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "1999年初当選",
+            "content": "本人公式サイトおよび日本共産党中央委員会公式では、1999年初当選、元大阪福祉事業財団勤務と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "http://yamanaka-tomoko.wajcp.net/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "日本共産党中央委員会公式（jcp.or.jp）+ 本人公式サイト yamanaka-tomoko.wajcp.net 確認。1962年6月生まれ、7期、日本共産党大阪市会議員団長。元大阪福祉事業財団勤務、1999年初当選。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-inoue-hiroshi",
       "fields": {
         "officialProfileUrl": "https://www.jcp.or.jp/list/member/2712091",
         "termsServed": 5,
-        "committees": ["建設港湾委員会", "環境対策特別委員会"],
+        "committees": [
+          "建設港湾委員会",
+          "環境対策特別委員会"
+        ],
         "birthDate": "1973-03",
         "education": [
           "関西鍼灸短期大学 卒業"
@@ -300,21 +400,43 @@
           "大阪市会議員 当選 → 5期（住吉区）"
         ],
         "biography": "1973年3月生まれ。関西鍼灸短期大学を卒業後、住之江鍼灸センターあびこ施術所の所長として鍼灸師の現場経験を積む。大阪市会議員（住吉区）として5期、日本共産党大阪市会議員団 政調会長。所属委員会は建設港湾委員会、環境対策特別委員会。大阪広域環境施設組合議会議員、住吉区社保協副会長としても活動。事務所は住吉区沢之町。",
-        "notableQuotes": [
-          {
-            "date": "建設港湾委員会 6月2日",
-            "content": "大阪市の大規模公園の運営が民間委託されている問題を取り上げ、コンセッション（運営権譲渡）方式での運営が住民サービス・公共性に与える影響について質疑。",
-            "source": "日本共産党中央委員会",
-            "sourceUrl": "https://www.jcp.or.jp/list/member/2712091",
-            "context": "党市議団政調会長として、建設港湾委員会・環境対策特別委員会で継続的に質疑。"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "5期、住吉区選出",
+            "content": "日本共産党中央委員会公式議員プロフィールでは、大阪市会議員 5期、住吉区選出とされている。",
+            "source": "日本共産党中央委員会公式 議員プロフィール",
+            "sourceUrl": "https://www.jcp.or.jp/list/member/2712091",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "日本共産党大阪市会議員団 政調会長",
+            "content": "日本共産党中央委員会公式議員プロフィールでは、日本共産党大阪市会議員団 政調会長と記載されている。",
+            "source": "日本共産党中央委員会公式 議員プロフィール",
+            "sourceUrl": "https://www.jcp.or.jp/list/member/2712091",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "建設港湾委員会での活動",
+            "content": "日本共産党中央委員会公式議員プロフィールでは、建設港湾委員会で大阪市の大規模公園の運営民間委託問題（コンセッション方式）について質疑を行ったと記載されている。",
+            "source": "日本共産党中央委員会公式 議員プロフィール",
+            "sourceUrl": "https://www.jcp.or.jp/list/member/2712091",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "他の役職",
+            "content": "日本共産党中央委員会公式議員プロフィールでは、大阪広域環境施設組合議会議員、住吉区社保協副会長と記載されている。",
+            "source": "日本共産党中央委員会公式 議員プロフィール",
+            "sourceUrl": "https://www.jcp.or.jp/list/member/2712091",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "日本共産党中央委員会公式（jcp.or.jp/list/member/2712091）確認。1973年3月生まれ、関西鍼灸短期大学卒、元住之江鍼灸センターあびこ施術所所長、5期、住吉区選出、日本共産党大阪市会議員団 政調会長、大阪広域環境施設組合議会議員、住吉区社保協副会長。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-takayama-mika",
@@ -336,10 +458,33 @@
         "biography": "1992年9月11日生まれ。河内長野市南花台中学校・帝塚山学院高校から関西学院大学商学部卒業。民間証券会社勤務を経て、大学在学中から笹川理大阪府議会議員事務所でインターンシップを経験、その後政務活動補助員として政治の現場に従事した経歴を持つ。大阪維新の会 政調会長代理。事務所は大阪市北区本庄東2-1-19 ガーディアンライフ1階。",
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "北区選出",
+            "content": "大阪維新の会公式メンバーページでは、北区選出と記載されている。",
+            "source": "大阪維新の会公式メンバーページ",
+            "sourceUrl": "https://oneosaka.jp/member/detail/takayama_mika.html",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "略歴",
+            "content": "大阪維新の会公式メンバーページでは、関西学院大学商学部卒、元民間証券会社勤務と記載されている。",
+            "source": "大阪維新の会公式メンバーページ",
+            "sourceUrl": "https://oneosaka.jp/member/detail/takayama_mika.html",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "大阪維新の会 政調会長代理",
+            "content": "大阪維新の会公式メンバーページでは、大阪維新の会 政調会長代理と記載されている。",
+            "source": "大阪維新の会公式メンバーページ",
+            "sourceUrl": "https://oneosaka.jp/member/detail/takayama_mika.html",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "大阪維新の会公式メンバーページ（oneosaka.jp/member/detail/takayama_mika.html）+ 本人公式サイト takayamamika.com + 本人X @M_Takayama_1992 確認。1992年9月11日生まれ、関西学院大学商学部卒、元民間証券会社勤務、大阪維新の会 政調会長代理、北区選出。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-kondo-dai",
@@ -360,13 +505,31 @@
         "websiteUrl": "https://satakeriho.info/",
         "twitterUrl": "https://x.com/satake_riho",
         "termsServed": 1,
-        "committees": ["都市経済委員会"],
+        "committees": [
+          "都市経済委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "1期、淀川区選出（会派『総活躍社会実現の会』1人会派）",
+            "content": "本人公式サイトでは、淀川区選出・1期、会派『総活躍社会実現の会』（1人会派）と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://satakeriho.info/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "略歴・本業",
+            "content": "本人公式サイトでは、シスメックス株式会社、メディア放送局を経て28歳で起業、株式会社エスリンクス代表取締役と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://satakeriho.info/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "本人公式サイト satakeriho.info + 本人X @satake_riho 確認。1987年12月28日生まれ、1期、淀川区選出。「総活躍社会実現の会」1人会派。経歴：シスメックス株式会社、メディア放送局を経て28歳で起業、（株）エスリンクス代表取締役。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "sapporo-iijima-hiroyuki",
@@ -499,7 +662,9 @@
       "fields": {
         "officialProfileUrl": "https://jimin-nagoya.com/staff/",
         "websiteUrl": "https://asaimasahito.com/",
-        "committees": ["財政福祉委員会委員長"],
+        "committees": [
+          "財政福祉委員会委員長"
+        ],
         "birthDate": "1964-11-14",
         "education": [
           "名古屋市立 荒子小学校 卒業",
@@ -674,7 +839,10 @@
         "officialProfileUrl": "https://www.jcp.or.jp/list/member/2310371",
         "websiteUrl": "https://www.n-jcp.jp/profile/okada",
         "termsServed": 4,
-        "committees": ["総務環境委員会副委員長", "大都市制度・広域連携促進特別委員会"],
+        "committees": [
+          "総務環境委員会副委員長",
+          "大都市制度・広域連携促進特別委員会"
+        ],
         "birthDate": "1965-01",
         "education": [
           "信州大学医療技術短期大学部 看護学科 卒業"
@@ -866,7 +1034,10 @@
         "websiteUrl": "https://kumamotochihiro.jp/",
         "twitterUrl": "https://x.com/kumamoto_chi",
         "termsServed": 1,
-        "committees": ["市民・にぎわいスポーツ文化・消防委員会", "未来のまちづくり推進特別委員会"],
+        "committees": [
+          "市民・にぎわいスポーツ文化・消防委員会",
+          "未来のまちづくり推進特別委員会"
+        ],
         "birthDate": "1994-02-27",
         "education": [
           "昭和音楽大学 トランペット専攻 卒業"
@@ -946,7 +1117,9 @@
       "fields": {
         "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/ikeda_yoshiko",
         "websiteUrl": "http://www.ikedayoshiko.com",
-        "committees": ["生活環境委員会"],
+        "committees": [
+          "生活環境委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -1011,32 +1184,43 @@
           "1992年3月 大阪市会議員 補欠選挙で初当選（阿倍野区）"
         ],
         "biography": "1961年大阪市阿倍野区生まれ。同志社香里高校・同志社大学文学部社会学科卒業（大学時代はラグビー部で全国大学選手権3度の日本一）。卒業後、毎日放送（MBS）で報道局5年・スポーツ局3年、取材記者やスポーツ番組のチーフディレクターを務める。1992年3月、父・木下伸生氏（第78代大阪市会議長）の遺志を継いで大阪市会議員補欠選挙に立候補し初当選。以来9期連続当選。祖父・木下常吉氏は第55代大阪市会議長を務めた政治家家系。2013年12月〜2014年5月 第110代大阪市会議長、2015年5月〜2016年5月 第115代副議長を歴任。",
-        "notableQuotes": [
-          {
-            "date": "2013-12",
-            "content": "第110代大阪市会議長に就任。",
-            "source": "本人公式プロフィール",
-            "sourceUrl": "https://www.kinoshita-yoshinobu.com/pages/profile/index.php"
-          },
-          {
-            "date": "2015-05",
-            "content": "第115代大阪市会副議長に就任。",
-            "source": "本人公式プロフィール",
-            "sourceUrl": "https://www.kinoshita-yoshinobu.com/pages/profile/index.php"
-          },
-          {
-            "date": "2026-01-07",
-            "content": "第105回「木下塾」を開催。市政の現状と課題について有権者・支援者と直接対話する定例勉強会を継続的に運営。",
-            "source": "本人公式サイト 更新情報",
-            "sourceUrl": "https://www.kinoshita-yoshinobu.com/"
-          }
-        ],
+        "notableQuotes": [],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "9期、阿倍野区選出（1992年補欠選挙で初当選）",
+            "content": "本人公式サイト『プロフィール』では、阿倍野区選出・9期、1992年補欠選挙で初当選と記載されている。",
+            "source": "本人公式プロフィール",
+            "sourceUrl": "https://www.kinoshita-yoshinobu.com/pages/profile/index.php",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "第110代大阪市会議長（2013-12 就任）",
+            "content": "本人公式プロフィールおよび大阪市会公式『歴代議長・副議長』では、第110代大阪市会議長に2013年12月に就任したと記載されている。",
+            "source": "大阪市会公式「歴代議長・副議長」",
+            "sourceUrl": "https://www.city.osaka.lg.jp/shikai/page/0000001333.html",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "第115代大阪市会副議長（2015-05 就任）",
+            "content": "本人公式プロフィールおよび大阪市会公式『歴代議長・副議長』では、第115代大阪市会副議長に2015年5月に就任したと記載されている。",
+            "source": "大阪市会公式「歴代議長・副議長」",
+            "sourceUrl": "https://www.city.osaka.lg.jp/shikai/page/0000001333.html",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "定例勉強会「木下塾」（2026-01-07 第105回開催）",
+            "content": "本人公式サイト『更新情報』では、定例勉強会「木下塾」を継続運営しており、2026年1月7日に第105回を開催したと記載されている。",
+            "source": "本人公式サイト 更新情報",
+            "sourceUrl": "https://www.kinoshita-yoshinobu.com/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "自民党大阪府連公式 + 本人公式サイト kinoshita-yoshinobu.com（/pages/profile/）+ 本人X @osaka_kinoshita 確認。1961年6月7日生まれ、阿倍野区出身、9期、1992年補欠選挙で初当選。第110代大阪市会議長、第115代副議長を歴任。父・木下伸生（第78代議長）、祖父・木下常吉（第55代議長）の政治家家系。元毎日放送報道記者。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-nishi-tokuto",
@@ -1044,7 +1228,10 @@
         "officialProfileUrl": "https://www.komei.or.jp/km/osaka-nishi-norihito/",
         "websiteUrl": "https://norihito-nishi.com/",
         "termsServed": 4,
-        "committees": ["議会運営委員会", "財政総務委員会"],
+        "committees": [
+          "議会運営委員会",
+          "財政総務委員会"
+        ],
         "birthDate": "1963-08-11",
         "biography": "1963年8月11日生まれ。大阪市会議員4期、港区選出、公明党所属、大阪市会副議長。「実現力No.1」を掲げ、相談実績7,500件・港区地域実績117件を公表。「ミナトノミライプラン」を発表し、「ミナトノミライプロジェクト」を始動中。市民相談を月・水・金の9:30〜12:00に対応。",
         "keyPolicies": [
@@ -1057,23 +1244,50 @@
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "4期、港区選出",
+            "content": "公明党公式議員プロフィールおよび本人公式サイトでは、港区選出・4期とされている。",
+            "source": "公明党公式議員プロフィール",
+            "sourceUrl": "https://www.komei.or.jp/m/norihito-nishi/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "大阪市会副議長",
+            "content": "本人公式サイトでは、大阪市会副議長と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://norihito-nishi.com/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "公明党公式議員プロフィール + 本人公式サイト norihito-nishi.com 確認。1963年8月11日生まれ、4期、港区選出、大阪市会副議長。相談実績7,500件・港区地域実績117件、「ミナトノミライプロジェクト」推進中。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-nishi-takuro",
       "fields": {
         "officialProfileUrl": "https://www.city.osaka.lg.jp/shikai/page/0000310464.html",
         "termsServed": 2,
-        "committees": ["市政改革委員会"],
+        "committees": [
+          "市政改革委員会"
+        ],
         "dataConfidence": "partial",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": true
+        "hasProvisionalData": true,
+        "careerMilestones": [
+          {
+            "label": "2期、会派『大阪にし』（1人会派）",
+            "content": "大阪市会公式名簿では、2期、会派『大阪にし』（1人会派）、市政改革委員会所属と記載されている。",
+            "source": "大阪市会公式議員名簿",
+            "sourceUrl": "https://www.city.osaka.lg.jp/shikai/category/3060-3-5-0-0-0-0-0-0-0.html",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "大阪市会公式名簿で2期、1990年7月8日生まれ、市政改革委員会所属確認。会派「大阪にし」1人会派。本人公式サイト・SNSは検索で確認できず、partial 扱い。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "sapporo-igarashi-tokumi",
@@ -1093,7 +1307,9 @@
       "fields": {
         "officialProfileUrl": "https://cdp-japan.jp/member/1509/%E7%A2%A7%E3%81%B2%E3%82%8D%E3%81%BF",
         "termsServed": 2,
-        "committees": ["財政市民委員会委員長"],
+        "committees": [
+          "財政市民委員会委員長"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -1177,7 +1393,10 @@
         "websiteUrl": "https://www.n-jcp.jp/profile/taguchi",
         "twitterUrl": "https://x.com/TaguchiKazuto",
         "termsServed": 8,
-        "committees": ["財政福祉委員会", "公社対策特別委員会副委員長"],
+        "committees": [
+          "財政福祉委員会",
+          "公社対策特別委員会副委員長"
+        ],
         "birthDate": "1958",
         "education": [
           "名古屋大学 文学部 卒業"
@@ -1214,7 +1433,10 @@
         "officialProfileUrl": "https://www.komei.or.jp/member/detail/14104133",
         "websiteUrl": "https://www.fukushima-naoko.info/",
         "termsServed": 6,
-        "committees": ["水道・交通委員会", "基地対策特別委員会"],
+        "committees": [
+          "水道・交通委員会",
+          "基地対策特別委員会"
+        ],
         "birthDate": "1956-08-10",
         "biography": "1956年8月10日生まれ。横浜市会議員6期、中区選出、公明党所属。第61代横浜市会副議長。公明党神奈川県本部副代表、公明党中区支部長。神奈川県後期高齢者医療広域連合議会議員としても活動。最近は住宅補助、環境保全、後期高齢者医療制度に注力。",
         "keyPolicies": [
@@ -1298,7 +1520,11 @@
         "officialProfileUrl": "https://www.komei.or.jp/km/fukuoka-obana-yasuhiro/",
         "websiteUrl": "https://komei-fukuokacity.net/member/",
         "termsServed": 4,
-        "committees": ["保健福祉都市整備委員会", "こども・教育委員会", "交通対策特別委員会"],
+        "committees": [
+          "保健福祉都市整備委員会",
+          "こども・教育委員会",
+          "交通対策特別委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -1324,7 +1550,10 @@
         "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/nakayama_ikumi",
         "websiteUrl": "http://nakayama-ikumi.jp/",
         "termsServed": 6,
-        "committees": ["福祉都市委員会", "都市問題等調査特別委員会副委員長"],
+        "committees": [
+          "福祉都市委員会",
+          "都市問題等調査特別委員会副委員長"
+        ],
         "birthDate": "1960-01-22",
         "career": [
           "中学校教諭（早良中学校・城香中学校・西陵中学校・原中学校等）18年（卓球部顧問）",
@@ -1345,10 +1574,26 @@
         "websiteUrl": "https://www.nobuhiro-tanabe.com/",
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "東住吉区選出（無所属大阪市会議員団・1人会派）",
+            "content": "本人公式サイトおよび大阪維新の会公式メンバーページでは、東住吉区選出、会派『無所属大阪市会議員団』（1人会派）と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://nobuhiro-tanabe.com/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "略歴・本業",
+            "content": "本人公式サイトでは、元証券マン（資産運用アドバイザー）、行政書士・経営コンサルタントと記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://nobuhiro-tanabe.com/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "大阪維新の会公式 + 本人公式サイト nobuhiro-tanabe.com 確認。東住吉区選出、会派『無所属大阪市会議員団』(1人会派)。元証券マン（資産運用アドバイザー）、行政書士・経営コンサルタント。維新公式メンバーページにも掲載されているが、会派整合性のため partyId='independent' は変更せず（要再確認）。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-hirota-kazumi",
@@ -1356,13 +1601,24 @@
         "officialProfileUrl": "https://oneosaka.jp/member/detail/hirota_kazumi.html",
         "websiteUrl": "https://hirotano.com/",
         "termsServed": 5,
-        "committees": ["民生保健委員会"],
+        "committees": [
+          "民生保健委員会"
+        ],
         "dataConfidence": "partial",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": true
+        "hasProvisionalData": true,
+        "careerMilestones": [
+          {
+            "label": "5期、福島区選出（会派『福島クラブ』1人会派）",
+            "content": "本人公式サイトおよび大阪維新の会公式メンバーページでは、福島区選出・5期、会派『福島クラブ』（1人会派、維新公式メンバーページにも掲載）と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://hirotano.com/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "大阪維新の会公式 + 本人公式サイト hirotano.com 確認。1963年8月21日生まれ、5期、福島区選出。会派『福島クラブ』1人会派だが維新公式メンバーページにも掲載。partyId='regional' のまま（要再確認）。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-imada-nobuyuki",
@@ -1370,7 +1626,10 @@
         "officialProfileUrl": "https://www.komei.or.jp/member/detail/27104138",
         "websiteUrl": "https://www.komei.or.jp/km/nobuyuki-imada-osaka/",
         "termsServed": 2,
-        "committees": ["議会運営委員会", "建設港湾委員会"],
+        "committees": [
+          "議会運営委員会",
+          "建設港湾委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -1384,7 +1643,11 @@
         "officialProfileUrl": "https://www.komei.or.jp/member/detail/27113140",
         "websiteUrl": "https://www.komei.or.jp/km/sasaki-tetsuo21/",
         "termsServed": 4,
-        "committees": ["市会運営委員会", "教育こども委員会", "環境対策特別委員会副委員長"],
+        "committees": [
+          "市会運営委員会",
+          "教育こども委員会",
+          "環境対策特別委員会副委員長"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -1447,7 +1710,10 @@
         "officialProfileUrl": "https://www.jcp.or.jp/list/member/2311421",
         "websiteUrl": "https://www.n-jcp.jp/profile/mitsunaka",
         "termsServed": 1,
-        "committees": ["経済水道委員会", "安全安心まちづくり推進特別委員会"],
+        "committees": [
+          "経済水道委員会",
+          "安全安心まちづくり推進特別委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -1766,7 +2032,10 @@
         "officialProfileUrl": "https://ishinnokai-osakashikai.jp/member",
         "websiteUrl": "https://takechi-hiroyuki.jp/",
         "termsServed": 1,
-        "committees": ["市会運営委員会", "都市経済委員会"],
+        "committees": [
+          "市会運営委員会",
+          "都市経済委員会"
+        ],
         "biography": "大阪維新の会・大阪市会議員（此花区）、1期。大阪維新の会大阪市会議員団 政務調査会副会長 兼 政調会長代行。市会運営委員・都市経済委員。此花区の特区民泊問題、地域共生、観光振興など、地元密着型の政策テーマで本会議・委員会で発言を継続。",
         "keyPolicies": [
           {
@@ -1787,10 +2056,26 @@
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "1期、此花区選出",
+            "content": "大阪維新の会大阪市会議員団公式プロフィールでは、此花区選出・1期とされている。",
+            "source": "大阪維新の会大阪市会議員団公式プロフィール",
+            "sourceUrl": "https://ishinnokai-osakashikai.jp/member/%E7%AB%B9%E5%86%85%20%E5%8D%9A%E5%B9%B8",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "大阪維新の会大阪市会議員団 政務調査会副会長",
+            "content": "大阪維新の会大阪市会議員団公式プロフィールでは、大阪維新の会大阪市会議員団 政務調査会副会長と記載されている。",
+            "source": "大阪維新の会大阪市会議員団公式プロフィール",
+            "sourceUrl": "https://ishinnokai-osakashikai.jp/member/%E7%AB%B9%E5%86%85%20%E5%8D%9A%E5%B9%B8",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "大阪維新の会大阪市会議員団公式 + 本人公式サイト takechi-hiroyuki.jp + 本人note 確認。1期、此花区選出。大阪維新の会大阪市会議員団 政務調査会副会長。2024年11月決算特別委員会の特区民泊質疑をnoteで詳細公開。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-suzuki-rie",
@@ -1798,13 +2083,33 @@
         "officialProfileUrl": "https://jimin-osaka.com/%E9%88%B4%E6%9C%A8%E7%90%86%E6%81%B5/",
         "websiteUrl": "https://www.rie-suzuki.jp/",
         "twitterUrl": "https://x.com/pnoj2c",
-        "committees": ["民生保健委員会", "環境対策特別委員会", "公営・準公営企業会計決算特別委員会"],
+        "committees": [
+          "民生保健委員会",
+          "環境対策特別委員会",
+          "公営・準公営企業会計決算特別委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
-        "hasProvisionalData": false
+        "hasProvisionalData": false,
+        "careerMilestones": [
+          {
+            "label": "中央区選出",
+            "content": "自由民主党大阪市会議員団公式および本人公式サイトでは、中央区選出と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://rie-suzuki.jp/",
+            "verifiedAt": "2026-05-30"
+          },
+          {
+            "label": "略歴・本業",
+            "content": "本人公式サイトでは、現役薬剤師、株式会社コトブキ薬局代表取締役、大阪府薬剤師会理事と記載されている。",
+            "source": "本人公式サイト",
+            "sourceUrl": "https://rie-suzuki.jp/",
+            "verifiedAt": "2026-05-30"
+          }
+        ]
       },
       "reason": "自民党大阪市会議員団公式 + 本人公式サイト rie-suzuki.jp + 本人X @pnoj2c 確認。中央区選出、現役薬剤師、株式会社コトブキ薬局代表取締役、大阪府薬剤師会理事。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-ota-katsuki",
@@ -1812,7 +2117,10 @@
         "officialProfileUrl": "https://ota-katsuki.jp/",
         "websiteUrl": "https://ootakatsuki.wixsite.com/my-site",
         "termsServed": 1,
-        "committees": ["建設港湾委員会", "大都市・税財政制度特別委員会副委員長"],
+        "committees": [
+          "建設港湾委員会",
+          "大都市・税財政制度特別委員会副委員長"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -1826,7 +2134,11 @@
         "officialProfileUrl": "https://jimin-osaka.com/member_menu/",
         "websiteUrl": "https://araki-hajime.net/",
         "termsServed": 2,
-        "committees": ["市会運営委員会", "建設港湾委員会副委員長", "2025大阪・関西万博推進特別委員会副委員長"],
+        "committees": [
+          "市会運営委員会",
+          "建設港湾委員会副委員長",
+          "2025大阪・関西万博推進特別委員会副委員長"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -1876,7 +2188,10 @@
       "id": "sapporo-ogata-kaori",
       "fields": {
         "officialProfileUrl": "https://www.jcp-sapporo.jp/assembly/",
-        "committees": ["建設委員会委員長", "新たな都心空間調査特別委員会"],
+        "committees": [
+          "建設委員会委員長",
+          "新たな都心空間調査特別委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -2110,7 +2425,11 @@
         "officialProfileUrl": "https://www.komei.or.jp/member/detail/40134154",
         "websiteUrl": "https://www.komei.or.jp/km/oishi/",
         "termsServed": 8,
-        "committees": ["生活環境委員会", "少子・高齢化対策特別委員会", "大都市税財政制度確立推進協議会"],
+        "committees": [
+          "生活環境委員会",
+          "少子・高齢化対策特別委員会",
+          "大都市税財政制度確立推進協議会"
+        ],
         "birthDate": "1960-11-22",
         "birthPlace": "鹿児島県喜界町",
         "education": [
@@ -2144,7 +2463,11 @@
         "websiteUrl": "http://okada-yasutomo.com/",
         "twitterUrl": "https://x.com/yasutomo_okada",
         "termsServed": 3,
-        "committees": ["市会運営委員会委員長", "財政総務委員会", "大都市・税財政制度特別委員会"],
+        "committees": [
+          "市会運営委員会委員長",
+          "財政総務委員会",
+          "大都市・税財政制度特別委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -2170,7 +2493,9 @@
       "fields": {
         "officialProfileUrl": "https://www.city.osaka.lg.jp/shikai/page/0000310594.html",
         "termsServed": 1,
-        "committees": ["財政総務委員会"],
+        "committees": [
+          "財政総務委員会"
+        ],
         "dataConfidence": "partial",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": true
@@ -2335,7 +2660,11 @@
         "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/uchikoshi_motoyasu",
         "websiteUrl": "https://uchikoshi.info/",
         "termsServed": 6,
-        "committees": ["総務財政委員会", "少子・高齢化対策特別委員会", "九州大学移転・跡地対策協議会"],
+        "committees": [
+          "総務財政委員会",
+          "少子・高齢化対策特別委員会",
+          "九州大学移転・跡地対策協議会"
+        ],
         "birthDate": "1954-05-02",
         "birthPlace": "福岡市南区",
         "education": [
@@ -2416,7 +2745,11 @@
         "officialProfileUrl": "https://jimin-osaka.com/moriyama_yoshihisa/",
         "websiteUrl": "http://moriyama728.com/",
         "termsServed": 5,
-        "committees": ["市会運営委員会", "民生保健委員会", "大都市・税財政制度特別委員会"],
+        "committees": [
+          "市会運営委員会",
+          "民生保健委員会",
+          "大都市・税財政制度特別委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -2454,7 +2787,10 @@
       "fields": {
         "officialProfileUrl": "https://oneosaka.jp/member/detail/onishi_shoichi.html",
         "termsServed": 2,
-        "committees": ["教育こども委員会", "環境対策特別委員会"],
+        "committees": [
+          "教育こども委員会",
+          "環境対策特別委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -2506,7 +2842,10 @@
         "officialProfileUrl": "https://shinseiaichi.com/member/member-2533/",
         "websiteUrl": "http://www.ogawa.in/",
         "termsServed": 5,
-        "committees": ["総務環境委員会", "産業・歴史文化・観光戦略特別委員会"],
+        "committees": [
+          "総務環境委員会",
+          "産業・歴史文化・観光戦略特別委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -2519,7 +2858,9 @@
       "fields": {
         "officialProfileUrl": "https://jimin-nagoya.com/staff/%E5%B2%A9%E6%9C%AC%E3%81%9F%E3%81%8B%E3%81%B2%E3%82%8D/",
         "websiteUrl": "https://www.iwamoto-takahiro.jp/",
-        "committees": ["総務環境委員会委員長"],
+        "committees": [
+          "総務環境委員会委員長"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -2597,7 +2938,9 @@
         "websiteUrl": "https://komatsu-noriaki.net/",
         "twitterUrl": "https://x.com/komatsunoriaki",
         "termsServed": 4,
-        "committees": ["市民・にぎわいスポーツ文化・消防委員会"],
+        "committees": [
+          "市民・にぎわいスポーツ文化・消防委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -2625,7 +2968,10 @@
         "websiteUrl": "https://kogayu.net/",
         "twitterUrl": "https://x.com/yasuhirokogayu",
         "termsServed": 6,
-        "committees": ["総務委員会", "大都市制度特別委員会"],
+        "committees": [
+          "総務委員会",
+          "大都市制度特別委員会"
+        ],
         "birthDate": "1967-09-10",
         "birthPlace": "横浜市鶴見区",
         "education": [
@@ -2682,7 +3028,10 @@
         "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/fukuda_mamoru",
         "websiteUrl": "https://shinfukuoka.com/fukuda/",
         "termsServed": 5,
-        "committees": ["教育こども委員会", "交通対策特別委員会"],
+        "committees": [
+          "教育こども委員会",
+          "交通対策特別委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -2721,7 +3070,10 @@
         "officialProfileUrl": "https://www.komei.or.jp/member/detail/40136138",
         "websiteUrl": "https://www.komei.or.jp/km/shinohara/",
         "termsServed": 4,
-        "committees": ["経済振興委員会", "都市問題等調査特別委員会副委員長"],
+        "committees": [
+          "経済振興委員会",
+          "都市問題等調査特別委員会副委員長"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -2748,7 +3100,10 @@
         "officialProfileUrl": "https://www.komei.or.jp/member/detail/27123133",
         "websiteUrl": "http://sugita-t.net/",
         "termsServed": 6,
-        "committees": ["都市経済委員会", "環境対策特別委員会"],
+        "committees": [
+          "都市経済委員会",
+          "環境対策特別委員会"
+        ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": false
@@ -2941,7 +3296,13 @@
         "officialProfileUrl": "https://www.komei.or.jp/member/detail/14106139",
         "websiteUrl": "https://shin-shin.com/",
         "termsServed": 6,
-        "committees": ["福祉委員会委員長", "こども青少年・教育委員会副委員長", "下水道河川・水道・交通委員会", "都心部活性化特別委員会", "健康づくり・スポーツ推進特別委員会副委員長"],
+        "committees": [
+          "福祉委員会委員長",
+          "こども青少年・教育委員会副委員長",
+          "下水道河川・水道・交通委員会",
+          "都心部活性化特別委員会",
+          "健康づくり・スポーツ推進特別委員会副委員長"
+        ],
         "birthDate": "1968-02-04",
         "birthPlace": "横浜市",
         "education": [

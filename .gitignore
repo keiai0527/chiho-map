@@ -28,3 +28,4 @@ tsconfig.tsbuildinfo
 # audit snapshots
 data/audit/snapshots/*.json
 !data/audit/snapshots/.gitkeep
+.vercel

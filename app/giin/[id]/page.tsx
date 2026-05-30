@@ -55,11 +55,6 @@ export default async function MemberPage({ params }: { params: Params }) {
       m.instagramUrl ||
       m.youtubeUrl,
   );
-  const hasAnyActivity = Boolean(
-    (m.committees && m.committees.length > 0) ||
-      m.speechRecordUrl ||
-      m.voteRecordUrl,
-  );
   const hasAnyPolicyTag = Boolean(m.policyTags && m.policyTags.length > 0);
   const hasProfile = Boolean(
     m.birthDate ||
@@ -70,6 +65,12 @@ export default async function MemberPage({ params }: { params: Params }) {
   );
   const hasKeyPolicies = Boolean(m.keyPolicies && m.keyPolicies.length > 0);
   const hasNotableQuotes = Boolean(m.notableQuotes && m.notableQuotes.length > 0);
+  const hasCareerMilestones = Boolean(
+    m.careerMilestones && m.careerMilestones.length > 0,
+  );
+  const hasOfficialSources = Boolean(
+    m.officialSources && m.officialSources.length > 0,
+  );
 
   // ===== 口コミ取得（DB 未設定環境では空配列にフォールバック）=====
   let reviews: StoredReview[] = [];
@@ -222,6 +223,47 @@ export default async function MemberPage({ params }: { params: Params }) {
         )}
       </section>
 
+      {/* ── 経歴・役職（careerMilestones）── */}
+      {hasCareerMilestones && (
+        <section className="mb-8">
+          <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
+            経歴・役職
+          </h2>
+          <ul className="space-y-3 text-sm">
+            {m.careerMilestones!.map((cm, i) => (
+              <li
+                key={`${cm.label ?? "milestone"}-${i}`}
+                className="rounded-lg border border-slate-200 bg-white p-3"
+              >
+                {cm.label && (
+                  <div className="mb-1 font-semibold text-slate-900">
+                    {cm.label}
+                  </div>
+                )}
+                <p className="text-slate-700">{cm.content}</p>
+                <div className="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+                  <span>{cm.source}</span>
+                  <span>·</span>
+                  <a
+                    href={cm.sourceUrl}
+                    target="_blank"
+                    rel="noopener"
+                    className="underline-offset-2 hover:underline"
+                  >
+                    出典リンク →
+                  </a>
+                  <span>·</span>
+                  <span>確認日 {cm.verifiedAt}</span>
+                </div>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-2 text-[11px] text-slate-500">
+            議会公式・政党公式・自治体公式など、一次資料で確認できる事実のみを掲載しています。
+          </p>
+        </section>
+      )}
+
       {/* ── 委員会・所属 ── */}
       <section className="mb-8">
         <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
@@ -245,57 +287,6 @@ export default async function MemberPage({ params }: { params: Params }) {
         )}
       </section>
 
-      {/* ── 議会活動・発言記録 ── */}
-      <section className="mb-8">
-        <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
-          議会活動・発言記録
-        </h2>
-        <p className="mb-3 text-[11px] leading-relaxed text-slate-500">
-          {c?.councilName ?? "市議会"}の公式会議録・採決結果・議案情報は、以下の市議会公式ページからご確認ください。
-          本人発信ベースの発言・実績は「注目発言・実績」セクションに掲載します（順次拡充中）。
-        </p>
-        <ul className="space-y-2 text-sm">
-          {c?.kaigirokuSearchUrl && (
-            <LinkRow
-              href={c.kaigirokuSearchUrl}
-              label={`${c.councilName} 会議録検索（議員名で検索）`}
-            />
-          )}
-          {c?.kaigirokuLandingUrl && (
-            <LinkRow
-              href={c.kaigirokuLandingUrl}
-              label={`${c.councilName} 本会議録 一覧`}
-            />
-          )}
-          {c?.voteRecordUrl && (
-            <LinkRow
-              href={c.voteRecordUrl}
-              label={`${c.councilName} 議案・採決結果`}
-            />
-          )}
-          {m.speechRecordUrl && (
-            <LinkRow href={m.speechRecordUrl} label="本人の発言・質問記録（個別）" />
-          )}
-          {m.voteRecordUrl && (
-            <LinkRow href={m.voteRecordUrl} label="本人の議案賛否記録（個別）" />
-          )}
-          {m.officialProfileUrl && (
-            <LinkRow
-              href={m.officialProfileUrl}
-              label={`${m.name} の公式プロフィール（一次情報）`}
-            />
-          )}
-        </ul>
-        {!hasAnyActivity && !c?.kaigirokuSearchUrl && (
-          <PendingBlock
-            title="議会活動記録は収集中です"
-            items={[
-              "本会議・委員会での発言・質問の入口リンク",
-              "議案への賛否記録（市議会公式の採決結果）",
-            ]}
-          />
-        )}
-      </section>
 
       {/* ── 主張・政策（深掘り） ── */}
       {hasKeyPolicies && (
@@ -335,45 +326,84 @@ export default async function MemberPage({ params }: { params: Params }) {
         </section>
       )}
 
-      {/* ── 注目発言・実績 ── */}
-      {hasNotableQuotes && (
-        <section className="mb-8">
-          <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
-            注目発言・実績
-          </h2>
-          <ul className="space-y-3 text-sm">
-            {m.notableQuotes!.map((q, i) => (
-              <li
-                key={`${q.date}-${i}`}
-                className="rounded-lg border-l-2 border-slate-300 bg-slate-50 p-3"
-              >
-                <div className="mb-1 flex flex-wrap items-center gap-2 text-xs text-slate-500">
-                  <span className="font-medium text-slate-700">{q.date}</span>
-                  <span>·</span>
-                  <span>{q.source}</span>
-                </div>
-                <p className="text-slate-800">{q.content}</p>
-                {q.context && (
-                  <p className="mt-1 text-xs text-slate-500">{q.context}</p>
-                )}
-                {q.sourceUrl && (
-                  <a
-                    href={q.sourceUrl}
-                    target="_blank"
-                    rel="noopener"
-                    className="mt-2 inline-block text-xs text-slate-500 underline-offset-2 hover:underline"
-                  >
-                    出典リンク →
-                  </a>
-                )}
-              </li>
-            ))}
-          </ul>
-          <p className="mt-2 text-[11px] text-slate-500">
-            市議会本会議・委員会議事録、本人公式発信からの引用・要約です。
+      {/* ── 本人発言・議会質問（旧 注目発言・実績）── */}
+      <section className="mb-8">
+        <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
+          本人発言・議会質問
+        </h2>
+        {hasNotableQuotes ? (
+          <>
+            <ul className="space-y-3 text-sm">
+              {m.notableQuotes!.map((q, i) => (
+                <li
+                  key={`${q.date}-${i}`}
+                  className="rounded-lg border-l-2 border-slate-300 bg-slate-50 p-3"
+                >
+                  <div className="mb-1 flex flex-wrap items-center gap-2 text-xs text-slate-500">
+                    <span className="font-medium text-slate-700">{q.date}</span>
+                    <span>·</span>
+                    <span>{q.source}</span>
+                  </div>
+                  <p className="text-slate-800">{q.content}</p>
+                  {q.context && (
+                    <p className="mt-1 text-xs text-slate-500">{q.context}</p>
+                  )}
+                  {q.sourceUrl && (
+                    <a
+                      href={q.sourceUrl}
+                      target="_blank"
+                      rel="noopener"
+                      className="mt-2 inline-block text-xs text-slate-500 underline-offset-2 hover:underline"
+                    >
+                      出典リンク →
+                    </a>
+                  )}
+                </li>
+              ))}
+            </ul>
+            <p className="mt-2 text-[11px] text-slate-500">
+              本人の議会質問・本会議発言・本人公式SNS投稿・本人ブログからの直接引用のみを掲載しています。実績・役職は「経歴・役職」セクションに分けています。
+            </p>
+          </>
+        ) : (
+          <p className="text-xs text-slate-500">
+            本人発言・議会質問は現在収集中です。下記の会議録検索リンクから本人の発言を一覧で確認できます。
           </p>
-        </section>
-      )}
+        )}
+
+        {/* 会議録検索リンク（常に表示）*/}
+        <div className="mt-4 rounded-lg border border-slate-200 bg-white p-3">
+          <p className="mb-2 text-[11px] font-semibold text-slate-600">
+            ▼ 議会公式の会議録・採決結果から本人発言を探す
+          </p>
+          <ul className="space-y-2 text-sm">
+            {c?.kaigirokuSearchUrl && (
+              <LinkRow
+                href={c.kaigirokuSearchUrl}
+                label={`${c.councilName} 会議録検索（「${m.name}」で検索）`}
+              />
+            )}
+            {c?.kaigirokuLandingUrl && (
+              <LinkRow
+                href={c.kaigirokuLandingUrl}
+                label={`${c.councilName} 本会議録 一覧`}
+              />
+            )}
+            {c?.voteRecordUrl && (
+              <LinkRow
+                href={c.voteRecordUrl}
+                label={`${c.councilName} 議案・採決結果`}
+              />
+            )}
+            {m.speechRecordUrl && (
+              <LinkRow href={m.speechRecordUrl} label="本人の発言・質問記録（個別）" />
+            )}
+            {m.voteRecordUrl && (
+              <LinkRow href={m.voteRecordUrl} label="本人の議案賛否記録（個別）" />
+            )}
+          </ul>
+        </div>
+      </section>
 
       {/* ── 政策タグ ── */}
       <section className="mb-8">
@@ -518,12 +548,13 @@ export default async function MemberPage({ params }: { params: Params }) {
         </dl>
       </section>
 
-      {/* ── 出典 ── */}
+      {/* ── 出典・確認情報 ── */}
       <section className="mb-8">
         <h2 className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
-          出典
+          出典・確認情報
         </h2>
-        <p className="text-xs text-slate-500">
+        <p className="mb-2 text-xs text-slate-500">
+          基礎データ:{" "}
           <a
             href={m.source.url}
             target="_blank"
@@ -534,6 +565,36 @@ export default async function MemberPage({ params }: { params: Params }) {
           </a>
           {" "}（取得日: {m.source.fetchedAt}）
         </p>
+        {hasOfficialSources && (
+          <>
+            <p className="mt-3 mb-1 text-[11px] font-semibold text-slate-600">
+              ▼ 一次情報の出典リンク
+            </p>
+            <ul className="space-y-1.5 text-xs">
+              {m.officialSources!.map((os, i) => (
+                <li key={`${os.kind}-${i}`} className="flex flex-wrap gap-2">
+                  <span className="rounded bg-slate-100 px-1.5 py-0.5 text-[10px] text-slate-700">
+                    {sourceKindLabel(os.kind)}
+                  </span>
+                  <a
+                    href={os.url}
+                    target="_blank"
+                    rel="noopener"
+                    className="break-all text-slate-700 underline-offset-2 hover:underline"
+                  >
+                    {os.label}
+                  </a>
+                  <span className="text-[10px] text-slate-400">
+                    （確認日 {os.verifiedAt}）
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-2 text-[11px] text-slate-500">
+              議会公式・政党公式・選管・本人公式・自治体公式の一次情報のみを掲載しています（報道・第三者記事は含めません）。
+            </p>
+          </>
+        )}
       </section>
 
       {/* ── 訂正窓口 ── */}
@@ -605,6 +666,23 @@ function Row({
       </dd>
     </div>
   );
+}
+
+function sourceKindLabel(kind: string): string {
+  switch (kind) {
+    case "council_official":
+      return "議会公式";
+    case "party_official":
+      return "政党公式";
+    case "election_committee":
+      return "選挙管理委員会";
+    case "personal_official":
+      return "本人公式";
+    case "government_official":
+      return "自治体公式";
+    default:
+      return "公式";
+  }
 }
 
 function LinkRow({ href, label }: { href: string; label: string }) {
