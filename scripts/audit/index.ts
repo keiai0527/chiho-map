@@ -21,6 +21,84 @@ interface Member {
   source: { url: string; fetchedAt: string };
 }
 
+interface CareerMilestone {
+  label?: string;
+  content: string;
+  source: string;
+  sourceUrl: string;
+  verifiedAt: string;
+}
+
+interface OfficialSource {
+  kind: string;
+  label: string;
+  url: string;
+  verifiedAt: string;
+}
+
+interface NotableQuote {
+  date: string;
+  content: string;
+  source: string;
+  sourceUrl?: string;
+}
+
+interface OverrideEntry {
+  id: string;
+  fields: {
+    careerMilestones?: CareerMilestone[];
+    officialSources?: OfficialSource[];
+    notableQuotes?: NotableQuote[];
+    biography?: string;
+    dataConfidence?: string;
+  };
+  reason: string;
+  appliedAt: string;
+}
+
+interface OverridesFile {
+  $schema?: string;
+  overrides: OverrideEntry[];
+}
+
+const OFFICIAL_SOURCE_KINDS = new Set([
+  "council_official",
+  "party_official",
+  "election_committee",
+  "personal_official",
+  "government_official",
+]);
+
+const REASON_FORBIDDEN_WORDS = [
+  "らしい",
+  "と思われる",
+  "未確認",
+  "噂",
+  "推測",
+  "だろう",
+  "可能性",
+  "思われ",
+  "親中",
+  "極右",
+  "極左",
+  "反日",
+  "疑惑",
+  "利権",
+  "地盤継承",
+  "政治家家系",
+  "遺志を継いで",
+];
+
+// notableQuotes content に含まれていたら警告（実績混入の疑い）
+const QUOTE_IMPLEMENTATION_KEYWORDS = [
+  "議長に就任",
+  "副議長に就任",
+  "議長就任",
+  "副議長就任",
+  "議長を歴任",
+  "副議長を歴任",
+];
+
 interface Party {
   id: string;
   name: string;
@@ -178,6 +256,123 @@ async function main() {
         "id_format",
         `${m.id}: cityId "${m.cityId}" で始まっていない`,
       );
+    }
+  }
+
+  // ── 7. overrides を読み込んで追加チェック ──
+  let overrides: OverridesFile | null = null;
+  try {
+    overrides = await readJson<OverridesFile>("member-overrides.json");
+  } catch {
+    add(
+      "warning",
+      "overrides_load",
+      "data/member-overrides.json が読めません",
+    );
+  }
+  if (overrides) {
+    // 7-A. reason の禁止語句スキャン
+    for (const o of overrides.overrides) {
+      if (!o.reason) continue;
+      for (const word of REASON_FORBIDDEN_WORDS) {
+        if (o.reason.includes(word)) {
+          add(
+            "error",
+            "overrides_reason_forbidden",
+            `${o.id}: reason に禁止語「${word}」を含む`,
+          );
+        }
+      }
+    }
+
+    // 7-A2. biography の禁止語句スキャン（フロント表示されるので最重要）
+    for (const o of overrides.overrides) {
+      const bio = o.fields.biography;
+      if (!bio) continue;
+      for (const word of REASON_FORBIDDEN_WORDS) {
+        if (bio.includes(word)) {
+          add(
+            "error",
+            "biography_forbidden",
+            `${o.id}: biography に禁止語「${word}」を含む（フロント表示されるため必修正）`,
+          );
+        }
+      }
+    }
+
+    // 7-B. notableQuotes に実績キーワードが混入していないか
+    for (const o of overrides.overrides) {
+      const quotes = o.fields.notableQuotes;
+      if (!quotes || quotes.length === 0) continue;
+      for (const q of quotes) {
+        for (const kw of QUOTE_IMPLEMENTATION_KEYWORDS) {
+          if (q.content.includes(kw)) {
+            add(
+              "warning",
+              "notable_quotes_implications",
+              `${o.id}: notableQuotes に実績キーワード「${kw}」が混入している疑い → careerMilestones への移行を検討`,
+            );
+          }
+        }
+      }
+    }
+
+    // 7-C. careerMilestones の必須項目
+    for (const o of overrides.overrides) {
+      const cms = o.fields.careerMilestones;
+      if (!cms || cms.length === 0) continue;
+      cms.forEach((cm, i) => {
+        if (!cm.content)
+          add(
+            "error",
+            "career_milestone_required",
+            `${o.id}.careerMilestones[${i}]: content が空`,
+          );
+        if (!cm.source)
+          add(
+            "error",
+            "career_milestone_required",
+            `${o.id}.careerMilestones[${i}]: source が空`,
+          );
+        if (!cm.sourceUrl)
+          add(
+            "error",
+            "career_milestone_required",
+            `${o.id}.careerMilestones[${i}]: sourceUrl が空（必須）`,
+          );
+        if (!cm.verifiedAt)
+          add(
+            "error",
+            "career_milestone_required",
+            `${o.id}.careerMilestones[${i}]: verifiedAt が空（必須）`,
+          );
+      });
+    }
+
+    // 7-D. officialSources の kind が許可リスト内か
+    for (const o of overrides.overrides) {
+      const oss = o.fields.officialSources;
+      if (!oss || oss.length === 0) continue;
+      oss.forEach((os, i) => {
+        if (!OFFICIAL_SOURCE_KINDS.has(os.kind))
+          add(
+            "error",
+            "official_source_kind",
+            `${o.id}.officialSources[${i}]: kind "${os.kind}" は許可外（news 等の第三者情報は禁止）`,
+          );
+        if (!os.url)
+          add(
+            "error",
+            "official_source_kind",
+            `${o.id}.officialSources[${i}]: url が空`,
+          );
+        if (!os.verifiedAt)
+          add(
+            "error",
+            "official_source_kind",
+            `${o.id}.officialSources[${i}]: verifiedAt が空`,
+          );
+      });
     }
   }
 
