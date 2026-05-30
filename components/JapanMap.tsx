@@ -10,8 +10,12 @@ interface CityInfo {
   /** 地方別カラー（kokkaimap.jp と同系統） */
   regionColor: string;
   region: string;
-  /** ラベルをドットの左右どちらに表示するか（密集回避用、デフォルト right） */
-  labelSide?: "left" | "right";
+  /** ラベル表示位置（密集回避用、デフォルト right）
+   *  - "right": ドットの右下に展開
+   *  - "left":  ドットの左下に展開
+   *  - "top":   ドットの真上に表示（左右の隣接ピンと干渉しない）
+   */
+  labelPosition?: "right" | "left" | "top";
 }
 
 /**
@@ -34,21 +38,22 @@ const cities: CityInfo[] = [
     id: "yokohama",
     name: "横浜",
     count: 86,
-    left: "60.5%",
-    top: "66.5%",
+    left: "60%",
+    top: "68%",
     regionColor: "#10b981",
     region: "関東",
-    labelSide: "right" as const,
+    labelPosition: "right" as const,
   },
   {
     id: "nagoya",
     name: "名古屋",
     count: 68,
-    left: "44%",
-    top: "72%",
+    left: "48%",
+    top: "70.9%",
     regionColor: "#f59e0b",
     region: "中部",
-    labelSide: "left" as const,
+    // 上に表示することで左右の大阪・横浜と干渉しない（地理的順序も保持）
+    labelPosition: "top" as const,
   },
   {
     id: "osaka",
@@ -118,8 +123,12 @@ export function JapanMap() {
                 aria-hidden
               />
               <span
-                className={`absolute top-1 flex items-center gap-1 whitespace-nowrap rounded border border-slate-200 bg-white/95 px-1.5 py-0.5 text-xs shadow-sm ${
-                  c.labelSide === "left" ? "right-2" : "left-2"
+                className={`absolute flex items-center gap-1 whitespace-nowrap rounded border border-slate-200 bg-white/95 px-1.5 py-0.5 text-xs shadow-sm ${
+                  c.labelPosition === "top"
+                    ? "-top-6 left-1/2 -translate-x-1/2"
+                    : c.labelPosition === "left"
+                      ? "right-2 top-1"
+                      : "left-2 top-1"
                 }`}
               >
                 <span className="font-bold text-slate-900">{c.name}</span>
