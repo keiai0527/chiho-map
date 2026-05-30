@@ -27,6 +27,7 @@ interface MemberView {
   termsServed?: number;
   hasOfficialLink: boolean;
   hasSnsLink: boolean;
+  hasCareerMilestones?: boolean;
 }
 
 interface Props {
@@ -48,6 +49,7 @@ export function MemberSearch({ members, parties, kaihaList, districts }: Props) 
   const [district, setDistrict] = useState<string>("");
   const [snsOnly, setSnsOnly] = useState(false);
   const [profileOnly, setProfileOnly] = useState(false);
+  const [careerOnly, setCareerOnly] = useState(false);
 
   // URL クエリパラメータから初期値を読み込む（郵便番号検索からの遷移用）
   useEffect(() => {
@@ -83,9 +85,10 @@ export function MemberSearch({ members, parties, kaihaList, districts }: Props) 
       if (district && m.electoralDistrict !== district) return false;
       if (snsOnly && !m.hasSnsLink) return false;
       if (profileOnly && !m.hasOfficialLink) return false;
+      if (careerOnly && !m.hasCareerMilestones) return false;
       return true;
     });
-  }, [members, q, partyId, kaihaId, district, snsOnly, profileOnly]);
+  }, [members, q, partyId, kaihaId, district, snsOnly, profileOnly, careerOnly]);
 
   const reset = () => {
     setQ("");
@@ -94,10 +97,11 @@ export function MemberSearch({ members, parties, kaihaList, districts }: Props) 
     setDistrict("");
     setSnsOnly(false);
     setProfileOnly(false);
+    setCareerOnly(false);
   };
 
   const hasAnyFilter =
-    q || partyId || kaihaId || district || snsOnly || profileOnly;
+    q || partyId || kaihaId || district || snsOnly || profileOnly || careerOnly;
 
   return (
     <div>
@@ -192,6 +196,15 @@ export function MemberSearch({ members, parties, kaihaList, districts }: Props) 
             />
             <span>SNSあり</span>
           </label>
+          <label className="flex items-center gap-1.5">
+            <input
+              type="checkbox"
+              checked={careerOnly}
+              onChange={(e) => setCareerOnly(e.target.checked)}
+              className="rounded border-slate-300"
+            />
+            <span>経歴・役職 整備済み</span>
+          </label>
           {hasAnyFilter && (
             <button
               type="button"
@@ -227,10 +240,20 @@ export function MemberSearch({ members, parties, kaihaList, districts }: Props) 
                     className="h-1 w-12 shrink-0 rounded"
                     style={{ backgroundColor: party?.color ?? "#94a3b8" }}
                   />
-                  <div className="min-w-0">
-                    <p className="truncate font-medium text-slate-900">
-                      {m.name}
-                    </p>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-1.5">
+                      <p className="truncate font-medium text-slate-900">
+                        {m.name}
+                      </p>
+                      {m.hasCareerMilestones && (
+                        <span
+                          className="shrink-0 rounded bg-emerald-100 px-1.5 py-0.5 text-[10px] font-medium text-emerald-800"
+                          title="経歴・役職を一次情報で整備済み"
+                        >
+                          整備済
+                        </span>
+                      )}
+                    </div>
                     <p className="truncate text-xs text-slate-500">
                       {party?.shortName ?? "不明"} ／ {m.electoralDistrict}
                     </p>

@@ -66,6 +66,9 @@ export default async function CityPage({ params }: { params: Params }) {
     hasSnsLink: Boolean(
       m.twitterUrl || m.facebookUrl || m.instagramUrl || m.youtubeUrl,
     ),
+    hasCareerMilestones: Boolean(
+      m.careerMilestones && m.careerMilestones.length > 0,
+    ),
   }));
 
   const partyViews = parties.map((p) => ({
