@@ -404,8 +404,7 @@
         "partyId": "cdp",
         "officialProfileUrl": "https://cdp-japan.jp/member/445",
         "committees": [
-          "厚生委員会",
-          "総合交通政策調査特別委員会"
+          "厚生委員会"
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
@@ -435,15 +434,14 @@
       "id": "sapporo-ikeda-yumi",
       "fields": {
         "committees": [
-          "建設委員会副委員長",
-          "総合交通政策調査特別委員会"
+          "建設委員会"
         ],
         "dataConfidence": "partial",
         "lastVerifiedAt": "2026-05-29",
         "hasProvisionalData": true
       },
       "reason": "公式名簿で所属委員会確認（建設委員会副委員長、総合交通政策調査特別委員会）。SNS・個人サイト情報は今回検索で確認できず、partial 扱い。",
-      "appliedAt": "2026-05-29"
+      "appliedAt": "2026-05-30"
     },
     {
       "id": "osaka-yamanaka-tomoko",
@@ -771,6 +769,9 @@
             "url": "http://www.iijima-hiroyuki.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "財政市民委員会"
         ]
       },
       "reason": "さっぽろ自民党公式 + 本人公式サイト iijima-hiroyuki.jp 確認。第36代札幌市議会議長（2023年5月就任）。経歴・学歴・職歴は札幌自民党公式プロフィール（jimin-sapporo.jp/iijimahiroyuki.html）から取得。",
@@ -807,6 +808,9 @@
             "url": "https://sapporokomei.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "文教委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 公明党札幌市議団公式（sapporokomei.jp）確認。5期、1968年7月12日生まれ、北海道学園大学経済学部卒。",
@@ -843,6 +847,10 @@
             "url": "http://ootahideko.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務委員会",
+          "議会運営委員会"
         ]
       },
       "reason": "日本共産党中央委員会公式 + 本人公式サイト ootahideko.com + 本人X @ohtahideko 確認。1957年11月生まれ。",
@@ -923,6 +931,9 @@
             "url": "https://hada-daisen.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "財政市民委員会"
         ]
       },
       "reason": "日本維新の会公式 + 本人公式サイト hada-daisen.com 確認。1989年4月10日北海道札幌市生まれ、北海道大学経済学部経営学科卒、元ホクレン農協連合会勤務、松下政経塾入塾、行政書士・社会福祉士、NPO札幌成年後見センター理事長、日本維新の会北海道総支部政調会長、札幌市議会 維新1人会派、中央区選出。",
@@ -962,6 +973,9 @@
             "url": "https://www.naritayuki.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "厚生委員会"
         ]
       },
       "reason": "立憲民主党公式（cdp-japan.jp）+ 本人公式サイト naritayuki.com + Facebook/Instagram 本人発信を確認。partyId='regional' を 'cdp' に修正（会派『ミライ』は実体として立憲民主党1人会派）。札幌市議3期目（前職：小樽市議2期 2007-2014）。kaiha/sapporo.json の sapporo-mirai partyIds も ['cdp'] に同時修正。",
@@ -973,7 +987,7 @@
         "officialProfileUrl": "https://jimin-nagoya.com/staff/",
         "websiteUrl": "https://asaimasahito.com/",
         "committees": [
-          "財政福祉委員会委員長"
+          "総務環境委員会"
         ],
         "birthDate": "1964-11-14",
         "education": [
@@ -1110,6 +1124,9 @@
             "url": "https://genzei758.com/member/ota_tomihiko/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務環境委員会"
         ]
       },
       "reason": "減税日本ナゴヤ公式（genzei758.com/member/ota_tomihiko/）確認。1966年9月10日名古屋市港区生まれ、愛知大学法学部夜間卒、1989年から河村たかし秘書として37年間支援、2023年4月初当選、減税日本ナゴヤ団長。",
@@ -1210,6 +1227,9 @@
             "url": "https://www.akamatsu-tetsuji.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "財政福祉委員会"
         ]
       },
       "reason": "立憲民主党公式 + 本人公式サイト akamatsu-tetsuji.com + 名古屋民主市会議員団公式 確認。1981年11月6日名古屋市中川区生まれ、愛知学院大学商学部卒、元日本通運（シンガポール配属歴あり）、現赤松広隆衆院議員秘書、2期。",
@@ -1246,6 +1266,9 @@
             "url": "http://www.komeinagoya.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済水道委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 公明党名古屋市議団公式 確認。1期、中村区選出。元法律事務職員。2023年市議選で初当選。",
@@ -1258,8 +1281,7 @@
         "websiteUrl": "https://www.n-jcp.jp/profile/okada",
         "termsServed": 4,
         "committees": [
-          "総務環境委員会副委員長",
-          "大都市制度・広域連携促進特別委員会"
+          "教育子ども委員会"
         ],
         "birthDate": "1965-01",
         "education": [
@@ -1407,6 +1429,9 @@
             "url": "https://yamadakazumasa.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済港湾委員会"
         ]
       },
       "reason": "よこはま自民党公式 + 本人公式サイト yamadakazumasa.com 確認。1976年10月6日横浜市鶴見区生まれ、横浜市立寺尾小→慶應義塾大学法学部法律学科卒（2000年3月）、2000年10月司法試験合格、2002年10月弁護士登録、2007年4月「横浜開港法律事務所」設立・代表、2期、鶴見区選出。令和3年度『横浜市子供を虐待から守る条例』改正の議員提案事務局長。",
@@ -1455,6 +1480,9 @@
             "url": "https://ameblo.jp/daisuke-naka/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済港湾委員会"
         ]
       },
       "reason": "立憲民主党公式（cdp-japan.jp/member/171）+ 本人公式ブログ（ameblo.jp/daisuke-naka）確認。1975年8月23日東京都渋谷区生まれ、國學院大學卒・日本大学大学院グローバルビジネス研究科修了、元シダックス株式会社・社会保険横浜中央病院勤務、6期、神奈川区選出。",
@@ -1517,6 +1545,9 @@
             "url": "https://suguru-kashiwabara.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "まちづくり委員会"
         ]
       },
       "reason": "日本維新の会公式 + 本人公式サイト suguru-kashiwabara.jp 確認。1985年広島生まれ、千葉大学工学部卒、元建設業現場監督・プロジェクトマネージャー、鶴見区選出、日本維新の会。",
@@ -1553,6 +1584,9 @@
             "url": "https://www.ozaki-futoshi.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "GREEN×EXPOみどり委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 本人公式サイト ozaki-futoshi.com 確認。4期、横浜市会副議長。",
@@ -1566,8 +1600,7 @@
         "twitterUrl": "https://x.com/kumamoto_chi",
         "termsServed": 1,
         "committees": [
-          "市民・にぎわいスポーツ文化・消防委員会",
-          "未来のまちづくり推進特別委員会"
+          "福祉委員会"
         ],
         "birthDate": "1994-02-27",
         "education": [
@@ -1691,6 +1724,9 @@
             "url": "https://shin-no-suke.net/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "生活環境委員会"
         ]
       },
       "reason": "福岡市議会公式 + 本人公式サイト shin-no-suke.net + 自民党福岡市議団公式 確認。1964年5月6日福岡市生まれ、修猷館高校→鳥取大学医学部中退→九州大学法学部法律学科卒、5期（本人サイト記載に従い termsServed=5 に修正、第１弾追加時の検索結果=6 は誤）、2003年初当選、城南区選出、第73代福岡市議会議長（2019年5月-2021年6月）、全国・九州・福岡県市議会議長会会長を歴任。",
@@ -1702,7 +1738,7 @@
         "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/ikeda_yoshiko",
         "websiteUrl": "http://www.ikedayoshiko.com",
         "committees": [
-          "生活環境委員会"
+          "教育こども委員会"
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
@@ -1755,6 +1791,9 @@
             "url": "https://o-ishin.jp/member/detail/post_369.html",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済振興委員会"
         ]
       },
       "reason": "福岡市議会公式 + 日本維新の会公式議員プロフィール 確認。日本維新の会 福岡市議団所属。",
@@ -1781,6 +1820,9 @@
             "url": "https://komei-fukuokacity.net/member/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "福祉都市委員会"
         ]
       },
       "reason": "福岡市議会公式 + 公明党福岡市議団公式 確認。早良区選出。",
@@ -1824,6 +1866,9 @@
             "url": "http://kuramoto-tatsuo.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済振興委員会"
         ]
       },
       "reason": "日本共産党福岡市議団公式 + 本人公式サイト kuramoto-tatsuo.jp 確認。6期、1967年福岡生まれ、福岡大学卒、1999年初当選。JCP福岡市議団幹事長。",
@@ -2035,6 +2080,9 @@
             "url": "https://igarashi-tokumi.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "財政市民委員会"
         ]
       },
       "reason": "さっぽろ自民党公式 + 本人公式サイト igarashi-tokumi.com 確認。1958年1月2日生まれ、7期、札幌大学経営学部卒、1999年初当選。第34代札幌市議会議長、現在 札幌市議会自民党議員会会長。",
@@ -2046,7 +2094,7 @@
         "officialProfileUrl": "https://cdp-japan.jp/member/1509/%E7%A2%A7%E3%81%B2%E3%82%8D%E3%81%BF",
         "termsServed": 2,
         "committees": [
-          "財政市民委員会委員長"
+          "経済観光委員会"
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
@@ -2124,6 +2172,9 @@
             "url": "https://www.komei.or.jp/km/sapporo-takeuchi-takayo/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "建設委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 公明党札幌議員団 本人公式ページ 確認。1971年4月9日生まれ、3期、清田区選出。幼児教育・保育・高齢者福祉の現場経験23年、少年消防クラブ（BFC）指導者8年。",
@@ -2159,6 +2210,9 @@
             "url": "https://www.jcp-sapporo.jp/assembly/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "財政市民委員会"
         ]
       },
       "reason": "日本共産党中央委員会公式 + 日本共産党札幌市議団公式 確認。1972年8月生まれ、西区選出。",
@@ -2178,6 +2232,9 @@
             "url": "https://o-ishin.jp/member/detail/post_641.html",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済水道委員会"
         ]
       },
       "reason": "日本維新の会公式議員プロフィール 確認。名古屋市議会 維新1人会派、名東区選出。本人個人サイトは検索で確認できず、党公式のみ。",
@@ -2213,6 +2270,9 @@
             "url": "https://www.jimin-aichi.or.jp/archives/member/%E6%B5%85%E9%87%8E%E6%9C%89",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済水道委員会"
         ]
       },
       "reason": "自由民主党名古屋市会議員団公式 + 自由民主党愛知県支部連合会公式 確認。自民党名古屋市会議員団副幹事長、西区選出。",
@@ -2226,8 +2286,7 @@
         "twitterUrl": "https://x.com/TaguchiKazuto",
         "termsServed": 8,
         "committees": [
-          "財政福祉委員会",
-          "公社対策特別委員会副委員長"
+          "財政福祉委員会"
         ],
         "birthDate": "1958",
         "education": [
@@ -2289,8 +2348,7 @@
         "websiteUrl": "https://www.fukushima-naoko.info/",
         "termsServed": 6,
         "committees": [
-          "水道・交通委員会",
-          "基地対策特別委員会"
+          "こども教育委員会"
         ],
         "birthDate": "1956-08-10",
         "biography": "1956年8月10日生まれ。横浜市会議員6期、中区選出、公明党所属。第61代横浜市会副議長。公明党神奈川県本部副代表、公明党中区支部長。神奈川県後期高齢者医療広域連合議会議員としても活動。最近は住宅補助、環境保全、後期高齢者医療制度に注力。",
@@ -2399,6 +2457,9 @@
             "url": "http://furuya-yasuhiko.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "GREEN×EXPOみどり委員会"
         ]
       },
       "reason": "日本共産党中央委員会公式 + 本人公式サイト furuya-yasuhiko.com + 本人X @furuyayasuhiko 確認。1971年10月14日生まれ、4期、大阪府泉佐野市出身、中央大学法学部卒。",
@@ -2429,6 +2490,9 @@
             "url": "http://www.ota-masataka.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "上下水道交通委員会"
         ]
       },
       "reason": "本人公式サイト ota-masataka.com + Facebook 確認。1945年11月11日生まれ、12期（1979年新自由クラブで初当選）、磯子区選出。会派「自民太田」1人会派。Wikipediaやタウンニュースでは『無所属』表記もあり政党所属の現状確認が困難なため partyId は触らず partial 扱い（要再確認）。",
@@ -2459,6 +2523,9 @@
             "url": "https://cdp-japan.jp/member/1687",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "福祉委員会"
         ]
       },
       "reason": "立憲民主党公式（cdp-japan.jp）に本人プロフィール掲載確認。partyId='regional' を 'cdp' に修正（会派『横浜の風』は実体として立憲民主党1人会派）。4期、西区選出。kaiha/yokohama.json の yokohama-kaze partyIds も ['cdp'] に同時修正。",
@@ -2471,9 +2538,7 @@
         "websiteUrl": "https://komei-fukuokacity.net/member/",
         "termsServed": 4,
         "committees": [
-          "保健福祉都市整備委員会",
-          "こども・教育委員会",
-          "交通対策特別委員会"
+          "教育こども委員会"
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
@@ -2526,6 +2591,9 @@
             "url": "https://kawaguchihiroshi.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "教育こども委員会"
         ]
       },
       "reason": "福岡市議会公式 + 本人公式サイト kawaguchihiroshi.com 確認。博多区選出、無所属。「子ども目線の政治」を掲げる。",
@@ -2538,8 +2606,7 @@
         "websiteUrl": "http://nakayama-ikumi.jp/",
         "termsServed": 6,
         "committees": [
-          "福祉都市委員会",
-          "都市問題等調査特別委員会副委員長"
+          "福祉都市委員会"
         ],
         "birthDate": "1960-01-22",
         "career": [
@@ -2760,6 +2827,9 @@
             "url": "https://www.yamaguchikazusa.jp/profile.html",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "厚生委員会"
         ]
       },
       "reason": "本人公式サイト yamaguchikazusa.jp 確認。白石区選出、会派『山口かずさ』1人会派。本人発信で『4期16年は政党所属、現在は無所属』と明示。2023年札幌市議選で10,777票獲得。",
@@ -2796,6 +2866,9 @@
             "url": "https://snet21.jp/about/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務委員会"
         ]
       },
       "reason": "市民ネットワーク北海道公式（snet21.jp）に本人プロフィール掲載確認。1期、2023年初当選、北区選出。",
@@ -2824,6 +2897,9 @@
             "url": "https://www.city.sapporo.jp/gikai/meibo/meibo-kaiha.html",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済観光委員会"
         ]
       },
       "reason": "札幌市議会公式名簿で『健康さっぽろ』1人会派、東区選出を確認。本人公式サイト・SNSは検索で見当たらず partial 扱い。",
@@ -2860,6 +2936,9 @@
             "url": "http://www.komeinagoya.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務環境委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 公明党名古屋市議団公式 確認。6期、守山区選出。",
@@ -2872,8 +2951,7 @@
         "websiteUrl": "https://www.n-jcp.jp/profile/mitsunaka",
         "termsServed": 1,
         "committees": [
-          "経済水道委員会",
-          "安全安心まちづくり推進特別委員会"
+          "総務環境委員会"
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
@@ -2919,6 +2997,9 @@
             "url": "https://genzei758.com/member/otani_tomohiro/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済水道委員会"
         ]
       },
       "reason": "減税日本ナゴヤ公式（genzei758.com）に本人プロフィール掲載確認。緑区選出。元河村たかし前市長秘書8年。",
@@ -2996,6 +3077,9 @@
             "url": "https://www.uezono-s.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "財政福祉委員会"
         ]
       },
       "reason": "国民民主党愛知県連公式 + 本人公式サイト uezono-s.com 確認。1975年12月4日名古屋市生まれ、元東レ株式会社愛知工場（2000-2014年）、2015年4月初当選、3期、西区選出、国民民主党所属（partyId='cdp'→'dpp'に修正）、名古屋民主市会議員団。",
@@ -3032,6 +3116,9 @@
             "url": "https://azuma.tsuru.me/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "こども教育委員会"
         ]
       },
       "reason": "よこはま自民党公式 + 本人公式サイト azuma.tsuru.me 確認。2期、鶴見区選出、自民党鶴見区から初の女性横浜市議。",
@@ -3105,6 +3192,9 @@
             "url": "https://www.yhkomei.com/member/kanagawa.html",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 公明党横浜市会議員団公式（yhkomei.com/member/kanagawa.html）確認。1960年6月10日横浜生まれ、東海大学付属相模高校・産業能率大学卒、元株式会社学生援護会（現インテリジェンス）21年神奈川営業部長、4期、神奈川区選出。議会活性化検討会で本会議一般質問の一問一答方式導入を推進。",
@@ -3141,6 +3231,9 @@
             "url": "https://cdp-kanagawa.jp/members/area01/district02/296",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "こども教育委員会"
         ]
       },
       "reason": "立憲民主党公式 + 立憲民主党神奈川県連公式 確認。1期、南区選出。",
@@ -3221,6 +3314,9 @@
             "url": "https://www.sakuraline.jp/profile",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務委員会"
         ]
       },
       "reason": "本人公式サイト sakuraline.jp（/profile 含む）確認。1965年2月24日東京都渋谷区代々木生まれ、法政大学法学部中退、8期（1995年初当選）、無所属、鶴見区選出。談合防止の入札改革で年間70億円のムダ削減、議員歳費10%削減条例案提出等の議会改革実績。",
@@ -3257,6 +3353,9 @@
             "url": "https://www.komei.or.jp/km/katsuyama/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "福祉都市委員会"
         ]
       },
       "reason": "福岡市議会公式 + 公明党個人ホームページ 確認。1974年6月18日生まれ、1期、東区選出。公明党福岡市議団 総務会長。",
@@ -3320,6 +3419,9 @@
             "url": "https://yujisansei.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "生活環境委員会"
         ]
       },
       "reason": "福岡市議会公式 + 本人公式サイト yujisansei.com（参政党）確認。1968年8月22日福岡市生まれ、福岡大付属大濠高→国立音楽大学声楽科卒、元パティシエ（フランス菓子モンパリ→自店『Bonbon』）、2008年福岡青年会議所理事長、博多区選出。参政党福岡市博多区対策委員。会派『無所属』として登録（partyId='independent'）だが、本人発信は参政党所属を明示。",
@@ -3339,6 +3441,9 @@
             "url": "https://gikai.city.fukuoka.lg.jp/sakaguchi_yoshimasa",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "教育こども委員会"
         ]
       },
       "reason": "福岡市議会公式 確認。城南区選出。本人公式サイト・SNSは検索で見当たらず partial 扱い。",
@@ -3397,6 +3502,9 @@
             "url": "https://www.itouyoshito.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "生活環境委員会"
         ]
       },
       "reason": "福岡市議会公式 + 本人公式サイト itouyoshito.com + 自由民主党福岡県連公式 確認。1961年2月12日生まれ、7期、南区選出、自由民主党福岡市議団会長。市民目線・弱い立場の方々への寄り添いを信念に、福祉・教育・文化施設の現場視察を重視。",
@@ -3634,6 +3742,9 @@
             "url": "http://www010.upp.so-net.ne.jp/fruit-1/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "厚生委員会"
         ]
       },
       "reason": "さっぽろ自民党公式 + 本人公式サイト + Facebook 確認。1959年5月27日生まれ、西区選出。札幌市議会自由民主党議員会会長。",
@@ -3663,6 +3774,9 @@
             "url": "https://cdp-japan.jp/member/1510/%E6%81%A9%E6%9D%91%E5%81%A5%E5%A4%AA%E9%83%8E",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務委員会"
         ]
       },
       "reason": "立憲民主党公式 確認。2期、清田区選出。",
@@ -3699,6 +3813,10 @@
             "url": "https://sapporokomei.jp/m/profile/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "財政市民委員会",
+          "議会運営委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 公明党札幌市議団公式 確認。1966年12月5日生まれ、3期、東区選出。",
@@ -3709,8 +3827,7 @@
       "fields": {
         "officialProfileUrl": "https://www.jcp-sapporo.jp/assembly/",
         "committees": [
-          "建設委員会委員長",
-          "新たな都心空間調査特別委員会"
+          "文教委員会"
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
@@ -3760,6 +3877,9 @@
             "url": "https://jimin-nagoya.com/staff/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "土木交通委員会"
         ]
       },
       "reason": "自由民主党名古屋市会議員団公式 確認。8期、千種区選出、自民党名古屋市会議員団顧問。2019年市議選で9,229票獲得。",
@@ -3818,6 +3938,9 @@
             "url": "http://okapon.nagoya/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "教育子ども委員会"
         ]
       },
       "reason": "立憲民主党公式 + 本人公式サイト okapon.nagoya + 名古屋民主市会議員団公式 確認。1976年生、緑区選出、5期、元名古屋市会副議長、名古屋民主市議団 副団長兼財務委員長。元近藤昭一衆議院議員公設第一秘書。",
@@ -3888,6 +4011,9 @@
             "url": "https://sato-yuko.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務環境委員会"
         ]
       },
       "reason": "減税日本ナゴヤ公式 + 本人公式サイト sato-yuko.com（/profile/）+ 本人X @yukosatoyuko 確認。1963年1月名古屋市千種区生まれ、金城学院短大保育科卒、元幼稚園教諭、河村たかし衆院議員秘書、愛知県議1期、衆議院議員1期（2009-2015、文部科学委員会等）、名古屋市議3期、東区選出、減税日本ナゴヤ所属。",
@@ -3914,6 +4040,9 @@
             "url": "http://www.komeinagoya.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務環境委員会"
         ]
       },
       "reason": "公明党個人ホームページ + 公明党名古屋市議団公式 確認。南区選出、公明党名古屋市議団 副幹事長兼財務委員長。",
@@ -3991,6 +4120,9 @@
             "url": "https://www.watanabe-tadanori.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "上下水道交通委員会"
         ]
       },
       "reason": "よこはま自民党公式 + 本人公式サイト watanabe-tadanori.com（/policy.html 含む）確認。5期、鶴見区選出、第56代横浜市会議長（2026年5月15日就任）。政策5項目は本人サイト policy.html から抽出。",
@@ -4036,6 +4168,9 @@
             "url": "https://mori-hirotaka.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "まちづくり委員会"
         ]
       },
       "reason": "立憲民主党公式 + 本人公式サイト mori-hirotaka.com 確認。1977年11月生まれ、2期、保土ケ谷区選出。2019年初当選（10,324票・3位）、2023年トップ当選（15,097票）。立憲民主党横浜市会議員団 政務調査会副会長（後に副団長）。",
@@ -4072,6 +4207,9 @@
             "url": "https://www.nitta-m.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 本人公式サイト nitta-m.jp 確認。8期、南区選出。",
@@ -4108,6 +4246,9 @@
             "url": "https://usami-sayaka.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "上下水道交通委員会"
         ]
       },
       "reason": "日本共産党中央委員会公式 + 本人公式サイト usami-sayaka.jp + 日本共産党横浜市会議員団公式 確認。1977年港北区生まれ、3期（2015年初当選）、神奈川区選出。",
@@ -4144,6 +4285,9 @@
             "url": "http://www.imahayashi.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "生活環境委員会"
         ]
       },
       "reason": "福岡市議会公式 + 本人公式サイト imahayashi.com + 自由民主党福岡市議団公式 確認。1960年生まれ、西南学院大学卒、1984年福岡市役所入庁、2007年初当選、5期。自由民主党福岡市議団副会長。",
@@ -4163,6 +4307,9 @@
             "url": "https://gikai.city.fukuoka.lg.jp/abe_hideki",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "福祉都市委員会"
         ]
       },
       "reason": "福岡市議会公式 確認。中央区選出、無所属。本人公式サイト・SNSは検索で見当たらず partial 扱い。",
@@ -4175,9 +4322,7 @@
         "websiteUrl": "https://www.komei.or.jp/km/oishi/",
         "termsServed": 8,
         "committees": [
-          "生活環境委員会",
-          "少子・高齢化対策特別委員会",
-          "大都市税財政制度確立推進協議会"
+          "生活環境委員会"
         ],
         "birthDate": "1960-11-22",
         "birthPlace": "鹿児島県喜界町",
@@ -4237,6 +4382,9 @@
             "url": "https://cdp-f.net/members/miyo_katsumi/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "福祉都市委員会"
         ]
       },
       "reason": "福岡市議会公式 + 立憲民主党福岡県総支部連合会公式 確認。西区選出、福岡市民クラブ所属。",
@@ -4419,6 +4567,9 @@
             "url": "https://cdp-h.com/archives/members/287.html",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務委員会"
         ]
       },
       "reason": "立憲民主党公式 + 立憲民主党北海道総支部連合会公式 確認。8期、手稲区選出。",
@@ -4455,6 +4606,9 @@
             "url": "https://www.komei.or.jp/km/kumagai-seiichi-sapporo/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済観光委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 本人公式ホームページ 確認。2期、中央区選出。",
@@ -4490,6 +4644,9 @@
             "url": "https://www.ayasato-jcp.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済観光委員会"
         ]
       },
       "reason": "日本共産党中央委員会公式 + 本人公式サイト ayasato-jcp.com + 日本共産党札幌市議団公式 確認。白石区選出、2019年初当選、党白石区市政相談室長。",
@@ -4526,6 +4683,9 @@
             "url": "http://harumichan.nagoya/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済水道委員会"
         ]
       },
       "reason": "立憲民主党公式 + 本人公式サイト harumichan.nagoya + 名古屋民主市会議員団公式 確認。7期、中村区選出、元教員28年。",
@@ -4561,6 +4721,9 @@
             "url": "https://mitsuko-genki.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "土木交通委員会"
         ]
       },
       "reason": "減税日本ナゴヤ公式 + 本人公式サイト mitsuko-genki.jp 確認。昭和区選出、減税日本ナゴヤ副幹事長。元ソニーコーダ・リクルートで23年（人事採用・育成）。",
@@ -4587,6 +4750,9 @@
             "url": "https://uemura-michiyo.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "都市消防委員会"
         ]
       },
       "reason": "自由民主党名古屋市会議員団公式 + 本人公式サイト uemura-michiyo.jp 確認。東区選出、自民党名古屋市会議員団 副政調会長。",
@@ -4613,6 +4779,9 @@
             "url": "https://www.yutaka-kinjo.net/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "教育子ども委員会"
         ]
       },
       "reason": "本人公式サイト yutaka-kinjo.net 確認。瑞穂区選出、2023年4月に減税日本ナゴヤから離団し新会派『なごや陽向（ひなた）の会』を結成、団長就任。昭和53年沖縄県立糸満高校卒、昭和57年東和大学工学部建設工学科卒、空手指導歴あり。",
@@ -4649,6 +4818,9 @@
             "url": "https://k-yatabe.net/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "福祉委員会"
         ]
       },
       "reason": "立憲民主党公式 + 本人公式サイト k-yatabe.net 確認。1949年7月25日生まれ、9期、金沢区選出、1991年初当選、日本飛行機労組出身。",
@@ -4685,6 +4857,9 @@
             "url": "http://www.fujishiro-tetsuo.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "こども教育委員会"
         ]
       },
       "reason": "よこはま自民党公式 + 本人公式サイト fujishiro-tetsuo.com 確認。1979年12月6日生まれ、4期、神奈川区選出、2011年初当選、自民党横浜市会議員団 副団長。",
@@ -4721,6 +4896,9 @@
             "url": "https://anzai-hidetoshi.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "まちづくり委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 本人公式サイト anzai-hidetoshi.com 確認。1970年6月1日生まれ、4期、港南区選出。",
@@ -4747,6 +4925,9 @@
             "url": "https://yokohama-ishin.com/member/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "GREEN×EXPOみどり委員会"
         ]
       },
       "reason": "日本維新の会公式 + 日本維新の会横浜市会議員団公式 確認。1967年12月3日生まれ、金沢区選出、日本大学文理学部哲学科卒、日本大学院グローバルビジネス研究科修了（MBA）。",
@@ -4759,9 +4940,7 @@
         "websiteUrl": "https://uchikoshi.info/",
         "termsServed": 6,
         "committees": [
-          "総務財政委員会",
-          "少子・高齢化対策特別委員会",
-          "九州大学移転・跡地対策協議会"
+          "総務財政委員会"
         ],
         "birthDate": "1954-05-02",
         "birthPlace": "福岡市南区",
@@ -4844,6 +5023,9 @@
             "url": "https://akihiko-wada.studio.site/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "生活環境委員会"
         ]
       },
       "reason": "福岡市議会公式 + 本人公式サイト akihiko-wada.studio.site + 日本維新の会公式 確認。博多区選出、日本維新の会博多区支部長。",
@@ -4880,6 +5062,9 @@
             "url": "https://inouemai.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "教育こども委員会"
         ]
       },
       "reason": "福岡市議会公式 + 本人公式サイト inouemai.jp + 立憲民主党公式 確認。2期、城南区選出、立憲民主党所属、福岡市民クラブ。",
@@ -4906,6 +5091,9 @@
             "url": "http://horiuchi-tetsuo.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務財政委員会"
         ]
       },
       "reason": "福岡市議会公式 + 本人公式サイト horiuchi-tetsuo.jp + 日本共産党福岡市議団公式 確認。南区選出、日本共産党所属。",
@@ -5071,6 +5259,10 @@
             "url": "https://cdp-japan.jp/member/209/%E8%8F%85%E9%87%8E%E5%A4%AA%E4%B8%80",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "建設委員会",
+          "議会運営委員会"
         ]
       },
       "reason": "立憲民主党公式 確認。3期、豊平区選出。",
@@ -5107,6 +5299,9 @@
             "url": "https://urushihara-naoko.main.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "厚生委員会"
         ]
       },
       "reason": "立憲民主党公式 + 本人公式サイト urushihara-naoko.main.jp 確認。2期、白石区選出。",
@@ -5143,6 +5338,9 @@
             "url": "https://sapporokomei.jp/m/profile/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 公明党札幌市議団公式 確認。5期、手稲区選出。",
@@ -5155,8 +5353,7 @@
         "websiteUrl": "http://www.ogawa.in/",
         "termsServed": 5,
         "committees": [
-          "総務環境委員会",
-          "産業・歴史文化・観光戦略特別委員会"
+          "土木交通委員会"
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
@@ -5194,7 +5391,7 @@
         "officialProfileUrl": "https://jimin-nagoya.com/staff/%E5%B2%A9%E6%9C%AC%E3%81%9F%E3%81%8B%E3%81%B2%E3%82%8D/",
         "websiteUrl": "https://www.iwamoto-takahiro.jp/",
         "committees": [
-          "総務環境委員会委員長"
+          "総務環境委員会"
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
@@ -5231,6 +5428,9 @@
             "url": "https://genzei758.com/member/suzuki_takayuki/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "財政福祉委員会"
         ]
       },
       "reason": "減税日本ナゴヤ公式 確認。天白区選出。「信なくば立たず」を信条に、教育・福祉での障害問題、地域の高齢化問題（特に天白区高坂団地）に取り組む。",
@@ -5250,6 +5450,9 @@
             "url": "https://www.city.nagoya.jp/shikai/about/1030778/1030779/1030792.html",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済水道委員会"
         ]
       },
       "reason": "名古屋市公式 守山区議員名簿 確認。会派『なごや陽向の会』、守山区選出。本人公式サイト・SNSは検索で見当たらず partial 扱い。",
@@ -5305,6 +5508,9 @@
             "url": "https://www.minnano-yokohama.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務委員会"
         ]
       },
       "reason": "立憲民主党公式 + 本人公式サイト minnano-yokohama.com（/profile）確認。1970年8月3日生まれ、静岡県三島市出身、中央大学法学部政治学科卒、米国公認会計士（USCPA）。民間企業審査・リスク管理13年（三井物産・GEキャピタル等）の経験。みんなの党政治塾1期生から立憲民主党まで所属変遷、4期（2011年初当選）、旭区選出、立憲民主党横浜市会議員団 団長。財政改革と横浜カジノ誘致反対が中核政策。",
@@ -5318,7 +5524,7 @@
         "twitterUrl": "https://x.com/komatsunoriaki",
         "termsServed": 4,
         "committees": [
-          "市民・にぎわいスポーツ文化・消防委員会"
+          "まちづくり委員会"
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
@@ -5372,6 +5578,9 @@
             "url": "https://miwa-chiemi.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "こども教育委員会"
         ]
       },
       "reason": "日本共産党中央委員会公式 + 本人公式サイト miwa-chiemi.jp + 日本共産党横浜市会議員団公式 確認。1953年岡山県生まれ、広島大学教育学部卒、元小学校教師8年。元神奈川県議2期、横浜市議3期（2015年初当選）、港南区選出。",
@@ -5385,8 +5594,7 @@
         "twitterUrl": "https://x.com/yasuhirokogayu",
         "termsServed": 6,
         "committees": [
-          "総務委員会",
-          "大都市制度特別委員会"
+          "総務委員会"
         ],
         "birthDate": "1967-09-10",
         "birthPlace": "横浜市鶴見区",
@@ -5468,8 +5676,7 @@
         "websiteUrl": "https://shinfukuoka.com/fukuda/",
         "termsServed": 5,
         "committees": [
-          "教育こども委員会",
-          "交通対策特別委員会"
+          "経済振興委員会"
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
@@ -5522,6 +5729,9 @@
             "url": "https://o-ishin.jp/member/detail/post_372.html",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "教育こども委員会"
         ]
       },
       "reason": "福岡市議会公式 + 日本維新の会公式議員プロフィール 確認。南区選出、日本維新の会福岡市議団所属。",
@@ -5558,6 +5768,9 @@
             "url": "https://fukuokashimin.jp/introduction/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済振興委員会"
         ]
       },
       "reason": "立憲民主党公式 + 福岡市民クラブ公式 確認。1期、南区選出、立憲民主党所属、福岡市民クラブ。",
@@ -5570,8 +5783,7 @@
         "websiteUrl": "https://www.komei.or.jp/km/shinohara/",
         "termsServed": 4,
         "committees": [
-          "経済振興委員会",
-          "都市問題等調査特別委員会副委員長"
+          "経済振興委員会"
         ],
         "dataConfidence": "verified",
         "lastVerifiedAt": "2026-05-29",
@@ -5765,6 +5977,9 @@
             "url": "https://kawatatadahisa.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "建設委員会"
         ]
       },
       "reason": "さっぽろ自民党公式 + 本人公式サイト kawatatadahisa.com 確認。1969年3月5日生まれ、4期、厚別区選出。自民党札幌議員会副会長（2023-2024）、自民党札連 政務調査会長。",
@@ -5808,6 +6023,9 @@
             "url": "https://cdp-japan.jp/member/3150/%E7%AF%A0%E7%94%B0%E6%B1%9F%E9%87%8C%E5%AD%90",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "建設委員会"
         ]
       },
       "reason": "立憲民主党公式 確認。4期、東区選出。第42代札幌市議会副議長（2023年5月就任）。",
@@ -5836,6 +6054,9 @@
             "url": "https://www.jcp-sapporo.jp/assembly/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "文教委員会"
         ]
       },
       "reason": "日本共産党札幌市議団公式 確認。北区選出、日本共産党所属。本人公式サイト・SNSは検索で見当たらず partial 扱い。",
@@ -5872,6 +6093,9 @@
             "url": "https://www.maekawa.fun/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済観光委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 本人公式サイト maekawa.fun 確認。1967年9月22日生まれ、3期、白石区選出。公明党北海道本部 幹事・道民運動局長、公明党札幌白石総支部 総支部長。",
@@ -5922,6 +6146,9 @@
             "url": "https://www.komei.or.jp/km/nagoya-kinoshita-masaru/profile/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "教育子ども委員会"
         ]
       },
       "reason": "公明党公式議員プロフィール + 本人公式ホームページ（komei.or.jp/km/nagoya-kinoshita-masaru/profile/）確認。1954年12月21日生まれ、鹿児島県出身、6期、中川区選出。公明党名古屋市議団 団長、公明党名古屋第5総支部長。経歴・学歴・職歴・趣味は本人公式から取得。",
@@ -5948,6 +6175,9 @@
             "url": "http://htayama.net/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "財政福祉委員会"
         ]
       },
       "reason": "減税日本ナゴヤ公式 + 本人公式サイト htayama.net 確認。北区選出、減税日本ナゴヤ 副団長。",
@@ -5986,6 +6216,9 @@
             "url": "https://kunimasa.nagoya/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "都市消防委員会"
         ]
       },
       "reason": "立憲民主党公式 + 本人公式サイト kunimasa.nagoya + 本人X @kunimasanaoki + Facebook 確認。平成元年（1989年）生まれ、2期、東区選出、名古屋民主市会議員団所属。",
@@ -6012,6 +6245,9 @@
             "url": "http://www.kitanoyoshi.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "財政福祉委員会"
         ]
       },
       "reason": "自由民主党名古屋市会議員団公式 + 本人公式サイト kitanoyoshi.com 確認。守山区選出（人口17万人超）、自民党名古屋市会議員団 広報委員長。",
@@ -6038,6 +6274,9 @@
             "url": "https://www.41tanaka.com/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済港湾委員会"
         ]
       },
       "reason": "日本維新の会公式 + 本人公式サイト 41tanaka.com 確認。1963年10月22日生まれ、神奈川区選出、横浜市政担当。元企業広告担当、NTTグループ、大学非常勤講師・企画部長・理事歴。",
@@ -6081,6 +6320,9 @@
             "url": "http://matsuken.hama1.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済港湾委員会"
         ]
       },
       "reason": "よこはま自民党公式 + 本人公式サイト matsuken.hama1.jp 確認。1951年12月3日生まれ、8期、中区選出、1996年10月補選で初当選。第49代横浜市会議長。",
@@ -6117,6 +6359,9 @@
             "url": "https://www.fujisakikotaro.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務委員会"
         ]
       },
       "reason": "立憲民主党公式 + 本人公式サイト fujisakikotaro.jp 確認。1979年6月28日生まれ、4期、青葉区選出。福島県郡山市出身、立命館大学院政策科学研究科博士前期課程修了。立憲民主党横浜市会議員団 副団長（2026年1月会派名変更時就任）。",
@@ -6129,11 +6374,7 @@
         "websiteUrl": "https://shin-shin.com/",
         "termsServed": 6,
         "committees": [
-          "福祉委員会委員長",
-          "こども青少年・教育委員会副委員長",
-          "下水道河川・水道・交通委員会",
-          "都心部活性化特別委員会",
-          "健康づくり・スポーツ推進特別委員会副委員長"
+          "福祉委員会"
         ],
         "birthDate": "1968-02-04",
         "birthPlace": "横浜市",
@@ -6208,6 +6449,9 @@
             "url": "https://fukuoka-jimin.jp/fksigidan/%E7%A8%B2%E5%93%A1%E3%80%80%E7%A8%94%E5%A4%AB/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "教育こども委員会"
         ]
       },
       "reason": "福岡市議会公式 + 自民党福岡県連公式 確認。1973年12月22日生まれ、3期、中央区選出、自由民主党福岡市議団所属。",
@@ -6244,6 +6488,9 @@
             "url": "https://www.ochiishi.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "経済振興委員会"
         ]
       },
       "reason": "福岡市議会公式 + 本人公式サイト ochiishi.jp 確認。3期11年余、東区選出。福岡市民クラブ 副代表。",
@@ -6316,6 +6563,9 @@
             "url": "https://www.tanakashinsuke.jp/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "生活環境委員会"
         ]
       },
       "reason": "福岡市議会公式 + 本人公式サイト tanakashinsuke.jp（/profile/）+ 立憲民主党公式 確認。1978年6月14日生まれ、筑紫丘高→九州大学法学部→早稲田大学院政治学研究科修士（PFI研究）、元アクセンチュア株式会社（官公庁本部）、2007年初当選、5期、中央区選出、立憲民主党所属、『新時代をつくる会』代表。",
@@ -6343,6 +6593,9 @@
             "url": "https://shinfukuoka.com/nakashima/",
             "verifiedAt": "2026-05-30"
           }
+        ],
+        "committees": [
+          "総務財政委員会"
         ]
       },
       "reason": "福岡市議会公式 + 自民党新福岡公式（shinfukuoka.com）+ Facebook 確認。1961年福岡市中央区生まれ、保守系会派『自民党新福岡』所属。元日本プロゴルフ協会理事。防犯活動、防災対策、教育問題を重点。",
@@ -6370,7 +6623,10 @@
         ],
         "dataConfidence": "verified",
         "hasProvisionalData": false,
-        "lastVerifiedAt": "2026-05-30"
+        "lastVerifiedAt": "2026-05-30",
+        "committees": [
+          "文教委員会"
+        ]
       },
       "reason": "札幌市議会公式（city.sapporo.jp/gikai/html/gichou.html）確認。第43代札幌市議会副議長（2025年4月2日就任）。",
       "appliedAt": "2026-05-30"
@@ -6397,7 +6653,10 @@
         ],
         "dataConfidence": "verified",
         "hasProvisionalData": false,
-        "lastVerifiedAt": "2026-05-30"
+        "lastVerifiedAt": "2026-05-30",
+        "committees": [
+          "都市消防委員会"
+        ]
       },
       "reason": "名古屋市会公式（www.city.nagoya.jp/shikai/category/322-0-0-0-0-0-0-0-0-0.html）確認。現職の名古屋市会議長。",
       "appliedAt": "2026-05-30"
@@ -6424,7 +6683,10 @@
         ],
         "dataConfidence": "verified",
         "hasProvisionalData": false,
-        "lastVerifiedAt": "2026-05-30"
+        "lastVerifiedAt": "2026-05-30",
+        "committees": [
+          "総務環境委員会"
+        ]
       },
       "reason": "名古屋市会公式（www.city.nagoya.jp/shikai/category/322-0-0-0-0-0-0-0-0-0.html）確認。現職の名古屋市会副議長。",
       "appliedAt": "2026-05-30"
@@ -6458,9 +6720,1648 @@
         "dataConfidence": "verified",
         "hasProvisionalData": false,
         "lastVerifiedAt": "2026-05-30",
-        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/hirahata_masahiro"
+        "officialProfileUrl": "https://gikai.city.fukuoka.lg.jp/hirahata_masahiro",
+        "committees": [
+          "福祉都市委員会"
+        ]
       },
       "reason": "福岡市議会公式（gikai.city.fukuoka.lg.jp/hirahata_masahiro）+ 自民党福岡市議団公式 確認。福岡市議会議長に選出。",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-ohara-yasuo",
+      "fields": {
+        "committees": [
+          "総務財政委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-omori-kazuma",
+      "fields": {
+        "committees": [
+          "生活環境委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-onizuka-masahiro",
+      "fields": {
+        "committees": [
+          "福祉都市委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-obata-hidetatsu",
+      "fields": {
+        "committees": [
+          "福祉都市委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-kawakami-shinpei",
+      "fields": {
+        "committees": [
+          "経済振興委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-kawakami-yohei",
+      "fields": {
+        "committees": [
+          "福祉都市委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-kimura-tetsuaki",
+      "fields": {
+        "committees": [
+          "生活環境委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-kondo-satomi",
+      "fields": {
+        "committees": [
+          "福祉都市委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-shirabe-takashi",
+      "fields": {
+        "committees": [
+          "教育こども委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-takagi-katsutoshi",
+      "fields": {
+        "committees": [
+          "生活環境委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-tanaka-takashi",
+      "fields": {
+        "committees": [
+          "総務財政委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-tanokashira-tomoyuki",
+      "fields": {
+        "committees": [
+          "経済振興委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-tahara-kayoko",
+      "fields": {
+        "committees": [
+          "教育こども委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-tsuichihara-yoko",
+      "fields": {
+        "committees": [
+          "総務財政委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-tsuda-shintaro",
+      "fields": {
+        "committees": [
+          "経済振興委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-tsutsumi-kentaro",
+      "fields": {
+        "committees": [
+          "総務財政委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-tsutsumida-hiroshi",
+      "fields": {
+        "committees": [
+          "総務財政委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-tominaga-hiroyuki",
+      "fields": {
+        "committees": [
+          "教育こども委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-shinmura-masaru",
+      "fields": {
+        "committees": [
+          "経済振興委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-hashida-kazuyoshi",
+      "fields": {
+        "committees": [
+          "総務財政委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-hamasaki-taro",
+      "fields": {
+        "committees": [
+          "福祉都市委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-fujino-tetsuji",
+      "fields": {
+        "committees": [
+          "福祉都市委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-furukawa-kiyofumi",
+      "fields": {
+        "committees": [
+          "経済振興委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-maeno-mamiko",
+      "fields": {
+        "committees": [
+          "総務財政委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-matsuno-takashi",
+      "fields": {
+        "committees": [
+          "福祉都市委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-mori-ayako",
+      "fields": {
+        "committees": [
+          "生活環境委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-morokuma-hidebumi",
+      "fields": {
+        "committees": [
+          "経済振興委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-yamaguchi-takeshi",
+      "fields": {
+        "committees": [
+          "総務財政委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-yamada-yumiko",
+      "fields": {
+        "committees": [
+          "生活環境委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-yodogawa-kojiro",
+      "fields": {
+        "committees": [
+          "経済振興委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "fukuoka-watanuki-yasuyo",
+      "fields": {
+        "committees": [
+          "教育こども委員会"
+        ]
+      },
+      "reason": "https://gikai.city.fukuoka.lg.jp/member/standard から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-okumura-bungo",
+      "fields": {
+        "committees": [
+          "経済水道委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-kato-kazuto",
+      "fields": {
+        "committees": [
+          "教育子ども委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-kitazumi-yoshiyuki",
+      "fields": {
+        "committees": [
+          "土木交通委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-kuzuya-toshie",
+      "fields": {
+        "committees": [
+          "経済水道委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-kuno-miho",
+      "fields": {
+        "committees": [
+          "土木交通委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-kondo-kazuhiro",
+      "fields": {
+        "committees": [
+          "都市消防委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-sawada-koichi",
+      "fields": {
+        "committees": [
+          "財政福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-sawada-hitomi",
+      "fields": {
+        "committees": [
+          "教育子ども委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-jin-hiroshi",
+      "fields": {
+        "committees": [
+          "総務環境委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-tanaka-rika",
+      "fields": {
+        "committees": [
+          "都市消防委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-tanabe-yuichi",
+      "fields": {
+        "committees": [
+          "経済水道委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-tsukamoto-tsuyoshi",
+      "fields": {
+        "committees": [
+          "土木交通委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-tsukimori-takuya",
+      "fields": {
+        "committees": [
+          "教育子ども委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-tsuji-masao",
+      "fields": {
+        "committees": [
+          "財政福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-toyoda-kaoru",
+      "fields": {
+        "committees": [
+          "都市消防委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-nagai-yuri",
+      "fields": {
+        "committees": [
+          "教育子ども委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-nakagawa-atsushi",
+      "fields": {
+        "committees": [
+          "都市消防委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-nakazato-takayuki",
+      "fields": {
+        "committees": [
+          "土木交通委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-nakata-chizuko",
+      "fields": {
+        "committees": [
+          "経済水道委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-nakamura-shuhei",
+      "fields": {
+        "committees": [
+          "土木交通委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-narita-takayuki",
+      "fields": {
+        "committees": [
+          "総務環境委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-nishikawa-hisashi",
+      "fields": {
+        "committees": [
+          "財政福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-niwa-hiroshi",
+      "fields": {
+        "committees": [
+          "都市消防委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-hashimoto-hiroki",
+      "fields": {
+        "committees": [
+          "総務環境委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-hasegawa-yumiko",
+      "fields": {
+        "committees": [
+          "土木交通委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-hattori-shinnosuke",
+      "fields": {
+        "committees": [
+          "教育子ども委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-hattori-masaya",
+      "fields": {
+        "committees": [
+          "財政福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-hisada-kunihiro",
+      "fields": {
+        "committees": [
+          "総務環境委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-hibi-misaki",
+      "fields": {
+        "committees": [
+          "教育子ども委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-fujisawa-chiaki",
+      "fields": {
+        "committees": [
+          "土木交通委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-fujita-kazuhide",
+      "fields": {
+        "committees": [
+          "経済水道委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-matsui-yoshinori",
+      "fields": {
+        "committees": [
+          "土木交通委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-murase-kiyomi",
+      "fields": {
+        "committees": [
+          "都市消防委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-yamada-masahiro",
+      "fields": {
+        "committees": [
+          "都市消防委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-yokoi-toshiaki",
+      "fields": {
+        "committees": [
+          "財政福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-yoshioka-masanobu",
+      "fields": {
+        "committees": [
+          "都市消防委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-yoshida-shigeru",
+      "fields": {
+        "committees": [
+          "教育子ども委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "nagoya-watanabe-yasunori",
+      "fields": {
+        "committees": [
+          "財政福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.nagoya.jp/shikai/category/333-6-0-0-0-0-0-0-0-0.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-arai-isao",
+      "fields": {
+        "committees": [
+          "建設委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-kitamura-koichiro",
+      "fields": {
+        "committees": [
+          "文教委員会",
+          "議会運営委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-kojima-yumi",
+      "fields": {
+        "committees": [
+          "経済観光委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-kosuda-tomohiro",
+      "fields": {
+        "committees": [
+          "経済観光委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-kotake-tomoko",
+      "fields": {
+        "committees": [
+          "財政市民委員会",
+          "議会運営委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-kondo-kazuo",
+      "fields": {
+        "committees": [
+          "経済観光委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-sakamoto-michitaka",
+      "fields": {
+        "committees": [
+          "総務委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-sasaki-mitsuko",
+      "fields": {
+        "committees": [
+          "文教委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-sadamori-hikaru",
+      "fields": {
+        "committees": [
+          "経済観光委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-shinohara-sumire",
+      "fields": {
+        "committees": [
+          "総務委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-takahashi-katsutomo",
+      "fields": {
+        "committees": [
+          "文教委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-takenouchi-yumi",
+      "fields": {
+        "committees": [
+          "文教委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-nakagawa-kenichi",
+      "fields": {
+        "committees": [
+          "建設委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-nakamura-takeshi",
+      "fields": {
+        "committees": [
+          "財政市民委員会",
+          "議会運営委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-ban-yoshitaka",
+      "fields": {
+        "committees": [
+          "建設委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-fukushi-katsu",
+      "fields": {
+        "committees": [
+          "経済観光委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-fujita-toshihito",
+      "fields": {
+        "committees": [
+          "総務委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-fujiwara-hiroaki",
+      "fields": {
+        "committees": [
+          "財政市民委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-hosokawa-masato",
+      "fields": {
+        "committees": [
+          "総務委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-matsui-takafumi",
+      "fields": {
+        "committees": [
+          "厚生委員会",
+          "議会運営委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-matsubara-junji",
+      "fields": {
+        "committees": [
+          "文教委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-maruyama-hideki",
+      "fields": {
+        "committees": [
+          "厚生委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-mikami-hidehiko",
+      "fields": {
+        "committees": [
+          "財政市民委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-mikami-yosuke",
+      "fields": {
+        "committees": [
+          "建設委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-mizukami-mika",
+      "fields": {
+        "committees": [
+          "厚生委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-muramatsu-yasuhiro",
+      "fields": {
+        "committees": [
+          "総務委員会",
+          "議会運営委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-murayama-takuji",
+      "fields": {
+        "committees": [
+          "経済観光委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-mori-kiyonori",
+      "fields": {
+        "committees": [
+          "財政市民委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-moriyama-yumiko",
+      "fields": {
+        "committees": [
+          "建設委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-yamada-ichiro",
+      "fields": {
+        "committees": [
+          "総務委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-yamada-hiroaki",
+      "fields": {
+        "committees": [
+          "厚生委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-yokoyama-mineko",
+      "fields": {
+        "committees": [
+          "厚生委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-yoshii-nanami",
+      "fields": {
+        "committees": [
+          "文教委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-yoshioka-hiroko",
+      "fields": {
+        "committees": [
+          "厚生委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-wakimoto-shigeyuki",
+      "fields": {
+        "committees": [
+          "建設委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-wada-katsuya",
+      "fields": {
+        "committees": [
+          "文教委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "sapporo-watanabe-yasuyuki",
+      "fields": {
+        "committees": [
+          "財政市民委員会",
+          "議会運営委員会"
+        ]
+      },
+      "reason": "https://www.city.sapporo.jp/gikai/meibo/meibo-iinkai.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-shimizu-tomio",
+      "fields": {
+        "committees": [
+          "経済港湾委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-iha-toshinosuke",
+      "fields": {
+        "committees": [
+          "市民消防委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-shibuya-ken",
+      "fields": {
+        "committees": [
+          "まちづくり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-yamada-keiichiro",
+      "fields": {
+        "committees": [
+          "上下水道交通委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-senoma-yasuhiro",
+      "fields": {
+        "committees": [
+          "市民消防委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-tanoi-kazuo",
+      "fields": {
+        "committees": [
+          "経済港湾委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-aoki-ryosuke",
+      "fields": {
+        "committees": [
+          "福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-isobe-keita",
+      "fields": {
+        "committees": [
+          "GREEN×EXPOみどり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-seki-takashi",
+      "fields": {
+        "committees": [
+          "経済港湾委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-sato-shigeru",
+      "fields": {
+        "committees": [
+          "上下水道交通委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-masunaga-sumime",
+      "fields": {
+        "committees": [
+          "市民消防委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-kiuchi-shuichi",
+      "fields": {
+        "committees": [
+          "まちづくり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-kushida-hisako",
+      "fields": {
+        "committees": [
+          "総務委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-nii-kumiyo",
+      "fields": {
+        "committees": [
+          "GREEN×EXPOみどり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-seki-katsunori",
+      "fields": {
+        "committees": [
+          "福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-takeda-katsuhisa",
+      "fields": {
+        "committees": [
+          "市民消防委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-kurokawa-masaru",
+      "fields": {
+        "committees": [
+          "総務委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-takenouchi-takeshi",
+      "fields": {
+        "committees": [
+          "福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-yokomizo-junko",
+      "fields": {
+        "committees": [
+          "経済港湾委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-fukuchi-shigeru",
+      "fields": {
+        "committees": [
+          "上下水道交通委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-oyama-shoji",
+      "fields": {
+        "committees": [
+          "上下水道交通委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-sato-yufumi",
+      "fields": {
+        "committees": [
+          "福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-shirai-masako",
+      "fields": {
+        "committees": [
+          "まちづくり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-kazama-asami",
+      "fields": {
+        "committees": [
+          "市民消防委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-sakai-makoto",
+      "fields": {
+        "committees": [
+          "まちづくり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-mochizuki-yasuhiro",
+      "fields": {
+        "committees": [
+          "上下水道交通委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-ono-tomoi",
+      "fields": {
+        "committees": [
+          "経済港湾委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-kamoshida-keisuke",
+      "fields": {
+        "committees": [
+          "GREEN×EXPOみどり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-okurita-noriko",
+      "fields": {
+        "committees": [
+          "上下水道交通委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-takahashi-masaharu",
+      "fields": {
+        "committees": [
+          "こども教育委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-saito-tatsuya",
+      "fields": {
+        "committees": [
+          "こども教育委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-tanaka-yuki",
+      "fields": {
+        "committees": [
+          "まちづくり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-yamashita-masato",
+      "fields": {
+        "committees": [
+          "総務委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-ito-kumiko",
+      "fields": {
+        "committees": [
+          "こども教育委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-yokoyama-masato",
+      "fields": {
+        "committees": [
+          "総務委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-gyoda-asahito",
+      "fields": {
+        "committees": [
+          "経済港湾委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-osakabe-sayaka",
+      "fields": {
+        "committees": [
+          "GREEN×EXPOみどり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-hasegawa-takuma",
+      "fields": {
+        "committees": [
+          "まちづくり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-shirai-ryoji",
+      "fields": {
+        "committees": [
+          "こども教育委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-fukasaku-yui",
+      "fields": {
+        "committees": [
+          "市民消防委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-ichiki-emiko",
+      "fields": {
+        "committees": [
+          "経済港湾委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-isobe-naoya",
+      "fields": {
+        "committees": [
+          "福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-suzuki-taro",
+      "fields": {
+        "committees": [
+          "福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-yamaura-eita",
+      "fields": {
+        "committees": [
+          "市民消防委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-fushimi-yukie",
+      "fields": {
+        "committees": [
+          "市民消防委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-nakajima-mitsunori",
+      "fields": {
+        "committees": [
+          "市民消防委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-sakamoto-katsushi",
+      "fields": {
+        "committees": [
+          "まちづくり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-owada-akio",
+      "fields": {
+        "committees": [
+          "福祉委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-okuwa-masataka",
+      "fields": {
+        "committees": [
+          "総務委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-hasegawa-etsuko",
+      "fields": {
+        "committees": [
+          "市民消防委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-koshiishi-katsuko",
+      "fields": {
+        "committees": [
+          "こども教育委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-fumoto-rie",
+      "fields": {
+        "committees": [
+          "こども教育委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-yokoyama-yutaro",
+      "fields": {
+        "committees": [
+          "上下水道交通委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-kajimura-mitsuru",
+      "fields": {
+        "committees": [
+          "GREEN×EXPOみどり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-kawaguchi-hiroshi",
+      "fields": {
+        "committees": [
+          "GREEN×EXPOみどり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-hanaue-kiyoshi",
+      "fields": {
+        "committees": [
+          "GREEN×EXPOみどり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
+      "appliedAt": "2026-05-30"
+    },
+    {
+      "id": "yokohama-kubo-kazuhiro",
+      "fields": {
+        "committees": [
+          "GREEN×EXPOみどり委員会"
+        ]
+      },
+      "reason": "https://www.city.yokohama.lg.jp/shikai/giin/iinkaibetsu/jonin/meibo2026j.html から委員会情報を取得",
       "appliedAt": "2026-05-30"
     }
   ]
