@@ -72,7 +72,7 @@ function getMerged(
   websiteUrl?: string;
   officialProfileUrl?: string;
 } {
-  const base = baseMembers.get(override.id) || {};
+  const base: Member = baseMembers.get(override.id) || ({} as Member);
   return {
     electoralDistrict:
       override.fields.electoralDistrict ?? base.electoralDistrict,
