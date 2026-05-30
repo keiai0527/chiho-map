@@ -105,6 +105,12 @@ export default function RootLayout({
               <Link href="/terms" className="hover:text-primary">
                 利用規約
               </Link>
+              <Link href="/privacy" className="hover:text-primary">
+                プライバシーポリシー
+              </Link>
+              <Link href="/tokushoho" className="hover:text-primary">
+                特定商取引法に基づく表記
+              </Link>
               <Link href="/takedown" className="hover:text-primary">
                 削除依頼
               </Link>
