@@ -32,7 +32,9 @@ export async function createDonationCheckout(input: {
 
   const session = await stripe.checkout.sessions.create({
     mode: "payment",
-    payment_method_types: ["card"],
+    // payment_method_types を省略することで、Stripe ダッシュボードで有効化された
+    // 支払い方法を自動的に表示する（カード / Apple Pay / Google Pay / Link 等）。
+    // 明示すると other 方法が排除されるため、指定しないのが正解。
     line_items: [
       {
         price_data: {
