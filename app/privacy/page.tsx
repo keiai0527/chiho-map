@@ -167,6 +167,24 @@ export default function PrivacyPage() {
 
       <section className="space-y-3">
         <h2 className="text-lg font-bold text-primary border-l-4 border-accent pl-3">
+          未成年者からの個人情報取得について
+        </h2>
+        <div className="bg-surface border border-border rounded p-5 space-y-2 text-sm leading-relaxed">
+          <p>
+            本サイトは、原則として
+            <strong>18歳以上の方</strong>
+            のご利用を想定しています。18歳未満の方が口コミ投稿（有料）または応援金決済をご利用になる場合は、
+            <strong>事前に保護者（親権者）の同意を得てください</strong>
+            。同意なくご利用された場合、当該投稿・決済について、保護者からのお申し出により取り消し・無効化のうえ、可能な範囲で返金等の対応を行います。
+          </p>
+          <p>
+            運営者は、利用者から年齢を自動取得・自動判定する仕組みを持たないため、年齢確認は利用者および保護者の自己申告・自己責任に依拠します。
+          </p>
+        </div>
+      </section>
+
+      <section className="space-y-3">
+        <h2 className="text-lg font-bold text-primary border-l-4 border-accent pl-3">
           セキュリティ管理措置
         </h2>
         <div className="bg-surface border border-border rounded p-5 space-y-2 text-sm leading-relaxed">
@@ -217,7 +235,7 @@ export default function PrivacyPage() {
       </section>
 
       <p className="text-xs text-muted-foreground border-t border-border pt-4">
-        本ポリシーは必要に応じて改訂されます。最終改訂日：2026-05-30
+        本ポリシーは個人情報の保護に関する法律（個人情報保護法）に準拠して策定しています。必要に応じて改訂されます。最終改訂日：2026-05-31
       </p>
     </div>
   );

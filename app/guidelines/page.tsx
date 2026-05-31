@@ -57,6 +57,32 @@ export default function GuidelinesPage() {
 
         <section>
           <h2 className="text-base font-bold text-primary border-l-4 border-accent pl-3 mb-3">
+            2-2. 選挙運動の禁止（公職選挙法 第142条の3・第142条の4対応）
+          </h2>
+          <p>
+            本サイトは「ウェブサイト等を利用する方法」による情報提供を中立的・客観的に行うものであり、選挙運動を目的とする場ではありません。以下の投稿は公職選挙法（特に第142条の3・第142条の4）に抵触するおそれがあり、削除対象とします。
+          </p>
+          <ul className="list-disc pl-5 mt-2 space-y-1">
+            <li>
+              特定の候補者・議員への投票または不投票を呼びかける投稿（例：「○○さんに投票しましょう」「△党を支持してください」「××に投票しないで」）
+            </li>
+            <li>
+              選挙期間中に、特定の議員・候補者の有利・不利を意図した内容を表示・拡散させる目的の投稿
+            </li>
+            <li>
+              本サイト上での有料機能（応援金・口コミ投稿手数料）を、特定議員の選挙運動費用に充当する旨を示唆・要請する投稿
+            </li>
+            <li>
+              選挙運動用ウェブサイト・電子メール等への誘導を目的とした投稿
+            </li>
+          </ul>
+          <p className="mt-2 text-xs text-muted-foreground">
+            ※ 本サイトに掲載される議員情報・口コミの掲載順位・表示位置は、有料機能の購入により変動するものではなく、有料表示・バナー広告等の選挙運動（第142条の4）には該当しないよう中立的に運営しています。
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-base font-bold text-primary border-l-4 border-accent pl-3 mb-3">
             3. 投稿の最低要件
           </h2>
           <ul className="list-disc pl-5 space-y-1">
@@ -160,7 +186,7 @@ export default function GuidelinesPage() {
         </section>
 
         <p className="text-xs text-muted-foreground border-t border-border pt-4">
-          最終改訂日：2026-05-29
+          最終改訂日：2026-05-31
         </p>
       </div>
     </div>

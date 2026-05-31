@@ -21,7 +21,7 @@ import {
  * 別 kind のイベントは無視する。
  *
  * webhook 用 endpoint secret は diet-map と別に Stripe で発行する。
- * （URL が異なるため: chiho-map.vercel.app/api/stripe/webhook）
+ * （URL: https://chihogiin.jp/api/stripe/webhook）
  */
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";

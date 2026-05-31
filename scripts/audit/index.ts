@@ -135,7 +135,7 @@ const BIOGRAPHY_PRIVATE_INFO_WORDS = [
   "が目印",
 ];
 
-// keyPolicies.description / biography 等もスキャンする実績認定語
+// keyPolicies.description / biography 等もスキャンする実績認定語（error 級）
 const ACHIEVEMENT_BANNED_WORDS = [
   "実績を強調",
   "実績を訴え",
@@ -146,6 +146,16 @@ const ACHIEVEMENT_BANNED_WORDS = [
   "達成した",
   "英断",
   "腕利き",
+];
+
+// 「警告」レベルの実績認定語（運営側の実績認定に見えやすいが、本人公式の言葉なら可）
+// keyPolicies に多数あるため warning とし、新規追加時に「本人公式情報では〜を掲げている」
+// 形式で書くよう促す。既存データを徐々に置き換える運用。
+const ACHIEVEMENT_WARNING_WORDS = [
+  "を実現",
+  "を推進",
+  "実現した",
+  "推進した",
 ];
 
 // notableQuotes content に含まれていたら警告（実績混入の疑い）
@@ -382,6 +392,16 @@ async function main() {
               "error",
               "keypolicies_achievement_word",
               `${o.id}.keyPolicies[${i}]: description に運営実績認定語「${word}」を含む。本人公式記載の引用スタイル「○○と本人公式サイトに記載されている」に置き換えてください`,
+            );
+          }
+        }
+        // 警告レベル: 「実現」「推進」など、本人主張なら可だが運営実績認定に見える表現
+        for (const word of ACHIEVEMENT_WARNING_WORDS) {
+          if (kp.description.includes(word)) {
+            add(
+              "warning",
+              "keypolicies_evaluative_word",
+              `${o.id}.keyPolicies[${i}]: description に評価寄り表現「${word}」（本人公式の言葉なら「本人公式情報では〜を掲げている」形式に書き換え推奨）`,
             );
           }
         }
