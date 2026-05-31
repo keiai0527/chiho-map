@@ -6,9 +6,9 @@ export const metadata = {
     "地方議員マップの特定商取引法に基づく表記です。サイト応援金・有料機能（口コミ投稿手数料）の運営者情報を掲載しています。",
 };
 
-const ADDRESS_PLACEHOLDER = "（請求があった場合に遅滞なく開示いたします）";
+const ADDRESS = "〒107-0062 東京都港区南青山3丁目1番36号 青山丸竹ビル6F";
 const PHONE_PLACEHOLDER = "（請求があった場合に遅滞なく開示いたします）";
-const EMAIL = "keiai0527+chiho-map@gmail.com";
+const EMAIL = "info@kokkaimap.jp";
 
 // ページキャッシュ固定（次回デプロイまで）
 export const revalidate = false;
@@ -33,10 +33,7 @@ export default function TokushohoPage() {
           中島 真之助
         </Row>
         <Row label="所在地">
-          {ADDRESS_PLACEHOLDER}
-          <p className="text-xs text-muted-foreground mt-1">
-            ※ 個人事業者は、消費者からの請求があった場合に遅滞なく住所を提供することを条件に、サイトでの即時表示を省略できます（特商法施行規則）。請求は下記メールにてお寄せください。
-          </p>
+          {ADDRESS}
         </Row>
         <Row label="電話番号">
           {PHONE_PLACEHOLDER}

@@ -322,10 +322,10 @@ export default function SupportPage() {
           <li>
             お名前・メッセージを残したい場合は、振込後に
             <a
-              href="mailto:keiai0527+chiho-map@gmail.com"
+              href="mailto:info@kokkaimap.jp"
               className="underline mx-0.5"
             >
-              keiai0527+chiho-map@gmail.com
+              info@kokkaimap.jp
             </a>
             までご一報いただけると励みになります（任意）。
           </li>

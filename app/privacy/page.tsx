@@ -36,7 +36,7 @@ export default function PrivacyPage() {
     },
     {
       label: "お問い合わせ",
-      value: "keiai0527+chiho-map@gmail.com",
+      value: "info@kokkaimap.jp",
     },
   ];
 
@@ -92,7 +92,7 @@ export default function PrivacyPage() {
               決済時に当サイトに保存される範囲）等です。
             </li>
             <li>
-              請求は <strong>keiai0527+chiho-map@gmail.com</strong>{" "}
+              請求は <strong>info@kokkaimap.jp</strong>{" "}
               宛にお寄せください。請求の受付・回答には個人運営の都合上、相応のお時間をいただく場合があります。
             </li>
           </ul>
@@ -146,7 +146,7 @@ export default function PrivacyPage() {
         <div className="bg-surface border border-border rounded p-5 space-y-2 text-sm leading-relaxed">
           <p>
             ご自身の投稿・問い合わせに関する情報の開示・訂正・削除・利用停止のご請求は、本人確認のうえ対応いたします。
-            <strong>keiai0527+chiho-map@gmail.com</strong> までメールでご連絡いただくか、
+            <strong>info@kokkaimap.jp</strong> までメールでご連絡いただくか、
             <Link
               href="/takedown"
               className="text-primary underline mx-0.5"

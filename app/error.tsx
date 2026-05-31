@@ -61,10 +61,10 @@ export default function ErrorPage({
         <p>
           障害が継続する場合は、運営者（
           <a
-            href="mailto:keiai0527+chiho-map@gmail.com"
+            href="mailto:info@kokkaimap.jp"
             className="underline-offset-2 hover:underline"
           >
-            keiai0527+chiho-map@gmail.com
+            info@kokkaimap.jp
           </a>
           ）または X{" "}
           <a

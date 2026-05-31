@@ -7,10 +7,11 @@
 export const SITE_URL = "https://chihogiin.jp";
 
 /**
- * 訂正依頼用メールアドレス。
- * Gmail の plus エイリアスで、運営者の keiai0527@gmail.com に届く。
+ * 訂正依頼・問い合わせ用メールアドレス。
+ * 国会議員マップ・地方議員マップで共通の運営事務局アドレス。
+ * 個人IDの露出を避けるため、運営者個人 Gmail は使わない（2026-05-31 変更）。
  */
-export const CORRECTION_EMAIL = "keiai0527+chiho-map@gmail.com";
+export const CORRECTION_EMAIL = "info@kokkaimap.jp";
 
 /**
  * 訂正依頼用 Google フォームURL。

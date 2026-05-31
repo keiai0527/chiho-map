@@ -273,7 +273,7 @@ export default function TakedownPage() {
           </li>
           <li>
             削除依頼は<strong>原則として本フォームから受け付けます</strong>。ただし、フォームが表示されない・送信できない場合に限り、
-            <strong>keiai0527+chiho-map@gmail.com</strong>
+            <strong>info@kokkaimap.jp</strong>
             へのメールでも受け付けます。電話、SNS、第三者経由での削除依頼には対応しません。
           </li>
         </ul>
@@ -290,7 +290,7 @@ export default function TakedownPage() {
       <noscript>
         <div className="mt-6 bg-amber-50 border border-amber-200 rounded p-4 text-sm leading-relaxed text-amber-900">
           フォームの利用には JavaScript が必要です。フォームが表示されない場合は{" "}
-          <strong>keiai0527+chiho-map@gmail.com</strong>{" "}
+          <strong>info@kokkaimap.jp</strong>{" "}
           まで、対象URL・理由・お名前・連絡先を記載してご連絡ください。
         </div>
       </noscript>

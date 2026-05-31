@@ -257,16 +257,7 @@ export default async function AboutPage() {
       </section>
 
       <p className="mt-12 text-xs text-slate-400">
-        ソースコードは{" "}
-        <a
-          href="https://github.com/keiai0527/chiho-map"
-          target="_blank"
-          rel="noopener"
-          className="underline-offset-2 hover:underline"
-        >
-          GitHub
-        </a>{" "}
-        で公開しています。
+        本サイトは個人が運営する非公式情報サイトです。
       </p>
     </main>
   );

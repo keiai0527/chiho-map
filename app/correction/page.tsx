@@ -244,7 +244,7 @@ export default function CorrectionPage() {
       <noscript>
         <div className="mt-6 bg-amber-50 border border-amber-200 rounded p-4 text-sm leading-relaxed text-amber-900">
           フォームの利用には JavaScript が必要です。フォームが表示されない場合は{" "}
-          <strong>keiai0527+chiho-map@gmail.com</strong>{" "}
+          <strong>info@kokkaimap.jp</strong>{" "}
           まで、対象ページURL・誤りの箇所・正しい内容・出典・お名前・連絡先を記載してご連絡ください。
         </div>
       </noscript>

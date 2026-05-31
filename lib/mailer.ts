@@ -12,7 +12,7 @@ const resend = new Resend(apiKey ?? "re_placeholder");
 // 未設定時は Resend の共通テスト用 from を使う（受信は問題なく可能）。
 const FROM = process.env.RESEND_FROM_EMAIL ?? "地方議員マップ <onboarding@resend.dev>";
 const OPERATOR_TO =
-  process.env.OPERATOR_EMAIL ?? "keiai0527+chiho-map@gmail.com";
+  process.env.OPERATOR_EMAIL ?? "info@kokkaimap.jp";
 
 export async function sendOperatorMail(opts: {
   subject: string;
