@@ -128,6 +128,29 @@ async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
         livemode: session.livemode,
       },
     });
+    // 運営者通知メール: 72時間以内の事前審査責務を忘れないため、
+    // donation_chiho と同様に通知を出す（クラウド監査官指摘 2026-05-31）。
+    const flagsText = hasFlags
+      ? `\n自動検出フラグ: ${review.flags.join(", ")}`
+      : "";
+    await sendOperatorMail({
+      subject: `【地方議員マップ】口コミ審査キューに追加されました（${review.memberId}${session.livemode ? "" : " / テスト"}）`,
+      text: [
+        `口コミの決済が完了し、事前審査キューに追加されました。72時間以内に判定をお願いします。`,
+        ``,
+        `議員ID: ${review.memberId}`,
+        `レビューID: ${review.id}`,
+        `評価: ${review.rating ?? "(なし)"}`,
+        `分類: ${review.caseType ?? "(なし)"}${flagsText}`,
+        `本文（先頭120文字）: ${review.content.slice(0, 120)}${review.content.length > 120 ? "…" : ""}`,
+        ``,
+        `Stripe session: ${session.id}`,
+        `モード: ${session.livemode ? "本番 (livemode)" : "テスト (test mode)"}`,
+        ``,
+        `管理画面（審査キュー）:`,
+        `https://chihogiin.jp/op-console-demo`,
+      ].join("\n"),
+    });
   } else if (kind === "donation_chiho") {
     const amount = session.amount_total ?? 0;
     const currency = (session.currency ?? "jpy").toUpperCase();
