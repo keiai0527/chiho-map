@@ -47,15 +47,16 @@ export default function RootLayout({
   return (
     <html lang="ja" className={`${notoSansJP.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        <header className="border-b border-border bg-surface">
+        <header className="border-b border-sky-300 bg-gradient-to-r from-sky-50 via-white to-sky-50">
           <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2">
-              <span className="inline-block w-1.5 h-6 bg-accent" aria-hidden />
+              <span className="inline-block w-2 h-7 bg-accent rounded-sm" aria-hidden />
+              <span className="text-lg" aria-hidden>🗾</span>
               <span className="text-lg font-bold text-primary tracking-tight">
                 地方議員マップ
               </span>
-              <span className="ml-1 rounded bg-amber-100 px-1.5 py-0.5 text-[10px] font-semibold text-amber-900">
-                β
+              <span className="ml-1 rounded bg-sky-600 px-1.5 py-0.5 text-[10px] font-semibold text-white">
+                β / 5市
               </span>
             </Link>
             <nav className="flex items-center gap-3 sm:gap-5 text-sm text-muted-foreground">

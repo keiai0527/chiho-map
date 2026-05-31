@@ -1,17 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fafafa;
+  /* 地方議員マップ独自カラー（2026-05-31 大胆差別化）
+   * 国会議員マップ (kokkaimap.jp) との視覚的識別性を上げるため、
+   * 背景に薄い青ニュアンス + アクセント青系 + ヘッダー縦線太め。
+   *
+   * 元の中性カラーに戻す場合:
+   *   --background: #fafafa;
+   *   --surface:    #ffffff;
+   *   --muted:      #f1f5f9;
+   *   --accent:     #c2410c;
+   */
+  --background: #f0f9ff;           /* sky-50: ほんのり青ニュアンス */
   --foreground: #0f172a;
-  --surface: #ffffff;
-  --muted: #f1f5f9;
+  --surface: #ffffff;              /* カードは白でコントラスト確保 */
+  --muted: #e0f2fe;                /* sky-100: ミュート箇所も青寄りに */
   --muted-foreground: #475569;
-  --border: #e2e8f0;
-  --primary: #1e293b;
-  /* アクセントカラー: 地方議員マップは青系（地方自治体・地域ブランディング感覚）
-   * 国会議員マップ (kokkaimap.jp) は #c2410c（オレンジ）で差別化。
-   * 元のオレンジに戻したい場合は #c2410c に変更するだけ。 */
-  --accent: #0284c7;
+  --border: #bae6fd;               /* sky-200: 境界線もうっすら青 */
+  --primary: #0c4a6e;              /* sky-900: 見出しを青系に（黒過ぎない深い青）*/
+  --accent: #0284c7;               /* sky-600: ボタン/リンク/CTA */
 }
 
 @theme inline {
