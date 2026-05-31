@@ -8,7 +8,10 @@
   --muted-foreground: #475569;
   --border: #e2e8f0;
   --primary: #1e293b;
-  --accent: #c2410c;
+  /* アクセントカラー: 地方議員マップは青系（地方自治体・地域ブランディング感覚）
+   * 国会議員マップ (kokkaimap.jp) は #c2410c（オレンジ）で差別化。
+   * 元のオレンジに戻したい場合は #c2410c に変更するだけ。 */
+  --accent: #0284c7;
 }
 
 @theme inline {
