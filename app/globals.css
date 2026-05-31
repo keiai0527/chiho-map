@@ -29,3 +29,20 @@ body {
   font-family: var(--font-noto-sans-jp), "Noto Sans JP", system-ui, sans-serif;
   font-feature-settings: "palt";
 }
+
+/* details/summary をアコーディオンとして使うための基本リセット */
+details summary {
+  list-style: none;
+  cursor: pointer;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+details summary::marker {
+  display: none;
+}
+/* 開閉時のラベル切り替え（折りたたみセクション用） */
+.detail-toggle .when-closed { display: inline; }
+.detail-toggle .when-open { display: none; }
+details[open] .detail-toggle .when-closed { display: none; }
+details[open] .detail-toggle .when-open { display: inline; }

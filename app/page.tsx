@@ -48,26 +48,34 @@ export default async function Home() {
         </p>
       </header>
 
-      <section
-        aria-label="運営からのお願い"
-        className="mb-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5"
+      <details
+        className="mb-4 rounded-xl border border-emerald-200 bg-emerald-50 detail-toggle"
       >
-        <div className="mb-3 flex items-center gap-2">
-          <span className="text-lg" aria-hidden>🌱</span>
-          <h2 className="text-base font-bold text-emerald-900">
-            運営からのお願い
-          </h2>
-        </div>
-        <div className="space-y-3 text-sm leading-relaxed text-emerald-900">
+        <summary className="p-4 sm:p-5">
+          <div className="flex items-start justify-between gap-3">
+            <div className="flex-1 min-w-0">
+              <h2 className="text-sm sm:text-base font-bold text-emerald-900 flex items-center gap-2">
+                <span aria-hidden>🌱</span>
+                <span>運営からのお願い</span>
+              </h2>
+              <p className="mt-1.5 text-xs sm:text-sm text-emerald-900 leading-relaxed">
+                本サイトは<strong>個人運営のβ版</strong>です。長く運営を続けられるよう、温かい目で見守ってください。
+              </p>
+            </div>
+            <span className="text-[11px] sm:text-xs text-emerald-700 whitespace-nowrap shrink-0 mt-1 underline-offset-2 hover:underline">
+              <span className="when-closed">続きを見る ▼</span>
+              <span className="when-open">閉じる ▲</span>
+            </span>
+          </div>
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2.5 text-xs sm:text-sm leading-relaxed text-emerald-900 border-t border-emerald-200 pt-3 mt-1">
           <p>
-            本サイト「地方議員マップ」は<strong>個人運営のβ版</strong>です。
             現在は政令指定都市5市（札幌・横浜・名古屋・大阪・福岡）からスタートしていますが、他の自治体も順次追加していく予定です。
           </p>
           <p>
             サーバー費用や運営の継続性については、サイト応援金、将来的には<strong>クラウドファンディング等の活用も視野に</strong>、長く運営を続けられる仕組みを考えています。
           </p>
           <p>
-            至らない点も多々ありますが、温かい目で見守っていただけると嬉しいです。
             ご意見・誤りのご指摘は
             <Link href="/correction" className="underline-offset-2 hover:underline font-medium">
               訂正依頼フォーム
@@ -75,61 +83,68 @@ export default async function Home() {
             よりお気軽にお寄せください。
           </p>
         </div>
-      </section>
+      </details>
 
-      <section
-        aria-label="サイトの状態"
-        className="mb-8 rounded-xl border border-amber-200 bg-amber-50 p-5"
+      <details
+        className="mb-8 rounded-xl border border-amber-200 bg-amber-50 detail-toggle"
       >
-        <div className="mb-3 flex items-center gap-2">
-          <span className="rounded bg-amber-200 px-2 py-0.5 text-xs font-bold text-amber-900">
-            β版（機能拡張中・データ整備中）
-          </span>
+        <summary className="p-4 sm:p-5">
+          <div className="flex items-start justify-between gap-3">
+            <div className="flex-1 min-w-0">
+              <div className="flex flex-wrap items-center gap-2 mb-1.5">
+                <span className="rounded bg-amber-200 px-2 py-0.5 text-[10px] sm:text-xs font-bold text-amber-900">
+                  β版（機能拡張中・データ整備中）
+                </span>
+              </div>
+              <p className="text-xs sm:text-sm text-amber-900 leading-relaxed">
+                5市対応・暫定表示あり・<strong>非公式・個人運営</strong>の情報サイトです。
+              </p>
+            </div>
+            <span className="text-[11px] sm:text-xs text-amber-700 whitespace-nowrap shrink-0 mt-1 underline-offset-2 hover:underline">
+              <span className="when-closed">詳細を見る ▼</span>
+              <span className="when-open">閉じる ▲</span>
+            </span>
+          </div>
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5 border-t border-amber-200 pt-3 mt-1">
+          <p className="mb-3 text-xs sm:text-sm text-amber-900">
+            「β版＝情報が薄い」という意味ではなく、
+            <strong>基礎データから段階的に機能・情報を拡張中</strong>の意味です。
+          </p>
+          <ul className="space-y-1.5 text-xs sm:text-sm text-amber-900">
+            <li className="flex gap-2">
+              <span aria-hidden>•</span>
+              <span>
+                <strong>対応は5市のみ</strong>（大阪・名古屋・横浜・福岡・札幌）。
+                他の政令指定都市は順次拡張予定。
+              </span>
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden>•</span>
+              <span>
+                <strong>各市議会公式名簿をもとに作成</strong>（取得日: 2026年5月29日）。
+              </span>
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden>•</span>
+              <span>
+                <strong>一部に暫定表示があります</strong>。
+                合同会派の政党表示・推定ふりがな等（
+                <Link href="/about" className="underline-offset-2 hover:underline">
+                  詳細
+                </Link>
+                ）。
+              </span>
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden>•</span>
+              <span>
+                <strong>誤りを見つけたら訂正依頼を</strong>。各議員ページに窓口あり。
+              </span>
+            </li>
+          </ul>
         </div>
-        <p className="mb-3 text-sm text-amber-900">
-          本サイトは現在β版です。「β版＝情報が薄い」という意味ではなく、
-          <strong>基礎データから段階的に機能・情報を拡張中</strong>の意味です。
-          下記の「現在掲載中／今後追加予定」をご参照ください。
-        </p>
-        <ul className="space-y-1.5 text-sm text-amber-900">
-          <li className="flex gap-2">
-            <span aria-hidden>•</span>
-            <span>
-              <strong>対応は5市のみ</strong>（大阪・名古屋・横浜・福岡・札幌）。
-              他の政令指定都市は順次拡張予定。
-            </span>
-          </li>
-          <li className="flex gap-2">
-            <span aria-hidden>•</span>
-            <span>
-              <strong>各市議会公式名簿をもとに作成</strong>（取得日: 2026年5月29日）。
-            </span>
-          </li>
-          <li className="flex gap-2">
-            <span aria-hidden>•</span>
-            <span>
-              <strong>一部に暫定表示があります</strong>。
-              合同会派の政党表示・推定ふりがな等（
-              <Link href="/about" className="underline-offset-2 hover:underline">
-                詳細
-              </Link>
-              ）。
-            </span>
-          </li>
-          <li className="flex gap-2">
-            <span aria-hidden>•</span>
-            <span>
-              <strong>誤りを見つけたら訂正依頼を</strong>。各議員ページに窓口あり。
-            </span>
-          </li>
-          <li className="flex gap-2">
-            <span aria-hidden>•</span>
-            <span>
-              <strong>非公式・個人運営の情報サイト</strong>です。各市議会・自治体の公式サイトではありません。
-            </span>
-          </li>
-        </ul>
-      </section>
+      </details>
 
       <div className="mb-10">
         <JapanMap />
