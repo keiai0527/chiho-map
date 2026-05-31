@@ -321,6 +321,14 @@ export async function getAllReviews(): Promise<StoredReview[]> {
   return rows.map(mapReview);
 }
 
+// 公開中の口コミの総件数を返す。トップページの「口コミ N件」表示用。
+export async function getPublishedReviewCount(): Promise<number> {
+  const rows = (await sql`
+    SELECT COUNT(*)::text AS count FROM reviews_chiho WHERE status = 'published'
+  `) as { count: string }[];
+  return Number(rows[0]?.count ?? 0);
+}
+
 // ===== 事前審査キュー =====
 
 export async function addToQueue(item: {
