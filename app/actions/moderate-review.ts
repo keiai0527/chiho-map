@@ -11,6 +11,7 @@ import {
 import { requireAdminAuth } from "@/lib/auth";
 
 // 事前審査キューの投稿を「公開」する
+// queueId が空文字の場合は orphan（キュー欠落）レビューとしてキュー更新をスキップ
 export async function approveQueuedReview(formData: FormData) {
   await requireAdminAuth();
 
@@ -19,16 +20,18 @@ export async function approveQueuedReview(formData: FormData) {
   const memberId = String(formData.get("memberId") ?? "");
   const reviewerNote = String(formData.get("reviewerNote") ?? "").trim();
 
-  if (!queueId || !reviewId || !memberId) {
-    throw new Error("queueId, reviewId, memberId は必須です");
+  if (!reviewId || !memberId) {
+    throw new Error("reviewId, memberId は必須です");
   }
 
-  await updateQueueStatus(
-    queueId,
-    "approved",
-    "運営事務局",
-    reviewerNote || "（理由なし）",
-  );
+  if (queueId) {
+    await updateQueueStatus(
+      queueId,
+      "approved",
+      "運営事務局",
+      reviewerNote || "（理由なし）",
+    );
+  }
   await setReviewStatus(reviewId, "published");
   revalidatePath(`/giin/${memberId}`);
 
@@ -51,6 +54,7 @@ export async function approveQueuedReview(formData: FormData) {
 }
 
 // 事前審査キューの投稿を「却下」する
+// queueId が空文字の場合は orphan（キュー欠落）レビューとしてキュー更新をスキップ
 export async function rejectQueuedReview(formData: FormData) {
   await requireAdminAuth();
 
@@ -59,16 +63,18 @@ export async function rejectQueuedReview(formData: FormData) {
   const memberId = String(formData.get("memberId") ?? "");
   const reviewerNote = String(formData.get("reviewerNote") ?? "").trim();
 
-  if (!queueId || !reviewId || !memberId) {
-    throw new Error("queueId, reviewId, memberId は必須です");
+  if (!reviewId || !memberId) {
+    throw new Error("reviewId, memberId は必須です");
   }
 
-  await updateQueueStatus(
-    queueId,
-    "rejected",
-    "運営事務局",
-    reviewerNote || "（理由なし）",
-  );
+  if (queueId) {
+    await updateQueueStatus(
+      queueId,
+      "rejected",
+      "運営事務局",
+      reviewerNote || "（理由なし）",
+    );
+  }
   await setReviewStatus(reviewId, "removed");
   revalidatePath(`/giin/${memberId}`);
 

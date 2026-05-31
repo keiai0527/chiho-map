@@ -138,17 +138,16 @@ export default async function ModerationQueuePage() {
                       </ul>
                     </div>
                   )}
-                  {q ? (
-                    <ReviewDecisionPanel
-                      queueId={q.id}
-                      reviewId={r.id}
-                      memberId={r.memberId}
-                    />
-                  ) : (
-                    <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded p-2">
-                      ⚠️ キュー情報なし。上の「決済完了したが状態未昇格」セクションで強制公開してください。
+                  {!q && (
+                    <p className="text-[11px] text-amber-700 bg-amber-50 border border-amber-200 rounded p-2">
+                      ℹ️ キュー情報なし（過去のフローで取りこぼされた口コミ）。下の判定パネルから直接処理できます。
                     </p>
                   )}
+                  <ReviewDecisionPanel
+                    queueId={q?.id ?? ""}
+                    reviewId={r.id}
+                    memberId={r.memberId}
+                  />
                 </li>
               );
             })}

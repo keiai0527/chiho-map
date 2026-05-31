@@ -22,6 +22,8 @@ const COMMON_REASONS = [
 ] as const;
 
 // 事前審査中の口コミ向け：「公開する／非公開にする」パネル
+// queueId が空文字の場合は orphan（キュー情報なし）口コミとして扱い、
+// サーバー側でキュー更新をスキップする
 export function ReviewDecisionPanel({
   queueId,
   reviewId,
