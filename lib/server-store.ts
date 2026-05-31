@@ -430,6 +430,33 @@ export async function getTakedowns(): Promise<TakedownRequest[]> {
   return rows.map(mapTakedown);
 }
 
+export async function updateTakedown(
+  id: string,
+  patch: Partial<{
+    status: TakedownRequest["status"];
+    decisionReason: string;
+    operatorNote: string;
+    notifiedAt: string;
+    completedAt: string;
+  }>,
+): Promise<void> {
+  if (patch.status) {
+    await sql`UPDATE takedowns_chiho SET status = ${patch.status} WHERE id = ${id}`;
+  }
+  if (patch.decisionReason !== undefined) {
+    await sql`UPDATE takedowns_chiho SET decision_reason = ${patch.decisionReason} WHERE id = ${id}`;
+  }
+  if (patch.operatorNote !== undefined) {
+    await sql`UPDATE takedowns_chiho SET operator_note = ${patch.operatorNote} WHERE id = ${id}`;
+  }
+  if (patch.notifiedAt) {
+    await sql`UPDATE takedowns_chiho SET notified_at = ${patch.notifiedAt} WHERE id = ${id}`;
+  }
+  if (patch.completedAt) {
+    await sql`UPDATE takedowns_chiho SET completed_at = ${patch.completedAt} WHERE id = ${id}`;
+  }
+}
+
 // ===== 訂正依頼 =====
 
 export async function addCorrection(req: {
@@ -485,6 +512,96 @@ export async function addLog(log: {
        ${log.relatedCorrectionId ?? null},
        ${JSON.stringify(log.snapshot ?? {})}::jsonb)
   `;
+}
+
+export async function getLogs(): Promise<ModerationLog[]> {
+  type LogRow = {
+    id: string;
+    related_review_id: string | null;
+    related_takedown_id: string | null;
+    related_correction_id: string | null;
+    action_type: string;
+    decision_reason: string;
+    operator: string;
+    snapshot: unknown;
+    created_at: string;
+  };
+  const rows = (await sql`
+    SELECT * FROM moderation_logs_chiho ORDER BY created_at DESC LIMIT 500
+  `) as LogRow[];
+  return rows.map((r) => ({
+    id: r.id,
+    relatedReviewId: r.related_review_id ?? undefined,
+    relatedTakedownId: r.related_takedown_id ?? undefined,
+    relatedCorrectionId: r.related_correction_id ?? undefined,
+    actionType: r.action_type,
+    decisionReason: r.decision_reason,
+    operator: r.operator,
+    snapshot: (typeof r.snapshot === "object" && r.snapshot !== null
+      ? (r.snapshot as Record<string, unknown>)
+      : {}) as Record<string, unknown>,
+    createdAt: r.created_at,
+  }));
+}
+
+// ===== 統計 =====
+
+export async function getStats() {
+  type CountRow = { count: string };
+  const monthAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString();
+
+  const [
+    totalReviewsRes,
+    publishedReviewsRes,
+    removedReviewsRes,
+    queuePendingRes,
+    takedownsRes,
+    last30NewReviewsRes,
+    avgTatRes,
+    totalLogsRes,
+  ] = await Promise.all([
+    sql`SELECT COUNT(*)::text AS count FROM reviews_chiho`,
+    sql`SELECT COUNT(*)::text AS count FROM reviews_chiho WHERE status='published'`,
+    sql`SELECT COUNT(*)::text AS count FROM reviews_chiho WHERE status='removed'`,
+    sql`SELECT COUNT(*)::text AS count FROM moderation_queue_chiho WHERE status='pending'`,
+    sql`SELECT status, COUNT(*)::text AS count FROM takedowns_chiho GROUP BY status`,
+    sql`SELECT COUNT(*)::text AS count FROM reviews_chiho WHERE created_at > ${monthAgo}`,
+    sql`
+      SELECT COALESCE(ROUND(AVG(EXTRACT(EPOCH FROM (completed_at - created_at)) / 3600))::text, '0') AS hours
+      FROM takedowns_chiho WHERE completed_at IS NOT NULL
+    `,
+    sql`SELECT COUNT(*)::text AS count FROM moderation_logs_chiho`,
+  ]);
+
+  const td = takedownsRes as { status: TakedownRequest["status"]; count: string }[];
+  const tdMap = Object.fromEntries(td.map((r) => [r.status, Number(r.count)])) as Record<
+    TakedownRequest["status"],
+    number
+  >;
+  const cnt = (rs: unknown): number => {
+    const arr = rs as CountRow[];
+    return Number(arr[0]?.count ?? 0);
+  };
+
+  const avgArr = avgTatRes as { hours: string }[];
+  return {
+    totalReviews: cnt(totalReviewsRes),
+    publishedReviews: cnt(publishedReviewsRes),
+    removedReviews: cnt(removedReviewsRes),
+    queuePending: cnt(queuePendingRes),
+    takedownsByStatus: {
+      received: tdMap.received ?? 0,
+      under_review: tdMap.under_review ?? 0,
+      consultation_started: tdMap.consultation_started ?? 0,
+      approved: tdMap.approved ?? 0,
+      rejected: tdMap.rejected ?? 0,
+    },
+    last30Days: {
+      newReviews: cnt(last30NewReviewsRes),
+    },
+    avgTurnaroundHours: Number(avgArr[0]?.hours ?? 0),
+    totalLogs: cnt(totalLogsRes),
+  };
 }
 
 // ===== レートリミット =====
