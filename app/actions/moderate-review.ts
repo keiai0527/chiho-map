@@ -38,7 +38,13 @@ export async function approveQueuedReview(formData: FormData) {
     decisionReason: reviewerNote || "（理由なし）",
     operator: "運営事務局",
     relatedReviewId: reviewId,
-    snapshot: { queueId, memberId, site: "chiho-map" },
+    snapshot: {
+      site: "chiho-map",
+      queueId,
+      memberId,
+      prevStatus: "under_review",
+      newStatus: "published",
+    },
   });
 
   revalidatePath("/op-console-demo/moderation");
@@ -72,7 +78,13 @@ export async function rejectQueuedReview(formData: FormData) {
     decisionReason: reviewerNote || "（理由なし）",
     operator: "運営事務局",
     relatedReviewId: reviewId,
-    snapshot: { queueId, memberId, site: "chiho-map" },
+    snapshot: {
+      site: "chiho-map",
+      queueId,
+      memberId,
+      prevStatus: "under_review",
+      newStatus: "removed",
+    },
   });
 
   revalidatePath("/op-console-demo/moderation");
@@ -105,7 +117,13 @@ export async function forcePromotePendingReview(formData: FormData) {
     decisionReason: `Webhook 不発の救出（${target}）`,
     operator: "運営事務局",
     relatedReviewId: reviewId,
-    snapshot: { memberId, target, site: "chiho-map" },
+    snapshot: {
+      site: "chiho-map",
+      memberId,
+      target,
+      prevStatus: "pending_payment",
+      newStatus: target,
+    },
   });
 
   revalidatePath("/op-console-demo/moderation");
@@ -132,7 +150,12 @@ export async function unpublishReview(formData: FormData) {
     decisionReason: reason || "（理由なし）",
     operator: "運営事務局",
     relatedReviewId: reviewId,
-    snapshot: { memberId, site: "chiho-map" },
+    snapshot: {
+      site: "chiho-map",
+      memberId,
+      prevStatus: "published",
+      newStatus: "removed",
+    },
   });
 
   revalidatePath("/op-console-demo/moderation");

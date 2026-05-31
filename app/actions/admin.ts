@@ -50,7 +50,13 @@ export async function decideTakedown(formData: FormData) {
       decision === "approved" ? "takedown_approved" : "takedown_rejected",
     decisionReason: reason || "(理由なし)",
     operator: "運営事務局",
-    snapshot: { receiptNumber, site: "chiho-map" },
+    snapshot: {
+      site: "chiho-map",
+      receiptNumber,
+      ...(decision === "approved" && reviewId
+        ? { prevStatus: "published", newStatus: "removed" }
+        : {}),
+    },
   });
 
   if (requesterEmail) {
