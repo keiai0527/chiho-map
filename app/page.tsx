@@ -49,6 +49,35 @@ export default async function Home() {
       </header>
 
       <section
+        aria-label="運営からのお願い"
+        className="mb-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5"
+      >
+        <div className="mb-3 flex items-center gap-2">
+          <span className="text-lg" aria-hidden>🌱</span>
+          <h2 className="text-base font-bold text-emerald-900">
+            運営からのお願い
+          </h2>
+        </div>
+        <div className="space-y-3 text-sm leading-relaxed text-emerald-900">
+          <p>
+            本サイト「地方議員マップ」は<strong>個人運営のβ版</strong>です。
+            現在は政令指定都市5市（札幌・横浜・名古屋・大阪・福岡）からスタートしていますが、他の自治体も順次追加していく予定です。
+          </p>
+          <p>
+            サーバー費用や運営の継続性については、サイト応援金、将来的には<strong>クラウドファンディング等の活用も視野に</strong>、長く運営を続けられる仕組みを考えています。
+          </p>
+          <p>
+            至らない点も多々ありますが、温かい目で見守っていただけると嬉しいです。
+            ご意見・誤りのご指摘は
+            <Link href="/correction" className="underline-offset-2 hover:underline font-medium">
+              訂正依頼フォーム
+            </Link>
+            よりお気軽にお寄せください。
+          </p>
+        </div>
+      </section>
+
+      <section
         aria-label="サイトの状態"
         className="mb-8 rounded-xl border border-amber-200 bg-amber-50 p-5"
       >

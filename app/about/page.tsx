@@ -56,6 +56,22 @@ export default async function AboutPage() {
         </p>
       </section>
 
+      <section className="mt-10 space-y-3 rounded-xl border border-emerald-200 bg-emerald-50 p-5">
+        <h2 className="text-xl font-bold text-emerald-900 flex items-center gap-2">
+          <span aria-hidden>🌱</span>
+          運営からのお願い
+        </h2>
+        <p className="text-sm leading-relaxed text-emerald-900">
+          本サイトは<strong>個人運営のβ版</strong>です。サイトの安定運営と対応自治体の拡大には、サーバー費用・データ整備費用・法務確認費用などが継続的にかかります。
+        </p>
+        <p className="text-sm leading-relaxed text-emerald-900">
+          現在は<strong>サイト応援金</strong>でご支援をお願いしていますが、将来的には<strong>クラウドファンディングなどの活用も視野に</strong>、長く運営を続けられる仕組みを考えています。
+        </p>
+        <p className="text-sm leading-relaxed text-emerald-900">
+          現状は政令指定都市5市からのスタートですが、随時更新・拡張していきます。至らない点も多々ありますが、温かい目で見守っていただけると嬉しいです。
+        </p>
+      </section>
+
       <section className="mt-10 space-y-3">
         <h2 className="text-xl font-bold text-slate-900">運営者情報</h2>
         <dl className="divide-y divide-slate-200 border-y border-slate-200 text-sm">
