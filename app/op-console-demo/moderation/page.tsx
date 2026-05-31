@@ -6,13 +6,12 @@ import {
 } from "@/lib/server-store";
 import { describeFlag } from "@/lib/moderation";
 import { getMemberById, getPartyMap, getCity } from "@/lib/data";
-import {
-  approveQueuedReview,
-  rejectQueuedReview,
-  forcePromotePendingReview,
-  unpublishReview,
-} from "@/app/actions/moderate-review";
+import { forcePromotePendingReview } from "@/app/actions/moderate-review";
 import { AIAssessment } from "@/components/AIAssessment";
+import {
+  ReviewDecisionPanel,
+  UnpublishPanel,
+} from "@/components/DecisionPanel";
 
 export const dynamic = "force-dynamic";
 
@@ -140,31 +139,11 @@ export default async function ModerationQueuePage() {
                     </div>
                   )}
                   {q ? (
-                    <form className="flex flex-wrap items-center gap-2 pt-2">
-                      <input type="hidden" name="queueId" value={q.id} />
-                      <input type="hidden" name="reviewId" value={r.id} />
-                      <input type="hidden" name="memberId" value={r.memberId} />
-                      <input
-                        type="text"
-                        name="reviewerNote"
-                        placeholder="判断理由（任意）"
-                        className="text-xs px-2 py-1 border border-border rounded flex-1 min-w-[160px]"
-                      />
-                      <button
-                        type="submit"
-                        formAction={approveQueuedReview}
-                        className="text-xs px-3 py-1.5 rounded bg-emerald-600 text-white hover:bg-emerald-700"
-                      >
-                        ✅ 承認して公開
-                      </button>
-                      <button
-                        type="submit"
-                        formAction={rejectQueuedReview}
-                        className="text-xs px-3 py-1.5 rounded bg-rose-600 text-white hover:bg-rose-700"
-                      >
-                        ❌ 却下
-                      </button>
-                    </form>
+                    <ReviewDecisionPanel
+                      queueId={q.id}
+                      reviewId={r.id}
+                      memberId={r.memberId}
+                    />
                   ) : (
                     <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded p-2">
                       ⚠️ キュー情報なし。上の「決済完了したが状態未昇格」セクションで強制公開してください。
@@ -194,25 +173,7 @@ export default async function ModerationQueuePage() {
               >
                 <ReviewHeader r={r} label={memberLabels.get(r.memberId) ?? r.memberId} />
                 <ReviewBody r={r} />
-                <form
-                  action={unpublishReview}
-                  className="flex flex-wrap items-center gap-2 pt-2"
-                >
-                  <input type="hidden" name="reviewId" value={r.id} />
-                  <input type="hidden" name="memberId" value={r.memberId} />
-                  <input
-                    type="text"
-                    name="reason"
-                    placeholder="取下げ理由（任意）"
-                    className="text-xs px-2 py-1 border border-border rounded flex-1 min-w-[160px]"
-                  />
-                  <button
-                    type="submit"
-                    className="text-xs px-3 py-1.5 rounded border border-rose-300 text-rose-700 hover:bg-rose-50"
-                  >
-                    取り下げ
-                  </button>
-                </form>
+                <UnpublishPanel reviewId={r.id} memberId={r.memberId} />
               </li>
             ))}
           </ul>
